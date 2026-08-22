@@ -18,7 +18,7 @@ DOMAIN = "https://cxdmo.com"
 
 # Google Analytics 4（GA）跟踪挂钩：填入 GA4 媒体资源的 Measurement ID（形如 G-XXXXXXX）后，
 # 全站自动加载 gtag.js；留空则不加载任何跟踪代码。
-GA_MEASUREMENT_ID = ""
+GA_MEASUREMENT_ID = "G-G6E4LDGGKG"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
