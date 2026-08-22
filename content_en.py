@@ -166,6 +166,16 @@ ARTICLES_EN = {
             "On the demand side, XDC momentum keeps building: the first two months of 2026 saw 25 global XDC financing events versus 18 in the same period of 2025, with XDC BD deal counts stable and upfront payments up sharply. Analysts see WuXi XDC — with both technical strength and integrated delivery — as well positioned to benefit and gain share.",
         ],
     },
+    "wuxi-apptec-steroid-rcs": {
+        "title": "From Doubt to Trust: WuXi AppTec RCS Cuts Steroid Route from 7 Steps to 3, Doubles Yield",
+        "summary": "WuXi AppTec's Research Chemistry Services (RCS) shortened a client's steroid synthesis from 7 steps to 3 while doubling yield; two years later, when kg-scale failed, RCS validated across four scales and introduced continuous precipitation, cutting 100g production from two weeks to four days — winning deep collaboration.",
+        "body": [
+            "The client's original route had seven steps, low yield, and severe regioselectivity issues — multiple reactive sites on the steroid molecule caused frequent side reactions, and while the route worked in the lab, it was completely irreproducible at 10-to-100-gram scale. Drawing on a steroid chemistry platform built over a decade (10,000+ steroid molecules synthesized, 20+ chiral-center construction methods), the RCS team accurately identified critical reactive sites and designed a new route: seven steps reduced to three, overall yield more than doubled, validated in a single run at tens-of-grams scale.",
+            "Two years later, the client reported repeated failures at kilogram scale and questioned whether the process itself was flawed. Rather than rushing to defend, RCS calmly completed four rounds of systematic validation — 1g x2, 10g x2, 100g x2, and 1000g x2 — all reproducing the original data and confirming process stability and reproducibility better than expected.",
+            "During validation, RCS proactively optimized further: introducing continuous processing and direct precipitation, integrating previously complex purification steps into a single operation with direct product precipitation, cutting the 100g production cycle from two weeks to just four days. The client praised: \"It is your outstanding work that made the project simple! This is an excellent achievement.\"",
+            "The steroid chemistry platform supports early research from Hit-to-Lead and novel structure development to focused library construction, with delivery spanning milligram to kilogram scale. It integrates with ADC, targeted protein degrader, prodrug and nitrogen mustard molecule design, enabling novel therapeutic modalities built on steroid scaffolds. The client has since voluntarily upgraded to a deep collaboration model, tackling even more challenging steroid molecule syntheses with RCS.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
