@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """CXDMO 资讯站构建脚本（中英双语）
 用法: python build.py
-输出: 中文版（根路径）+ 英文版（/en/）
+输出: 英文版（根路径，默认）+ 中文版（/zh/）
   index.html / news.html / companies.html / about.html
-  articles/<id>.html | en/index.html / en/news.html / ... / en/articles/<id>.html
+  articles/<id>.html | zh/index.html / zh/news.html / ... / zh/articles/<id>.html
+  边缘语言分流见 worker.js（按 Cookie cxmdo_lang 或 Accept-Language 在 / 与 .html 页面重定向）
   assets/style.css / sitemap.xml / robots.txt
 """
 import os
@@ -218,22 +219,32 @@ ABOUT_EN = '''
 
 
 def lang_path(lang, p):
-    """根路径绝对 URL（从任意子目录页面引用均正确）"""
-    return f"/en/{p}" if lang == "en" else f"/{p}"
+    """根路径绝对 URL。默认英文在根，中文在 /zh/（从任意子目录页面引用均正确）"""
+    return f"/{p}" if lang == "en" else f"/zh/{p}"
 
 
 def canonical_path(lang, p):
     if p == "index.html":
-        return f"{DOMAIN}/" if lang == "zh" else f"{DOMAIN}/en/"
+        return f"{DOMAIN}/" if lang == "en" else f"{DOMAIN}/zh/"
     return f"{DOMAIN}/{lang_path(lang, p)}"
 
 
 def hreflang_tags(lang, p):
-    zh = f"{DOMAIN}/" if p == "index.html" else f"{DOMAIN}/{p}"
-    en = f"{DOMAIN}/en/" if p == "index.html" else f"{DOMAIN}/en/{p}"
+    en = f"{DOMAIN}/" if p == "index.html" else f"{DOMAIN}/{p}"
+    zh = f"{DOMAIN}/zh/" if p == "index.html" else f"{DOMAIN}/zh/{p}"
     return (f'<link rel="alternate" hreflang="zh-CN" href="{zh}">\n'
             f'<link rel="alternate" hreflang="en" href="{en}">\n'
-            f'<link rel="alternate" hreflang="x-default" href="{zh}">')
+            f'<link rel="alternate" hreflang="x-default" href="{en}">')
+
+
+# 语言切换：点击写入 cxmdo_lang Cookie 记忆用户选择（普通字符串，非 f-string，避免 {} 被解析）
+LANG_SWITCH_SCRIPT = '''<script>
+document.querySelectorAll('.lang-switch').forEach(function(el){
+  el.addEventListener('click', function(){
+    document.cookie = 'cxmdo_lang=' + el.dataset.lang + '; path=/; max-age=31536000; samesite=lax';
+  });
+});
+</script>'''
 
 
 def page(lang, title, desc, active, content, p="index.html"):
@@ -266,7 +277,7 @@ def page(lang, title, desc, active, content, p="index.html"):
   <div class="wrap header-inner">
     <a class="logo" href="{lang_path(lang, 'index.html')}"><span class="logo-mark">CX</span><span class="logo-text">CXDMO<em>.com</em></span></a>
     <div class="nav-right">
-      <a class="lang-switch" href="{lang_path(alt, p)}">{alt_label}</a>
+      <a class="lang-switch" href="{lang_path(alt, p)}" data-lang="{alt}">{alt_label}</a>
       <nav class="main-nav">{nav}</nav>
     </div>
   </div>
@@ -291,6 +302,7 @@ def page(lang, title, desc, active, content, p="index.html"):
   </div>
   <div class="wrap footer-bottom"><span>© 2026 cxmdo.com · CXDMO Insight</span></div>
 </footer>
+{LANG_SWITCH_SCRIPT}
 </body>
 </html>'''
 
@@ -775,12 +787,12 @@ img{max-width:100%}
 
 def build():
     os.makedirs(os.path.join(ROOT, "articles"), exist_ok=True)
-    os.makedirs(os.path.join(ROOT, "en", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "zh", "articles"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
 
     files = {}
     for lang in ("zh", "en"):
-        pfx = "en/" if lang == "en" else ""
+        pfx = "" if lang == "en" else "zh/"
         files[f"{pfx}index.html"] = build_index(lang)
         files[f"{pfx}news.html"] = build_news(lang)
         files[f"{pfx}companies.html"] = build_companies(lang)
@@ -792,10 +804,10 @@ def build():
     # sitemap（双语）
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for a in articles:
-        for pfx in ("", "en/"):
+        for pfx in ("", "zh/"):
             sm += (f"  <url><loc>{DOMAIN}/{pfx}articles/{a['id']}.html</loc>"
                    f"<lastmod>{date_iso(a['date'])}</lastmod></url>\n")
-    for pfx in ("", "en/"):
+    for pfx in ("", "zh/"):
         for p in ("", "news.html", "companies.html", "about.html"):
             sm += f"  <url><loc>{DOMAIN}/{pfx}{p}</loc></url>\n"
     sm += "</urlset>\n"

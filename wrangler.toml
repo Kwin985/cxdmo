@@ -1,7 +1,8 @@
 name = "cxdmo"
 compatibility_date = "2026-08-22"
+main = "worker.js"
 
 # 静态资产：直接服务仓库根目录
-# 构建产物（index.html / news.html / companies.html / about.html / en/ / articles/ / assets/）已在根目录
+# 构建产物（index.html / news.html / companies.html / about.html / zh/ / articles/ / assets/）已在根目录
 [assets]
 directory = "./"
