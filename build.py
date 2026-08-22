@@ -323,8 +323,8 @@ def build_index(lang):
         f' style="--tag-color:{COMPANY_COLORS.get(c["name"], "#0a5c8c")}">{esc(c["name_en"] if lang == "en" else c["name"])}</a>'
         for c in COMPANIES)
     industry = [a for a in articles if a["company"] == "行业观察"][:2]
-    stats = "".join(f'<div class="stat"><b>{v}</b><span>{k}</span></div>'
-                    for v, k in [(v, k.replace("{n}", str(len(articles)))) for v, k in t["stats"]])
+    stats = "".join(f'<div class="stat"><b>{v.replace("{n}", str(len(articles)))}</b><span>{k}</span></div>'
+                    for v, k in t["stats"])
     content = f'''
 <section class="hero">
   <div class="wrap">
