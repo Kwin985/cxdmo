@@ -141,6 +141,7 @@ T = {
         "footer_about": "CXDMO（Contract X Development & Manufacturing Organization）资讯门户，追踪药明系、康龙化成、凯莱英、博腾与全球 CXDMO 前沿动态。",
         "footer_cols": "栏目", "footer_decl": "内容声明",
         "footer_decl_text": "本站内容基于公开报道与企业公告整理，仅供行业资讯参考，不构成任何投资建议。",
+        "footer_links": "友情链接",
         "site_title": "CXDMO 资讯 — 追踪全球 CXDMO 产业脉动",
         "site_desc": "CXDMO 行业资讯门户：聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 企业，以及三星生物、Lonza 等全球 CXDMO 前沿动态。",
         "news_title": "全部资讯 — CXDMO",
@@ -178,6 +179,7 @@ T = {
         "footer_about": "CXDMO (Contract X Development & Manufacturing Organization) news portal — tracking the WuXi group, Pharmaron, Asymchem, Porton and the global CXDMO frontier.",
         "footer_cols": "Sections", "footer_decl": "Disclaimer",
         "footer_decl_text": "Content on this site is compiled from public reports and company announcements, for industry reference only, and does not constitute investment advice.",
+        "footer_links": "Friendly Links",
         "site_title": "CXDMO News — Tracking the Global CXDMO Pulse",
         "site_desc": "The CXDMO industry news portal: WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem, Porton, plus Samsung Biologics, Lonza and the global CDMO frontier.",
         "news_title": "All News — CXDMO",
@@ -300,11 +302,25 @@ def page(lang, title, desc, active, content, p="index.html"):
       <p class="small">{t["footer_decl_text"]}</p>
     </div>
   </div>
+  {friendly_links(lang)}
   <div class="wrap footer-bottom"><span>© 2026 cxmdo.com · CXDMO Insight</span></div>
 </footer>
 {LANG_SWITCH_SCRIPT}
 </body>
 </html>'''
+
+
+def friendly_links(lang):
+    """页脚“友情链接”区：链接到各追踪企业的官方站点（复用 COMPANIES 的 site 字段）。"""
+    t = T[lang]
+    items = "".join(
+        f'<a href="{esc(c["site"])}" target="_blank" rel="noopener noreferrer">'
+        f'{esc(c["name_en"] if lang == "en" else c["name"])}</a>'
+        for c in COMPANIES)
+    return (f'<div class="wrap footer-links">'
+            f'<span class="fl-label">{esc(t["footer_links"])}</span>'
+            f'<nav class="fl-nav">{items}</nav>'
+            f'</div>')
 
 
 def tag(lang, company):
@@ -764,7 +780,12 @@ img{max-width:100%}
 .footer-col a{display:block;font-size:14px;color:#8ba0b3;margin-bottom:8px}
 .footer-col a:hover{color:#fff}
 .footer-col .small{font-size:13px;color:#71879b}
-.footer-bottom{border-top:1px solid #1d3a4f;padding:18px 24px;font-size:13px;color:#71879b}
+.footer-links{display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid #1d3a4f;padding:18px 24px}
+.fl-label{color:#fff;font-size:14px;font-weight:600;white-space:nowrap}
+.fl-nav{display:flex;flex-wrap:wrap;gap:8px 18px}
+.fl-nav a{font-size:13px;color:#8ba0b3;text-decoration:none}
+.fl-nav a:hover{color:#fff;text-decoration:underline}
+.footer-bottom{border-top:0;padding:18px 24px;font-size:13px;color:#71879b}
 
 @media (max-width:900px){
   .card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr 1fr}
