@@ -16,6 +16,10 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = "CXDMO"
 DOMAIN = "https://cxdmo.com"
 
+# Google Analytics 4（GA）跟踪挂钩：填入 GA4 媒体资源的 Measurement ID（形如 G-XXXXXXX）后，
+# 全站自动加载 gtag.js；留空则不加载任何跟踪代码。
+GA_MEASUREMENT_ID = ""
+
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 COMPANY_COLORS = {
@@ -344,6 +348,17 @@ def companies_jsonld(lang):
     return _jsonld(data)
 
 
+# Google Analytics 4（GA）跟踪代码挂钩；GA_MEASUREMENT_ID 留空时不加载
+GA_SNIPPET = '''<script async src="https://www.googletagmanager.com/gtag/js?id=__MID__"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","__MID__");</script>'''
+
+def ga_head():
+    """返回 GA4 gtag 跟踪代码；未配置 Measurement ID 时返回空字符串（不加载）。"""
+    if not GA_MEASUREMENT_ID or GA_MEASUREMENT_ID.startswith("G-XXXX"):
+        return ""
+    return GA_SNIPPET.replace("__MID__", esc(GA_MEASUREMENT_ID))
+
+
 def page(lang, title, desc, active, content, p="index.html", extra_head=""):
     t = T[lang]
     nav = "".join(
@@ -381,6 +396,7 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
 <meta name="twitter:image:alt" content="CXDMO — Tracking the Global CXDMO Pulse">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
+{ga_head()}
 {org_website_jsonld(lang)}
 {extra_head}
 </head>
