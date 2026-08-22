@@ -20,6 +20,9 @@ DOMAIN = "https://cxdmo.com"
 # 全站自动加载 gtag.js；留空则不加载任何跟踪代码。
 GA_MEASUREMENT_ID = "G-G6E4LDGGKG"
 
+# 站长联系邮箱：用于文章内容（如转载/版权）侵权等问题的沟通渠道，全站页脚展示。
+CONTACT_EMAIL = "mdvrinsider@gmail.com"
+
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 COMPANY_COLORS = {
@@ -144,7 +147,8 @@ T = {
         "art_note": "本文基于公开报道整理，原始来源：{s} · 仅供行业资讯参考，不构成投资建议。",
         "footer_about": "CXDMO（Contract X Development & Manufacturing Organization）资讯门户，追踪药明系、康龙化成、凯莱英、博腾与全球 CXDMO 前沿动态。",
         "footer_cols": "栏目", "footer_decl": "内容声明",
-        "footer_decl_text": "本站内容基于公开报道与企业公告整理，仅供行业资讯参考，不构成任何投资建议。",
+        "footer_decl_text": f"本站内容基于公开报道与企业公告整理，仅供行业资讯参考，不构成任何投资建议。如内容涉及版权问题，请联系 {CONTACT_EMAIL}。",
+        "footer_contact": "侵权联系",
         "footer_links": "友情链接",
         "site_title": "CXDMO 资讯 — 追踪全球 CXDMO 产业脉动",
         "site_desc": "CXDMO 行业资讯门户：聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 企业，以及三星生物、Lonza 等全球 CXDMO 前沿动态。",
@@ -182,7 +186,8 @@ T = {
         "art_note": "This article is compiled from public reporting. Original source: {s} · For industry reference only; not investment advice.",
         "footer_about": "CXDMO (Contract X Development & Manufacturing Organization) news portal — tracking the WuXi group, Pharmaron, Asymchem, Porton and the global CXDMO frontier.",
         "footer_cols": "Sections", "footer_decl": "Disclaimer",
-        "footer_decl_text": "Content on this site is compiled from public reports and company announcements, for industry reference only, and does not constitute investment advice.",
+        "footer_decl_text": f"Content on this site is compiled from public reports and company announcements, for industry reference only, and does not constitute investment advice. For copyright concerns, contact {CONTACT_EMAIL}.",
+        "footer_contact": "Contact",
         "footer_links": "Friendly Links",
         "site_title": "CXDMO News — Tracking the Global CXDMO Pulse",
         "site_desc": "The CXDMO industry news portal: WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem, Porton, plus Samsung Biologics, Lonza and the global CDMO frontier.",
@@ -429,7 +434,7 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
     </div>
   </div>
   {friendly_links(lang)}
-  <div class="wrap footer-bottom"><span>© 2026 cxdmo.com · CXDMO Insight</span></div>
+  <div class="wrap footer-bottom"><span>© 2026 cxdmo.com · CXDMO Insight</span><span class="sep">·</span><span>{t["footer_contact"]}: <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></span></div>
 </footer>
 {LANG_SWITCH_SCRIPT}
 </body>
@@ -919,6 +924,9 @@ img{max-width:100%}
 .fl-nav a{font-size:13px;color:#8ba0b3;text-decoration:none}
 .fl-nav a:hover{color:#fff;text-decoration:underline}
 .footer-bottom{border-top:0;padding:18px 24px;font-size:13px;color:#71879b}
+.footer-bottom .sep{margin:0 10px;color:#3a556b}
+.footer-bottom a{color:#9fc3e0;text-decoration:none}
+.footer-bottom a:hover{color:#cfe4f5;text-decoration:underline}
 
 @media (max-width:900px){
   .card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr 1fr}

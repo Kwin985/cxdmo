@@ -146,6 +146,9 @@ img{max-width:100%}
 .fl-nav a{font-size:13px;color:#8ba0b3;text-decoration:none}
 .fl-nav a:hover{color:#fff;text-decoration:underline}
 .footer-bottom{border-top:0;padding:18px 24px;font-size:13px;color:#71879b}
+.footer-bottom .sep{margin:0 10px;color:#3a556b}
+.footer-bottom a{color:#9fc3e0;text-decoration:none}
+.footer-bottom a:hover{color:#cfe4f5;text-decoration:underline}
 
 @media (max-width:900px){
   .card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr 1fr}
