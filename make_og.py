@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""生成 cxmdo.com 的 OG 社交分享图（1200x630 PNG）。确定性绘制，文字清晰无失真。
+"""生成 cxdmo.com 的 OG 社交分享图（1200x630 PNG）。确定性绘制，文字清晰无失真。
 用法: python make_og.py   输出: assets/og-image.png
 """
 import os
@@ -106,7 +106,7 @@ def main():
     # 底部条
     d.line([bx, H - 70, W - 80, H - 70], fill=(255, 255, 255, 40), width=1)
     f_foot = font(FONT_REG, 22)
-    d.text((bx, H - 56), "cxmdo.com — the CXDMO industry news portal", font=f_foot, fill=C_MUTED)
+    d.text((bx, H - 56), "cxdmo.com — the CXDMO industry news portal", font=f_foot, fill=C_MUTED)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     bg.convert("RGB").save(OUT, "PNG", optimize=True)

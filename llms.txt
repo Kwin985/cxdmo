@@ -5,10 +5,10 @@
 > Samsung Biologics and Lonza. Results, capacity, M&A and partnerships.
 
 ## Pages
-- [Home](https://cxmdo.com/): hero, top story and latest news (16 total stories).
-- [News](https://cxmdo.com/news.html): filterable by segment, category and keyword.
-- [Companies](https://cxmdo.com/companies.html): profiles for 8 tracked CXDMO organizations.
-- [About](https://cxmdo.com/about.html): what is a CXDMO, sources and disclaimer.
+- [Home](https://cxdmo.com/): hero, top story and latest news (16 total stories).
+- [News](https://cxdmo.com/news.html): filterable by segment, category and keyword.
+- [Companies](https://cxdmo.com/companies.html): profiles for 8 tracked CXDMO organizations.
+- [About](https://cxdmo.com/about.html): what is a CXDMO, sources and disclaimer.
 
 ## Companies tracked
 - [WuXi AppTec (药明康德)](https://www.wuxiapptec.cn/): 小分子 CRDMO 一体化平台

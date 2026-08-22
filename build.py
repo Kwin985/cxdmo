@@ -4,7 +4,7 @@
 输出: 英文版（根路径，默认）+ 中文版（/zh/）
   index.html / news.html / companies.html / about.html
   articles/<id>.html | zh/index.html / zh/news.html / ... / zh/articles/<id>.html
-  边缘语言分流见 worker.js（按 Cookie cxmdo_lang 或 Accept-Language 在 / 与 .html 页面重定向）
+  边缘语言分流见 worker.js（按 Cookie cxdmo_lang 或 Accept-Language 在 / 与 .html 页面重定向）
   assets/style.css / sitemap.xml / robots.txt
 """
 import os
@@ -14,7 +14,7 @@ from content_en import ARTICLES_EN, COMPANIES_EN
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = "CXDMO"
-DOMAIN = "https://cxmdo.com"
+DOMAIN = "https://cxdmo.com"
 
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -135,7 +135,7 @@ T = {
         "co_news": "资讯 {n} 篇 →", "related": "相关资讯", "related_en": "Related",
         "ticker": "股票代码", "hq": "总部", "visit": "访问官网 ↗",
         "about_h1": "关于本站", "about_h1_en": "About",
-        "about_sub": "cxmdo.com — CXDMO 行业资讯门户。",
+        "about_sub": "cxdmo.com — CXDMO 行业资讯门户。",
         "read": "阅读全文 →", "source": "来源：", "home": "首页", "news_crumb": "资讯",
         "art_note": "本文基于公开报道整理，原始来源：{s} · 仅供行业资讯参考，不构成投资建议。",
         "footer_about": "CXDMO（Contract X Development & Manufacturing Organization）资讯门户，追踪药明系、康龙化成、凯莱英、博腾与全球 CXDMO 前沿动态。",
@@ -172,7 +172,7 @@ T = {
         "co_news": "{n} stories →", "related": "Related", "related_en": "",
         "ticker": "Ticker", "hq": "HQ", "visit": "Official Website ↗",
         "about_h1": "About", "about_h1_en": "",
-        "about_sub": "cxmdo.com — the CXDMO industry news portal.",
+        "about_sub": "cxdmo.com — the CXDMO industry news portal.",
         "read": "Read More →", "source": "Source: ",
         "home": "Home", "news_crumb": "News",
         "art_note": "This article is compiled from public reporting. Original source: {s} · For industry reference only; not investment advice.",
@@ -195,7 +195,7 @@ ABOUT_EN = '''
 <section class="page-head">
   <div class="wrap">
     <h1>About <span></span></h1>
-    <p>cxmdo.com — the CXDMO industry news portal.</p>
+    <p>cxdmo.com — the CXDMO industry news portal.</p>
   </div>
 </section>
 <main class="wrap">
@@ -204,7 +204,7 @@ ABOUT_EN = '''
     <p>CXDMO is an umbrella term for CRDMOs (Contract Research, Development and Manufacturing Organizations) and related pharmaceutical outsourcing business models. It spans the full value chain — from drug discovery and process development through preclinical and clinical research to commercial manufacturing — and is the hub connecting biotech, pharma and capacity in the innovation ecosystem.</p>
     <p>With the new-molecule wave in ADC/XDC, the boom in peptides and oligonucleotides (TIDES), and the geographic restructuring of global capacity, the CXDMO industry is being reshaped: Chinese leaders compete on cost, speed and integration, while Western giants respond with M&A and refocusing.</p>
     <h2>What We Cover</h2>
-    <p>CXDMO (cxmdo.com) is an independent industry news portal tracking:</p>
+    <p>CXDMO (cxdmo.com) is an independent industry news portal tracking:</p>
     <ul>
       <li><b>The WuXi Group</b>: WuXi AppTec (small-molecule CRDMO), WuXi Biologics (large-molecule CRDMO), WuXi XDC (ADC/XDC CRDMO)</li>
       <li><b>Domestic CXDMOs</b>: Pharmaron, Asymchem, Porton Pharma / Porton Bio</li>
@@ -239,11 +239,11 @@ def hreflang_tags(lang, p):
             f'<link rel="alternate" hreflang="x-default" href="{en}">')
 
 
-# 语言切换：点击写入 cxmdo_lang Cookie 记忆用户选择（普通字符串，非 f-string，避免 {} 被解析）
+# 语言切换：点击写入 cxdmo_lang Cookie 记忆用户选择（普通字符串，非 f-string，避免 {} 被解析）
 LANG_SWITCH_SCRIPT = '''<script>
 document.querySelectorAll('.lang-switch').forEach(function(el){
   el.addEventListener('click', function(){
-    document.cookie = 'cxmdo_lang=' + el.dataset.lang + '; path=/; max-age=31536000; samesite=lax';
+    document.cookie = 'cxdmo_lang=' + el.dataset.lang + '; path=/; max-age=31536000; samesite=lax';
   });
 });
 </script>'''
@@ -413,7 +413,7 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
     </div>
   </div>
   {friendly_links(lang)}
-  <div class="wrap footer-bottom"><span>© 2026 cxmdo.com · CXDMO Insight</span></div>
+  <div class="wrap footer-bottom"><span>© 2026 cxdmo.com · CXDMO Insight</span></div>
 </footer>
 {LANG_SWITCH_SCRIPT}
 </body>
@@ -679,7 +679,7 @@ def build_about(lang):
 <section class="page-head">
   <div class="wrap">
     <h1>关于本站 <span>About</span></h1>
-    <p>cxmdo.com — CXDMO 行业资讯门户。</p>
+    <p>cxdmo.com — CXDMO 行业资讯门户。</p>
   </div>
 </section>
 <main class="wrap">
@@ -688,7 +688,7 @@ def build_about(lang):
     <p>CXDMO 是 CRDMO（Contract Research, Development and Manufacturing Organization，合同研究、开发与生产组织）及其他类似医药外包业务形态的统称。它覆盖了从药物发现、工艺开发、临床前与临床研究，到商业化生产的全产业链服务，是创新药生态中连接 Biotech、Pharma 与产能的枢纽环节。</p>
     <p>近年来，随着 ADC/XDC 等新分子浪潮、多肽与寡核苷酸（TIDES）赛道爆发，以及全球产能地理重构，CXDMO 行业正经历深刻变局：中国龙头以"成本+速度+一体化"重塑竞争格局，海外巨头则以并购与归核应对。</p>
     <h2>本站定位</h2>
-    <p>CXDMO（cxmdo.com）是一个独立的行业资讯门户，持续追踪以下企业动态：</p>
+    <p>CXDMO（cxdmo.com）是一个独立的行业资讯门户，持续追踪以下企业动态：</p>
     <ul>
       <li><b>药明系</b>：药明康德（小分子 CRDMO）、药明生物（大分子 CRDMO）、药明合联（ADC/XDC CRDMO）</li>
       <li><b>国内 CXDMO</b>：康龙化成、凯莱英、博腾股份/博腾生物</li>

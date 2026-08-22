@@ -1,6 +1,6 @@
-// cxmdo.com 边缘语言分流
+// cxdmo.com 边缘语言分流
 // 默认英文（根路径）；中文位于 /zh/。
-// 优先级：Cookie(cxmdo_lang) > 浏览器 Accept-Language > 默认英文。
+// 优先级：Cookie(cxdmo_lang) > 浏览器 Accept-Language > 默认英文。
 // 仅在 / 与 .html 页面做重定向；静态资产（assets/、sitemap、robots 等）直出。
 
 export default {
@@ -16,7 +16,7 @@ export default {
 
     // 1) 用户手动选择优先（由页面切换按钮写入 Cookie）
     const cookie = request.headers.get("Cookie") || "";
-    const cm = cookie.match(/(?:^|;\s*)cxmdo_lang=(zh|en)/);
+    const cm = cookie.match(/(?:^|;\s*)cxdmo_lang=(zh|en)/);
     let wantZh;
     let forced = false;
     if (cm) {

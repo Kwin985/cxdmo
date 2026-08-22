@@ -1,6 +1,6 @@
 # CXDMO
 
-CXDMO（CRDMO 及同类合同研发生产外包业务）行业资讯站，域名 **cxmdo.com**。
+CXDMO（CRDMO 及同类合同研发生产外包业务）行业资讯站，域名 **cxdmo.com**。
 
 聚焦企业：药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾，以及海外前沿三星生物（Samsung Biologics）、Lonza（龙沙）。
 
