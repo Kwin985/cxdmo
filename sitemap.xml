@@ -1,43 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cxmdo.com/articles/porton-h1-2026.html</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/porton-h1-2026.html</loc><lastmod>2026-08-22</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/pharmaron-h1-2026.html</loc><lastmod>2026-08-20</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/pharmaron-h1-2026.html</loc><lastmod>2026-08-20</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/industry-adc-race.html</loc><lastmod>2026-08-20</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/industry-adc-race.html</loc><lastmod>2026-08-20</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/wuxi-xdc-singapore-bcm3.html</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/asymchem-h1-2026.html</loc><lastmod>2026-08-11</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/asymchem-h1-2026.html</loc><lastmod>2026-08-11</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/industry-cdmo-two-paths.html</loc><lastmod>2026-08-10</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/industry-cdmo-two-paths.html</loc><lastmod>2026-08-10</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/wuxi-biologics-transcenta.html</loc><lastmod>2026-08-07</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/wuxi-biologics-transcenta.html</loc><lastmod>2026-08-07</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/porton-bio-license-c.html</loc><lastmod>2026-08-04</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/porton-bio-license-c.html</loc><lastmod>2026-08-04</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/wuxi-apptec-h1-2026.html</loc><lastmod>2026-08-03</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/wuxi-apptec-h1-2026.html</loc><lastmod>2026-08-03</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/samsung-biologics-q2-2026.html</loc><lastmod>2026-07-23</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/samsung-biologics-q2-2026.html</loc><lastmod>2026-07-23</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/lonza-h1-2026.html</loc><lastmod>2026-07-22</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/lonza-h1-2026.html</loc><lastmod>2026-07-22</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html</loc><lastmod>2026-07-20</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/wuxi-biologics-1000th-molecule.html</loc><lastmod>2026-07-20</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/samsung-biologics-polypeptide.html</loc><lastmod>2026-07-01</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/samsung-biologics-polypeptide.html</loc><lastmod>2026-07-01</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/lonza-visp-hpapi.html</loc><lastmod>2026-06-30</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/lonza-visp-hpapi.html</loc><lastmod>2026-06-30</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/samsung-biologics-rockville.html</loc><lastmod>2026-03-31</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/samsung-biologics-rockville.html</loc><lastmod>2026-03-31</lastmod></url>
-  <url><loc>https://cxmdo.com/articles/wuxi-xdc-2025-results.html</loc><lastmod>2026-03-23</lastmod></url>
-  <url><loc>https://cxmdo.com/zh/articles/wuxi-xdc-2025-results.html</loc><lastmod>2026-03-23</lastmod></url>
-  <url><loc>https://cxmdo.com/</loc></url>
-  <url><loc>https://cxmdo.com/news.html</loc></url>
-  <url><loc>https://cxmdo.com/companies.html</loc></url>
-  <url><loc>https://cxmdo.com/about.html</loc></url>
-  <url><loc>https://cxmdo.com/zh/</loc></url>
-  <url><loc>https://cxmdo.com/zh/news.html</loc></url>
-  <url><loc>https://cxmdo.com/zh/companies.html</loc></url>
-  <url><loc>https://cxmdo.com/zh/about.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cxmdo.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/news.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/news.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/companies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/companies.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/companies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/companies.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/companies.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/companies.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/companies.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/companies.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/porton-h1-2026.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/porton-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/porton-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/porton-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/porton-h1-2026.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/porton-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/porton-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/porton-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/pharmaron-h1-2026.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/pharmaron-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/pharmaron-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/pharmaron-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/pharmaron-h1-2026.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/pharmaron-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/pharmaron-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/pharmaron-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/industry-adc-race.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/industry-adc-race.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/industry-adc-race.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/industry-adc-race.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/industry-adc-race.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/industry-adc-race.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/industry-adc-race.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/industry-adc-race.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-xdc-singapore-bcm3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/wuxi-xdc-singapore-bcm3.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-xdc-singapore-bcm3.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-xdc-singapore-bcm3.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/asymchem-h1-2026.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/asymchem-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/asymchem-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/asymchem-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/asymchem-h1-2026.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/asymchem-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/asymchem-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/asymchem-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/industry-cdmo-two-paths.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/industry-cdmo-two-paths.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/industry-cdmo-two-paths.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/industry-cdmo-two-paths.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/industry-cdmo-two-paths.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/industry-cdmo-two-paths.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/industry-cdmo-two-paths.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/industry-cdmo-two-paths.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/wuxi-biologics-transcenta.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-biologics-transcenta.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-biologics-transcenta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-biologics-transcenta.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/wuxi-biologics-transcenta.html</loc>
+    <lastmod>2026-08-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-biologics-transcenta.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-biologics-transcenta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-biologics-transcenta.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/porton-bio-license-c.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/porton-bio-license-c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/porton-bio-license-c.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/porton-bio-license-c.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/porton-bio-license-c.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/porton-bio-license-c.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/porton-bio-license-c.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/porton-bio-license-c.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/wuxi-apptec-h1-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-apptec-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-apptec-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-apptec-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/wuxi-apptec-h1-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-apptec-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-apptec-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-apptec-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/samsung-biologics-q2-2026.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-q2-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-q2-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-q2-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/samsung-biologics-q2-2026.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-q2-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-q2-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-q2-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/lonza-h1-2026.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/lonza-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/lonza-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/lonza-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/lonza-h1-2026.html</loc>
+    <lastmod>2026-07-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/lonza-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/lonza-h1-2026.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/lonza-h1-2026.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-biologics-1000th-molecule.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/wuxi-biologics-1000th-molecule.html</loc>
+    <lastmod>2026-07-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-biologics-1000th-molecule.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-biologics-1000th-molecule.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/samsung-biologics-polypeptide.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-polypeptide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-polypeptide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-polypeptide.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/samsung-biologics-polypeptide.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-polypeptide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-polypeptide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-polypeptide.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/lonza-visp-hpapi.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/lonza-visp-hpapi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/lonza-visp-hpapi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/lonza-visp-hpapi.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/lonza-visp-hpapi.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/lonza-visp-hpapi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/lonza-visp-hpapi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/lonza-visp-hpapi.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/samsung-biologics-rockville.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-rockville.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-rockville.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-rockville.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/samsung-biologics-rockville.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/samsung-biologics-rockville.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/samsung-biologics-rockville.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/samsung-biologics-rockville.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/articles/wuxi-xdc-2025-results.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-xdc-2025-results.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-xdc-2025-results.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-xdc-2025-results.html"/>
+  </url>
+  <url>
+    <loc>https://cxmdo.com/zh/articles/wuxi-xdc-2025-results.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cxmdo.com/articles/wuxi-xdc-2025-results.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://cxmdo.com/zh/articles/wuxi-xdc-2025-results.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cxmdo.com/articles/wuxi-xdc-2025-results.html"/>
+  </url>
 </urlset>

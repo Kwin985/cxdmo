@@ -228,7 +228,7 @@ def lang_path(lang, p):
 def canonical_path(lang, p):
     if p == "index.html":
         return f"{DOMAIN}/" if lang == "en" else f"{DOMAIN}/zh/"
-    return f"{DOMAIN}/{lang_path(lang, p)}"
+    return f"{DOMAIN}{lang_path(lang, p)}"
 
 
 def hreflang_tags(lang, p):
@@ -249,30 +249,140 @@ document.querySelectorAll('.lang-switch').forEach(function(el){
 </script>'''
 
 
-def page(lang, title, desc, active, content, p="index.html"):
+# ---------------- JSON-LD 结构化数据 ----------------
+OG_IMG = f"{DOMAIN}/assets/og-image.png"
+
+
+def _jsonld(data):
+    return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False, separators=(",", ":"))}</script>'
+
+
+def org_website_jsonld(lang):
+    """全站 Organization + WebSite JSON-LD：搜索引擎品牌识别与 Bing 知识图谱。"""
+    data = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": f"{DOMAIN}/#organization",
+                "name": "CXDMO",
+                "url": f"{DOMAIN}/",
+                "logo": {"@type": "ImageObject", "url": OG_IMG},
+                "description": T[lang]["footer_about"],
+            },
+            {
+                "@type": "WebSite",
+                "@id": f"{DOMAIN}/#website",
+                "name": "CXDMO",
+                "url": f"{DOMAIN}/",
+                "inLanguage": "en" if lang == "en" else "zh-CN",
+                "publisher": {"@id": f"{DOMAIN}/#organization"},
+            },
+        ],
+    }
+    return _jsonld(data)
+
+
+def article_jsonld(lang, a):
+    """文章页 NewsArticle + BreadcrumbList JSON-LD。"""
+    url = f"{DOMAIN}{lang_path(lang, 'articles/' + a['id'] + '.html')}"
+    in_lang = "en" if lang == "en" else "zh-CN"
+    data = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "NewsArticle",
+                "@id": url + "#article",
+                "headline": a_title(a, lang),
+                "description": a_summary(a, lang),
+                "datePublished": date_iso(a["date"]),
+                "dateModified": date_iso(a["date"]),
+                "inLanguage": in_lang,
+                "mainEntityOfPage": {"@type": "WebPage", "@id": url},
+                "image": [OG_IMG],
+                "author": {"@type": "Organization", "name": "CXDMO Editorial"},
+                "publisher": {"@type": "Organization", "name": "CXDMO",
+                              "logo": {"@type": "ImageObject", "url": OG_IMG}},
+                "articleSection": a_cat(a, lang),
+                "keywords": f"{a_company(a, lang)}, {a_cat(a, lang)}, CXDMO",
+                "isAccessibleForFree": True,
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": T[lang]["home"],
+                     "item": f"{DOMAIN}{lang_path(lang, 'index.html')}"},
+                    {"@type": "ListItem", "position": 2, "name": T[lang]["news_crumb"],
+                     "item": f"{DOMAIN}{lang_path(lang, 'news.html')}"},
+                    {"@type": "ListItem", "position": 3, "name": a_company(a, lang),
+                     "item": f"{DOMAIN}{lang_path(lang, 'news.html')}?company={esc(a_company(a, lang))}"},
+                ],
+            },
+        ],
+    }
+    return _jsonld(data)
+
+
+def companies_jsonld(lang):
+    """企业名录页 ItemList JSON-LD（8 家追踪企业）。"""
+    items = []
+    for i, c in enumerate(COMPANIES, 1):
+        name = c["name_en"] if lang == "en" else c["name"]
+        items.append({
+            "@type": "ListItem",
+            "position": i,
+            "name": name,
+            "url": f"{DOMAIN}{lang_path(lang, 'news.html')}?company={esc(name)}",
+        })
+    data = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": T[lang]["co_h1"],
+        "numberOfItems": len(items),
+        "itemListElement": items,
+    }
+    return _jsonld(data)
+
+
+def page(lang, title, desc, active, content, p="index.html", extra_head=""):
     t = T[lang]
     nav = "".join(
         f'<a href="{lang_path(lang, h)}"{" class=\"active\"" if h == active else ""}>{label}{f"<span>{en}</span>" if en else ""}</a>'
         for h, label, en in t["nav"])
     alt = "zh" if lang == "en" else "en"
     alt_label = "中文" if lang == "en" else "EN"
+    og_type = "article" if p.startswith("articles/") else "website"
+    og_locale = "en_US" if lang == "en" else "zh_CN"
     return f'''<!DOCTYPE html>
 <html lang="{'en' if lang == 'en' else 'zh-CN'}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0a5c8c">
+<meta name="author" content="CXDMO Editorial">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical_path(lang, p)}">
 {hreflang_tags(lang, p)}
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:url" content="{canonical_path(lang, p)}">
-<meta property="og:locale" content="{'en_US' if lang == 'en' else 'zh_CN'}">
+<meta property="og:locale" content="{og_locale}">
+<meta property="og:image" content="{OG_IMG}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CXDMO — Tracking the Global CXDMO Pulse">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{OG_IMG}">
+<meta name="twitter:image:alt" content="CXDMO — Tracking the Global CXDMO Pulse">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
+{org_website_jsonld(lang)}
+{extra_head}
 </head>
 <body>
 <header class="site-header">
@@ -549,7 +659,7 @@ def build_companies(lang):
 <main class="wrap">
   <div class="co-grid">{''.join(blocks)}</div>
 </main>'''
-    return page(lang, t["co_title"], t["co_desc"], "companies.html", content, "companies.html")
+    return page(lang, t["co_title"], t["co_desc"], "companies.html", content, "companies.html", extra_head=companies_jsonld(lang))
 
 
 HQ_EN = {"上海": "Shanghai", "北京": "Beijing", "天津": "Tianjin", "重庆 / 苏州": "Chongqing / Suzhou",
@@ -634,7 +744,14 @@ def build_article(lang, a):
     <div class="card-grid three">{rel_html}</div>
   </div>
 </section>'''
-    return page(lang, f'{a_title(a, lang)} — {SITE_NAME}', a_summary(a, lang), "news.html", content, p)
+    head_extras = (
+        f'<meta property="article:published_time" content="{date_iso(a["date"])}">\n'
+        f'<meta property="article:author" content="CXDMO Editorial">\n'
+        f'<meta property="article:section" content="{esc(a_cat(a, lang))}">\n'
+        f'<meta property="article:tag" content="{esc(a_company(a, lang))}">\n'
+        f'<meta property="article:tag" content="{esc(a_cat(a, lang))}">\n'
+        + article_jsonld(lang, a))
+    return page(lang, f'{a_title(a, lang)} — {SITE_NAME}', a_summary(a, lang), "news.html", content, p, extra_head=head_extras)
 
 
 # ---------------- CSS ----------------
@@ -822,18 +939,79 @@ def build():
             files[f"{pfx}articles/{a['id']}.html"] = build_article(lang, a)
     files["assets/style.css"] = STYLE
 
-    # sitemap（双语）
-    sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    # sitemap（双语 + hreflang 交替 + 文章页 lastmod）
+    sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+          '        xmlns:xhtml="http://www.w3.org/1999/xhtml">\n')
+
+    def _alt_pair(pname):
+        """给定路径（'' | 'news.html' | 'articles/x.html'），返回 (en_loc, zh_loc)。"""
+        if pname.startswith("articles/"):
+            base = pname  # articles/x.html
+            return (f"{DOMAIN}/{base}", f"{DOMAIN}/zh/{base}")
+        en = f"{DOMAIN}/{pname}" if pname else f"{DOMAIN}/"
+        zh = f"{DOMAIN}/zh/{pname}" if pname else f"{DOMAIN}/zh/"
+        return (en, zh)
+
+    def _url(loc, lastmod, en_loc, zh_loc):
+        s = f"  <url>\n    <loc>{loc}</loc>\n"
+        if lastmod:
+            s += f"    <lastmod>{lastmod}</lastmod>\n"
+        s += (f'    <xhtml:link rel="alternate" hreflang="en" href="{en_loc}"/>\n'
+              f'    <xhtml:link rel="alternate" hreflang="zh-CN" href="{zh_loc}"/>\n'
+              f'    <xhtml:link rel="alternate" hreflang="x-default" href="{en_loc}"/>\n'
+              f"  </url>\n")
+        return s
+
+    # 静态页：双语各列一次（带全量 hreflang 交替）
+    for pname in ("", "news.html", "companies.html", "about.html"):
+        en_loc, zh_loc = _alt_pair(pname)
+        sm += _url(en_loc, None, en_loc, zh_loc)
+        sm += _url(zh_loc, None, en_loc, zh_loc)
+    # 文章页：双语各列一次
     for a in articles:
-        for pfx in ("", "zh/"):
-            sm += (f"  <url><loc>{DOMAIN}/{pfx}articles/{a['id']}.html</loc>"
-                   f"<lastmod>{date_iso(a['date'])}</lastmod></url>\n")
-    for pfx in ("", "zh/"):
-        for p in ("", "news.html", "companies.html", "about.html"):
-            sm += f"  <url><loc>{DOMAIN}/{pfx}{p}</loc></url>\n"
+        pname = f"articles/{a['id']}.html"
+        en_loc, zh_loc = _alt_pair(pname)
+        lm = date_iso(a["date"])
+        sm += _url(en_loc, lm, en_loc, zh_loc)
+        sm += _url(zh_loc, lm, en_loc, zh_loc)
     sm += "</urlset>\n"
     files["sitemap.xml"] = sm
-    files["robots.txt"] = f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n"
+    files["robots.txt"] = (f"User-agent: *\nAllow: /\n"
+                           f"Sitemap: {DOMAIN}/sitemap.xml\n")
+
+    # llms.txt：给 AI / LLM 抓取的可读站点索引（与 mdvr.ai 同思路）
+    llms_lines = [
+        "# CXDMO",
+        "",
+        "> CXDMO (Contract X Development & Manufacturing Organization) industry news portal —",
+        "> tracking WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem, Porton,",
+        "> Samsung Biologics and Lonza. Results, capacity, M&A and partnerships.",
+        "",
+        "## Pages",
+        f"- [Home]({DOMAIN}/): hero, top story and latest news ({len(articles)} total stories).",
+        f"- [News]({DOMAIN}/news.html): filterable by segment, category and keyword.",
+        f"- [Companies]({DOMAIN}/companies.html): profiles for {len(COMPANIES)} tracked CXDMO organizations.",
+        f"- [About]({DOMAIN}/about.html): what is a CXDMO, sources and disclaimer.",
+        "",
+        "## Companies tracked",
+    ]
+    for c in COMPANIES:
+        llms_lines.append(f"- [{c['name_en']} ({c['name']})]({c['site']}): {c['tagline']}")
+    llms_lines += [
+        "",
+        "## Languages",
+        "- English is the default (root).",
+        "- Chinese is served at /zh/ via Accept-Language edge detection.",
+        "",
+        "## Content sources",
+        "- Public company announcements, financial filings and industry media reports.",
+        "- Each article links to its original source.",
+        "",
+        "## Last updated",
+        f"- {max(a['date'] for a in articles)}",
+    ]
+    files["llms.txt"] = "\n".join(llms_lines) + "\n"
 
     for path, content in files.items():
         full = os.path.join(ROOT, path)
