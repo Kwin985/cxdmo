@@ -1,0 +1,204 @@
+# -*- coding: utf-8 -*-
+"""CXDMO 资讯站英文内容。按文章 id 提供 title/summary/body；按企业 id 提供 tagline/desc。"""
+
+ARTICLES_EN = {
+    "porton-h1-2026": {
+        "title": "Porton Pharma 2026 Interim Results: Revenue RMB 1.79B, Up 10% YoY; Continuing-Operations Profit Surges 329%",
+        "summary": "Excluding a RMB 330M impairment from terminating the Slovenia project, continuing-operations net profit reached RMB 92.3M, up ~329% YoY. Gross margin improved by nearly 5 ppts; CGT and New Molecules order intake grew 75% and 84% respectively.",
+        "body": [
+            "Chongqing Porton Pharmaceuticals (300363.SZ) has released its 2026 semi-annual report. In the first half, the company continued its \"high-value customers, high-value projects\" strategy, generating revenue of RMB 1.79B, up ~10% YoY (~14% at constant exchange rates).",
+            "Net profit attributable to shareholders was -RMB 224M, mainly due to a RMB 330M asset impairment provision related to the termination of its Slovenia investment project. Excluding this one-off item, continuing-operations net profit was RMB 92.3M, up ~329% YoY, driven by scale effects on revenue and a gross margin recovery: H1 gross margin was ~32%, up nearly 5 ppts YoY, with overseas market margin at ~45%, up ~4 ppts.",
+            "By segment, the small-molecule API business served 380+ global clients and added 43 new customers in H1. Signed project orders (excluding J-STAR) reached 572, including 110 new projects; 398 projects were delivered, with 123 in the commercialized stage. The company completed 3 process validation (PV) projects, with 25 ongoing — building a reserve for future commercial work.",
+            "The cell & gene therapy (CGT) business stood out: new orders reached ~RMB 91.9M, up ~75% YoY, with overseas clients accounting for 38%. Subsidiary Porton Bio (Suzhou) completed its first cell-therapy PV project and obtained its first Drug Manufacturing License (C license) during the reporting period, formally extending its CGT CDMO services into the commercial stage.",
+            "The New Molecules business also grew strongly, with new orders of ~RMB 77M, up ~84% YoY, including successful full-cycle delivery of a dual-payload ADC process development and GMP IND clinical supply project. Porton has started expanding high-potency lines at its Fengxian plant, expected to come online in Q1 2027.",
+        ],
+    },
+    "wuxi-xdc-singapore-bcm3": {
+        "title": "WuXi XDC's Singapore BCM3 Dual-Function Line Achieves GMP Release — First Overseas Capacity Milestone",
+        "summary": "BCM3 offers 200–2,000 L antibody-intermediate batches and up to 2,000 L conjugated drug substance batches. From announcement to GMP release took only two and a half years, marking a new stage in the company's \"China + Singapore\" dual-site global capacity layout.",
+        "body": [
+            "On August 17, 2026, WuXi XDC (2268.HK), the global leading bioconjugate CRDMO, announced that BCM3 — the dual-function line for antibody intermediates and conjugated drug substance at its Singapore site — has successfully completed GMP release. This is the company's first overseas facility to pass GMP release, marking a new stage of its global capacity expansion.",
+            "Designed around an efficient, flexible \"dual-function\" concept, BCM3 provides one-stop commercial manufacturing from antibody intermediates to conjugated drug substance: antibody-intermediate batches range from 200 L to 2,000 L, while conjugated drug substance batches reach up to 2,000 L — fully meeting commercial-scale demand under a strict quality control system. BCM3 will work in synergy with the BCM1 and BCM2 lines in Wuxi, materially lifting overall capacity.",
+            "During construction, WuXi XDC combined its Wuxi plant-building experience with local Singapore conditions, overcoming multiple design and construction challenges in highly potent and highly toxic production areas. From the announcement in March 2024, to mechanical completion in June 2025, to GMP release — the entire journey took just two and a half years, another demonstration of \"WuXi speed\".",
+            "CEO Dr. Li Jincai commented: \"The successful GMP release of BCM3, our first overseas manufacturing facility, is an important milestone in WuXi XDC's global footprint. Leveraging the 'China + Singapore' dual-site advantage, we will significantly enhance flexible delivery for diversified orders and provide solid capacity assurance for clients' commercial production.\"",
+        ],
+    },
+    "wuxi-biologics-transcenta": {
+        "title": "WuXi Biologics to Acquire Transcenta's Hangzhou Site for RMB 190M, Expanding DS & DP Capacity",
+        "summary": "The 10,000+ sqm site offers process development, drug substance and drug product capabilities, with the deal expected to close in Q3 2026 — the latest move in WuXi's counter-cyclical capacity buying at domestic asset-price lows.",
+        "body": [
+            "On August 7, 2026, WuXi Biologics (2269.HK) announced an agreement with Transcenta Therapeutics to acquire its Hangzhou process development, drug substance and drug product manufacturing site, further strengthening integrated service capability to meet rapidly growing client demand. The transaction is expected to close in Q3 2026.",
+            "According to Transcenta's concurrent announcement, the deal transfers the entire Hangzhou Just Biotherapeutics CDMO asset package for ~RMB 190M, paid in four installments tied to closing milestones. The book value of the assets is ~RMB 457M (including RMB 202M of goodwill); the transaction covers hardware, contracts and designated employees only — excluding the HiCB continuous processing and ExcelPro CHO IP. For WuXi Biologics, it is effectively a ready-made GMP plant at roughly a quarter of book value.",
+            "The site spans more than 10,000 square meters with process development, drug substance and drug product capabilities. CEO Dr. Chris Chen said: \"This acquisition further enhances our end-to-end capability covering drug substance development and manufacturing and drug product. As project volume and commercial demand keep growing, we will continue responding to clients' diversified needs with high quality and efficiency.\"",
+            "Industry observers note this is the latest in WuXi's 2026 M&A sequence: in January, WuXi XDC completed a ~HK$3.09B tender offer for over 60% of TOT Biopharma, securing 20,000+ L of integrated ADC commercial capacity at its Suzhou base. With domestic biotech funding cold and asset prices low, WuXi entities are using \"M&A + guaranteed orders\" to keep expanding their manufacturing networks.",
+        ],
+    },
+    "industry-cdmo-two-paths": {
+        "title": "Two Playbooks in Large-Molecule CDMO: WuXi Buys Capacity Counter-Cyclically While Lonza/Catalent Divest to Refocus",
+        "summary": "In 2026, with domestic biotech funding cold and legacy Western CDMOs retreating, top players are moving in opposite directions — WuXi turning \"M&A + guaranteed orders\" into a capacity harvester, while Lonza and Catalent use \"divestment + refocusing\" as a margin-repair playbook.",
+        "body": [
+            "The 2026 large-molecule CDMO market shows a rare regional divergence: with domestic primary-market assets cheap, WuXi entities are acquiring ready-made GMP capacity and filling it with related-party orders; legacy Western CDMOs are divesting non-core assets and concentrating on high-margin businesses. Both, however, are betting on the same long-term logic — biopharma outsourcing penetration climbing toward 65%.",
+            "WuXi's approach can be summarized as an \"acquire — integrate — feed guaranteed orders — ramp with small batches\" loop. In January 2026, WuXi XDC made a ~HK$3.09B cash tender offer for over 60% of TOT Biopharma (Dongyao), the core asset being an integrated antibody + ADC drug substance + drug product plant in Suzhou exceeding 20,000 L — precisely the commercial-grade capacity scarcest in ADC CDMO. After taking control, WuXi XDC signed a three-year stepped guaranteed CDMO agreement worth nearly RMB 770M in total for 2026–2028, while WuXi Biologics placed small batches to validate the quality system.",
+            "August's Transcenta deal followed the same pattern: RMB 190M for a Hangzhou site with RMB 457M book value, buying hardware + contracts + designated staff only. Through this series of deals, WuXi Biologics' manufacturing capacity pool has grown to ~580,000 L. With 28 PPQ projects completed in 2025 (+75% YoY) and 34 planned for 2026, the company is expected to enter a concentrated commercial-approval release inflection from H2 2026 into 2027.",
+            "Meanwhile, Lonza and Catalent are on a \"margin repair\" path: divesting inefficient capacity while focusing on advantaged modalities. Lonza delivered a standout H1 2026 for Advanced Synthesis — CER sales +27.7% and a 48.1% CORE EBITDA margin — while precisely adding to ADC-related assets in Visp and Stein. What shrinks is the perimeter; what grows is the direction.",
+            "For industry watchers, both routes rest on the same conviction: biopharma outsourcing penetration has a decade or more of upside, and the window belongs to players with both capacity and the order conversion to fill it. China's CXDMO cost-and-speed edge, amplified by the M&A window, is reshaping the global large-molecule CDMO competitive landscape.",
+        ],
+    },
+    "asymchem-h1-2026": {
+        "title": "Asymchem H1 2026 (HK): Revenue RMB 3.19B, Up 20.1%; Peptide Capacity to Reach 69,000 L by Year-End",
+        "summary": "H1 gross profit rose 26% to RMB 1.38B and net profit grew 23.7% to RMB 617M, completing a Q2 inflection after a weak Q1. Chemical macromolecule CDMO backlog keeps doubling; 52 clinical peptide programs include 19 obesity-related projects.",
+        "body": [
+            "Asymchem's H-share results (6821.HK), released on August 11, showed H1 2026 revenue of RMB 3.19B, up 20.1% YoY; gross profit of RMB 1.38B, up 26%; and net profit of RMB 617M, up 23.7%. Against a Q1 where A-share net profit fell 6.82% YoY, Q2 marked a clear turn from weakness to strength.",
+            "The market responded strongly. On August 20, Asymchem's A-shares hit the daily limit at RMB 187.65, with a record single-day turnover of RMB 4.57B and market cap briefly topping RMB 65.8B — multiple all-time records. The entire pharma board rallied that day, with 38 pharma stocks hitting the limit — sparked by WuXi AppTec's better-than-expected interim report in early August.",
+            "On fundamentals, Asymchem's emerging businesses are entering a harvest period: the chemical macromolecule CDMO segment exceeded RMB 1B revenue in 2025, doubling YoY, with backlog continuing to double in 2026. The company holds 52 clinical peptide programs — 19 obesity-related and 8 in late-stage trials — and plans to expand peptide solid-phase synthesis capacity from 45,000 L to 69,000 L by end-2026.",
+            "Caveats remain: peptide commercial orders are long-cycle, with uneven revenue recognition, and the company's high overseas revenue mix exposes it to geopolitical and client-capex risks. Asymchem's A-share interim report is due August 25.",
+        ],
+    },
+    "pharmaron-h1-2026": {
+        "title": "Pharmaron H1 2026: Revenue RMB 7.60B, Up 17.92%; New Order Intake Grows Over 30%",
+        "summary": "CDMO services new orders jumped over 50% with segment revenue of RMB 1.88B (+32.78%); the company guides 15–20% full-year revenue growth. Revenue from the global top-20 pharma clients surged 31.95%.",
+        "body": [
+            "Pharmaron (300759.SZ / 3759.HK) reported H1 2026 results on August 20: revenue of RMB 7.60B, up 17.92% YoY; net profit attributable of RMB 750M, up 6.96%; and adjusted non-IFRS net profit of RMB 909M, up 20.29%. Based on new-order and business trends, the company expects 15–20% full-year revenue growth.",
+            "During the period, Pharmaron reorganized into three platforms: Laboratory Services, CDMO Services and Clinical Research Services. CDMO led the way: revenue of RMB 1.88B, up 32.78% YoY, with gross margin of 25.72%, up 2.57 ppts. Its small-molecule CDMO covers 782 molecules or intermediates, including 45 process-validation/commercial-stage and 51 Phase III projects.",
+            "Laboratory Services delivered RMB 4.63B revenue (+13.72%, gross margin 40.89%), with biology accounting for over 60%; Clinical Research Services earned RMB 1.07B (+13.75%). Total new orders grew over 30% — CDMO services new orders up more than 50%, laboratory services up more than 20%.",
+            "Client mix keeps improving: 470+ new clients were added, and revenue from the global top-20 pharma companies reached RMB 1.54B, up 31.95%, or 20.29% of revenue. By region, North America contributed RMB 4.68B (61.55%) while mainland China grew 41.93% to RMB 1.38B. Headcount reached 27,316, with 11 operating entities in the UK and US. The company also completed an H-share placement in January, netting ~RMB 1.19B.",
+        ],
+    },
+    "industry-adc-race": {
+        "title": "The ADC Capacity Race: Three Expansion Playbooks from WuXi XDC, Samsung Biologics and Lonza",
+        "summary": "Small-molecule players extend into linker-payloads, biologics players extend from mAbs into conjugation, and large CDMOs fill gaps in drug product and fill-finish — different starting points, the same destination: integrated XDC. China's H1 2026 license-out value neared USD 100B.",
+        "body": [
+            "The ADC (antibody-drug conjugate) boom is moving from R&D to the production line. As ADCs evolve into XDCs — where the classic \"antibody + small-molecule payload\" no longer covers all needs — capabilities for oligonucleotides, peptides, protein degraders and novel payloads have become the focus of CDMO competition.",
+            "Three distinct expansion logics are visible: small-molecule specialists extending into linker-payloads and conjugation; biologics players extending from mAbs into conjugation; and multi-platform CDMOs filling gaps in payload-linkers, drug product and fill-finish.",
+            "WuXi XDC represents the vertical-integration route. In 2025 it posted revenue of RMB 5.94B (+46.7%) with a USD 1.49B backlog. Its planned Jiangyin payload-linker facility will have capacity equal to five times the current Wuxi base; the TOT Biopharma (Dongyao) acquisition added mAb, drug substance and drug product capability; the Hefei site adds peptide and oligonucleotide synthesis; and together with the Singapore site, a \"China + Singapore\" dual-supply system has taken shape.",
+            "Samsung Biologics, a large-scale mAb specialist, has stood up a dedicated ADC facility — with up to 500 L conjugation reactors and containment systems targeting occupational exposure limits below 1 ng/m³ for HPAPI handling. Its ADC drug product line is slated for completion in Q1 2027 to build end-to-end ADC capability.",
+            "Lonza runs arguably the most complete single-organization chain: antibody, linker, payload, conjugation and drug product — and in 2026 integrated the Synaffix platform, adding dual-payload ADC technology. A \"networked one-stop\" model is also emerging, where one platform coordinates project management across specialized suppliers. For China's CXDMOs, H1 2026 license-out deals reached USD 99.7–110B, and China now hosts 1,728 clinical trials versus 1,520 in the US — China has become a co-equal center of ADC innovation.",
+        ],
+    },
+    "porton-bio-license-c": {
+        "title": "Porton Bio Obtains Drug Manufacturing License (C), Extending CGT CDMO into the Commercial Stage",
+        "summary": "Suzhou Porton Bio received the license from the Jiangsu MPDA, qualifying it for commercial CGT contract manufacturing. H1 CGT new orders grew ~75% YoY; lentiviral platform material localization exceeds 96%.",
+        "body": [
+            "Porton Pharma (300363.SZ) announced that its subsidiary Suzhou Porton Biopharma has obtained the Drug Manufacturing License (No. Su 20260010, classification code Cs, valid to July 26, 2031) from the Jiangsu Provincial Medical Products Administration. This is Porton Bio's first such license, qualifying it for commercial-stage contract manufacturing of cell and gene therapy (CGT) products — extending its CGT CDMO services from process development and clinical production into commercialization.",
+            "The milestone follows rapid business growth: H1 2026 CGT new orders reached ~RMB 91.9M, up ~75% YoY, with overseas clients accounting for 38%. During the period, Porton Bio completed its first cell-therapy process validation project, supported a client's oncolytic-bacteria US-China dual IND filing, and helped a client win China's first lentiviral in vivo CAR-T IND approval.",
+            "On supply chain, Porton Bio has achieved multi-source localization: cell-therapy platform materials are 80% domestic, the lentiviral platform over 96%, and the plasmid platform over 98%, materially improving resilience. On August 6, Porton Bio also formed a strategic partnership with Yeasen Biotechnology covering custom transfection reagent development and joint QC product validation — connecting core raw materials with CDMO services.",
+            "Porton Pharma cautioned that commercial manufacturing will proceed according to client timelines, and the license is not expected to materially affect 2026 results. But as the CGT industry enters its commercialization phase, the CDMOs that secured their commercial \"ticket\" early are positioned to lead the next competitive round.",
+        ],
+    },
+    "wuxi-apptec-h1-2026": {
+        "title": "WuXi AppTec H1 2026: Revenue RMB 28.9B, Up 38.9%; Full-Year Guidance Raised Across the Board",
+        "summary": "Adjusted non-IFRS net profit of RMB 11.57B, up 83.2% YoY; backlog of RMB 66.4B, up 25.2%; full-year revenue guidance raised to RMB 58.5–60.5B. Attributable net profit topped RMB 10B in H1 for the first time.",
+        "body": [
+            "On August 3, WuXi AppTec (603259.SH / 2359.HK) reported H1 2026 results: total revenue of RMB 28.90B, up 38.9% YoY; continuing-operations revenue up 48.0%; adjusted non-IFRS net profit of RMB 11.57B, up 83.2%, with net margin up 9.7 ppts to 40.0%; and attributable net profit of RMB 11.08B, up 29.4% — the first time H1 attributable profit has exceeded RMB 10B.",
+            "As of end-June 2026, continuing-operations backlog stood at RMB 66.43B, up 25.2% YoY; adjusted operating cash flow was RMB 9.98B, up 41.3%. By segment, Chemistry business revenue was RMB 24.99B (+53.3%), still the core driver — small-molecule D&M (process R&D and manufacturing) revenue reached RMB 14.99B, up 72.7%; the TIDES business (oligonucleotides and peptides) earned RMB 7.26B, up 44.3%, with ~45% full-year growth expected. Testing business revenue was RMB 2.48B (+31.5%) and Biology RMB 1.39B (+11.2%).",
+            "On the strength of these results, the company raised all its 2026 guidance: full-year revenue from RMB 51.3–53.0B to RMB 58.5–60.5B; continuing-operations revenue growth from 18–22% to 35–39%; capex from RMB 6.5–7.5B to RMB 7.5–8.5B (early-starting a new Changzhou base); and adjusted free cash flow from RMB 10.5–11.5B to RMB 13.5–14.5B.",
+            "Chairman and CEO Dr. Ge Li commented: \"Thanks to the greater success of multiple client products, our unique CRDMO business model and excellent execution, revenue, profit and cash flow all grew strongly.\" He also addressed the US DoD 1260H listing: \"The erroneous designation lacks factual basis and legal support. We have taken legal action; the litigation is ongoing, and we are confident a fair judicial review will vindicate the facts.\"",
+            "The same day, the company unveiled a 2026 A-share employee stock ownership plan covering up to 4,000 managers and core technical staff, granting up to 9.70M shares at RMB 103.08 per share from long-term incentive funds of up to RMB 1B, with vesting tied to 2026 revenue targets. An interim dividend of RMB 5.1 per 10 shares (RMB 1.51B total) was also declared. On ESG, the company retained its MSCI AAA rating and was included in the FTSE4Good Index Series for the fourth consecutive year.",
+        ],
+    },
+    "samsung-biologics-q2-2026": {
+        "title": "Samsung Biologics Q2 2026: Revenue KRW 1,321B, Up 30%; Cumulative Contract Value Reaches USD 21.6B",
+        "summary": "Plants 1–4 ran at full utilization with operating profit of KRW 586.4B and an operating margin of 44.4%; Plant 5 PPQ batches are ramping, and the company expects to hit the upper end of its 15–20% full-year revenue growth guidance.",
+        "body": [
+            "On July 23, Samsung Biologics (207940.KS) reported Q2 2026 results: revenue of KRW 1,321B (+30.2% YoY), operating profit of KRW 586.4B, and EBITDA of KRW 698.5B. First-half revenue totaled KRW 2,578B with operating profit of KRW 1,167B. Cumulative contract value reached USD 21.6B, reflecting sustained global demand for its integrated development and manufacturing services.",
+            "Performance was driven by favorable FX and full utilization of Plants 1–4 at Songdo's Bio Campus I. Despite batch disruptions from a May union strike, the company still posted a 44.4% operating margin. Plant 5's process performance qualification (PPQ) batches continue to ramp and are expected to lift H2 revenue. Samsung Biologics expects to reach the upper end of its 15–20% full-year revenue growth guidance.",
+            "Global expansion continues: following the March completion of the GSK Rockville acquisition — its first US manufacturing presence — the site is being integrated into the global network; a Netherlands sales office opens in Q3, completing coverage across the US (New Jersey), Japan (Tokyo) and Europe.",
+            "On innovation, the Life Science Fund — jointly created by Samsung Biologics, Samsung Bioepis and Samsung C&T — invested in Cartography Biosciences in May and committed an additional KRW 200B to create a third fund in June. The company is advancing proprietary platform technologies and expanding into ADC, peptides, AAV and other modalities. On ESG, it was included in the Dow Jones Best-in-Class Indices for the fifth consecutive year.",
+        ],
+    },
+    "lonza-h1-2026": {
+        "title": "Lonza Delivers Strong H1 2026, Upgrades Full-Year CORE EBITDA Margin Guidance to 33–34%",
+        "summary": "H1 sales of CHF 3.4B with a CORE EBITDA margin of 34.8%; Advanced Synthesis posted CER sales growth of +27.7% with a 48.1% margin. The Visp large-scale mammalian facility began commercial operations, and a new ADC fill-finish line is being added in Stein.",
+        "body": [
+            "On July 22, Lonza reported H1 2026 results: sales of CHF 3.4B and a CORE EBITDA margin of 34.8%. On the strength of all three business platforms, the company upgraded its 2026 CORE EBITDA margin guidance from \"above 32%\" to 33–34%, and confirmed CER sales growth guidance of 11–12%.",
+            "By platform: Integrated Biologics reported CER sales growth of +10.0% with a flat CORE EBITDA margin of 36.0%; the large-scale mammalian drug substance facility in Visp began commercial operations on schedule in H1. Lonza also expanded a strategic long-term collaboration with a leading US biopharmaceutical company, providing clinical and commercial biologics manufacturing across all of its US commercial-scale mammalian sites.",
+            "The standout was Advanced Synthesis: CER sales up 27.7% YoY, with the CORE EBITDA margin jumping 6.8 ppts to 48.1%, on strong small-molecules and bioconjugates demand, higher asset utilization and a favorable mix. Management cautioned that H2 growth will moderate against a significantly higher prior-year base.",
+            "On capacity investments, H1 capex was CHF 0.5B (15.7% of sales). The company simultaneously announced a new commercial-scale multi-purpose ADC filling line in Stein (operational 2030), supported by a long-term collaboration with a major pharmaceutical company for clinical and commercial ADC supply; the large-scale drug product facility's scope was extended to high-value small molecules with operations now expected in 2028. This follows June's announcement of expanded HPAPI and payload-linker capacity in Visp. At Vacaville (acquired from Roche in 2024), the first non-Roche product has been tech-transferred with first GMP batches produced.",
+        ],
+    },
+    "wuxi-biologics-1000th-molecule": {
+        "title": "WuXi Biologics Reaches 1,000th Integrated Project Milestone, Powering Earendil Labs' Trispecific Antibody",
+        "summary": "From 982 integrated projects at end-April 2026 to 1,000 by July, the project pool keeps expanding — complex molecules now exceed 50% of the portfolio, with bispecific/multispecific antibodies as a key growth engine.",
+        "body": [
+            "On July 20, 2026, WuXi Biologics (2269.HK) announced its 1,000th integrated project milestone — the latest being an innovative trispecific antibody for Earendil Labs. As a global leading large-molecule CRDMO, the milestone marks a new level for its open, integrated biotherapeutics enabling platform.",
+            "As of end-April 2026, WuXi Biologics' integrated portfolio stood at 982 projects, including 78 Phase III and 25 commercial manufacturing projects, with complex molecules accounting for more than 50% of the total. A little over two months later, the count crossed 1,000.",
+            "New molecule types are becoming the core growth engine: of the 69 new projects signed by April 30, 2026, bispecific/multispecific antibody signings grew more than 50% YoY. Sell-side analysts note WuXi Biologics' global competitiveness in bispecifics, ADCs and other emerging fields is stronger than peers', with stickier R-to-D-to-M conversion and higher barriers.",
+            "Other recent milestones include: MFG8 drug substance plant passing US FDA pre-license inspection (PLI) for a potential blockbuster autoimmune therapy; ANVISA (Brazil) GMP certification; the 25th drug substance plant completing its first GMP batches with zero deviations; and the Suzhou testing center's fourth EMA GMP certification supporting 19 commercial products into Europe. The company's 2026 capex is expected at ~RMB 7.1B (including RMB 1.5B deferred from 2025), up 92% YoY, for domestic expansion plus Singapore and US capacity build-out.",
+        ],
+    },
+    "lonza-visp-hpapi": {
+        "title": "Lonza Expands HPAPI & Payload-Linker Capacity in Visp, Strengthening Its Integrated ADC Position",
+        "summary": "The new capacity, inside an existing GMP facility, is expected to be operational in 2028 and will support both clinical and commercial programs, complementing Lonza's antibody, conjugation and fill-finish ecosystem in Visp and Stein.",
+        "body": [
+            "On June 30, Lonza announced plans to enhance its drug-linker center of excellence and expand payload-linker manufacturing capacity at its Visp site (CH), supporting the fast-growing ADC market. The expansion will establish new commercial-scale capabilities for highly potent APIs (HPAPI) and ADC payload-linkers, reinforcing Lonza's position as the leading fully-integrated CDMO partner in the ADC space.",
+            "Built within an existing GMP facility, the new capacity adds payload-linker production and purification alongside dedicated analytical and process development laboratories. The facility is designed for multipurpose use and scale-out, enabling flexible production of a broad range of payload-linker molecules with the option to add further suites as demand grows. It is expected to be operational in 2028, supporting both clinical and commercial programs.",
+            "The new capacity is closely connected to Lonza's broader integrated ADC ecosystem in Visp — including monoclonal antibody manufacture and conjugation, plus drug product capabilities in Visp and Stein — complemented by QC capacity able to handle highly potent payload-linkers.",
+            "This is one of Lonza's series of 2026 ADC moves: in February, the company fully integrated the ADC technology platform obtained via the Synaffix acquisition (GlycoConnect conjugation, HydraSpace spacers and the toxSYN linker-payload portfolio) into Advanced Synthesis and added dual-payload ADC technology; the Oss (NL) site expanded labs to cover antibody-oligonucleotide conjugates, targeted lipid nanoparticles and other emerging modalities. Christian Seufert, Head of Advanced Synthesis, said: \"The rapid growth of the ADC market is driving demand for highly complex payload-linkers; Lonza remains committed to investing in and further developing our integrated ADC offering.\"",
+        ],
+    },
+    "samsung-biologics-polypeptide": {
+        "title": "Samsung Biologics Launches $1.8B Tender Offer for PolyPeptide, Doubling Down on Peptide Therapeutics",
+        "summary": "The all-cash public tender offer for the Swiss peptide CDMO is expected to close by end-2026, adding six cGMP plants across Belgium, France, India, Sweden and the US — a major step in Samsung's multi-modality strategy.",
+        "body": [
+            "Samsung Biologics has announced an all-cash public tender offer of approximately USD 1.8B for PolyPeptide Group AG, the Switzerland-headquartered peptide CDMO, with completion expected toward the end of 2026. It is the company's second major acquisition of the year, following the GSK Rockville plant purchase completed in March.",
+            "PolyPeptide operates six cGMP manufacturing facilities in Belgium, France, India, Sweden and the US. Through the deal, Samsung Biologics' network will extend across the US, Europe and India, with capabilities broadening from antibodies and ADCs into peptide therapeutics — one of the fastest-growing biopharma segments, highly relevant to oncology and emerging indications.",
+            "The transaction is a key step in Samsung Biologics' multi-modality strategy. The company has previously said it is studying peptides, AAV and other next-generation modalities. Combined with its dedicated ADC facility, the Samsung Organoid CRO offering and Life Science Fund ecosystem investments, Samsung Biologics is evolving from \"the world's largest mAb CDMO\" into a multi-modality platform bio-service provider.",
+            "For the industry, the deal underscores the peptide boom: the commercial explosion of GLP-1 weight-loss and metabolic drugs has made upstream peptide CDMO capacity a scarce resource. Notably, China's Asymchem is also expanding peptide solid-phase synthesis capacity from 45,000 L to 69,000 L — Korean and Chinese CDMO giants are landing on the peptide board almost simultaneously.",
+        ],
+    },
+    "samsung-biologics-rockville": {
+        "title": "Samsung Biologics Completes Acquisition of GSK's Rockville Plant, Total Capacity Rises to 845,000 L",
+        "summary": "The deal adds 60,000 L of drug substance capacity (2×20,000 L + 2×10,000 L bioreactors) and establishes the company's first US manufacturing presence. Once Songdo Bio Campus II is complete, total capacity will reach 1.385M L.",
+        "body": [
+            "On March 31, Samsung Biologics announced the completion of its acquisition of a GSK manufacturing facility in Rockville, Maryland — the company's first US production site. The site comprises two cGMP plants with a combined 60,000 L of drug substance capacity (two 20,000 L and two 10,000 L bioreactors), supporting clinical and commercial biologics at multiple scales. With the addition, Samsung Biologics' total global capacity rises to 845,000 L.",
+            "Under the agreement, Samsung Biologics will continue supplying the products previously manufactured at the site to GSK while transitioning the site to additional contract manufacturing, with further investments planned to expand capacity and upgrade technologies. More than 500 site employees joined the company. CEO John Rim said: \"The Rockville site strengthens our ability to operate a geographically diversified manufacturing network and offer flexible production options to global clients.\"",
+            "In Korea, the Songdo expansion continues: Plant 5 (180,000 L, fully automated) came online in 2025 with PPQ batches ramping, and a Plant 6 go/no-go decision is expected this year (adding another 180,000 L). Bio Campus II — Plants 5 through 8 — is slated for completion by 2032, bringing Songdo to 1.325M L and total capacity to 1.385M L. Samsung is also partnering with Eli Lilly on a Lilly Gateway Labs site at Bio Campus II — a 125,000 sq ft facility due in 2027 that will host up to 30 biotech companies.",
+            "Notably, management dismisses antibody overcapacity concerns: \"Beyond monoclonals, multispecific antibodies are being actively developed, and the market is expanding across immune diseases, cancer, CNS and even anti-aging,\" the company said, arguing demand will keep growing.",
+        ],
+    },
+    "wuxi-xdc-2025-results": {
+        "title": "WuXi XDC FY2025 Results: Revenue RMB 5.94B, Up 46.7%; Backlog Reaches USD 1.49B",
+        "summary": "643 cumulative clients, 252 integrated CMC programs (226 integrated ADC projects), 18+ PPQ projects; the planned Jiangyin payload-linker facility will have capacity equal to five times the current Wuxi base.",
+        "body": [
+            "WuXi XDC's (2268.HK) 2025 results showed full-year revenue of RMB 5.94B, up 46.7% YoY, consolidating its global leadership in the bioconjugate CRDMO market.",
+            "Operating metrics grew across the board: 643 cumulative clients; 252 integrated CMC (iCMC) programs, including 226 integrated ADC projects; more than 18 process performance qualification (PPQ) projects; and a backlog of USD 1.49B. The company has enabled over 100 successful IND filings by clients worldwide.",
+            "On capacity, the company plans a new payload-linker facility in Jiangyin with planned capacity equal to five times the current Wuxi base, covering dual-payloads, AOCs (antibody-oligonucleotide conjugates) and late-stage PPQ batches. The TOT Biopharma (Dongyao) acquisition added mAb, drug substance and drug product capabilities, while the Hefei site adds peptide and oligonucleotide synthesis. Combined with the Singapore site, a \"China + Singapore\" dual-supply system is taking shape.",
+            "On the demand side, XDC momentum keeps building: the first two months of 2026 saw 25 global XDC financing events versus 18 in the same period of 2025, with XDC BD deal counts stable and upfront payments up sharply. Analysts see WuXi XDC — with both technical strength and integrated delivery — as well positioned to benefit and gain share.",
+        ],
+    },
+}
+
+COMPANIES_EN = {
+    "wuxi-apptec": {
+        "tagline": "Integrated Small-Molecule CRDMO Platform",
+        "desc": "A global leading pharmaceutical R&D and manufacturing platform spanning Chemistry, Testing and Biology businesses. Its unique CRDMO model connects drug discovery through commercial manufacturing. H1 2026 revenue was RMB 28.9B with a RMB 66.4B backlog.",
+    },
+    "wuxi-biologics": {
+        "tagline": "Global Large-Molecule CRDMO Leader",
+        "desc": "A global leading large-molecule CRDMO providing end-to-end services from discovery through manufacturing, with a global network connecting China, the US, Ireland, Germany and Singapore. Reached its 1,000th integrated project milestone in July 2026.",
+    },
+    "wuxi-xdc": {
+        "tagline": "ADC / Bioconjugate CRDMO",
+        "desc": "The global leading bioconjugate CRDMO with a one-stop ADC development and manufacturing platform. FY2025 revenue of RMB 5.94B (+46.7%) with a USD 1.49B backlog; the Singapore BCM3 line completed GMP release in August 2026.",
+    },
+    "pharmaron": {
+        "tagline": "Multi-Modality R&D & Manufacturing Services",
+        "desc": "An international life-science services company with an end-to-end platform spanning drug discovery, preclinical and clinical development across small molecules, large molecules and cell & gene therapy. Operating in China, the US and the UK with 27,000+ employees.",
+    },
+    "asymchem": {
+        "tagline": "Small-Molecule CDMO + Emerging Modalities",
+        "desc": "A global, technology-driven one-stop CDMO serving 1,100+ clients worldwide. Small molecules remain the core while chemical macromolecules (peptides/oligonucleotides, TIDES) enter rapid monetization — peptide capacity will reach 69,000 L by end-2026.",
+    },
+    "porton": {
+        "tagline": "Small-Molecule API + CGT + New Molecules",
+        "desc": "A leading small-molecule API CDMO. Subsidiary Porton Bio focuses on CGT CDMO with an end-to-end platform covering plasmids, viral vectors and cell therapies, and obtained its Drug Manufacturing License (C) in August 2026 to enter commercial-stage manufacturing.",
+    },
+    "samsung-biologics": {
+        "tagline": "World's Largest mAb CDMO",
+        "desc": "The world's largest-capacity mAb CDMO with 845,000 L total capacity (including the US Rockville site), rising to 1.325M L at Songdo once Bio Campus II is complete. Accelerating multi-modality expansion in peptides (PolyPeptide acquisition) and ADCs.",
+    },
+    "lonza": {
+        "tagline": "One of the World's Largest CDMOs",
+        "desc": "A Swiss-headquartered global CDMO giant spanning biologics, advanced synthesis (small molecules/bioconjugates), drug product and cell & gene therapy. Built end-to-end ADC capability on the integrated Synaffix platform, with ongoing expansion in Visp, Stein and Vacaville.",
+    },
+}

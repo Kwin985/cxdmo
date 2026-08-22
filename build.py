@@ -1,0 +1,814 @@
+# -*- coding: utf-8 -*-
+"""CXDMO 资讯站构建脚本（中英双语）
+用法: python build.py
+输出: 中文版（根路径）+ 英文版（/en/）
+  index.html / news.html / companies.html / about.html
+  articles/<id>.html | en/index.html / en/news.html / ... / en/articles/<id>.html
+  assets/style.css / sitemap.xml / robots.txt
+"""
+import os
+import json
+from content import ARTICLES, COMPANIES
+from content_en import ARTICLES_EN, COMPANIES_EN
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+SITE_NAME = "CXDMO"
+DOMAIN = "https://cxmdo.com"
+
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+COMPANY_COLORS = {
+    "药明康德": "#0a6ea8", "药明生物": "#0d8a6e", "药明合联": "#7a4fbf",
+    "康龙化成": "#c2571a", "凯莱英": "#b02a37",
+    "博腾股份": "#1f6f8b", "博腾生物": "#1f6f8b", "博腾股份 / 博腾生物": "#1f6f8b",
+    "三星生物": "#1746a2",
+    "Lonza": "#8a6d1f", "Lonza 龙沙": "#8a6d1f",
+    "行业观察": "#5b6b7a",
+}
+
+# 文章 company（中文）→ 英文显示名
+CO_EN = {
+    "药明康德": "WuXi AppTec",
+    "药明生物": "WuXi Biologics",
+    "药明合联": "WuXi XDC",
+    "康龙化成": "Pharmaron",
+    "凯莱英": "Asymchem",
+    "博腾股份": "Porton Pharma",
+    "博腾生物": "Porton Bio",
+    "博腾股份 / 博腾生物": "Porton",
+    "三星生物": "Samsung Biologics",
+    "Lonza": "Lonza",
+    "Lonza 龙沙": "Lonza",
+    "行业观察": "Industry Insight",
+}
+GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight"}
+CAT_EN = {
+    "财报": "Results", "公告": "Announcement", "产能": "Capacity", "并购": "M&A",
+    "里程碑": "Milestone", "行业观察": "Insight",
+}
+
+articles = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)
+
+
+def esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def date_cn(d):
+    if len(d) == 7:
+        return f"{d[:4]} 年 {int(d[5:7])} 月"
+    return f"{d[:4]} 年 {int(d[5:7])} 月 {int(d[8:10])} 日"
+
+
+def date_en(d):
+    if len(d) == 7:
+        return f"{MONTHS[int(d[5:7]) - 1]} {d[:4]}"
+    return f"{MONTHS[int(d[5:7]) - 1]} {int(d[8:10])}, {d[:4]}"
+
+
+def date_of(d, lang):
+    return date_en(d) if lang == "en" else date_cn(d)
+
+
+def date_iso(d):
+    return d if len(d) == 10 else d + "-01"
+
+
+# ---- 按语言取字段 ----
+def a_title(a, lang):
+    return ARTICLES_EN[a["id"]]["title"] if lang == "en" else a["title"]
+
+
+def a_summary(a, lang):
+    return ARTICLES_EN[a["id"]]["summary"] if lang == "en" else a["summary"]
+
+
+def a_body(a, lang):
+    return ARTICLES_EN[a["id"]]["body"] if lang == "en" else a["body"]
+
+
+def a_company(a, lang):
+    return CO_EN.get(a["company"], a["company"]) if lang == "en" else a["company"]
+
+
+def a_cat(a, lang):
+    return CAT_EN.get(a["category"], a["category"]) if lang == "en" else a["category"]
+
+
+def g_of(company):
+    for c in COMPANIES:
+        if company in c["name"] or c["name"] in company:
+            return c["group"]
+    return "行业观察"
+
+
+def g_of_lang(company, lang):
+    g = g_of(company)
+    return GROUP_EN.get(g, g) if lang == "en" else g
+
+
+def co_matches(company, co_name):
+    return company in co_name or co_name in company
+
+
+# ---- 语言上下文 ----
+T = {
+    "zh": {
+        "nav": [("index.html", "首页", "Home"), ("news.html", "资讯", "News"),
+                ("companies.html", "企业", "Companies"), ("about.html", "关于", "About")],
+        "hero_kicker": "CXDMO INDUSTRY NEWS · 行业资讯门户",
+        "hero_h1": "追踪全球 CXDMO 产业脉动",
+        "hero_sub": '聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 龙头，<br class="br">以及三星生物、Lonza 等全球前沿 CDMO 的财报、产能、并购与合作动态。',
+        "stats": [("8", "追踪企业"), ("{n}", "收录资讯"), ("3", "板块 · 药明系 / 国内 / 海外")],
+        "top": "头条要闻", "top_en": "Top Story", "latest": "最新资讯", "latest_en": "Latest",
+        "insight": "行业观察", "insight_en": "Insight", "all_news": "全部资讯 →",
+        "news_h1": "全部资讯", "news_h1_en": "News",
+        "news_sub": "共收录 {n} 篇行业资讯，按企业板块与分类筛选浏览。",
+        "seg": "板块", "catlabel": "分类", "search": "搜索",
+        "search_ph": "输入关键词，如：ADC、多肽、产能…",
+        "empty": "没有匹配的资讯。",
+        "groups": ["全部", "药明系", "国内 CXDMO", "海外前沿", "行业观察"],
+        "cat_all": "全部",
+        "co_h1": "企业名录", "co_h1_en": "Companies",
+        "co_sub": "追踪 8 家全球代表性 CXDMO 企业：药明系三驾马车、国内 CXDMO 三强、海外前沿双巨头。",
+        "co_news": "资讯 {n} 篇 →", "related": "相关资讯", "related_en": "Related",
+        "ticker": "股票代码", "hq": "总部", "visit": "访问官网 ↗",
+        "about_h1": "关于本站", "about_h1_en": "About",
+        "about_sub": "cxmdo.com — CXDMO 行业资讯门户。",
+        "read": "阅读全文 →", "source": "来源：", "home": "首页", "news_crumb": "资讯",
+        "art_note": "本文基于公开报道整理，原始来源：{s} · 仅供行业资讯参考，不构成投资建议。",
+        "footer_about": "CXDMO（Contract X Development & Manufacturing Organization）资讯门户，追踪药明系、康龙化成、凯莱英、博腾与全球 CXDMO 前沿动态。",
+        "footer_cols": "栏目", "footer_decl": "内容声明",
+        "footer_decl_text": "本站内容基于公开报道与企业公告整理，仅供行业资讯参考，不构成任何投资建议。",
+        "site_title": "CXDMO 资讯 — 追踪全球 CXDMO 产业脉动",
+        "site_desc": "CXDMO 行业资讯门户：聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 企业，以及三星生物、Lonza 等全球 CXDMO 前沿动态。",
+        "news_title": "全部资讯 — CXDMO",
+        "news_desc": "CXDMO 行业资讯列表：按企业与分类筛选浏览药明系、国内 CXDMO 与海外前沿动态。",
+        "co_title": "企业名录 — CXDMO",
+        "co_desc": "药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾、三星生物、Lonza 企业档案与最新动态。",
+        "about_title": "关于本站 — CXDMO",
+        "about_desc": "CXDMO 资讯门户：站点定位、覆盖范围与内容来源说明。",
+    },
+    "en": {
+        "nav": [("index.html", "Home", ""), ("news.html", "News", ""),
+                ("companies.html", "Companies", ""), ("about.html", "About", "")],
+        "hero_kicker": "CXDMO INDUSTRY NEWS",
+        "hero_h1": "Tracking the Global CXDMO Pulse",
+        "hero_sub": 'Covering WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem and Porton — China\u2019s CXDMO leaders —<br class="br">plus Samsung Biologics, Lonza and the global CDMO frontier: results, capacity, M&A and partnerships.',
+        "stats": [("8", "Companies Tracked"), ("{n}", "Stories"), ("3", "Segments · WuXi / Domestic / Global")],
+        "top": "Top Story", "top_en": "", "latest": "Latest", "latest_en": "",
+        "insight": "Insight", "insight_en": "", "all_news": "All News →",
+        "news_h1": "All News", "news_h1_en": "",
+        "news_sub": "{n} industry stories, filterable by segment, category and keyword.",
+        "seg": "Segment", "catlabel": "Category", "search": "Search",
+        "search_ph": "Keywords, e.g. ADC, peptide, capacity…",
+        "empty": "No matching stories.",
+        "groups": ["All", "WuXi Group", "Domestic", "Global", "Insight"],
+        "cat_all": "All",
+        "co_h1": "Companies", "co_h1_en": "",
+        "co_sub": "Tracking 8 representative global CXDMOs: the WuXi trio, China\u2019s domestic leaders, and the global frontier giants.",
+        "co_news": "{n} stories →", "related": "Related", "related_en": "",
+        "ticker": "Ticker", "hq": "HQ", "visit": "Official Website ↗",
+        "about_h1": "About", "about_h1_en": "",
+        "about_sub": "cxmdo.com — the CXDMO industry news portal.",
+        "read": "Read More →", "source": "Source: ",
+        "home": "Home", "news_crumb": "News",
+        "art_note": "This article is compiled from public reporting. Original source: {s} · For industry reference only; not investment advice.",
+        "footer_about": "CXDMO (Contract X Development & Manufacturing Organization) news portal — tracking the WuXi group, Pharmaron, Asymchem, Porton and the global CXDMO frontier.",
+        "footer_cols": "Sections", "footer_decl": "Disclaimer",
+        "footer_decl_text": "Content on this site is compiled from public reports and company announcements, for industry reference only, and does not constitute investment advice.",
+        "site_title": "CXDMO News — Tracking the Global CXDMO Pulse",
+        "site_desc": "The CXDMO industry news portal: WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem, Porton, plus Samsung Biologics, Lonza and the global CDMO frontier.",
+        "news_title": "All News — CXDMO",
+        "news_desc": "All CXDMO industry stories, filterable by company segment and category.",
+        "co_title": "Companies — CXDMO",
+        "co_desc": "Profiles and latest updates for WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem, Porton, Samsung Biologics and Lonza.",
+        "about_title": "About — CXDMO",
+        "about_desc": "CXDMO news portal: positioning, coverage and content sources.",
+    },
+}
+
+ABOUT_EN = '''
+<section class="page-head">
+  <div class="wrap">
+    <h1>About <span></span></h1>
+    <p>cxmdo.com — the CXDMO industry news portal.</p>
+  </div>
+</section>
+<main class="wrap">
+  <div class="prose">
+    <h2>What is a CXDMO?</h2>
+    <p>CXDMO is an umbrella term for CRDMOs (Contract Research, Development and Manufacturing Organizations) and related pharmaceutical outsourcing business models. It spans the full value chain — from drug discovery and process development through preclinical and clinical research to commercial manufacturing — and is the hub connecting biotech, pharma and capacity in the innovation ecosystem.</p>
+    <p>With the new-molecule wave in ADC/XDC, the boom in peptides and oligonucleotides (TIDES), and the geographic restructuring of global capacity, the CXDMO industry is being reshaped: Chinese leaders compete on cost, speed and integration, while Western giants respond with M&A and refocusing.</p>
+    <h2>What We Cover</h2>
+    <p>CXDMO (cxmdo.com) is an independent industry news portal tracking:</p>
+    <ul>
+      <li><b>The WuXi Group</b>: WuXi AppTec (small-molecule CRDMO), WuXi Biologics (large-molecule CRDMO), WuXi XDC (ADC/XDC CRDMO)</li>
+      <li><b>Domestic CXDMOs</b>: Pharmaron, Asymchem, Porton Pharma / Porton Bio</li>
+      <li><b>Global Frontier</b>: Samsung Biologics, Lonza</li>
+    </ul>
+    <p>Coverage spans financial results, capacity expansion, M&amp;A and integration, strategic partnerships, regulatory qualifications and industry trend analysis.</p>
+    <h2>Sources &amp; Updates</h2>
+    <p>Content is compiled from company press releases, listed-company announcements and reporting by mainstream financial and industry media, with the original source cited on every story. Content from closed channels such as WeChat official accounts is captured via equivalent public press releases and authoritative republications.</p>
+    <p>The site is static by architecture, generated by a local build script, and suited to static hosting platforms such as Cloudflare Pages.</p>
+    <h2>Disclaimer</h2>
+    <p>All content is for industry reference only and does not constitute investment advice. Data and facts are subject to official company disclosures. For copyright concerns, please reach out via the site pages.</p>
+  </div>
+</main>'''
+
+
+def lang_path(lang, p):
+    """根路径绝对 URL（从任意子目录页面引用均正确）"""
+    return f"/en/{p}" if lang == "en" else f"/{p}"
+
+
+def canonical_path(lang, p):
+    if p == "index.html":
+        return f"{DOMAIN}/" if lang == "zh" else f"{DOMAIN}/en/"
+    return f"{DOMAIN}/{lang_path(lang, p)}"
+
+
+def hreflang_tags(lang, p):
+    zh = f"{DOMAIN}/" if p == "index.html" else f"{DOMAIN}/{p}"
+    en = f"{DOMAIN}/en/" if p == "index.html" else f"{DOMAIN}/en/{p}"
+    return (f'<link rel="alternate" hreflang="zh-CN" href="{zh}">\n'
+            f'<link rel="alternate" hreflang="en" href="{en}">\n'
+            f'<link rel="alternate" hreflang="x-default" href="{zh}">')
+
+
+def page(lang, title, desc, active, content, p="index.html"):
+    t = T[lang]
+    nav = "".join(
+        f'<a href="{lang_path(lang, h)}"{" class=\"active\"" if h == active else ""}>{label}{f"<span>{en}</span>" if en else ""}</a>'
+        for h, label, en in t["nav"])
+    alt = "zh" if lang == "en" else "en"
+    alt_label = "中文" if lang == "en" else "EN"
+    return f'''<!DOCTYPE html>
+<html lang="{'en' if lang == 'en' else 'zh-CN'}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{canonical_path(lang, p)}">
+{hreflang_tags(lang, p)}
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:url" content="{canonical_path(lang, p)}">
+<meta property="og:locale" content="{'en_US' if lang == 'en' else 'zh_CN'}">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="{lang_path(lang, 'index.html')}"><span class="logo-mark">CX</span><span class="logo-text">CXDMO<em>.com</em></span></a>
+    <div class="nav-right">
+      <a class="lang-switch" href="{lang_path(alt, p)}">{alt_label}</a>
+      <nav class="main-nav">{nav}</nav>
+    </div>
+  </div>
+</header>
+{content}
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <div class="logo footer-logo"><span class="logo-mark">CX</span><span class="logo-text light">CXDMO</span></div>
+      <p>{t["footer_about"]}</p>
+    </div>
+    <div class="footer-col">
+      <h4>{t["footer_cols"]}</h4>
+      <a href="{lang_path(lang, 'news.html')}">{t["nav"][1][1]}</a>
+      <a href="{lang_path(lang, 'companies.html')}">{t["nav"][2][1]}</a>
+      <a href="{lang_path(lang, 'about.html')}">{t["nav"][3][1]}</a>
+    </div>
+    <div class="footer-col">
+      <h4>{t["footer_decl"]}</h4>
+      <p class="small">{t["footer_decl_text"]}</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom"><span>© 2026 cxmdo.com · CXDMO Insight</span></div>
+</footer>
+</body>
+</html>'''
+
+
+def tag(lang, company):
+    color = COMPANY_COLORS.get(company, "#5b6b7a")
+    label = a_company({"company": company}, lang)
+    return (f'<a class="tag" href="{lang_path(lang, "news.html")}?company={esc(label)}" '
+            f'style="--tag-color:{color}">{esc(label)}</a>')
+
+
+def card(lang, a, featured=False):
+    t = T[lang]
+    cls = "card featured" if featured else "card"
+    inner = f'''
+        <div class="card-top">{tag(lang, a["company"])}<span class="cat">{esc(a_cat(a, lang))}</span></div>
+        <h3 class="card-title"><a href="{lang_path(lang, f'articles/{a["id"]}.html')}">{esc(a_title(a, lang))}</a></h3>
+        <p class="card-sum">{esc(a_summary(a, lang))}</p>
+        <div class="card-meta"><time>{date_of(a["date"], lang)}</time><span class="more">{t["read"]}</span></div>'''
+    return f'<article class="{cls}">{inner}</article>'
+
+
+# ---------------- 首页 ----------------
+def build_index(lang):
+    t = T[lang]
+    head = articles[0]
+    rest = articles[1:7]
+    co_chips = "".join(
+        f'<a class="chip" href="{lang_path(lang, "news.html")}?company={esc(a_company({"company": c["name"]}, lang))}"'
+        f' style="--tag-color:{COMPANY_COLORS.get(c["name"], "#0a5c8c")}">{esc(c["name_en"] if lang == "en" else c["name"])}</a>'
+        for c in COMPANIES)
+    industry = [a for a in articles if a["company"] == "行业观察"][:2]
+    stats = "".join(f'<div class="stat"><b>{v}</b><span>{k}</span></div>'
+                    for v, k in [(v, k.replace("{n}", str(len(articles)))) for v, k in t["stats"]])
+    content = f'''
+<section class="hero">
+  <div class="wrap">
+    <p class="hero-kicker">{t["hero_kicker"]}</p>
+    <h1>{t["hero_h1"]}</h1>
+    <p class="hero-sub">{t["hero_sub"]}</p>
+    <div class="hero-stats">{stats}</div>
+    <div class="hero-chips">{co_chips}</div>
+  </div>
+</section>
+<main class="wrap">
+  <section class="section">
+    <div class="section-head"><h2>{t["top"]}{f' <span>{t["top_en"]}</span>' if t["top_en"] else ''}</h2><a class="see-all" href="{lang_path(lang, "news.html")}">{t["all_news"]}</a></div>
+    <div class="card-grid single">{card(lang, head, featured=True)}</div>
+  </section>
+  <section class="section">
+    <div class="section-head"><h2>{t["latest"]}{f' <span>{t["latest_en"]}</span>' if t["latest_en"] else ''}</h2></div>
+    <div class="card-grid">{"".join(card(lang, a) for a in rest)}</div>
+  </section>
+  <section class="section">
+    <div class="section-head"><h2>{t["insight"]}{f' <span>{t["insight_en"]}</span>' if t["insight_en"] else ''}</h2></div>
+    <div class="card-grid two">{"".join(card(lang, a) for a in industry)}</div>
+  </section>
+</main>'''
+    return page(lang, t["site_title"], t["site_desc"], "index.html", content)
+
+
+# ---------------- 资讯列表页 ----------------
+def build_news(lang):
+    t = T[lang]
+    # 公司→板块映射（当前语言）
+    if lang == "en":
+        co_group_map = {}
+        for a in articles:
+            co_group_map[CO_EN.get(a["company"], a["company"])] = GROUP_EN.get(g_of(a["company"]))
+        for c in COMPANIES:
+            co_group_map[c["name_en"]] = GROUP_EN.get(g_of(c["name"]), "Global")
+    else:
+        co_group_map = {}
+        for c in COMPANIES:
+            co_group_map[c["name"]] = c["group"]
+        for a in articles:
+            co_group_map[a["company"]] = g_of(a["company"])
+    map_json = json.dumps(co_group_map, ensure_ascii=False)
+    cats = sorted({a["category"] for a in articles})
+    co_btns = "".join(f'<button class="chip-btn" data-group="{g}">{g}</button>' for g in t["groups"])
+    cat_btns = "".join(
+        f'<button class="chip-btn" data-cat="{CAT_EN.get(c, c) if lang == "en" else c}">'
+        f'{CAT_EN.get(c, c) if lang == "en" else c}</button>' for c in cats)
+    items = "".join(f'''
+      <article class="list-item" data-group="{esc(g_of_lang(a["company"], lang))}" data-cat="{esc(a_cat(a, lang))}"
+               data-company="{esc(a_company(a, lang))}"
+               data-title="{esc(a_title(a, lang))}{esc(a_summary(a, lang))}">
+        <div class="card-top">{tag(lang, a["company"])}<span class="cat">{esc(a_cat(a, lang))}</span></div>
+        <h3 class="card-title"><a href="{lang_path(lang, f'articles/{a["id"]}.html')}">{esc(a_title(a, lang))}</a></h3>
+        <p class="card-sum">{esc(a_summary(a, lang))}</p>
+        <div class="card-meta"><time>{date_of(a["date"], lang)}</time></div>
+      </article>''' for a in articles)
+    content = f'''
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t["news_h1"]}{f' <span>{t["news_h1_en"]}</span>' if t["news_h1_en"] else ''}</h1>
+    <p>{t["news_sub"].replace("{n}", str(len(articles)))}</p>
+  </div>
+</section>
+<main class="wrap">
+  <div class="filter-bar">
+    <div class="filter-row"><span class="filter-label">{t["seg"]}</span>{co_btns}<button class="chip-btn co-clear" id="coFilter" hidden></button></div>
+    <div class="filter-row"><span class="filter-label">{t["catlabel"]}</span><button class="chip-btn" data-cat="{t["cat_all"]}">{t["cat_all"]}</button>{cat_btns}</div>
+    <div class="filter-row"><span class="filter-label">{t["search"]}</span><input id="q" type="search" placeholder="{t["search_ph"]}"></div>
+  </div>
+  <div class="news-list" id="newsList">{items}</div>
+  <p class="empty" id="empty" hidden>{t["empty"]}</p>
+</main>
+<script>
+(function() {{
+  var group = "{t["groups"][0]}", cat = "{t["cat_all"]}", q = "", company = "";
+  var map = {map_json};
+  var params = new URLSearchParams(location.search);
+  var pc = params.get("company");
+  var coBtn = document.getElementById("coFilter");
+  function groupOf(name) {{
+    if (map[name]) return map[name];
+    for (var k in map) {{ if (name.indexOf(k) > -1 || k.indexOf(name) > -1) return map[k]; }}
+    return null;
+  }}
+  function setCompany(c) {{
+    company = c;
+    if (c) {{
+      coBtn.textContent = "{t["seg"]}: " + c + " ✕";
+      coBtn.hidden = false;
+      coBtn.classList.add("on");
+    }} else {{
+      coBtn.hidden = true;
+      coBtn.classList.remove("on");
+    }}
+  }}
+  if (pc) {{
+    setCompany(pc);
+    var g = groupOf(pc);
+    if (g) {{
+      group = g;
+      var btn = document.querySelector('.chip-btn[data-group="' + g + '"]');
+      if (btn) btn.classList.add("on");
+    }}
+  }}
+  function apply() {{
+    var items = document.querySelectorAll(".list-item");
+    var n = 0;
+    items.forEach(function(el) {{
+      var ok = (group === "{t["groups"][0]}" || el.dataset.group === group) &&
+               (cat === "{t["cat_all"]}" || el.dataset.cat === cat) &&
+               (!company || el.dataset.company === company ||
+                 company.indexOf(el.dataset.company) > -1 || el.dataset.company.indexOf(company) > -1) &&
+               (!q || el.dataset.title.indexOf(q) > -1);
+      el.style.display = ok ? "" : "none";
+      if (ok) n++;
+    }});
+    document.getElementById("empty").hidden = n > 0;
+  }}
+  coBtn.addEventListener("click", function() {{
+    setCompany("");
+    group = "{t["groups"][0]}";
+    document.querySelectorAll("[data-group]").forEach(function(x) {{ x.classList.remove("on"); }});
+    document.querySelector('[data-group="{t["groups"][0]}"]').classList.add("on");
+    apply();
+  }});
+  document.querySelectorAll(".chip-btn[data-group],.chip-btn[data-cat]").forEach(function(b) {{
+    var isGroup = b.dataset.group !== undefined;
+    if (!pc || !isGroup) {{
+      if (isGroup && b.dataset.group === "{t["groups"][0]}") b.classList.add("on");
+      if (!isGroup && b.dataset.cat === "{t["cat_all"]}") b.classList.add("on");
+    }}
+    b.addEventListener("click", function() {{
+      document.querySelectorAll(isGroup ? "[data-group]" : "[data-cat]").forEach(function(x) {{ x.classList.remove("on"); }});
+      b.classList.add("on");
+      if (isGroup) {{ group = b.dataset.group; setCompany(""); }} else {{ cat = b.dataset.cat; }}
+      apply();
+    }});
+  }});
+  document.getElementById("q").addEventListener("input", function(e) {{
+    q = e.target.value.trim(); apply();
+  }});
+  apply();
+}})();
+</script>'''
+    return page(lang, t["news_title"], t["news_desc"], "news.html", content, "news.html")
+
+
+# ---------------- 企业页 ----------------
+def build_companies(lang):
+    t = T[lang]
+    blocks = []
+    for c in COMPANIES:
+        color = COMPANY_COLORS.get(c["name"], "#0a5c8c")
+        n = len([a for a in articles if co_matches(a["company"], c["name"])])
+        ce = COMPANIES_EN.get(c["id"], {})
+        name_disp = c["name_en"] if lang == "en" else c["name"]
+        name_sub = c["name"] if lang == "en" else c["name_en"]
+        tagline = ce.get("tagline", c["tagline"]) if lang == "en" else c["tagline"]
+        desc = ce.get("desc", c["desc"]) if lang == "en" else c["desc"]
+        group_disp = GROUP_EN.get(g_of(c["name"]), "") if lang == "en" else c["group"]
+        related = [a for a in articles if co_matches(a["company"], c["name"])][:3]
+        rel_html = ""
+        if related:
+            lis = "".join(
+                f'<li><a href="{lang_path(lang, "articles/" + a["id"] + ".html")}">{esc(a_title(a, lang))}</a>'
+                f'<span class="mini-date">{date_of(a["date"], lang)}</span></li>' for a in related)
+            rel_html = f'<div class="co-news"><h4>{t["related"]}</h4><ul>{lis}</ul></div>'
+        blocks.append(f'''
+  <section class="co-card" style="--co:{color}">
+    <div class="co-head">
+      <div class="co-avatar">{esc(c["name_en"][:2])}</div>
+      <div class="co-title">
+        <h3>{esc(name_disp)} <span class="co-en">{esc(name_sub)}</span></h3>
+        <p class="co-tagline">{esc(tagline)}</p>
+      </div>
+      <a class="co-link" href="{lang_path(lang, "news.html")}?company={esc(a_company({"company": c["name"]}, lang))}">{t["co_news"].replace("{n}", str(n))}</a>
+    </div>
+    <div class="co-meta">
+      <span>{t["ticker"]} {esc(c["ticker"])}</span><span>{t["hq"]} {esc(c["hq"] if lang == "zh" else _hq_en(c["hq"]))}</span><span>{esc(group_disp)}</span>
+    </div>
+    <p class="co-desc">{esc(desc)}</p>
+    {rel_html}
+    <a class="co-site" href="{c["site"]}" target="_blank" rel="noopener">{t["visit"]}</a>
+  </section>''')
+    content = f'''
+<section class="page-head">
+  <div class="wrap">
+    <h1>{t["co_h1"]}{f' <span>{t["co_h1_en"]}</span>' if t["co_h1_en"] else ''}</h1>
+    <p>{t["co_sub"]}</p>
+  </div>
+</section>
+<main class="wrap">
+  <div class="co-grid">{''.join(blocks)}</div>
+</main>'''
+    return page(lang, t["co_title"], t["co_desc"], "companies.html", content, "companies.html")
+
+
+HQ_EN = {"上海": "Shanghai", "北京": "Beijing", "天津": "Tianjin", "重庆 / 苏州": "Chongqing / Suzhou",
+         "上海 / 无锡": "Shanghai / Wuxi", "韩国仁川": "Incheon, South Korea", "瑞士巴塞尔": "Basel, Switzerland"}
+
+
+def _hq_en(hq):
+    return HQ_EN.get(hq, hq)
+
+
+# ---------------- 关于页 ----------------
+def build_about(lang):
+    if lang == "en":
+        content = ABOUT_EN
+        return page(lang, T["en"]["about_title"], T["en"]["about_desc"], "about.html", content, "about.html")
+    content = '''
+<section class="page-head">
+  <div class="wrap">
+    <h1>关于本站 <span>About</span></h1>
+    <p>cxmdo.com — CXDMO 行业资讯门户。</p>
+  </div>
+</section>
+<main class="wrap">
+  <div class="prose">
+    <h2>什么是 CXDMO？</h2>
+    <p>CXDMO 是 CRDMO（Contract Research, Development and Manufacturing Organization，合同研究、开发与生产组织）及其他类似医药外包业务形态的统称。它覆盖了从药物发现、工艺开发、临床前与临床研究，到商业化生产的全产业链服务，是创新药生态中连接 Biotech、Pharma 与产能的枢纽环节。</p>
+    <p>近年来，随着 ADC/XDC 等新分子浪潮、多肽与寡核苷酸（TIDES）赛道爆发，以及全球产能地理重构，CXDMO 行业正经历深刻变局：中国龙头以"成本+速度+一体化"重塑竞争格局，海外巨头则以并购与归核应对。</p>
+    <h2>本站定位</h2>
+    <p>CXDMO（cxmdo.com）是一个独立的行业资讯门户，持续追踪以下企业动态：</p>
+    <ul>
+      <li><b>药明系</b>：药明康德（小分子 CRDMO）、药明生物（大分子 CRDMO）、药明合联（ADC/XDC CRDMO）</li>
+      <li><b>国内 CXDMO</b>：康龙化成、凯莱英、博腾股份/博腾生物</li>
+      <li><b>海外前沿</b>：三星生物（Samsung Biologics）、Lonza（龙沙）</li>
+    </ul>
+    <p>内容维度涵盖：财报业绩、产能扩建、并购整合、战略合作、监管资质与行业趋势观察。</p>
+    <h2>内容来源与更新说明</h2>
+    <p>本站内容基于各公司官网新闻稿、上市公司公告、主流财经与行业媒体的公开报道整理撰写，每篇资讯均标注原始来源。微信公众号等封闭渠道的内容，本站通过其公开发布的等效新闻稿与权威转载渠道收录。</p>
+    <p>网站为静态架构，内容通过本地构建脚本生成，适合部署于 Cloudflare Pages 等静态托管平台。</p>
+    <h2>免责声明</h2>
+    <p>本站内容仅供行业资讯参考，不构成任何投资建议。数据与事实以企业官方披露为准；如内容涉及版权问题，请通过站点页面联系处理。</p>
+  </div>
+</main>'''
+    return page(lang, T["zh"]["about_title"], T["zh"]["about_desc"], "about.html", content, "about.html")
+
+
+# ---------------- 文章页 ----------------
+def build_article(lang, a):
+    t = T[lang]
+    p = f'articles/{a["id"]}.html'
+    related = [x for x in articles if x["id"] != a["id"] and
+               (x["company"] == a["company"] or x["category"] == a["category"])][:3]
+    rel_html = "".join(f'''
+      <article class="card">
+        <div class="card-top">{tag(lang, x["company"])}<span class="cat">{esc(a_cat(x, lang))}</span></div>
+        <h3 class="card-title"><a href="{lang_path(lang, f"articles/{x['id']}.html")}">{esc(a_title(x, lang))}</a></h3>
+        <div class="card-meta"><time>{date_of(x["date"], lang)}</time></div>
+      </article>''' for x in related)
+    paragraphs = "".join(f"<p>{esc(par)}</p>" for par in a_body(a, lang))
+    crumb_co = a_company(a, lang)
+    content = f'''
+<article class="article">
+  <div class="wrap">
+    <nav class="crumb"><a href="{lang_path(lang, "index.html")}">{t["home"]}</a> / <a href="{lang_path(lang, "news.html")}">{t["news_crumb"]}</a> / <a href="{lang_path(lang, "news.html")}?company={esc(crumb_co)}">{esc(crumb_co)}</a></nav>
+    <div class="art-head">
+      <div class="card-top">{tag(lang, a["company"])}<span class="cat">{esc(a_cat(a, lang))}</span></div>
+      <h1>{esc(a_title(a, lang))}</h1>
+      <div class="art-meta">
+        <time>{date_of(a["date"], lang)}</time>
+        <span>{t["source"]}<a href="{a["source_url"]}" target="_blank" rel="noopener">{esc(a["source"])} ↗</a></span>
+      </div>
+    </div>
+    <div class="prose">
+      <p class="lead">{esc(a_summary(a, lang))}</p>
+      {paragraphs}
+    </div>
+    <div class="art-src">{t["art_note"].replace("{s}", f'<a href="{a["source_url"]}" target="_blank" rel="noopener">{esc(a["source"])}</a>')}</div>
+  </div>
+</article>
+<section class="section related">
+  <div class="wrap">
+    <div class="section-head"><h2>{t["related"]}{f' <span>{t["related_en"]}</span>' if t["related_en"] else ''}</h2><a class="see-all" href="{lang_path(lang, "news.html")}">{t["all_news"]}</a></div>
+    <div class="card-grid three">{rel_html}</div>
+  </div>
+</section>'''
+    return page(lang, f'{a_title(a, lang)} — {SITE_NAME}', a_summary(a, lang), "news.html", content, p)
+
+
+# ---------------- CSS ----------------
+STYLE = '''/* CXDMO 资讯站 样式 */
+:root{
+  --primary:#0a5c8c; --primary-dark:#08496f; --accent:#0d8a6e;
+  --ink:#16232e; --muted:#5b6b7a; --faint:#8b98a5;
+  --line:#e3e9ef; --bg:#f6f8fa; --card:#fff;
+  --radius:12px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:16px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+img{max-width:100%}
+
+/* header */
+.site-header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;font-weight:800;font-size:15px;letter-spacing:.5px}
+.logo-text{font-size:22px;font-weight:800;color:var(--ink);letter-spacing:.5px}
+.logo-text em{font-style:normal;font-weight:500;color:var(--faint);font-size:15px}
+.nav-right{display:flex;align-items:center;gap:14px}
+.lang-switch{padding:5px 13px;border-radius:999px;border:1px solid var(--line);font-size:13px;font-weight:700;color:var(--primary);transition:.15s}
+.lang-switch:hover{border-color:var(--primary);background:var(--primary);color:#fff}
+.main-nav{display:flex;gap:6px}
+.main-nav a{padding:8px 16px;border-radius:8px;font-weight:600;font-size:15px;color:var(--muted);display:flex;flex-direction:column;line-height:1.2}
+.main-nav a span{font-size:11px;font-weight:400;color:var(--faint);letter-spacing:.5px}
+.main-nav a:hover{background:var(--bg);color:var(--primary)}
+.main-nav a.active{background:var(--primary);color:#fff}
+.main-nav a.active span{color:rgba(255,255,255,.75)}
+
+/* hero */
+.hero{background:linear-gradient(160deg,#0a5c8c 0%,#08496f 55%,#0d3f5e 100%);color:#fff;padding:72px 0 64px}
+.hero-kicker{font-size:13px;letter-spacing:3px;color:#9fd4c4;font-weight:700;margin-bottom:18px}
+.hero h1{font-size:42px;font-weight:800;letter-spacing:1px;margin-bottom:18px}
+.hero-sub{font-size:17px;color:rgba(255,255,255,.82);max-width:760px;margin-bottom:36px}
+.hero-stats{display:flex;gap:48px;margin-bottom:32px;flex-wrap:wrap}
+.stat b{display:block;font-size:34px;font-weight:800}
+.stat span{font-size:13px;color:rgba(255,255,255,.7)}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:7px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.35);color:#fff;font-size:14px;font-weight:600;transition:.2s}
+.chip:hover{background:rgba(255,255,255,.15)}
+
+/* sections */
+.section{padding:44px 0 8px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:22px}
+.section-head h2{font-size:24px;font-weight:800}
+.section-head h2 span{font-size:12px;font-weight:600;color:var(--faint);letter-spacing:2px;margin-left:10px;text-transform:uppercase}
+.see-all{font-size:14px;font-weight:600;color:var(--primary)}
+.see-all:hover{text-decoration:underline}
+
+/* cards */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card-grid.two{grid-template-columns:repeat(2,1fr)}
+.card-grid.three{grid-template-columns:repeat(3,1fr)}
+.card-grid.single{grid-template-columns:1fr}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:12px;transition:.2s}
+.card:hover{box-shadow:0 8px 24px rgba(10,60,95,.09);transform:translateY(-2px)}
+.card.featured{flex-direction:row;align-items:flex-start;gap:28px;padding:30px}
+.card-top{display:flex;align-items:center;gap:10px}
+.tag{font-size:12px;font-weight:700;color:var(--tag-color,#0a5c8c);background:color-mix(in srgb,var(--tag-color,#0a5c8c) 10%,white);padding:3px 10px;border-radius:6px}
+.cat{font-size:12px;color:var(--faint);font-weight:600}
+.card-title{font-size:18px;line-height:1.5;font-weight:700}
+.card.featured .card-title{font-size:24px}
+.card-title a:hover{color:var(--primary)}
+.card-sum{font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.card.featured .card-sum{-webkit-line-clamp:4;font-size:15px}
+.card-meta{margin-top:auto;display:flex;justify-content:space-between;font-size:13px;color:var(--faint)}
+.more{color:var(--primary);font-weight:600;font-size:13px}
+
+/* page head */
+.page-head{background:#fff;border-bottom:1px solid var(--line);padding:48px 0 40px}
+.page-head h1{font-size:32px;font-weight:800}
+.page-head h1 span{font-size:13px;color:var(--faint);letter-spacing:2px;margin-left:12px;font-weight:600;text-transform:uppercase}
+.page-head p{color:var(--muted);margin-top:10px}
+
+/* filter bar */
+.filter-bar{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;margin:28px 0;display:flex;flex-direction:column;gap:12px}
+.filter-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.filter-label{font-size:13px;font-weight:700;color:var(--faint);width:64px;flex-shrink:0}
+.chip-btn{padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;transition:.15s}
+.chip-btn:hover{border-color:var(--primary);color:var(--primary)}
+.chip-btn.on{background:var(--primary);border-color:var(--primary);color:#fff}
+#q{flex:1;min-width:220px;padding:8px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;outline:none}
+#q:focus{border-color:var(--primary)}
+
+/* news list */
+.news-list{display:flex;flex-direction:column;gap:16px;padding-bottom:40px}
+.list-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px 26px;display:flex;flex-direction:column;gap:10px;transition:.15s}
+.list-item:hover{box-shadow:0 6px 18px rgba(10,60,95,.08)}
+.list-item .card-title{font-size:19px}
+.list-item .card-sum{-webkit-line-clamp:2}
+.empty{color:var(--faint);text-align:center;padding:40px 0}
+
+/* companies */
+.co-grid{display:flex;flex-direction:column;gap:22px;padding:32px 0 48px}
+.co-card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--co,var(--primary));border-radius:var(--radius);padding:28px 32px}
+.co-head{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.co-avatar{width:54px;height:54px;border-radius:12px;background:color-mix(in srgb,var(--co,var(--primary)) 12%,white);color:var(--co,var(--primary));display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;flex-shrink:0}
+.co-title h3{font-size:22px;font-weight:800}
+.co-en{font-size:14px;color:var(--faint);font-weight:500;margin-left:8px}
+.co-tagline{font-size:14px;color:var(--co,var(--primary));font-weight:600;margin-top:2px}
+.co-link{margin-left:auto;font-size:14px;font-weight:700;color:var(--primary);white-space:nowrap}
+.co-meta{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:16px 0 10px}
+.co-meta span{background:var(--bg);padding:3px 12px;border-radius:6px}
+.co-desc{font-size:15px;color:var(--muted);max-width:860px}
+.co-news{margin-top:18px;border-top:1px dashed var(--line);padding-top:16px}
+.co-news h4{font-size:14px;color:var(--ink);margin-bottom:10px}
+.co-news ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.co-news li{display:flex;justify-content:space-between;gap:16px;font-size:14px}
+.co-news li a{color:var(--muted)}
+.co-news li a:hover{color:var(--primary)}
+.mini-date{color:var(--faint);font-size:12px;white-space:nowrap}
+.co-site{display:inline-block;margin-top:16px;font-size:13px;font-weight:600;color:var(--primary)}
+
+/* article */
+.article{padding:36px 0 12px}
+.crumb{font-size:13px;color:var(--faint);margin-bottom:24px}
+.crumb a:hover{color:var(--primary)}
+.art-head{max-width:820px;margin-bottom:28px}
+.art-head h1{font-size:30px;line-height:1.45;font-weight:800;margin:14px 0 18px}
+.art-meta{display:flex;gap:24px;font-size:14px;color:var(--faint);flex-wrap:wrap}
+.art-meta a{color:var(--primary);font-weight:600}
+.prose{max-width:820px}
+.prose h2{font-size:22px;margin:34px 0 14px;font-weight:800}
+.prose p{margin-bottom:18px;color:#2a3a47;font-size:16.5px}
+.prose .lead{font-size:18px;color:var(--ink);font-weight:600;border-left:3px solid var(--primary);padding-left:18px}
+.prose ul{margin:0 0 18px 22px;color:#2a3a47}
+.prose li{margin-bottom:8px}
+.art-src{max-width:820px;margin-top:28px;background:var(--bg);border-radius:10px;padding:14px 18px;font-size:13px;color:var(--muted)}
+.art-src a{color:var(--primary);font-weight:600}
+.related{padding-bottom:56px}
+
+/* footer */
+.site-footer{background:#0e2433;color:#aebccb;margin-top:56px}
+.footer-inner{display:grid;grid-template-columns:2fr 1fr 1.4fr;gap:40px;padding:48px 24px 36px}
+.footer-logo{margin-bottom:14px}
+.footer-logo .logo-text{color:#fff}
+.footer-brand p{font-size:14px;color:#8ba0b3}
+.footer-col h4{color:#fff;font-size:15px;margin-bottom:14px}
+.footer-col a{display:block;font-size:14px;color:#8ba0b3;margin-bottom:8px}
+.footer-col a:hover{color:#fff}
+.footer-col .small{font-size:13px;color:#71879b}
+.footer-bottom{border-top:1px solid #1d3a4f;padding:18px 24px;font-size:13px;color:#71879b}
+
+@media (max-width:900px){
+  .card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr 1fr}
+  .card.featured{flex-direction:column}
+  .hero h1{font-size:32px}
+  .footer-inner{grid-template-columns:1fr}
+  .br{display:none}
+}
+@media (max-width:620px){
+  .card-grid,.card-grid.two,.card-grid.three{grid-template-columns:1fr}
+  .main-nav a span{display:none}
+  .main-nav a{padding:8px 10px;font-size:14px}
+  .lang-switch{padding:4px 10px;font-size:12px}
+  .co-link{margin-left:0}
+  .hero{padding:48px 0}
+  .hero h1{font-size:28px}
+}
+'''
+
+
+def build():
+    os.makedirs(os.path.join(ROOT, "articles"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "en", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
+
+    files = {}
+    for lang in ("zh", "en"):
+        pfx = "en/" if lang == "en" else ""
+        files[f"{pfx}index.html"] = build_index(lang)
+        files[f"{pfx}news.html"] = build_news(lang)
+        files[f"{pfx}companies.html"] = build_companies(lang)
+        files[f"{pfx}about.html"] = build_about(lang)
+        for a in articles:
+            files[f"{pfx}articles/{a['id']}.html"] = build_article(lang, a)
+    files["assets/style.css"] = STYLE
+
+    # sitemap（双语）
+    sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for a in articles:
+        for pfx in ("", "en/"):
+            sm += (f"  <url><loc>{DOMAIN}/{pfx}articles/{a['id']}.html</loc>"
+                   f"<lastmod>{date_iso(a['date'])}</lastmod></url>\n")
+    for pfx in ("", "en/"):
+        for p in ("", "news.html", "companies.html", "about.html"):
+            sm += f"  <url><loc>{DOMAIN}/{pfx}{p}</loc></url>\n"
+    sm += "</urlset>\n"
+    files["sitemap.xml"] = sm
+    files["robots.txt"] = f"User-agent: *\nAllow: /\nSitemap: {DOMAIN}/sitemap.xml\n"
+
+    for path, content in files.items():
+        full = os.path.join(ROOT, path)
+        os.makedirs(os.path.dirname(full), exist_ok=True)
+        with open(full, "w", encoding="utf-8") as f:
+            f.write(content)
+    print(f"Done. {len(articles)} articles x 2 languages, {len(COMPANIES)} companies, {len(files)} files.")
+
+
+if __name__ == "__main__":
+    build()

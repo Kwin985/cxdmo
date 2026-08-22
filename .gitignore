@@ -1,0 +1,7 @@
+# 忽略个人工作记忆与 Python 缓存
+.workbuddy/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
