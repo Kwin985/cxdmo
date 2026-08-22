@@ -5,7 +5,7 @@
 > Samsung Biologics and Lonza. Results, capacity, M&A and partnerships.
 
 ## Pages
-- [Home](https://cxdmo.com/): hero, top story and latest news (17 total stories).
+- [Home](https://cxdmo.com/): hero, top story and latest news (18 total stories).
 - [News](https://cxdmo.com/news.html): filterable by segment, category and keyword.
 - [Companies](https://cxdmo.com/companies.html): profiles for 8 tracked CXDMO organizations.
 - [About](https://cxdmo.com/about.html): what is a CXDMO, sources and disclaimer.
