@@ -4,7 +4,7 @@
 输出: 英文版（根路径，默认）+ 中文版（/zh/）
   index.html / news.html / companies.html / about.html
   articles/<id>.html | zh/index.html / zh/news.html / ... / zh/articles/<id>.html
-  边缘语言分流见 worker.js（按 Cookie cxdmo_lang 或 Accept-Language 在 / 与 .html 页面重定向）
+  边缘语言分流见 worker.js（仅根路径 / 按 Cookie cxdmo_lang 或 Accept-Language 分流；.html 页面直出 200 并中和 Cloudflare Clean URLs 的 .html->无扩展名 307，避免 GSC 重定向错误）
   assets/style.css / sitemap.xml / robots.txt
 """
 import os
