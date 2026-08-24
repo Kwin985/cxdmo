@@ -206,6 +206,17 @@ ARTICLES_EN = {
             "Orders and full-year outlook: the company noted that relevant orders typically concentrate in H2 delivery, and therefore guides full-year 2026 revenue to grow 19%–22%. Although Q1 attributable net profit fell 6.82% YoY, Q2 completed a bottom-up inflection. That said, peptide commercial orders have long cycles and uneven revenue recognition, and with overseas customers making up a high share of revenue, geopolitical policy shifts and customer capex cuts remain potential headwinds.",
         ],
     },
+    "wuxi-xdc-h1-2026": {
+        "title": "WuXi XDC H1 2026: Revenue RMB 3.70B, Up 37.0%; Adjusted Net Profit RMB 1.03B, Up 37.4%",
+        "summary": "H1 revenue RMB 3,701.4M (+37.0% AER / +41.5% CER), gross profit RMB 1,371.3M (+40.6%), adjusted net profit attributable to owners RMB 1,027.3M (+37.4%) at a 27.8% margin; 814 global clients, 328 iCMC programs, backlog ~US$2.0B (+50.4%); Singapore XmAb/XBCM3 achieved GMP release in August and BioDlink integration completed.",
+        "body": [
+            "On August 24, 2026, WuXi XDC Cayman Inc. (2268.HK), a leading global bioconjugate CRDMO, announced its interim results for the six months ended June 30, 2026. Group revenue increased to RMB 3,701.4 million, representing 37.0% year-over-year growth on an actual exchange rate (AER) basis and 41.5% on a constant exchange rate (CER) basis. The growth was primarily driven by continued expansion of the global ADC and broader XDC market, the company's rising share as a leading ADC CRDMO, and the steady advancement of its projects into later stages.",
+            "Margins and profitability improved in tandem: gross profit grew 40.6% to RMB 1,371.3 million, with a gross margin of 37.0% (up 0.9 ppts from 2025 1H); adjusted net profit attributable to owners rose 37.4% to RMB 1,027.3 million, with the adjusted margin holding steady at 27.8% (up 0.1 ppt). The improvement reflected gains in operating and manufacturing efficiency, high capacity utilization on strong demand, successful ramp-up of production lines and a higher share of value-added services, together with disciplined SG&A control.",
+            "The customer and project base scaled further: the global customer total reached 814, with 15 of the top-20 global pharma companies now engaged; integrated CMC (iCMC) programs totaled 328 (51 newly signed in H1), including 286 integrated ADC and 42 integrated XDC programs. The commercial and PPQ pipeline comprised 2 commercial projects and 21 PPQ programs (2 newly signed in H1). In H1 the Group explored over 3,100 bioconjugate molecules and has cumulatively explored over 22,000 ADC/XDC molecules. Service backlog grew to ~US$2.0B (+50.4% YoY); including potential milestone fees, total backlog reached ~US$2.2B (+62.2% YoY).",
+            "The integrated technology platform kept iterating. The clinically validated WuXiDARx™ conjugation platform has advanced 8 ADC pipelines from preclinical to clinical stages, with WuXiDAR4™ enabling 10+ iCMC programs (8 in clinical development). Within WuXi Payload-Linker™, the exatecan-based WuXiTecan-2™ has been applied via licensing to 3 iCMC-stage programs (with Earendil Labs and a European biotech) and pushed the first dual-payload ADC (MMAE + WuXiTecan-2™) from PCC into iCMC development; X-LinC™, a stable conjugation connector, improves in-vivo ADC stability by reducing payload-linker deconjugation.",
+            "Capacity and operations expanded: headcount rose to 3,628, with WuXi XDC's standalone workforce over 3,100 and more than 50% holding a master's degree or above; the Group has completed 200+ global client GMP audits, including 27 EU QP audits. The acquisition of BioDlink closed in March 2026, adding capacity and clients; in August the Singapore site's XmAb/XBCM3 achieved GMP release, marking the Group's first manufacturing site outside mainland China, with XDP4 scheduled for GMP release by end-August. Looking ahead, Wuxi will add XDP5/XDP6 drug-product lines and Jiangyin's XPLM2 will secure vertical integration of the critical payload-linker supply chain. The company was named 'Best CDMO' for three consecutive years (2023–2025) at the World ADC Awards and 'Best CRO' in 2025.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
@@ -219,7 +230,7 @@ COMPANIES_EN = {
     },
     "wuxi-xdc": {
         "tagline": "ADC / Bioconjugate CRDMO",
-        "desc": "The global leading bioconjugate CRDMO with a one-stop ADC development and manufacturing platform. FY2025 revenue of RMB 5.94B (+46.7%) with a USD 1.49B backlog; the Singapore BCM3 line completed GMP release in August 2026.",
+        "desc": "The global leading bioconjugate CRDMO with a one-stop ADC development and manufacturing platform. H1 2026 revenue of RMB 3.70B (+37.0% AER) with adjusted net profit attributable to owners of RMB 1.03B (+37.4%), 814 global clients and 328 iCMC programs; the Singapore BCM3 line completed GMP release in August 2026.",
     },
     "pharmaron": {
         "tagline": "Multi-Modality R&D & Manufacturing Services",
