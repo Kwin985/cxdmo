@@ -9,6 +9,8 @@
 """
 import os
 import json
+import re
+import difflib
 from content import ARTICLES, COMPANIES
 from content_en import ARTICLES_EN, COMPANIES_EN
 
@@ -56,6 +58,86 @@ CAT_EN = {
 }
 
 articles = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)
+
+
+def _norm_title(t):
+    """去除空白与常见标点、统一小写（拉丁字母），用于标题近似比对。"""
+    t = (t or "").strip().lower()
+    t = re.sub(r'[\s\u3000，。、：:；;！!？?“”"\'‘’（）()【】\[\]《》<>—\-·•·.。/]+', "", t)
+    return t
+
+
+def validate_articles():
+    """新增文章时的去重防护。
+
+    检测的重复类型：
+      1) 重复 id                       —— 硬错误（构建中止）
+      2) 重复来源 URL                  —— 硬错误（同一条微信/官网原文被两次收录 = 几乎确定重复）
+      3) 重复标题（中/英，精确）        —— 警告（标题完全相同 = 高概率重复）
+      4) 同公司 + 同日 + 标题相似 >=60% —— 警告（捕捉「同一事件换不同来源」型重复，如 BCM3 微信稿 vs 雪球转载）
+    仅警告不中止，便于人工确认；硬错误直接 SystemExit(1)，避免误部署。
+    """
+    errors, warnings = [], []
+    seen_id, seen_url, seen_title_zh, seen_title_en = {}, {}, {}, {}
+
+    for a in articles:
+        aid = a["id"]
+        # 1) 重复 id
+        if aid in seen_id:
+            errors.append(f"重复 id: '{aid}'（与 '{seen_id[aid]}' 冲突）")
+        else:
+            seen_id[aid] = aid
+        # 2) 重复来源 URL
+        url = (a.get("source_url") or "").strip()
+        if url:
+            if url in seen_url:
+                errors.append(f"重复来源 URL: {url}（'{aid}' 与 '{seen_url[url]}' 疑似同一原文）")
+            else:
+                seen_url[url] = aid
+        # 3) 重复标题（中文精确）
+        tzh = _norm_title(a["title"])
+        if tzh in seen_title_zh:
+            warnings.append(f"重复标题(中): 「{a['title']}」—— '{aid}' 与 '{seen_title_zh[tzh]}' 标题完全相同")
+        else:
+            seen_title_zh[tzh] = aid
+        # 3) 重复标题（英文精确）
+        en = ARTICLES_EN.get(aid, {})
+        ten = _norm_title(en.get("title", "")) if en else ""
+        if ten:
+            if ten in seen_title_en:
+                warnings.append(f"重复标题(英): 「{en.get('title')}」—— '{aid}' 与 '{seen_title_en[ten]}' 标题完全相同")
+            else:
+                seen_title_en[ten] = aid
+
+    # 4) 同公司 + 同日 + 标题相似（捕捉换来源的同类事件重复）
+    for i in range(len(articles)):
+        for j in range(i + 1, len(articles)):
+            a, b = articles[i], articles[j]
+            if a["company"] == b["company"] and a["date"] == b["date"]:
+                ra = difflib.SequenceMatcher(None, _norm_title(a["title"]),
+                                             _norm_title(b["title"])).ratio()
+                rb = difflib.SequenceMatcher(None,
+                                             _norm_title(ARTICLES_EN.get(a["id"], {}).get("title", "")),
+                                             _norm_title(ARTICLES_EN.get(b["id"], {}).get("title", ""))).ratio()
+                if ra >= 0.6 or rb >= 0.6:
+                    warnings.append(
+                        f"疑似同一事件: '{a['id']}' 与 '{b['id']}'（同公司 {a['company']} 同日 {a['date']}，"
+                        f"标题相似度 {max(ra, rb):.0%}）—— 请确认是否为重复文章")
+
+    if errors:
+        print("✖ 去重校验失败（构建中止，未生成文件）：")
+        for e in errors:
+            print("   - " + e)
+        raise SystemExit(1)
+    if warnings:
+        print("⚠ 去重校验警告（请确认是否为重复文章；构建继续）：")
+        for w in warnings:
+            print("   - " + w)
+    else:
+        print("✓ 去重校验通过：无重复 id / 来源 URL / 标题。")
+
+
+
 
 
 def esc(s):
@@ -948,6 +1030,7 @@ img{max-width:100%}
 
 
 def build():
+    validate_articles()  # 新增文章去重防护：重复 id / 来源 URL 中止，重复标题/同事件近似告警
     os.makedirs(os.path.join(ROOT, "articles"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "zh", "articles"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
