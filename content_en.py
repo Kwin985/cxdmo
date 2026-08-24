@@ -186,6 +186,16 @@ ARTICLES_EN = {
             "Speed also came from parallel CMC execution: analytical method development and validation advanced alongside GMP API scale-up, and the drug product team screened 30+ formulation prototypes within ~5 weeks, achieving a stable injectable peptide solution above 100 mg/mL. With UAA supply, API process optimization, analytical work, formulation and CTM manufacturing advancing without idle time, CTM manufacturing, packaging and release were completed within 3 months, and the overall program — from onboarding to Phase 2 CTM release — took 11 months.",
         ],
     },
+    "biodlink-h1-2026": {
+        "title": "BioDlink 2026 Interim Results: CDMO Revenue RMB 199M, Up 157% YoY, Now Part of the WuXi XDC Platform",
+        "summary": "H1 2026 CDMO revenue reached RMB 199M (+157.0% YoY); cumulative customers totaled 116 (16 overseas); 134 CMC projects with 14 added in H1; first commercial-CDMO order secured for Lepu Biopharma's ADC Meiyouheng®; backlog RMB 391M (+95.5% YoY). WuXi XDC completed its tender on 2026-03-31 and held ~60.67% as of end-June.",
+        "body": [
+            "BioDlink International (1875.HK) reported its unaudited interim results for the six months ended 30 June 2026 — its first full reporting period since joining the WuXi XDC platform. CDMO revenue reached RMB 199M, up 157.0% year-on-year, with a cumulative customer base of 116 (including 16 overseas), reflecting continued global expansion. Total CMC projects stood at 134, with 14 added in H1; 6 PPQ (Process Performance Qualification) projects were secured cumulatively; and the company won its first commercial-CDMO assignment — a formal commercial manufacturing order for Lepu Biopharma's ADC, Meiyouheng®. Order backlog (signed but unfulfilled) reached RMB 391M, up 95.5% YoY. BioDlink was named an outstanding innovation case in the 2025 White Paper on Innovative Drugs and Supply Chains and was awarded \"Emerging CDMO of the Year\" by IMAPAC.",
+            "Acquisition and integration advanced materially: WuXi XDC (2268.HK) completed its voluntary conditional cash offer for BioDlink on 31 March 2026 and, as of 30 June 2026, held approximately 60.67% of the company as controlling shareholder. During the period BioDlink entered continuing connected transaction agreements with WuXi XDC and a connected transaction agreement with WuXi Biologics (2269.HK), deeply integrating into the WuXi XDC ecosystem and sharing its end-to-end ADC R&D and manufacturing capabilities, with smooth post-merger integration progress.",
+            "On technology platforms, BioDlink continued to strengthen its proprietary moat: the GL-DisacLink® site-specific glycosylation conjugation platform has supported close to 500 early-stage innovative molecular programs, with its first program completing end-to-end ADC process development, GMP manufacturing and FDA IND submission within four months; the BDKcell® (CHO-K1) cell-line platform paired with in-house BDKMedia™ media enables self-sufficient upstream supply; and the BDKLyo® intelligent lyophilisation modelling platform cuts conventional lyophilisation development timelines by more than 50% using just 1–2 experimental rounds, reducing consumable and energy costs.",
+            "Commercial products and global footprint advanced in parallel: Pusintin® (Bevacizumab Injection) has been approved in seven markets (with Syria and Mexico added in H1 2026) and accepted for marketing applications in 29 overseas jurisdictions. The company operates four commercial manufacturing lines with large-scale sterile fill-finish capability, backed by a global GMP-aligned quality system that has earned PMDA accreditation in Japan and supported product approvals across China, Indonesia, Nigeria, Pakistan, Colombia and Bolivia. Guided by \"Quality First, Innovation Driven, Success Together,\" BioDlink will continue to expand in the XDC market leveraging WuXi XDC's dual-site global synergy.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
@@ -220,5 +230,9 @@ COMPANIES_EN = {
     "lonza": {
         "tagline": "One of the World's Largest CDMOs",
         "desc": "A Swiss-headquartered global CDMO giant spanning biologics, advanced synthesis (small molecules/bioconjugates), drug product and cell & gene therapy. Built end-to-end ADC capability on the integrated Synaffix platform, with ongoing expansion in Visp, Stein and Vacaville.",
+    },
+    "biodlink": {
+        "tagline": "Biologics & ADC/XDC CDMO",
+        "desc": "A controlled subsidiary of WuXi XDC, BioDlink is a global biologics and bioconjugate (ADC/XDC) CDMO providing end-to-end services from early R&D through commercial manufacturing. Built on an integrated one-base platform and proprietary technologies such as GL-DisacLink®, BDKcell® and BDKLyo®, it operates four commercial manufacturing lines with large-scale sterile fill-finish capability, backed by a global GMP-aligned quality system accredited by Japan's PMDA. H1 2026 CDMO revenue reached RMB 199M, up 157% YoY.",
     },
 }

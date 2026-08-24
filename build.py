@@ -33,6 +33,7 @@ COMPANY_COLORS = {
     "博腾股份": "#1f6f8b", "博腾生物": "#1f6f8b", "博腾股份 / 博腾生物": "#1f6f8b",
     "三星生物": "#1746a2",
     "Lonza": "#8a6d1f", "Lonza 龙沙": "#8a6d1f",
+    "东曜药业 / BioDlink": "#3a7d44",
     "行业观察": "#5b6b7a",
 }
 
@@ -49,6 +50,7 @@ CO_EN = {
     "三星生物": "Samsung Biologics",
     "Lonza": "Lonza",
     "Lonza 龙沙": "Lonza",
+    "东曜药业 / BioDlink": "BioDlink (TOT Biopharm)",
     "行业观察": "Industry Insight",
 }
 GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight"}

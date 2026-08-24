@@ -5,15 +5,16 @@
 > Samsung Biologics and Lonza. Results, capacity, M&A and partnerships.
 
 ## Pages
-- [Home](https://cxdmo.com/): hero, top story and latest news (18 total stories).
+- [Home](https://cxdmo.com/): hero, top story and latest news (19 total stories).
 - [News](https://cxdmo.com/news.html): filterable by segment, category and keyword.
-- [Companies](https://cxdmo.com/companies.html): profiles for 8 tracked CXDMO organizations.
+- [Companies](https://cxdmo.com/companies.html): profiles for 9 tracked CXDMO organizations.
 - [About](https://cxdmo.com/about.html): what is a CXDMO, sources and disclaimer.
 
 ## Companies tracked
 - [WuXi AppTec (药明康德)](https://www.wuxiapptec.cn/): 小分子 CRDMO 一体化平台
 - [WuXi Biologics (药明生物)](https://www.wuxibiologics.com.cn/): 大分子 CRDMO 龙头
 - [WuXi XDC (药明合联)](https://wuxixdc.com/): ADC / 生物偶联药 CRDMO
+- [BioDlink (TOT Biopharm) (东曜药业 / BioDlink)](https://www.biodlink.com/): 生物药与 ADC/XDC CDMO
 - [Pharmaron (康龙化成)](https://www.pharmaron.cn/): 多疗法研发生产服务平台
 - [Asymchem (凯莱英)](https://www.asymchem.com.cn/): 小分子 CDMO + 新兴业务
 - [Porton (博腾股份 / 博腾生物)](https://www.portonpharma.com/): 小分子 API + CGT + 新分子
