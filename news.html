@@ -47,7 +47,7 @@
 <section class="page-head">
   <div class="wrap">
     <h1>All News</h1>
-    <p>21 industry stories, filterable by segment, category and keyword.</p>
+    <p>22 industry stories, filterable by segment, category and keyword.</p>
   </div>
 </section>
 <main class="wrap">
@@ -57,6 +57,14 @@
     <div class="filter-row"><span class="filter-label">Search</span><input id="q" type="search" placeholder="Keywords, e.g. ADC, peptide, capacity…"></div>
   </div>
   <div class="news-list" id="newsList">
+      <article class="list-item" data-group="WuXi Group" data-cat="Results"
+               data-company="WuXi Biologics"
+               data-title="WuXi Biologics H1 2026: Revenue RMB 11.8B, Up 18.4%; Adjusted Net Profit RMB 3.9B, Up 38.6%H1 revenue RMB 11.8B (+18.4% / +23.4% in USD), adjusted gross margin 48.4% (+2.8 ppts), adjusted net profit RMB 3.9B (+38.6%), free cash flow RMB 1.5B (5th year positive); total backlog US$25.1B, 1,064 integrated projects, 68 INDs filed, WuXia™ TrueSite in 70+ programs; BestChrom 51.1% stake sale and global capacity build-out.">
+        <div class="card-top"><a class="tag" href="/news.html?company=WuXi Biologics" style="--tag-color:#0d8a6e">WuXi Biologics</a><span class="cat">Results</span></div>
+        <h3 class="card-title"><a href="/articles/wuxi-biologics-h1-2026.html">WuXi Biologics H1 2026: Revenue RMB 11.8B, Up 18.4%; Adjusted Net Profit RMB 3.9B, Up 38.6%</a></h3>
+        <p class="card-sum">H1 revenue RMB 11.8B (+18.4% / +23.4% in USD), adjusted gross margin 48.4% (+2.8 ppts), adjusted net profit RMB 3.9B (+38.6%), free cash flow RMB 1.5B (5th year positive); total backlog US$25.1B, 1,064 integrated projects, 68 INDs filed, WuXia™ TrueSite in 70+ programs; BestChrom 51.1% stake sale and global capacity build-out.</p>
+        <div class="card-meta"><time>Aug 25, 2026</time></div>
+      </article>
       <article class="list-item" data-group="Domestic" data-cat="Results"
                data-company="Asymchem"
                data-title="Asymchem 2026 Half-Year Report (A-Share): Revenue RMB 3.607B, Up 13.13%; Net Profit RMB 520M, Down 15.71%; Full-Year Guidance +19%–22%H1 revenue RMB 3.607B (+13.13% YoY); net profit attributable to shareholders RMB 520M (-15.71%); deduct-non-recurring net profit RMB 525M (-7.30%); operating cash flow RMB 822M (+17.18%); total assets RMB 20.83B, net assets RMB 17.74B; no dividend. Full-year 2026 revenue guided to grow 19%–22%.">
@@ -230,7 +238,7 @@
 <script>
 (function() {
   var group = "All", cat = "All", q = "", company = "";
-  var map = {"Asymchem": "Domestic", "WuXi XDC": "WuXi Group", "Porton Pharma": "Domestic", "WuXi AppTec": "WuXi Group", "BioDlink (TOT Biopharm)": "WuXi Group", "Pharmaron": "Domestic", "Industry Insight": "Insight", "WuXi Biologics": "WuXi Group", "Porton Bio": "Domestic", "Samsung Biologics": "Global", "Lonza": "Global", "Porton": "Domestic"};
+  var map = {"WuXi Biologics": "WuXi Group", "Asymchem": "Domestic", "WuXi XDC": "WuXi Group", "Porton Pharma": "Domestic", "WuXi AppTec": "WuXi Group", "BioDlink (TOT Biopharm)": "WuXi Group", "Pharmaron": "Domestic", "Industry Insight": "Insight", "Porton Bio": "Domestic", "Samsung Biologics": "Global", "Lonza": "Global", "Porton": "Domestic"};
   var params = new URLSearchParams(location.search);
   var pc = params.get("company");
   var coBtn = document.getElementById("coFilter");

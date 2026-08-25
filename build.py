@@ -187,6 +187,18 @@ def a_cat(a, lang):
     return CAT_EN.get(a["category"], a["category"]) if lang == "en" else a["category"]
 
 
+def a_source(a, lang):
+    if lang == "en":
+        return ARTICLES_EN.get(a["id"], {}).get("source", a["source"])
+    return a["source"]
+
+
+def a_source_url(a, lang):
+    if lang == "en":
+        return ARTICLES_EN.get(a["id"], {}).get("source_url", a["source_url"])
+    return a["source_url"]
+
+
 def g_of(company):
     for c in COMPANIES:
         if company in c["name"] or c["name"] in company:
@@ -833,14 +845,14 @@ def build_article(lang, a):
       <h1>{esc(a_title(a, lang))}</h1>
       <div class="art-meta">
         <time>{date_of(a["date"], lang)}</time>
-        <span>{t["source"]}<a href="{a["source_url"]}" target="_blank" rel="noopener">{esc(a["source"])} ↗</a></span>
+        <span>{t["source"]}<a href="{a_source_url(a, lang)}" target="_blank" rel="noopener">{esc(a_source(a, lang))} ↗</a></span>
       </div>
     </div>
     <div class="prose">
       <p class="lead">{esc(a_summary(a, lang))}</p>
       {paragraphs}
     </div>
-    <div class="art-src">{t["art_note"].replace("{s}", f'<a href="{a["source_url"]}" target="_blank" rel="noopener">{esc(a["source"])}</a>')}</div>
+    <div class="art-src">{t["art_note"].replace("{s}", f'<a href="{a_source_url(a, lang)}" target="_blank" rel="noopener">{esc(a_source(a, lang))}</a>')}</div>
   </div>
 </article>
 <section class="section related">

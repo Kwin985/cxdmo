@@ -217,6 +217,19 @@ ARTICLES_EN = {
             "Capacity and operations expanded: headcount rose to 3,628, with WuXi XDC's standalone workforce over 3,100 and more than 50% holding a master's degree or above; the Group has completed 200+ global client GMP audits, including 27 EU QP audits. The acquisition of BioDlink closed in March 2026, adding capacity and clients; in August the Singapore site's XmAb/XBCM3 achieved GMP release, marking the Group's first manufacturing site outside mainland China, with XDP4 scheduled for GMP release by end-August. Looking ahead, Wuxi will add XDP5/XDP6 drug-product lines and Jiangyin's XPLM2 will secure vertical integration of the critical payload-linker supply chain. The company was named 'Best CDMO' for three consecutive years (2023–2025) at the World ADC Awards and 'Best CRO' in 2025.",
         ],
     },
+    "wuxi-biologics-h1-2026": {
+        "title": "WuXi Biologics H1 2026: Revenue RMB 11.8B, Up 18.4%; Adjusted Net Profit RMB 3.9B, Up 38.6%",
+        "summary": "H1 revenue RMB 11.8B (+18.4% / +23.4% in USD), adjusted gross margin 48.4% (+2.8 ppts), adjusted net profit RMB 3.9B (+38.6%), free cash flow RMB 1.5B (5th year positive); total backlog US$25.1B, 1,064 integrated projects, 68 INDs filed, WuXia™ TrueSite in 70+ programs; BestChrom 51.1% stake sale and global capacity build-out.",
+        "source": "WuXi Biologics official WeChat (2026 Interim Results)",
+        "source_url": "https://mp.weixin.qq.com/s/QwWUG9Ddona4jLNCAozFKA",
+        "body": [
+            "On August 25, 2026, WuXi Biologics (2269.HK) announced its 2026 interim results: H1 revenue reached RMB 11.8B, up 18.4% year-over-year (23.4% in USD terms). Despite adverse FX, the adjusted gross margin still improved 2.8 ppts to 48.4%, with IFRS gross margin at 46.2% (+3.5 ppts), as scale effects and higher production efficiency drove profitable growth.",
+            "Profitability and cash generation strengthened together: IFRS net profit rose 5.8% to RMB 2.9B, while adjusted net profit grew 38.6% to RMB 3.9B; basic EPS was RMB 0.60 (+3.4%) and adjusted basic EPS RMB 0.81 (+37.3%); EBITDA reached RMB 4.4B (+3.5%) and adjusted EBITDA RMB 5.4B (+24.9%); free cash flow was RMB 1.5B, positive for the 5th consecutive year. At period end, total backlog stood at US$25.1B, including a 3-year backlog of US$5.5B (up ~30% YoY).",
+            "Project and 'Win-the-Molecule' momentum was strong: 169 new integrated projects were added in H1 — 123 organic adds (up 43% YoY, a record high) plus 46 contributed by WuXi XDC's BioDlink acquisition — bringing total integrated projects to 1,064, including 78 Phase III and 28 commercial programs, with complex-molecule projects exceeding 50% of the total. Win-the-Molecule added 16 programs in H1 (including 4 Phase III and 1 commercial), 128 cumulative since 2018; the Group completed 68 IND filings in H1, with PPQ runs scheduled at 34 in 2026 and 30 in 2027 at a 100% success rate.",
+            "Technology differentiation is converting to commercial edge: WuXia™ TrueSite, launched in October 2025, has already been applied to 70+ programs, shortening DNA-to-IND to six months. Global capacity advanced on multiple fronts: Shanghai Fengxian MFG17 completed its first GMP run, the Chengdu microbial facility was topped out, and the Transcenta Hangzhou site acquisition is planned; in the US, MFG11 (36,000 L) is under construction and MFG18 is being upgraded to commercial; the Singapore DP plant is scheduled for 2027; and the Ireland site secured three major programs. In July 2026 the company signed to sell a 51.1% stake in BestChrom (close expected in December, deconsolidation) to optimize its portfolio.",
+            "Talent and quality foundations stayed solid: as of June 30, 2026 the company had 14,705 employees (including 5,180 scientists) with a 98.7% key-talent retention rate; since 2017 it has completed 49 global inspections with no critical deficiencies and operates 15 GMP-certified facilities. WuXi Biologics was named 'Biologics CDMO of the Year 2026' and 'Best Contract Development and Manufacturing Organization 2026'. CEO Dr. Chris Chen noted that broad-based demand growth plus scale effects and efficiency gains drove the profitable expansion, while Chairman Dr. Ge Li emphasized the long-term value of the integrated CRDMO platform.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
@@ -226,7 +239,7 @@ COMPANIES_EN = {
     },
     "wuxi-biologics": {
         "tagline": "Global Large-Molecule CRDMO Leader",
-        "desc": "A global leading large-molecule CRDMO providing end-to-end services from discovery through manufacturing, with a global network connecting China, the US, Ireland, Germany and Singapore. Reached its 1,000th integrated project milestone in July 2026.",
+        "desc": "A global leading large-molecule CRDMO providing end-to-end services from discovery through manufacturing, with a global network connecting China, the US, Ireland, Germany and Singapore. H1 2026 revenue of RMB 11.8B (+18.4%), adjusted net profit of RMB 3.9B (+38.6%), with 1,064 integrated projects; hit its 1,000th integrated project milestone in July 2026.",
     },
     "wuxi-xdc": {
         "tagline": "ADC / Bioconjugate CRDMO",
