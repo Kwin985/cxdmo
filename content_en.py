@@ -230,6 +230,19 @@ ARTICLES_EN = {
             "Talent and quality foundations stayed solid: as of June 30, 2026 the company had 14,705 employees (including 5,180 scientists) with a 98.7% key-talent retention rate; since 2017 it has completed 49 global inspections with no critical deficiencies and operates 15 GMP-certified facilities. WuXi Biologics was named 'Biologics CDMO of the Year 2026' and 'Best Contract Development and Manufacturing Organization 2026'. CEO Dr. Chris Chen noted that broad-based demand growth plus scale effects and efficiency gains drove the profitable expansion, while Chairman Dr. Ge Li emphasized the long-term value of the integrated CRDMO platform.",
         ],
     },
+    "porton-cso-zhong": {
+        "title": "Porton Appoints Dr. Yongli Zhong as Chief Scientific Officer",
+        "summary": "Porton (300363.SZ) announced that Dr. Yongli Zhong, former Principal Scientist at Merck & Co., has joined as Chief Scientific Officer (CSO) to lead innovative process-technology solutions for customers. At Merck for 21 years, Dr. Zhong led process development for multiple innovative drugs from PCC to commercial, with 20+ patents and 90+ papers.",
+        "source": "Porton official WeChat",
+        "source_url": "https://mp.weixin.qq.com/s/i3004TqKGwvYx_qkt7aRfA",
+        "body": [
+            "Porton Pharma Solutions Ltd. (300363.SZ) recently announced that Dr. Yongli Zhong has formally joined the company as Chief Scientific Officer (CSO). Dr. Zhong will lead the development of more innovative, competitive-edge technical solutions for customers, leveraging his deep expertise and innovation-driven mindset to strengthen Porton's technological advantages.",
+            "Dr. Yongli Zhong graduated from the Sun Yat-sen University Department of Chemistry with both his bachelor's and master's degrees in 1989, then joined the faculty of the Department of Chemistry, staying until the end of 1994. In 1998 he completed his Ph.D. in Organic Chemistry at the Chinese University of Hong Kong, and that same year joined Professor KC Nicolaou's group at The Scripps Research Institute in the US for three years of postdoctoral research on natural-product total synthesis, new organic reactions, and novel methodologies.",
+            "After his postdoctoral research, Dr. Zhong joined the Process Research & Development department at Merck & Co. Over his 21 years at Merck, he worked on innovative-drug process development from PCC to commercial production, holding positions of senior scientist, research fellow, and principal scientist. As a creative organic chemist, he led and played a key role in the design, development, and commercialization of many Merck innovative drugs, tackling complex chemical challenges. His output includes 20+ patents, 90+ papers in international journals, and three book chapters.",
+            "Oliver Ju, Chairman and CEO of Porton, said: \"I am excited to welcome Dr. Zhong to the Porton team. With over 20 years of distinguished industry experience in innovative-drug process development, Dr. Zhong's arrival will significantly bolster our R&D and technical capabilities. We look forward to his close collaboration with our commercial and delivery teams to tackle critical synthetic-process challenges.\" Dr. Zhong said: \"It is a great honor to join Porton. I am excited to work alongside our team to deliver innovative solutions that support our partners' innovative-drug development journeys and help bring life-changing therapies to patients sooner.\"",
+            "Founded in 2005, Porton provides end-to-end CDMO services from pre-clinical to commercial stages, spanning small molecules, TIDES, biologics and conjugates (ADCs, AOCs, DACs, PDCs, RDCs, etc.), and advanced-therapy medicinal products, from drug substance to drug product. As of 2025, Porton has over 4,300 employees globally, has served more than 1,400 customers, and delivered over 5,000 projects.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
@@ -255,7 +268,7 @@ COMPANIES_EN = {
     },
     "porton": {
         "tagline": "Small-Molecule API + CGT + New Molecules",
-        "desc": "A leading small-molecule API CDMO. Subsidiary Porton Bio focuses on CGT CDMO with an end-to-end platform covering plasmids, viral vectors and cell therapies, and obtained its Drug Manufacturing License (C) in August 2026 to enter commercial-stage manufacturing.",
+        "desc": "A leading small-molecule API CDMO. Subsidiary Porton Bio focuses on CGT CDMO with an end-to-end platform covering plasmids, viral vectors and cell therapies, and obtained its Drug Manufacturing License (C) in August 2026 to enter commercial-stage manufacturing. That same month, Dr. Yongli Zhong, former Merck Principal Scientist, joined as CSO to strengthen process-technology innovation.",
     },
     "samsung-biologics": {
         "tagline": "World's Largest mAb CDMO",
