@@ -5,9 +5,9 @@
 > Samsung Biologics and Lonza. Results, capacity, M&A and partnerships.
 
 ## Pages
-- [Home](https://cxdmo.com/): hero, top story and latest news (23 total stories).
+- [Home](https://cxdmo.com/): hero, top story and latest news (24 total stories).
 - [News](https://cxdmo.com/news.html): filterable by segment, category and keyword.
-- [Companies](https://cxdmo.com/companies.html): profiles for 9 tracked CXDMO organizations.
+- [Companies](https://cxdmo.com/companies.html): profiles for 10 tracked CXDMO organizations.
 - [About](https://cxdmo.com/about.html): what is a CXDMO, sources and disclaimer.
 
 ## Companies tracked
@@ -20,6 +20,7 @@
 - [Porton (博腾股份 / 博腾生物)](https://www.portonpharma.com/): 小分子 API + CGT + 新分子
 - [Samsung Biologics (三星生物)](https://samsungbiologics.com/): 全球最大单抗 CDMO
 - [Lonza (Lonza 龙沙)](https://www.lonza.com/): 全球最大 CDMO 之一
+- [Insilico Medicine (英矽智能)](https://www.insilico.com/): 生成式 AI 驱动的药物研发
 
 ## Languages
 - English is the default (root).

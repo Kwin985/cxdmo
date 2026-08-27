@@ -243,6 +243,19 @@ ARTICLES_EN = {
             "Founded in 2005, Porton provides end-to-end CDMO services from pre-clinical to commercial stages, spanning small molecules, TIDES, biologics and conjugates (ADCs, AOCs, DACs, PDCs, RDCs, etc.), and advanced-therapy medicinal products, from drug substance to drug product. As of 2025, Porton has over 4,300 employees globally, has served more than 1,400 customers, and delivered over 5,000 projects.",
         ],
     },
+    "insilico-h1-2026": {
+        "title": "Insilico Medicine H1 2026: Revenue US$106.3M, Up 287%; First Profitable Half-Year",
+        "summary": "Generative-AI drug-discovery company Insilico Medicine (HKEX: 3696) reported H1 2026 results: total revenue US$106.3M (+287.2% YoY), gross margin 90.3%, net profit US$35.54M, adjusted net profit US$51.23M, operating cash flow positive; YTD BD contract value ~US$7.3B with 9 PCC nominations and 8 clinical advancements.",
+        "source": "Insilico Medicine official WeChat",
+        "source_url": "https://mp.weixin.qq.com/s/rqBlduuXFDIWyZ87h3PMVg",
+        "body": [
+            "On August 26, 2026, generative-AI-driven clinical-stage drug-discovery company Insilico Medicine (HKEX: 3696) released its 2026 interim results. H1 total revenue reached US$106.3M, up 287.2% year-over-year; gross margin was 90.3%; net profit was US$35.54M and adjusted net profit US$51.23M, marking its first profitable half-year, with operating cash flow turning positive. As of June 30, cash and investment portfolio totaled ~US$584.8M.",
+            "By segment, drug-discovery and pipeline revenue was US$103.1M (>300% YoY) and software-solutions revenue ~US$2.70M. Year-to-date, total contract value of out-licensing and R&D partnerships reached ~US$7.3B, validating its 'AI platform + proprietary pipeline + BD monetization' commercialization path.",
+            "Global BD partnerships landed densely: in the US/EU, a US$888M oncology collaboration with Servier (US$32M upfront) in January and a US$2.75B license & R&D deal with Eli Lilly (US$115M upfront) in March; in Greater China, US$66M with Hygtia and HK$931M with Qilu in January, a deepened tie with CMS (over RMB 1.2B) in Feb/June, and US$94.75M with Tenacia for CNS in March; in APAC, US$2.5B with SK Biopharmaceuticals in June and ~US$600M with Takeda (≈US$60M initiation) in July.",
+            "AI agents and infrastructure kept iterating: Science MMAI Gym (Jan), PandaClaw (Mar), open-source autonomous-lab OS LabClaw (May), and DDD Benchmarks as BaaS (Jul), plus partnerships with Google Cloud and Tencent Health. On the pipeline, 9 PCC nominations and 8 clinical advancements were advanced in H1 — Rentosertib Phase III in China with its inhaler gaining CDE IND; ISM8969/HT-001 securing FDA IND and first-in-human dosing; ISM6331 granted FDA Fast Track, among others.",
+            "On capital markets and recognition, 13 brokers now cover the stock; it was included in Stock Connect and the Hang Seng Composite Index on March 9, later entering CSI, FTSE and MSCI Small Cap indices; it earned a Galien Best Startup nomination and ranked #3 on Fast Company's 2026 Most Innovative Biotech list. Insilico demonstrates that generative-AI-driven drug discovery has reached a verifiable commercial closed loop.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
@@ -281,5 +294,9 @@ COMPANIES_EN = {
     "biodlink": {
         "tagline": "Biologics & ADC/XDC CDMO",
         "desc": "A controlled subsidiary of WuXi XDC, BioDlink is a global biologics and bioconjugate (ADC/XDC) CDMO providing end-to-end services from early R&D through commercial manufacturing. Built on an integrated one-base platform and proprietary technologies such as GL-DisacLink®, BDKcell® and BDKLyo®, it operates four commercial manufacturing lines with large-scale sterile fill-finish capability, backed by a global GMP-aligned quality system accredited by Japan's PMDA. H1 2026 CDMO revenue reached RMB 199M, up 157% YoY.",
+    },
+    "insilico": {
+        "tagline": "Generative-AI-driven Drug Discovery",
+        "desc": "A clinical-stage generative-AI-driven drug-discovery company (HKEX: 3696) that applies its AI platform from target discovery through clinical candidates and monetizes via out-licensing and R&D partnerships. H1 2026 revenue reached US$106.3M (+287.2%) with its first profitable half-year; YTD BD contract value reached ~US$7.3B.",
     },
 }

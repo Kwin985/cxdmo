@@ -34,6 +34,7 @@ COMPANY_COLORS = {
     "三星生物": "#1746a2",
     "Lonza": "#8a6d1f", "Lonza 龙沙": "#8a6d1f",
     "东曜药业 / BioDlink": "#3a7d44",
+    "英矽智能": "#6a3aa0", "Insilico Medicine": "#6a3aa0",
     "行业观察": "#5b6b7a",
 }
 
@@ -51,6 +52,7 @@ CO_EN = {
     "Lonza": "Lonza",
     "Lonza 龙沙": "Lonza",
     "东曜药业 / BioDlink": "BioDlink (TOT Biopharm)",
+    "英矽智能": "Insilico Medicine",
     "行业观察": "Industry Insight",
 }
 GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight"}
@@ -223,7 +225,7 @@ T = {
         "hero_kicker": "CXDMO INDUSTRY NEWS · 行业资讯门户",
         "hero_h1": "追踪全球 CXDMO 产业脉动",
         "hero_sub": '聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 龙头，<br class="br">以及三星生物、Lonza 等全球前沿 CDMO 的财报、产能、并购与合作动态。',
-        "stats": [("8", "追踪企业"), ("{n}", "收录资讯"), ("3", "板块 · 药明系 / 国内 / 海外")],
+        "stats": [("10", "追踪企业"), ("{n}", "收录资讯"), ("3", "板块 · 药明系 / 国内 / 海外")],
         "top": "头条要闻", "top_en": "Top Story", "latest": "最新资讯", "latest_en": "Latest",
         "insight": "行业观察", "insight_en": "Insight", "all_news": "全部资讯 →",
         "news_h1": "全部资讯", "news_h1_en": "News",
