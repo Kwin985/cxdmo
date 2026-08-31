@@ -18,6 +18,15 @@ export default {
     // 仅对 HTML 页面（含根路径）做处理，其余一律直出静态资产
     const isHtml = path === "/" || path.endsWith(".html");
     if (!isHtml) {
+      // Cloudflare Clean URLs 会把无扩展名路径直接服务（与 .html 同内容）。
+      // 为统一到 canonical 的 .html 形态、避免 Google 把干净 URL 当成独立页，
+      // 这里对“无扩展名且非静态资产”的页面路径 301 到对应 .html。
+      const isAssetLike = path.includes(".");
+      if (!isAssetLike) {
+        const target = new URL(url.origin + path + ".html");
+        target.search = url.search; // 保留查询串（如 ?company=Porton）
+        return new Response(null, { status: 301, headers: { Location: target.toString() } });
+      }
       return env.ASSETS.fetch(request);
     }
 
