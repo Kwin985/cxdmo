@@ -15,21 +15,6 @@ export default {
     const url = new URL(request.url);
     const path = url.pathname;
 
-    // 仅对 HTML 页面（含根路径）做处理，其余一律直出静态资产
-    const isHtml = path === "/" || path.endsWith(".html");
-    if (!isHtml) {
-      // Cloudflare Clean URLs 会把无扩展名路径直接服务（与 .html 同内容）。
-      // 为统一到 canonical 的 .html 形态、避免 Google 把干净 URL 当成独立页，
-      // 这里对“无扩展名且非静态资产”的页面路径 301 到对应 .html。
-      const isAssetLike = path.includes(".");
-      if (!isAssetLike) {
-        const target = new URL(url.origin + path + ".html");
-        target.search = url.search; // 保留查询串（如 ?company=Porton）
-        return new Response(null, { status: 301, headers: { Location: target.toString() } });
-      }
-      return env.ASSETS.fetch(request);
-    }
-
     // 1) 用户手动选择优先（由页面切换按钮写入 Cookie）
     const cookie = request.headers.get("Cookie") || "";
     const cm = cookie.match(/(?:^|;\s*)cxdmo_lang=(zh|en)/);
@@ -41,13 +26,38 @@ export default {
       wantZh = prefersChinese(request.headers.get("Accept-Language") || "");
     }
 
-    // 根路径：语言分流（首访自动 + Cookie 记忆）
+    // 根路径（含 /zh、/zh/）：语言分流（首访自动 + Cookie 记忆）
+    // 注意：必须在此处、在“无扩展名 -> .html”处理之前判断，
+    // 否则 /zh/ 会被误判为无扩展名页面而 301 到 /zh/.html。
     if (path === "/" || path === "/zh" || path === "/zh/") {
-      if (wantZh && path !== "/zh" && path !== "/zh/") {
+      if (wantZh && path === "/") {
         return redirect(url.origin + "/zh/", !!cm);
       }
       if (!wantZh && (path === "/zh" || path === "/zh/")) {
         return redirect(url.origin + "/", !!cm);
+      }
+      // 服务对应语言的首页。html_handling="none" 下 ASSETS 不会自动把
+      // 目录映射为 index.html，故显式请求 index.html 并以原 URL 返回。
+      const indexUrl = path === "/" ? "/index.html" : "/zh/index.html";
+      const homeRes = await env.ASSETS.fetch(new URL(url.origin + indexUrl));
+      if (homeRes.ok) {
+        return new Response(homeRes.body, {
+          status: 200,
+          headers: { "content-type": homeRes.headers.get("content-type") || "text/html; charset=utf-8" },
+        });
+      }
+      return homeRes;
+    }
+
+    // 仅对 .html 页面做处理，其余一律直出静态资产
+    if (!path.endsWith(".html")) {
+      // 为统一到 canonical 的 .html 形态、避免 Google 把干净 URL 当成独立页，
+      // 对“无扩展名且非静态资产”的页面路径 301 到对应 .html。
+      const isAssetLike = path.includes(".");
+      if (!isAssetLike) {
+        const target = new URL(url.origin + path + ".html");
+        target.search = url.search; // 保留查询串（如 ?company=Porton）
+        return new Response(null, { status: 301, headers: { Location: target.toString() } });
       }
       return env.ASSETS.fetch(request);
     }

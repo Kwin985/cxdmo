@@ -1,7 +1,22 @@
 # 忽略个人工作记忆与 Python 缓存
 .workbuddy/
+.wrangler/
 __pycache__/
 *.pyc
 *.pyo
 .DS_Store
 Thumbs.db
+
+# 构建产物（由 build.py 生成，部署源；勿提交到仓库）
+dist/
+
+# 历史遗留的根目录生成产物（现已改为输出到 dist/，勿再跟踪）
+index.html
+news.html
+companies.html
+about.html
+sitemap.xml
+robots.txt
+llms.txt
+articles/
+zh/

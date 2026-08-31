@@ -150,7 +150,13 @@ def esc(s):
 
 
 def _render_body(body):
-    """渲染文章正文：字符串 -> <p>；dict 图块 -> <figure><img><figcaption>。"""
+    """渲染文章正文：字符串 -> <p>；dict 图块 -> <figure><img><figcaption>。
+
+    支持的 dict 块：
+      {"img": url, "caption": "..."}            —— 图片块
+      {"video": {"cover": url, "url": url,      —— 视频块（微信原生视频无法外站直播，
+                  "caption": "..."}}                故以封面+播放按钮引导跳转原文观看）
+    """
     out = []
     for item in body:
         if isinstance(item, dict) and item.get("img"):
@@ -159,6 +165,27 @@ def _render_body(body):
             out.append(
                 f'<figure class="art-img"><img src="{esc(item["img"])}" '
                 f'alt="{esc(cap)}" loading="lazy" decoding="async">{cap_html}</figure>'
+            )
+        elif isinstance(item, dict) and item.get("video"):
+            v = item["video"]
+            cover = esc(v.get("cover", ""))
+            url = esc(v.get("url", ""))
+            cap = v.get("caption") or ""
+            cap_html = (
+                f'<figcaption>{esc(cap)} '
+                f'<a href="{url}" target="_blank" rel="noopener">'
+                f'{("观看视频（微信原生）" if "微信" not in cap else "观看视频")} ↗</a></figcaption>'
+                if cap else
+                f'<figcaption><a href="{url}" target="_blank" rel="noopener">'
+                f'观看视频（微信原生）↗</a></figcaption>'
+            )
+            out.append(
+                f'<figure class="art-video">'
+                f'<a class="video-link" href="{url}" target="_blank" rel="noopener" '
+                f'aria-label="{esc(cap)}">'
+                f'<img src="{cover}" alt="{esc(cap)}" loading="lazy" decoding="async">'
+                f'<span class="play-btn" aria-hidden="true">▶</span>'
+                f'</a>{cap_html}</figure>'
             )
         else:
             out.append(f"<p>{esc(item)}</p>")
@@ -1024,6 +1051,14 @@ img{max-width:100%}
 .prose figure.art-img{margin:30px 0}
 .prose figure.art-img img{width:100%;border-radius:var(--radius);display:block;border:1px solid var(--line);background:#fff}
 .prose figure.art-img figcaption{font-size:13px;color:var(--muted);margin-top:10px;text-align:center;line-height:1.5}
+.prose figure.art-video{margin:30px 0}
+.prose figure.art-video .video-link{display:block;position:relative;overflow:hidden;border-radius:var(--radius);border:1px solid var(--line);background:#000}
+.prose figure.art-video img{width:100%;display:block;border-radius:var(--radius);opacity:.92;transition:.2s}
+.prose figure.art-video .video-link:hover img{opacity:1}
+.prose figure.art-video .play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(10,92,140,.9);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;padding-left:4px;box-shadow:0 6px 20px rgba(0,0,0,.32);transition:.2s}
+.prose figure.art-video .video-link:hover .play-btn{background:var(--primary);transform:translate(-50%,-50%) scale(1.06)}
+.prose figure.art-video figcaption{font-size:13px;color:var(--muted);margin-top:10px;text-align:center;line-height:1.5}
+.prose figure.art-video figcaption a{color:var(--primary);font-weight:600}
 .related{padding-bottom:56px}
 
 /* footer */
