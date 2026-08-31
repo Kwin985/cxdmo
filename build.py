@@ -149,6 +149,22 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def _render_body(body):
+    """渲染文章正文：字符串 -> <p>；dict 图块 -> <figure><img><figcaption>。"""
+    out = []
+    for item in body:
+        if isinstance(item, dict) and item.get("img"):
+            cap = item.get("caption") or ""
+            cap_html = f'<figcaption>{esc(cap)}</figcaption>' if cap else ""
+            out.append(
+                f'<figure class="art-img"><img src="{esc(item["img"])}" '
+                f'alt="{esc(cap)}" loading="lazy" decoding="async">{cap_html}</figure>'
+            )
+        else:
+            out.append(f"<p>{esc(item)}</p>")
+    return out
+
+
 def date_cn(d):
     if len(d) == 7:
         return f"{d[:4]} 年 {int(d[5:7])} 月"
@@ -837,7 +853,7 @@ def build_article(lang, a):
         <h3 class="card-title"><a href="{lang_path(lang, f"articles/{x['id']}.html")}">{esc(a_title(x, lang))}</a></h3>
         <div class="card-meta"><time>{date_of(x["date"], lang)}</time></div>
       </article>''' for x in related)
-    paragraphs = "".join(f"<p>{esc(par)}</p>" for par in a_body(a, lang))
+    paragraphs = "".join(_render_body(a_body(a, lang)))
     crumb_co = a_company(a, lang)
     content = f'''
 <article class="article">
@@ -1005,6 +1021,9 @@ img{max-width:100%}
 .prose li{margin-bottom:8px}
 .art-src{max-width:820px;margin-top:28px;background:var(--bg);border-radius:10px;padding:14px 18px;font-size:13px;color:var(--muted)}
 .art-src a{color:var(--primary);font-weight:600}
+.prose figure.art-img{margin:30px 0}
+.prose figure.art-img img{width:100%;border-radius:var(--radius);display:block;border:1px solid var(--line);background:#fff}
+.prose figure.art-img figcaption{font-size:13px;color:var(--muted);margin-top:10px;text-align:center;line-height:1.5}
 .related{padding-bottom:56px}
 
 /* footer */
