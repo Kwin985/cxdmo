@@ -10,6 +10,7 @@
 import os
 import json
 import re
+import shutil
 import difflib
 from content import ARTICLES, COMPANIES
 from content_en import ARTICLES_EN, COMPANIES_EN
@@ -1045,11 +1046,48 @@ img{max-width:100%}
 '''
 
 
+def build_404(lang):
+    """生成站点风格的 404 页面，供 Cloudflare not_found_handling=404-page 使用。"""
+    if lang == "en":
+        title = "Page not found · CXDMO"
+        desc = "The page you requested could not be found."
+        kicker = "ERROR 404"
+        h1 = "Page not found"
+        sub = "The page you are looking for may have been moved, removed, or never existed. Try one of these instead:"
+        chips = [("/", "Home"), ("/news.html", "News"),
+                 ("/companies.html", "Companies"), ("/about.html", "About")]
+    else:
+        title = "页面未找到 · CXDMO"
+        desc = "您访问的页面不存在或已被移除。"
+        kicker = "错误 404"
+        h1 = "页面未找到"
+        sub = "您访问的页面可能已被移动、删除，或从未存在。您可以："
+        chips = [("/zh/", "首页"), ("/zh/news.html", "资讯"),
+                 ("/zh/companies.html", "企业"), ("/zh/about.html", "关于")]
+    chip_html = "".join(f'<a class="chip" href="{href}">{label}</a>' for href, label in chips)
+    content = f'''<section class="hero">
+  <div class="wrap">
+    <div class="hero-kicker">{kicker}</div>
+    <h1>{h1}</h1>
+    <p class="hero-sub">{sub}</p>
+    <div class="hero-chips">{chip_html}</div>
+  </div>
+</section>'''
+    return page(lang, title, desc, "", content, p="404.html",
+                extra_head='<meta name="robots" content="noindex">')
+
+
 def build():
     validate_articles()  # 新增文章去重防护：重复 id / 来源 URL 中止，重复标题/同事件近似告警
-    os.makedirs(os.path.join(ROOT, "articles"), exist_ok=True)
-    os.makedirs(os.path.join(ROOT, "zh", "articles"), exist_ok=True)
-    os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "dist", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "dist", "zh", "articles"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "dist", "assets"), exist_ok=True)
+
+    # 复制源码级静态资源（favicon / og-image 等非生成资源）到 dist/assets，
+    # 避免部署后这些引用 404；随后生成的 style.css 会覆盖复制进来的源码版本。
+    src_assets = os.path.join(ROOT, "assets")
+    if os.path.isdir(src_assets):
+        shutil.copytree(src_assets, os.path.join(ROOT, "dist", "assets"), dirs_exist_ok=True)
 
     files = {}
     for lang in ("zh", "en"):
@@ -1060,6 +1098,9 @@ def build():
         files[f"{pfx}about.html"] = build_about(lang)
         for a in articles:
             files[f"{pfx}articles/{a['id']}.html"] = build_article(lang, a)
+    # 404 页面（供 Cloudflare not_found_handling=404-page 服务缺失路径，避免 500）
+    files["404.html"] = build_404("en")
+    files["zh/404.html"] = build_404("zh")
     files["assets/style.css"] = STYLE
 
     # sitemap（双语 + hreflang 交替 + 文章页 lastmod）
@@ -1137,7 +1178,7 @@ def build():
     files["llms.txt"] = "\n".join(llms_lines) + "\n"
 
     for path, content in files.items():
-        full = os.path.join(ROOT, path)
+        full = os.path.join(ROOT, "dist", path)
         os.makedirs(os.path.dirname(full), exist_ok=True)
         with open(full, "w", encoding="utf-8") as f:
             f.write(content)
