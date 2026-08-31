@@ -2,7 +2,9 @@ name = "cxdmo"
 compatibility_date = "2026-08-22"
 main = "worker.js"
 
-# 静态资产：直接服务仓库根目录
-# 构建产物（index.html / news.html / companies.html / about.html / zh/ / articles/ / assets/）已在根目录
+# 静态资产：仅服务构建产物目录 dist/（由 build.py 生成）
+# 注意：不要指向仓库根目录，否则 .git / .workbuddy / .wrangler / .pyc 等会被公开部署。
 [assets]
-directory = "./"
+directory = "./dist"
+html_handling = "none"
+not_found_handling = "404-page"
