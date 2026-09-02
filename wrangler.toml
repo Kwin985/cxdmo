@@ -8,3 +8,7 @@ main = "worker.js"
 directory = "./dist"
 html_handling = "none"
 not_found_handling = "404-page"
+# 关键：worker.js 通过 env.ASSETS.fetch() 服务首页/目录路径。
+# 该字段缺省时 env.ASSETS 为 undefined，任何调用都会抛 TypeError → 1101 → 500
+# （2026-09-02 首页 500 三轮误修的真正根因）。
+binding = "ASSETS"

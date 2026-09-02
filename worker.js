@@ -36,20 +36,21 @@ export default {
       if (!wantZh && (path === "/zh" || path === "/zh/")) {
         return redirect(url.origin + "/", !!cm);
       }
-      // 服务对应语言的首页。html_handling="none" 下 ASSETS 不会自动把
-      // 目录映射为 index.html，故显式请求 index.html 并以原 URL 返回。
+      // 服务对应语言的首页。html_handling="none" 下资产层不会自动把
+      // 目录映射为 index.html，故显式向 ASSETS 绑定请求并以原 URL 返回。
+      // 依赖 wrangler.toml [assets] 的 binding = "ASSETS"：该字段缺省时
+      // env.ASSETS 为 undefined，任何调用都会抛 TypeError → 1101 → 500。
       const indexUrl = path === "/" ? "/index.html" : "/zh/index.html";
       try {
-        // 必须用 RequestInit 字典构造，不能以原始 Request 对象作 init：
-        // 入站请求含受限属性（如 mode="navigate"），复制时 new Request 会抛 TypeError(1101)。
         return await env.ASSETS.fetch(new Request(url.origin + indexUrl, {
           method: request.method,
           headers: request.headers,
           redirect: "manual",
         }));
       } catch (err) {
-        // 兜底：极端情况下构造/取资产失败时直接透传原始请求，保证站点可访问
-        return env.ASSETS.fetch(request);
+        // 终极兜底：302 到 /index.html（该路径由资产层直接服务，不经过 worker，
+        // 也不依赖 env.ASSETS），确保首页在任何配置异常下可达而非 500。
+        return new Response(null, { status: 302, headers: { Location: indexUrl } });
       }
     }
 
