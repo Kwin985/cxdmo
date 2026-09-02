@@ -1,5 +1,11 @@
 name = "cxdmo"
 compatibility_date = "2026-08-22"
+# 关键：compatibility_date >= 2025-04-01 时，带 Sec-Fetch-Mode: navigate 的浏览器
+# 导航请求在资产未命中时会被资产层直接按 not_found_handling 服务（跳过 Worker）。
+# html_handling="none" 下 / 与 /zh/ 不映射 index.html → 导航请求直接吃 404.html
+# （2026-09-02 浏览器打开首页显示 404 的根因，curl 不带导航头故验证全过）。
+# 此 flag 恢复旧行为：资产未命中的导航请求交给 Worker 处理。
+compatibility_flags = ["assets_navigation_has_no_effect"]
 main = "worker.js"
 
 # 静态资产：仅服务构建产物目录 dist/（由 build.py 生成）
