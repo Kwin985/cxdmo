@@ -1252,6 +1252,24 @@ def build():
         os.makedirs(os.path.dirname(full), exist_ok=True)
         with open(full, "w", encoding="utf-8") as f:
             f.write(content)
+
+    # 清理上次构建遗留、本次未生成的页面类文件（例如已下线文章的 .html）。
+    # dist 是“增量覆盖”写入的：若不清理，被移除的文章页会继续在线可访问，
+    # 且因资产优先路由，worker 根本不会被触发（301 别名也随之失效）。
+    # 仅清理 build.py 自己生成的文本类产物，不动 assets 下的图片资源。
+    prune_ext = (".html", ".xml", ".txt", ".css")
+    written = {os.path.normpath(p) for p in files}
+    dist_root = os.path.join(ROOT, "dist")
+    pruned = []
+    for root, _dirs, names in os.walk(dist_root):
+        for name in names:
+            rel = os.path.relpath(os.path.join(root, name), dist_root)
+            if rel.endswith(prune_ext) and os.path.normpath(rel) not in written:
+                os.remove(os.path.join(root, name))
+                pruned.append(rel.replace(os.sep, "/"))
+    if pruned:
+        print(f"Pruned {len(pruned)} stale file(s): {', '.join(sorted(pruned))}")
+
     print(f"Done. {len(articles)} articles x 2 languages, {len(COMPANIES)} companies, {len(files)} files.")
 
 

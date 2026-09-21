@@ -3,7 +3,8 @@
 // 优先级：Cookie(cxdmo_lang) > 浏览器 Accept-Language > 默认英文。
 //
 // 关键约束（SEO / Google 索引）：
-//  - 仅对“根路径 /”做语言自动分流重定向；
+//  - 仅对“根路径 /”做语言自动分流重定向；显式 /zh 与 /zh/ 一律直出中文首页
+//    （/zh 以 301 归一到 /zh/），不受 Cookie / Accept-Language 影响；
 //  - .html 页面在有 Cookie 记忆时按用户语言重定向到对应 .html，
 //    无 Cookie（含 Googlebot 等爬虫）一律直接服务，返回稳定 200；
 //  - 中和 Cloudflare Clean URLs 的 “.html -> 无扩展名” 307，
@@ -26,15 +27,19 @@ export default {
       wantZh = prefersChinese(request.headers.get("Accept-Language") || "");
     }
 
-    // 根路径（含 /zh、/zh/）：语言分流（首访自动 + Cookie 记忆）
+    // 根路径：**仅 `/` 做语言自动分流**（Cookie 记忆 > Accept-Language > 默认英文）。
+    // 显式 /zh、/zh/ 一律直出中文首页 —— 语言分流若也作用于 /zh/，非中文偏好
+    // （或不带 Accept-Language 的爬虫）的访问者会被弹回英文首页，与 sitemap /
+    // hreflang 中登记的 /zh/ 冲突（GSC 会报「网页会重定向」）。
     // 注意：必须在此处、在“无扩展名 -> .html”处理之前判断，
     // 否则 /zh/ 会被误判为无扩展名页面而 301 到 /zh/.html。
     if (path === "/" || path === "/zh" || path === "/zh/") {
-      if (wantZh && path === "/") {
+      if (path === "/" && wantZh) {
         return redirect(url.origin + "/zh/", !!cm);
       }
-      if (!wantZh && (path === "/zh" || path === "/zh/")) {
-        return redirect(url.origin + "/", !!cm);
+      if (path === "/zh") {
+        // 归一到 sitemap / hreflang 登记的规范形态 /zh/
+        return new Response(null, { status: 301, headers: { Location: url.origin + "/zh/" } });
       }
       // 服务对应语言的首页。html_handling="none" 下资产层不会自动把
       // 目录映射为 index.html，故显式向 ASSETS 绑定请求并以原 URL 返回。
@@ -52,6 +57,20 @@ export default {
         // 也不依赖 env.ASSETS），确保首页在任何配置异常下可达而非 500。
         return new Response(null, { status: 302, headers: { Location: indexUrl } });
       }
+    }
+
+    // 已下线文章（内容与既有文章重复，已合并）→ 301 到合并后的目标，避免死链。
+    // 键为不带 .html 的规范路径，两种语言各一条。
+    const REMOVED_ALIASES = {
+      "/articles/biodlink-adc-cdmo-milestone-2026": "/articles/biodlink-h1-2026.html",
+      "/zh/articles/biodlink-adc-cdmo-milestone-2026": "/zh/articles/biodlink-h1-2026.html",
+    };
+    const aliasKey = path.endsWith(".html") ? path.slice(0, -5) : path;
+    if (REMOVED_ALIASES[aliasKey]) {
+      return new Response(null, {
+        status: 301,
+        headers: { Location: url.origin + REMOVED_ALIASES[aliasKey] },
+      });
     }
 
     // 仅对 .html 页面做处理，其余一律直出静态资产
