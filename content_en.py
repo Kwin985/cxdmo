@@ -506,6 +506,282 @@ ARTICLES_EN = {
                 "Founded in 2005, Porton Pharma Solutions provides end-to-end CDMO services from pre-clinical to commercial stages. Our capabilities span Small Molecules, TIDES, Biologics and Conjugates (ADCs, AOCs, DACs, PDCs, RDCs, etc.), and Advanced Therapy Medicinal Products, from drug substance to drug product. As of 2025, Porton has over 4,300 employees globally, served more than 1,400 customers, and delivered over 5,000 projects. We are committed to a customer-centric approach, delivering innovative and reliable global CDMO solutions, enabling earlier access to good medicines."
             ]
     },
+    "pharmaron-shaoxing-site-phase2-2026": {
+            "title": "Pharmaron to Invest RMB 3B in Shaoxing Shangyu Site Phase 2, Adding 200 t/y of High-End API Capacity",
+            "summary": "The project covers 253.7 mu with total investment of RMB 3 billion and will add 200 tonnes per year of high-end pharmaceutical intermediates and APIs, with Phase 1 slated to start production in June 2028. It is Pharmaron's second major capacity investment this year, following an ~RMB 2 billion R&D and manufacturing site signed with Hangzhou's Qiantang District in May.",
+            "source": "Zhejiang Daily / Chao News",
+            "source_url": "https://www.toutiao.com/article/7685535957356921395/",
+            "body": [
+                {
+                    "h": "RMB 3 Billion Project Breaks Ground in Shangyu"
+                },
+                "Pharmaron's Shaoxing Shangyu Site Phase 2 project has broken ground in the Hangzhou Bay Shangyu Economic Development Zone, Zhejiang Daily reported on September 15, 2026. The project covers 253.7 mu of land with total investment of RMB 3 billion and will produce 200 tonnes per year of high-end pharmaceutical intermediates and APIs, focused on innovative-drug products. Phase 1 is scheduled to start production in June 2028.",
+                "Project lead Song Hang said Shangyu offers a solid industrial base and a complete supply chain, with local authorities stepping in early during permitting — taking only one month from land acquisition to construction start. Once fully ramped, the project is expected to generate annual revenue of RMB 3 billion and tax payments above RMB 250 million, supporting more than 2,000 jobs across the supply chain.",
+                {
+                    "h": "Closing the Delivery Gap Behind Order Growth"
+                },
+                "The investment is not isolated. In May 2026, Pharmaron signed with Hangzhou's Qiantang District to invest about RMB 2 billion in a new R&D and manufacturing services site — bringing this year's total to roughly RMB 5 billion. In its 2026 interim report, Pharmaron reported H1 revenue of RMB 7.595 billion, up 17.92% year on year, with CDMO services revenue of RMB 1.884 billion, up 32.78%. New orders in the CDMO segment grew more than 50% year on year, with 45 process performance qualification (PPQ) and commercial projects in hand; the company subsequently raised its full-year revenue growth guidance to 15%–20% from 12%–18%.",
+                "The mismatch between capacity build-out and near-term earnings is notable. With heavy capital expenditure, rising depreciation and higher costs from overseas sites and senior hiring, H1 net profit attributable to shareholders rose only 6.96% to RMB 750 million. Adjusted non-IFRS net profit, however, reached RMB 909 million, up 20.29% — a truer picture of underlying operations.",
+                "Industry-wide, this round of small-molecule CDMO capacity expansion is broad: WuXi AppTec's chemistry business grew 53.3% in H1 to RMB 24.99 billion, while PharmaBlock and Apeloa are also expanding. Yet divergence is equally clear — while Pharmaron and PharmaBlock add capacity, Porton terminated its Slovenia project with a RMB 330 million impairment, and Lonza and Catalent have been trimming and refocusing their networks. The sector is shifting from broad-based expansion to structural opportunity."
+            ]
+    },
+    "pharmaron-convertible-bond-2026": {
+            "title": "Pharmaron Completes RMB 2.18B Zero-Coupon Convertible Bond Offering, Raising About US$327M Net",
+            "summary": "The US-dollar-settled zero-coupon convertible bonds, with a principal of RMB 2.18 billion maturing in 2027, settled on September 2 at an initial conversion price of HK$36.08 per H share, raising about US$327.2 million net — roughly 70% of which will fund expansion of laboratory services and CDMO services.",
+            "source": "Sina Finance",
+            "source_url": "https://finance.sina.com.cn/stock/relnews/hk/2026-09-02/doc-iniqmwqq4612449.shtml",
+            "body": [
+                "Pharmaron (03759.HK) announced that its issue of US-dollar-settled zero-coupon convertible bonds with an aggregate principal of RMB 2.18 billion maturing in 2027 completed settlement on September 2, 2026. The initial conversion price is HK$36.08 per H share, subject to adjustment.",
+                {
+                    "h": "Size and Use of Proceeds"
+                },
+                "Gross proceeds from the subscription were approximately US$330.8 million, with net proceeds of approximately US$327.2 million after fees and expenses. The net proceeds are intended to be used as follows:",
+                "Approximately 70% (about US$229.04 million) to support business expansion and development of laboratory services and CDMO services; approximately 20% (about US$65.44 million) to refinance certain existing debt and optimize the capital structure; and approximately 10% (about US$32.72 million) for general corporate purposes and working capital.",
+                {
+                    "h": "Dilution and Listing Arrangements"
+                },
+                "Assuming full conversion, the company's total share capital would increase from 1,835,416,798 shares to 1,905,895,377 shares, with bondholders holding 70,478,579 H shares, or about 3.70% of total issued share capital. The conversion H shares have been approved for listing and trading by the Hong Kong Stock Exchange's listing committee, and the convertible bonds were approved for listing on the Vienna MTF operated by the Vienna Stock Exchange, with trading commencing September 2, 2026. The company will complete CSRC filing and SAFE registration as required.",
+                "The financing aligns with the company's capacity and M&A pace this year. H1 revenue reached RMB 7.595 billion, up 17.92% year on year, with CDMO services revenue up 32.78% and new CDMO orders up more than 50%. During the same period, Pharmaron added RMB 3 billion of investment in Shaoxing and signed an approximately RMB 2 billion new site in Hangzhou's Qiantang District, and raised RMB 1.185 billion in cash through a placing of new H shares. This mix of capital tools secures funding for capacity delivery, though pressure from depreciation and finance costs will persist for some time."
+            ]
+    },
+    "asymchem-h1-2026-briefing": {
+            "title": "Asymchem Investor Briefing: Backlog Reaches US$1.67B as Peptide Capacity Heads to 69,000 L by Year-End",
+            "summary": "At its September 3 investor briefing Asymchem disclosed a backlog of US$1.673 billion, up 53.77% year on year, and maintained full-year revenue growth guidance of 19%–22%. It is currently serving one commercial peptide project, with PPQ and commercial stocking expected to begin in 2027 and peptide capacity reaching full utilization only by 2028.",
+            "source": "Gelonghui (Asymchem H1 2026 investor briefing)",
+            "source_url": "https://www.toutiao.com/article/7681287571917390370",
+            "body": [
+                "At an investor relations event on September 3, 2026, Asymchem (002821.SZ) disclosed a backlog of US$1.673 billion, up 53.77% year on year. Management maintained full-year revenue growth guidance of 19%–22%, implying a marked sequential acceleration in H2.",
+                {
+                    "h": "Peptides: One Commercial Project Running, Full Utilization Expected in 2028"
+                },
+                "The company said the peptide capacity under construction is mainly commercial-scale and will require a ramp-up period. It is currently serving one commercial peptide project, with the remaining projects expected to progress toward launch from 2028 onward; process performance qualification (PPQ) and commercial stocking are expected to begin in 2027. Commercial capacity will therefore take time to reach full utilization, and peptide profitability should improve markedly as capacity ramps.",
+                "On capacity, Asymchem continues to advance high-potency capacity, with five new high-potency production lines already online. Total solid-phase peptide synthesis capacity is expected to exceed 69,000 L by the end of 2026, with further expansion already under way. The company added several large validation-batch projects in H1, which will begin contributing revenue from 2027 and are key to medium-term visibility.",
+                {
+                    "h": "Biologics and Drug Product: Multiple Lines Coming Online"
+                },
+                "The first phase of the biologics CDMO commercial manufacturing base is fully operational and in PPQ production; phase 2 expansion started this year, including adding non-high-potency drug substance (DS) lines for ADCs. Scale effects should emerge as capacity ramps, and the company will also improve efficiency to lift gross margin during the ramp phase.",
+                "On drug product, the commercial blow-fill-seal (BFS) line, cartridge line and oral solid dosage (OSD4) line are expected to come online within the year, while the commercial vial line and spray-drying lines (SDP2&3) are expected to be completed and commissioned in 2027. The new GMP-compliant commercial lines will further strengthen clinical and commercial delivery capability for sterile and solid dosage forms.",
+                "The company also disclosed that overseas orders account for more than one third of its drug-product orders, that small molecules will focus on oncology and weight management, and that it will maintain a neutral FX management strategy while using continuous flow technology and process optimization to improve customer cost competitiveness. Management stressed that the key metric to track is whether delivery of new-business orders and the pace of capacity ramp-up can support both revenue acceleration and gross margin recovery."
+            ]
+    },
+    "biodlink-adc-cdmo-milestone-2026": {
+            "title": "BioDlink Integration Delivers: First Commercial ADC CDMO Order Secured, Completing the IND-to-Commercial Chain",
+            "summary": "In its first interim report after joining the WuXi XDC platform, BioDlink reported CDMO revenue of RMB 199 million, up 157% year on year, with a backlog of RMB 391 million (up ~96%) and ADC/XDC accounting for about 60% of CMC projects. Its first commercial CDMO order — Lepu Biopharma's ADC Meiyouheng® — has been signed, while 26 GMP inspections and audits in H1 all passed.",
+            "source": "PharmaTEC",
+            "source_url": "https://pharm.jgvogel.cn/c1614547.shtml",
+            "body": [
+                "Amid this year's wave of ADC-CDMO consolidation in China, BioDlink's first interim report since WuXi XDC took control has drawn close attention. Beyond short-term financials, the market has focused on whether integration is proceeding smoothly and whether the business transition is landing as planned. On both counts, BioDlink appears to be making a soft landing.",
+                {
+                    "h": "Business Transition: CDMO Now About 80% of Revenue"
+                },
+                "In H1 2026, BioDlink's CDMO revenue reached RMB 199 million, up 157% year on year and about 80% of total revenue. Growth was driven primarily by accelerating ADC business, momentum in antibody orders from its BDKcell® cell line development platform, and the rapid commercialization of Lepu's Meiyouheng® after approval. The more significant shift is structural: BioDlink has completed its transition from a pharmaceutical company to a biologics CDMO.",
+                "On project pipeline, the company added 14 new CMC projects in H1, bringing the cumulative total to 236 — including 102 early-stage research projects and 134 CMC projects. As of end-June, signed but unfulfilled orders reached RMB 391 million, up nearly 96% year on year, with ADC/XDC accounting for about 60% of CMC projects.",
+                {
+                    "h": "Commercial Milestone: First CDMO Commercial Order Signed"
+                },
+                "The most notable development in H1 was the commercial breakthrough. The company has secured multiple PPQ (process performance qualification) projects cumulatively, including two newly added and successfully delivered in H1, with one more to be delivered in H2; it has five Phase III projects. Most importantly, its first CDMO commercial order has formally landed — a formal commercial manufacturing order has been signed for Lepu Biopharma's ADC Meiyouheng®. This means BioDlink has completed the full CDMO chain from IND to commercial manufacturing, positioning it among the first suppliers able to serve commercial ADC supply.",
+                "On quality systems, the company meets Chinese, US and EU GMP standards and underwent 26 GMP inspections and audits in H1 with a 100% pass rate, covering both regulatory inspections and customer audits. On the proprietary product side, bevacizumab injection Pusintin® has filed marketing applications accepted in 29 countries, with seven approvals to date — two added in H1 2026.",
+                {
+                    "h": "Integration: RMB 770 Million of Related-Party Orders Over Three Years"
+                },
+                "On March 31, 2026, WuXi XDC completed its tender offer for BioDlink, taking a 60.67% controlling stake. Integration has progressed: a new board has been formed, the overall team has remained stable, and all projects during the M&A period were delivered with a 100% success rate. The two sides entered into continuing connected transaction (CCT) agreements with WuXi XDC and a connected transaction (CT) agreement with WuXi Biologics, and have established routine coordination mechanisms.",
+                "Most critically, in late May 2026 the two sides signed a three-year CCT agreement under which WuXi XDC will provide BioDlink with three years of tiered CDMO orders totaling nearly RMB 770 million — both locking in utilization at BioDlink's Suzhou site and supplementing WuXi XDC's commercial ADC capacity. It marks BioDlink's formal integration into the WuXi global production network.",
+                {
+                    "h": "Technology Moat: Three Platforms Underpin Differentiation"
+                },
+                "BioDlink has built full-stack capability from cell line development to drug product manufacturing. Its site-specific ADC conjugation platform GL-DisacLink® has been fully integrated into its CDMO services and served nearly 500 early-stage innovative molecules, with its first project obtaining IND clearance from the FDA. Its proprietary BDKcell® (CHO-K1) cell line development platform and BDKMedia™ custom media platform have supported 13 early research service projects and nine DNA-originated CMC projects. Its BDKLyo® digital lyophilization process platform, built on QbD principles, cuts traditional lyophilization development cycles by more than 50%.",
+                "In terms of molecule types, BioDlink now covers bispecifics, multi-specifics, bispecific ADCs and dual-payload ADCs; among recently concluded CMC-stage ADC deals, Novel-ADC/XDC accounted for 60%. A caveat remains: the CDMO business is still in a growth phase, full release of integration synergies will take time, and the pace of project conversion and revenue recognition carries inherent uncertainty."
+            ]
+    },
+    "insilico-rentosertib-phase3-2026": {
+            "title": "World's First Generative AI-Discovered Drug Enters Phase III: Insilico Doses First Patient with Rentosertib",
+            "summary": "GENESIS-IPF-3, the Phase III trial of Rentosertib (ISM001-055) in idiopathic pulmonary fibrosis (IPF), has dosed its first patient at Peking Union Medical College Hospital, with Shanghai Pulmonary Hospital enrolling its first patient the same day. The 52-week study plans to enroll 320 patients across 47 centers in China — the first drug with both an AI-identified target and an AI-designed molecule to reach Phase III.",
+            "source": "Insilico Medicine official site",
+            "source_url": "https://insilico.com/news/isn1009261-insilico-medicine-doses-first-patient-genesis-ipf-3",
+            "body": [
+                {
+                    "img": "/assets/img/insilico-rentosertib-phase3-2026/phase3-first-patient.jpg",
+                    "caption": "GENESIS-IPF-3, the Phase III trial of Rentosertib in idiopathic pulmonary fibrosis, has dosed its first patient. (Image: Insilico Medicine)"
+                },
+                "Insilico Medicine (HKEX: 3696) announced that it has dosed the first patient with Rentosertib (also known as ISM001-055 / INS018_055) in GENESIS-IPF-3, a Phase III clinical trial, at Peking Union Medical College Hospital, while Shanghai Pulmonary Hospital enrolled its first patient on the same day.",
+                {
+                    "h": "Trial Design: 320 Patients, 47 Centers, 52 Weeks"
+                },
+                "GENESIS-IPF-3 is a Phase III trial (NCT07687459, CTR20262475) evaluating Rentosertib in patients with idiopathic pulmonary fibrosis (IPF). The 52-week, prospective, randomized, multi-center, double-blind, placebo-controlled, parallel-group study is expected to enroll a total of 320 participants across 47 centers in China. The primary endpoint is the annual rate of decline in forced vital capacity (FVC) over 52 weeks; the key secondary endpoint is time to first occurrence of any disease progression event.",
+                "The study is led by Professor Zuojun Xu of Peking Union Medical College Hospital as Leading Principal Investigator, with Academician Nanshan Zhong of the Chinese Academy of Engineering and President Chang Chen of Shanghai Pulmonary Hospital as Co-Leading Principal Investigators.",
+                "Professor Xu commented: \"TNIK, the target driven by AI, had never previously been linked to fibrosis. This perhaps indicates that AI is carving out a path distinct from traditional research paradigms in target discovery for complex diseases.\" He noted that from initiating Phase III to final regulatory approval would take three to four years under favorable conditions.",
+                {
+                    "h": "From Phase IIa to Phase III: A Dose-Dependent Efficacy Trend"
+                },
+                "Rentosertib is a potentially first-in-class small molecule targeting TNIK, developed using generative AI. In IPF, TNIK activation drives pathological fibrosis in the lungs, contributing to progressive decline in lung function; by inhibiting TNIK, Rentosertib aims to halt or reverse fibrotic processes.",
+                "In the Phase IIa GENESIS-IPF study (results published in Nature Medicine), patients in the 60 mg once-daily arm showed a mean FVC change of +98.4 mL at 12 weeks, versus -20.3 mL in the placebo group. The study met its primary safety and tolerability endpoint. Phase III is designed to validate these efficacy and safety signals in a larger population over a longer treatment period.",
+                {
+                    "h": "R&D Efficiency and Commercial Validation"
+                },
+                "Compared with traditional paths, Rentosertib's early discovery took only 18 months and fewer than 80 molecules screened to identify the candidate. The drug has received Orphan Drug Designation from the US FDA (February 2023) and Breakthrough Therapy Designation from China's CDE (May 2025).",
+                "Insilico also reported total revenue of approximately US$106 million for H1 2026, up 287% year on year, achieving its first profitable half-year since listing with adjusted net profit exceeding US$51 million. Total contract value of transactions announced in 2026 reached approximately US$7.3 billion, pushing cumulative collaboration value since 2021 to roughly US$11 billion. As of late August, Insilico had nominated nine development candidates within the first eight months of 2026, a company record for annual pipeline productivity, alongside eight clinical milestones."
+            ]
+    },
+    "insilico-longevity-vaccines-2026": {
+            "title": "Insilico Launches \"Longevity Vaccines\" Research: Programming the Body's Own T Cells with Circular mRNA",
+            "summary": "The initiative encodes short-lived genetic instructions in circular mRNA (cmRNA) packaged in targeted lipid nanoparticles, arming a patient's own T cells to recognize and clear senescent cells, activated fibroblasts and autoreactive lymphocytes — addressing initiating cell populations rather than downstream pathology, via a single, self-limiting dose.",
+            "source": "Insilico Medicine official site",
+            "source_url": "https://insilico.com/news/lgv150926en-ai-driven-longevity-vaccines",
+            "body": [
+                {
+                    "img": "/assets/img/insilico-longevity-vaccines-2026/longevity-vaccines.jpg",
+                    "caption": "Insilico Medicine's Longevity Vaccines initiative extends its AI-driven aging strategy from small molecules into RNA-encoded in vivo cell engineering. (Image: Insilico Medicine)"
+                },
+                "Insilico Medicine (HKEX: 3696) announced the launch of Longevity Vaccines, a research initiative developing treatments that direct a patient's own immune cells to eliminate the earliest cellular drivers of age-related disease. The initiative expands the company's dual-purpose, aging-oriented discovery strategy from small molecules into RNA-encoded, in vivo cell engineering.",
+                {
+                    "h": "A Shift from Downstream Pathology to Initiating Cells"
+                },
+                "Many aging-related diseases are initiated and sustained by discrete cell populations with well-studied surface markers — for example senescent cells that secrete pro-inflammatory proteins (the senescence-associated secretory phenotype, or SASP), activated fibroblasts that drive fibrosis, and autoreactive lymphocytes that erode self-tolerance.",
+                "Rather than treating downstream pathology, Longevity Vaccines are designed to eliminate these initiating cell populations within a preventive window and on a transient basis. The approach builds on growing peer-reviewed evidence that engineered T cells can clear such cells and deliver durable functional benefits from a single therapeutic course.",
+                {
+                    "h": "A Programmable, Self-Limiting Chassis"
+                },
+                "The initiative uses a single, programmable delivery modality: a short-lived genetic instruction encoded in circular mRNA (cmRNA) and packaged within a targeted lipid nanoparticle (LNP). Delivered inside the body, it arms a patient's own T cells to recognize and remove specific target cell populations.",
+                "Circular mRNA resists degradation to support durable yet self-limiting expression, while the targeted LNP ensures selective delivery.",
+                {
+                    "img": "/assets/img/insilico-longevity-vaccines-2026/circular-mrna.png",
+                    "caption": "Circular mRNA resists degradation for durable, self-limiting expression, while a targeted LNP ensures selective delivery. (Image: Insilico Medicine)"
+                },
+                {
+                    "h": "An AI Engine for Early, Safe Target Selection"
+                },
+                "Selecting antigens for preventive medicine demands an exceptionally high bar: targets must appear at the earliest stages of pathogenesis while offering a wide therapeutic window. Insilico addresses this with its end-to-end Pharma.AI platform, spanning multi-omics target discovery (PandaOmics), generative biologics for de novo binder design, generative chemistry (Chemistry42) for ionizable lipids and delivery systems, and AI-assisted clinical trial design (inClinico).",
+                "The integrated platform ranks candidate surface antigens by evidence strength, expression timing, tissue specificity against a whole-body surface atlas, deliverability and optimal construct design. Candidates are then validated in automated laboratories, where readouts continuously feed back to refine rankings and designs. Insilico's aging foundation models and Virtual Aging Cell supply the temporal, age-conditioned context needed to pinpoint the earliest divergent cell states in a disease trajectory.",
+                {
+                    "h": "Initial Indications: Immune System Rejuvenation"
+                },
+                "The initiative will first focus on rejuvenation of the aging immune system, targeting accumulation of senescent lymphocytes that drive immunosenescence, reduced vaccine responsiveness, and rising susceptibility to infection and cancer with age. Additional indications under evaluation share defined initiating cell populations reachable by the same chassis, such as metabolic dysfunction and membranous nephropathy.",
+                {
+                    "img": "/assets/img/insilico-longevity-vaccines-2026/in-vivo-car-t.png",
+                    "caption": "The program uses cmRNA plus targeted LNP delivery in vivo to arm a patient's own T cells to clear target populations. (Image: Insilico Medicine)"
+                },
+                "Alex Zhavoronkov, PhD, Founder and co-CEO of Insilico Medicine, said: \"We built Insilico to treat aging and disease together, and to prove that AI can design medicines that deliver real patient impact. Longevity Vaccines extends that same rigor to preventive medicine — delivering programmable, single-dose therapies that clear the root-cause cells of age-related disease, starting with the immune system itself.\"",
+                "The initiative rests on Insilico's experience with Rentosertib (ISM001-055), a first-in-class TNIK inhibitor whose target was nominated by AI and whose molecule was fully AI-designed, advancing from target identification to preclinical candidate in just 18 months. It recently demonstrated lung capacity restoration in a randomized Phase IIa trial in IPF and has entered Phase III development."
+            ]
+    },
+    "lonza-bend-spray-drying-2026": {
+            "title": "Lonza Breaks Ground on Commercial Spray-Drying Facility in Bend, Oregon",
+            "summary": "The new facility will feature two PSD-4 spray-drying units and is expected to establish Lonza as the leading CDMO provider of commercial-scale spray-drying PSD-4 capacity in the US. Completion is expected in 2029, initially creating more than 80 jobs. The Bend site has nearly 50 years of pharmaceutical manufacturing history and has contributed to more than 2,000 potential medicines.",
+            "source": "Lonza official site",
+            "source_url": "https://www.lonza.com/media-advisories/2026-09-14-22-59",
+            "body": [
+                {
+                    "img": "/assets/img/lonza-bend-spray-drying-2026/groundbreaking-1.jpg",
+                    "caption": "Lonza held a groundbreaking ceremony on September 14, 2026 for its new commercial spray-drying pharmaceutical facility in Bend, Oregon. (Image: Lonza)"
+                },
+                "Lonza celebrated the groundbreaking of a new commercial spray-drying pharmaceutical manufacturing facility in Bend, Oregon, on September 14, 2026. The facility is expected to create more than 80 new jobs and further strengthen Central Oregon's role in the development and manufacturing of innovative medicines, with completion expected in 2029.",
+                "Lonza leaders were joined at the ceremony by Oregon Governor Tina Kotek, Swiss Consul-General Jonas Brunschwig, Bend Mayor Melanie Kebler and other state and local representatives.",
+                {
+                    "h": "Making Bend a Global Spray-Drying Hub"
+                },
+                "Kathy Schwiebert, Site Head of Lonza Bend, said: \"Today's groundbreaking marks an important milestone for both Lonza and the Bend community. This investment expands our manufacturing capabilities, creates new jobs, and strengthens our ability to support customers developing the next generation of medicines.\"",
+                "The new facility expands Lonza's operations in Bend, where the site has supported pharmaceutical and biotech customers for nearly 50 years with advanced particle engineering and spray-drying technologies. It has contributed to the evaluation or development of more than 2,000 potential medicines, supporting programs from early research through commercial manufacturing.",
+                "Spray drying is an advanced pharmaceutical manufacturing technology that helps medicines be absorbed more effectively in the body. It transforms liquid formulations into fine powders with carefully engineered properties. As modern drug candidates become increasingly complex, such technologies play a growing role in bringing new treatments to market.",
+                {
+                    "h": "Two PSD-4 Units and the US Commercial Capacity Gap"
+                },
+                "The new facility will be equipped with two state-of-the-art PSD-4 spray-drying units, allowing for future capacity expansions as demand grows. Additional upgrades at the Bend site include supporting infrastructure for solvent handling and storage, alongside energy-efficient utility and process systems and enhanced emission control technologies to reduce overall energy demand.",
+                "Lonza announced the investment on September 10, four days before the groundbreaking, saying the expansion will establish it as the leading CDMO provider of commercial-scale spray-drying PSD-4 capacity in the US. The Bend site will offer spray-dried dispersion (SDD) capacity for both clinical and commercial programs, and support development and manufacturing of small molecules and other modalities including biologics and mRNA.",
+                "Wolfgang Wienand, CEO of Lonza, said: \"The investment in the Bend site reflects our conviction that the United States will remain a leading source of pharmaceutical innovation and a key market for Lonza. By significantly expanding our commercial-scale spray-drying capabilities, we strengthen a technology that can fundamentally improve the delivery and bioavailability of medicines.\"",
+                {
+                    "img": "/assets/img/lonza-bend-spray-drying-2026/groundbreaking-2.jpg",
+                    "caption": "At the groundbreaking: Lonza leaders with Oregon Governor Tina Kotek, Bend Mayor Melanie Kebler and Swiss Consul-General Jonas Brunschwig. (Image: Lonza)"
+                },
+                "The investment should be read alongside Lonza's broader portfolio reshaping. The company has agreed to divest its Capsules & Health Ingredients (CHI) business at an enterprise value of CHF 2.3 billion, expected to close before year-end 2026, completing its transformation into a pure-play CDMO. It has also announced ADC capacity expansions — payload-linker suites in Visp and a second ADC aseptic fill line in Stein — and reiterated plans to invest more than CHF 7 billion of organic capex until 2030. In H1 2026, Lonza reported sales of CHF 3.4 billion (16% CER growth) and a CORE EBITDA margin of 34.8%, raising its full-year margin guidance to 33%–34%."
+            ]
+    },
+    "samsung-biologics-262m-european-contract-2026": {
+            "title": "Samsung Biologics Signs US$262M CMO Contract with European Pharma, Lifting Cumulative Orders to US$21.9B",
+            "summary": "The US$262.182 million (about KRW 350.8 billion) contract will be manufactured at Samsung Biologics' Songdo site and runs through December 31, 2033. It is the sixth contract disclosed this year and lifts cumulative order intake to US$21.9 billion. The client and product were not disclosed under confidentiality terms.",
+            "source": "Samsung Biologics official site / Korea Economic Daily",
+            "source_url": "https://samsungbiologics.com/media/company-news/samsung-bio-waiting-to-break-into-peptides-nets-262m-manufacturing-deal-with-unnamed-eu-pharma",
+            "body": [
+                {
+                    "img": "/assets/img/samsung-biologics-262m-european-contract-2026/contract.jpg",
+                    "caption": "Samsung Biologics signed a US$262 million biologics CMO contract with a European pharmaceutical company, to be manufactured at its Songdo site. (Image: Samsung Biologics)"
+                },
+                "Samsung Biologics (KRX: 207940.KS) announced on September 10, 2026 that it has signed a biologics contract manufacturing (CMO) agreement worth US$262.182 million (about KRW 350.8 billion) with a European-headquartered pharmaceutical company. Under confidentiality terms, the client and product details were not disclosed.",
+                "Production will take place at Samsung Biologics' Songdo site in Incheon, South Korea, with the contract running through December 31, 2033. The company said securing a long-term contract — with production and supply continuing through 2033 — is particularly significant amid global economic uncertainty and intensifying CDMO competition, helping secure a stable backlog and reinforce its medium- to long-term revenue base.",
+                {
+                    "h": "Cumulative Orders Reach US$21.9B, Sixth Disclosure This Year"
+                },
+                "The contract brings Samsung Biologics' cumulative order value since inception to US$21.9 billion and marks the sixth contract disclosed this year.",
+                "On capacity, Samsung Biologics currently operates 845,000 L in total — 785,000 L in Songdo and 60,000 L at its Rockville, Maryland site, acquired from GSK in March 2026 as its first US manufacturing base. The company plans to build Plants 6 through 8 sequentially at Bio Campus II in Songdo, lifting total capacity to 1,385,000 L. It has also secured land for Bio Campus III, planned for construction from 2027 to 2034.",
+                "CFO Seungho Ryu said on a recent investor call that the four plants at Bio Campus I in Songdo are at full capacity, and that Plant 5 — which opened in April 2025 at a cost of KRW 1.9 trillion — is ramping up as scheduled. Responding to concerns that continued expansion could weaken utilization, he forecast market supply-demand utilization rising from the mid-70% range in 2026 to the low-80% range by 2030, indicating the market will remain undersupplied.",
+                {
+                    "h": "Three-Pillar Expansion Strategy"
+                },
+                "The deal furthers the company's three-pillar strategy across capacity, portfolio and geographic footprint. In addition to existing antibody and mRNA medicines, Samsung Biologics has established dedicated ADC production facilities. In July 2026 it announced plans to acquire Swiss peptide manufacturer PolyPeptide Group, marking its entry into the peptide CDMO market.",
+                "To fund expansion and the acquisition, Samsung Biologics announced on August 28 a rights offering of approximately KRW 3 trillion (about US$2.2 billion), of which roughly KRW 2.71 trillion is allocated to the PolyPeptide acquisition and about KRW 290 billion to Bio Campus II expansion. On the commercial network side, the company plans to open a European sales office in the Netherlands in Q3 2026, establishing another hub after the United States and Japan.",
+                "On quality and compliance, the company reported a 99% batch success rate in 2025 and, as of September 2026, had accumulated 464 global regulatory manufacturing approvals. Samsung Biologics said it will continue to enhance global customer trust and expand orders based on its production capacity, diversified portfolio, geographic presence and quality competitiveness."
+            ]
+    },
+    "samsung-biologics-polypeptide-tender-offer-2026": {
+            "title": "Samsung Biologics Publishes PolyPeptide Tender Offer Prospectus: CHF 44.31 per Share, Offer Period Sept 15 to Oct 12",
+            "summary": "The offer of CHF 44.31 net in cash per share implies an aggregate equity value of approximately CHF 1.46 billion and a 40% premium to PolyPeptide's unaffected share price on April 10, 2026. PolyPeptide's board unanimously recommends acceptance, and largest shareholder Draupnir (~55.65%) has undertaken to tender all its shares. The offer period runs from September 15 to October 12, 2026.",
+            "source": "Samsung Biologics official site",
+            "source_url": "https://samsungbiologics.com/media/company-news/samsung-biologics-publishes-prospectus-for-polypeptide-public-tender-offer",
+            "body": [
+                {
+                    "img": "/assets/img/samsung-biologics-polypeptide-tender-offer-2026/polypeptide-offer.jpg",
+                    "caption": "Samsung Biologics published the tender offer prospectus for PolyPeptide Group AG. (Image: Samsung Biologics)"
+                },
+                "Samsung Biologics (KRX: 207940.KS), through its direct Swiss subsidiary Samsung Peptide AG, published the tender offer prospectus on August 31, 2026 for all publicly held registered shares of PolyPeptide Group AG.",
+                {
+                    "h": "Offer Price and Premiums"
+                },
+                "PolyPeptide shareholders will receive CHF 44.31 net in cash per share, representing an implied aggregate equity value of approximately CHF 1.46 billion. The offer price represents a 40% premium to PolyPeptide's unaffected share price on the SIX Swiss Exchange as of April 10, 2026 — the last trading day prior to publication of the first media speculation about a potential acquisition. It also represents an 11.6% premium to the volume-weighted average share price over the last 60 trading days prior to the pre-announcement on July 20, 2026.",
+                {
+                    "h": "Board Recommendation and Major Shareholder Undertaking"
+                },
+                "PolyPeptide's board of directors, acting through its independent and non-conflicted members, unanimously recommends that shareholders accept the offer, supported by an independent fairness opinion from IFBC AG. Draupnir Holding B.V., PolyPeptide's largest individual shareholder with approximately 55.65% of total shares outstanding (excluding treasury shares), has undertaken to tender all of its shares.",
+                {
+                    "h": "Timeline and Next Steps"
+                },
+                "The main offer period commences on September 15, 2026 and is expected to end on October 12, 2026 at 4 p.m. Swiss time. The offer is subject to a minimum acceptance threshold of 66⅔% on a fully diluted share count basis (excluding treasury shares), applicable regulatory approvals and other customary conditions described in the prospectus. The prospectus and further documentation are available at https://samsungbiologics.com/offer.",
+                "Following settlement of the offer, Samsung Peptide intends to pursue a squeeze-out of any remaining minority shareholders and to delist PolyPeptide's shares from the SIX.",
+                {
+                    "h": "Significance for Samsung Biologics' Multi-Modality Strategy"
+                },
+                "The acquisition is a key step in Samsung Biologics' multi-modality expansion. Buying PolyPeptide gives it peptide manufacturing capacity and entry into a sector growing on surging demand for GLP-1 drugs for diabetes and obesity, along with sites across Sweden, Belgium, France, the United States and India.",
+                "To fund the acquisition and further expansion, Samsung Biologics announced on August 28 a rights offering of approximately KRW 3 trillion (about US$2.2 billion), with roughly KRW 2.71 trillion allocated to the PolyPeptide acquisition and about KRW 290 billion to Bio Campus II expansion. The company said that in the near term it will focus on completing the PolyPeptide takeover and integrating the acquired sites, while remaining open to additional deals to secure new modalities, overseas manufacturing sites and technologies."
+            ]
+    },
+    "porton-acepodia-ace723-ind-2026": {
+            "title": "Porton Helps Acepodia's Dual-Payload ADC ACE723 Win IND Clearance in Both the US and China",
+            "summary": "Acepodia announced that IND applications for its dual-payload ADC candidate ACE723 have been approved by both the US FDA and China's NMPA, making it the first candidate from Acepodia's AD2C platform to enter clinical development. As CDMO partner, Porton delivered end-to-end development and GMP IND clinical supply for the dual-payload ADC, spanning payload-linker, antibody and ADC development and manufacturing.",
+            "source": "Porton Pharma Solutions official site",
+            "source_url": "https://www.portonpharma.com/newsinfo/430",
+            "body": [
+                {
+                    "img": "/assets/img/porton-acepodia-ace723-ind-2026/acepodia-ace723.png",
+                    "caption": "Porton helped partner Acepodia win IND clearance in both the US and China for its dual-payload ADC ACE723. (Image: Porton Pharma Solutions)"
+                },
+                "Porton's partner Acepodia biotechnologies, Ltd announced that IND applications for its dual-payload ADC candidate ACE723 have been approved by the US FDA and China's NMPA. ACE723 is the first candidate from Acepodia's Antibody-Dual-Drugs Conjugation (AD2C) platform to enter clinical development, marking the platform's entry into global clinical development.",
+                {
+                    "h": "Porton's Role: End-to-End Delivery for a Dual-Payload ADC"
+                },
+                "As CDMO partner on the project, Porton completed end-to-end delivery of dual-payload ADC process development and GMP IND clinical supply.",
+                "On the technical side, the project team overcame multiple key challenges in dual-payload ADC development, established a stable and reliable manufacturing process, and successfully achieved pilot-scale scale-up. On coordination, the co-located one-stop platform allowed payload-linker synthesis process development and GMP manufacturing to align early with downstream conjugation needs, seamlessly connecting antibody preparation with small-molecule conjugation — an integrated optimization of R&D, manufacturing and downstream application that improved both development efficiency and process robustness.",
+                "Porton's one-stop biologics and conjugate CDMO platform delivered the full workflow from process development to release of registration samples, covering payload-linker, antibody, and ADC development and manufacturing. This serves as validation of Porton's technical strength and scale-up capability in complex conjugates, and another example of enabling global innovative-drug partners.",
+                {
+                    "h": "About ACE723: A GPC3-Targeting Therapy for Hepatocellular Carcinoma"
+                },
+                "ACE723 is a dual-drug ADC targeting GPC3, developed on Acepodia's proprietary AD2C platform. GPC3 is a tumor-associated antigen frequently expressed in hepatocellular carcinoma and a potential target for selectively delivering chemotherapeutic payloads to tumor cells.",
+                "Hepatocellular carcinoma (HCC) accounts for more than 70% of all liver cancer cases and is a common and often fatal cancer, with a five-year survival rate of only about 22%. For patients with unresectable or metastatic disease, first-line standard of care relies mainly on immunotherapy combinations; however, many patients have limited options after treatment failure or resistance, leaving significant unmet need.",
+                "The planned Phase I trial will evaluate ACE723's safety, tolerability, dose-limiting toxicities (DLTs), pharmacokinetics and preliminary anti-tumor activity in patients with unresectable or metastatic hepatocellular carcinoma. The dose-escalation phase is expected to further characterize its safety profile and determine the recommended dose for subsequent development. ACE723 remains investigational and has not been approved for marketing.",
+                {
+                    "h": "About the Partners"
+                },
+                "Acepodia biotechnologies, Ltd (6976: TT) is a clinical-stage biotechnology company developing next-generation therapies for cancer and autoimmune diseases using its proprietary drug conjugation platforms. Built on bio-orthogonal click chemistry originating from the laboratory of Nobel laureate Professor Carolyn Bertozzi, its modular platforms link antibodies with immune cells or therapeutic payloads. The company is expanding its portfolio through Antibody-Cell Conjugation (ACC) and Antibody-Dual-Drugs Conjugation (AD2C) platforms.",
+                "Porton's Biologics and Conjugates CDMO Services Platform focuses on custom development of antibodies and novel conjugates including ADCs, AOCs, DACs, PDCs and RDCs. With R&D centers and manufacturing sites located close to each other for efficient logistics and coordination, it offers one-stop CMC solutions covering druggability assessment, conjugation technology development, OAR control, process and formulation development, scale-up and manufacturing, analytical and quality studies, IND filing and clinical drug manufacturing."
+            ]
+    },
 }
 
 COMPANIES_EN = {
