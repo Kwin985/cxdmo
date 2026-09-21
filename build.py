@@ -150,16 +150,29 @@ def esc(s):
 
 
 def _render_body(body):
-    """渲染文章正文：字符串 -> <p>；dict 图块 -> <figure><img><figcaption>。
+    """渲染文章正文：字符串 -> <p>；dict 块 -> 对应结构。
 
-    支持的 dict 块：
-      {"img": url, "caption": "..."}            —— 图片块
+    支持的块：
+      "纯文本"                                   —— 正文段落 <p>
+      {"img": url, "caption": "..."}            —— 图片块 <figure class="art-img">
       {"video": {"cover": url, "url": url,      —— 视频块（微信原生视频无法外站直播，
                   "caption": "..."}}                故以封面+播放按钮引导跳转原文观看）
+      {"h": "小节标题"}                          —— 小节标题 <h2>（.prose h2 已有样式）
+      {"lead": "导语"}                           —— 导语段 <p class="lead">
+      {"quote": "引语", "by": "发言人"}          —— 引语块 <blockquote>
     """
     out = []
     for item in body:
-        if isinstance(item, dict) and item.get("img"):
+        if isinstance(item, dict) and item.get("h"):
+            out.append(f'<h2>{esc(item["h"])}</h2>')
+        elif isinstance(item, dict) and item.get("lead"):
+            out.append(f'<p class="lead">{esc(item["lead"])}</p>')
+        elif isinstance(item, dict) and item.get("quote"):
+            qtext = esc(item["quote"])
+            qby = item.get("by") or ""
+            by_html = f'<footer>{esc(qby)}</footer>' if qby else ""
+            out.append(f"<blockquote><p>{qtext}</p>{by_html}</blockquote>")
+        elif isinstance(item, dict) and item.get("img"):
             cap = item.get("caption") or ""
             cap_html = f'<figcaption>{esc(cap)}</figcaption>' if cap else ""
             out.append(
@@ -1044,6 +1057,9 @@ img{max-width:100%}
 .prose h2{font-size:22px;margin:34px 0 14px;font-weight:800}
 .prose p{margin-bottom:18px;color:#2a3a47;font-size:16.5px}
 .prose .lead{font-size:18px;color:var(--ink);font-weight:600;border-left:3px solid var(--primary);padding-left:18px}
+.prose blockquote{margin:24px 0 26px;padding:16px 22px;background:var(--bg);border-left:3px solid var(--primary);border-radius:0 10px 10px 0}
+.prose blockquote p{margin:0;color:#2a3a47;font-size:16px;line-height:1.75}
+.prose blockquote footer{margin-top:10px;font-size:13px;color:var(--muted);font-weight:600}
 .prose ul{margin:0 0 18px 22px;color:#2a3a47}
 .prose li{margin-bottom:8px}
 .art-src{max-width:820px;margin-top:28px;background:var(--bg);border-radius:10px;padding:14px 18px;font-size:13px;color:var(--muted)}

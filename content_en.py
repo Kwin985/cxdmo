@@ -468,6 +468,44 @@ ARTICLES_EN = {
                 }
             ]
         },
+    "porton-chongqing-iso-recert-2026": {
+            "title": "Porton Chongqing Liangjiang GMP Drug Product Site Earns ISO 14001 & ISO 45001 Recertification",
+            "summary": "The Chongqing Liangjiang Drug Product Manufacturing Site has again passed its ISO 14001 and ISO 45001 recertification audits, maintaining the dual-system certification first obtained in 2023. The 34,000 m² site is Porton Pharma Solutions' integrated drug-product CDMO platform.",
+            "source": "Porton Pharma Solutions official WeChat",
+            "source_url": "https://mp.weixin.qq.com/s/5mtne9LjjuPgk2a_vusyZg",
+            "body": [
+                {
+                    "img": "/assets/img/porton-chongqing-iso-recert-2026/article-header.png",
+                    "caption": "Porton Chongqing Liangjiang Drug Product Manufacturing Site. (Image: Porton Pharma Solutions)"
+                },
+                {
+                    "h": "Standardizing System Operations, Maintaining Certification Qualifications"
+                },
+                "Recently, Porton Chongqing Liangjiang Drug Product Manufacturing Site successfully passed the recertification audit for ISO 14001 (Environmental Management System) and ISO 45001 (Occupational Health and Safety Management System), maintaining its dual-system certification status.The site first obtained dual-system certification on August 23, 2023, marking a significant milestone in advancing its EHS management systems from framework establishment to authoritative certification.This successful recertification highlights the standardized operation of the site's management systems, the rigor of its on-site management, and the robustness of its risk control mechanisms, further validating the continued effectiveness of the dual systems.",
+                {
+                    "img": "/assets/img/porton-chongqing-iso-recert-2026/certificates-en.png",
+                    "caption": "ISO 14001 and ISO 45001 certificates issued to Porton Pharmatech Co., Ltd by the China Quality Certification Centre (CQC)."
+                },
+                {
+                    "h": "Rigorous On-Site Audits, Ensuring Continuous Effectiveness"
+                },
+                "Covering an area of 34,000 m², Porton Chongqing Liangjiang Drug Product Manufacturing Site serves as an integrated end-to-end Drug Product CDMO platform under Porton Pharma Solutions. Adhering to US, EU, and Chinese GMP standards, the site is equipped with advanced international R&D equipment and analytical instruments. Backed by an experienced Drug Product team, it offers comprehensive drug lifecycle solutions for oral solid dosage forms, injection (lyophilized and liquid), and topical semi-solid dosage forms from early clinical stages to commercial supply, supporting OEB 1~4 products.During the audit, the expert panel conducted a thorough and rigorous evaluation covering key areas such as environmental control, energy conservation, occupational health, operational safety, and risk prevention. Through document reviews, on-site inspections, and process tracing, the panel confirmed that the dual management systems of Porton Chongqing Liangjiang Drug Product Manufacturing Site are in line with standard requirements.",
+                {
+                    "h": "Deepening System Operations, Empowering Future Development"
+                },
+                "Successfully passing the ISO 14001 Environmental Management System and ISO 45001 Occupational Health and Safety Management System recertification audit not only provides strong recognition of the site's EHS performance, but also injects new momentum into its path toward high-quality development.",
+                {
+                    "quote": "Achieving recertification for the dual management systems underscores our unwavering commitment to standardized management, safety, environmental protection, and sustainability. This not only enhances our operational resilience, but also provides our clients with robust quality assurance. We remain dedicated to supporting our clients throughout the entire drug lifecycle—from R&D to commercialization—with higher standards, more reliable services, and guaranteed supply security and compliance.",
+                    "by": "Fentian Zhou, General Manager of Porton Chongqing Liangjiang Drug Product Manufacturing Site and R&D Center"
+                },
+                "Standing at a new starting point, Porton will take this opportunity to further strengthen the operation of our dual management systems. Upholding high standards for greater environmental sustainability, safety and compliance, we will steadily advance our sustainable development and deliver greater value to our customers.",
+                {
+                    "img": "/assets/img/porton-chongqing-iso-recert-2026/platforms-en.jpg",
+                    "caption": "Porton Pharma Solutions' four CDMO service platforms: Small Molecules, TIDES, Biologics and Conjugates, and Advanced Therapy Medicinal Products."
+                },
+                "Founded in 2005, Porton Pharma Solutions provides end-to-end CDMO services from pre-clinical to commercial stages. Our capabilities span Small Molecules, TIDES, Biologics and Conjugates (ADCs, AOCs, DACs, PDCs, RDCs, etc.), and Advanced Therapy Medicinal Products, from drug substance to drug product. As of 2025, Porton has over 4,300 employees globally, served more than 1,400 customers, and delivered over 5,000 projects. We are committed to a customer-centric approach, delivering innovative and reliable global CDMO solutions, enabling earlier access to good medicines."
+            ]
+    },
 }
 
 COMPANIES_EN = {
