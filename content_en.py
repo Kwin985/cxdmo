@@ -824,6 +824,65 @@ ARTICLES_EN = {
             "WuXi AppTec (stock codes: 603259.SH / 2359.HK) is a leading global research and development enablement platform with an integrated, end-to-end model. Through its distinctive CRDMO and CTDMO business models, the company continuously lowers the barriers to drug discovery and development, helps partners improve R&D efficiency, and brings more breakthrough therapies to patients—advancing its vision that 'every drug can be made and every disease can be treated.'"
         ]
     },
+    "wuxi-apptec-tides-retention-2026": {
+        "title": "100% Retention Rate: How WuXi AppTec's Integrated Platform Helped Clients Secure Global Partnerships",
+        "summary": "A lipid-siRNA conjugate for extrahepatic delivery advanced from post-PCC API process development to IND filing in just nine months on WuXi TIDES; after a change in molecular ownership, the client kept the program on WuXi AppTec's platform—a 100% retention rate.",
+        "source": "WuXi AppTec",
+        "source_url": "https://www.truenorthradionetwork.com/online_features/press_releases/wuxi-apptecs-integrated-crdmo-model-shortens-discovery-to-ind-timelines-for-biotechnology-partners/article_53b0b612-083d-5df7-a2b8-e98d4f800412.html",
+        "body": [
+            "In novel drug development, time is often the variable that determines success or failure. Recently, a lipid-siRNA conjugate for extrahepatic delivery advanced from API process development (post-PCC confirmation) to IND filing in just nine months on WuXi TIDES—WuXi AppTec's integrated CRDMO platform for oligonucleotides, peptides, and related synthetic conjugates. For an oligonucleotide conjugate involving two-step conjugation, intricate processes, and numerous unit operations, such a pace is uncommon in the industry.",
+            "The biotech partnered with WuXi TIDES early in the program. After taking over, the team systematically re-engineered and optimized the process, addressing multiple technical challenges and delivering the GLP batch on time and to high quality. Shortly after this key batch was delivered, the molecule's potential was recognized by the industry and an out-licensing agreement was reached, with a global pharmaceutical company acquiring global rights. The new rights holder chose to continue advancing the molecule on WuXi AppTec's platform and expanded the collaboration from API to drug product. Under a unified analytical method and quality system, the API, formulation, and analytical teams worked in parallel—accelerating development while reducing method-handover and supply-risk exposure.",
+            "The case illustrates how WuXi AppTec's integrated CRDMO platform helps customers reach milestone licensing transactions. Figures disclosed at the company's 2025 Investor Day show that, among the 213 chemically synthesized molecules involved in global licensing deals or transactions from 2024 to H1 2025, WuXi AppTec supported 62 (29%). Of these, 53 molecules were already on the platform before the change in ownership, and after the transaction the retention rate reached 100%. Keeping programs on the platform after ownership changes avoids the time and operational risks of handover and leverages end-to-end continuity to accelerate approvals across more markets.",
+            {
+                "h": "About WuXi AppTec"
+            },
+            "WuXi AppTec (stock codes: 603259.SH / 2359.HK) is a leading global research and development enablement platform with an integrated, end-to-end model. Through its distinctive CRDMO and CTDMO business models, the company continuously lowers the barriers to drug discovery and development, helps partners improve R&D efficiency, and brings more breakthrough therapies to patients—advancing its vision that 'every drug can be made and every disease can be treated.'"
+        ]
+    },
+    "lonza-morgan-stanley-2026": {
+        "title": "Lonza at Morgan Stanley: Advancing the Pure-Play CDMO Transition, with Focus on Growth and Cash",
+        "summary": "At the Morgan Stanley Global Healthcare Conference on 15 September 2026, Lonza outlined its transition to a pure-play CDMO: a 60% Capsules & Health Ingredients divestment by year-end, 28% Advanced Synthesis growth in H1, and CapEx normalizing from over 20% to 14%–19% of sales.",
+        "source": "Investing.com",
+        "source_url": "https://ca.investing.com/news/stock-market-news/lonza-at-morgan-stanley-conference-cdmo-shift-growth-and-cash-focus-93CH-4841133",
+        "body": [
+            "On 15 September 2026, Swiss CDMO giant Lonza used the Morgan Stanley 24th Annual Global Healthcare Conference to present a company in transition: core businesses remain in strong growth while the group moves through a period of heavy investment and portfolio restructuring. Management said Lonza is approaching completion of its shift to a pure-play contract development and manufacturing organization (CDMO) model.",
+            "Strategically, Lonza expects to complete the divestment of 60% of its Capsules & Health Ingredients division by the end of 2026, leaving the group more concentrated on higher-margin manufacturing services. CFO Philippe Deecke said the company is moving away from its old 'build everything ourselves' approach toward a more balanced buy-versus-build model—seeking assets that can be enhanced with Lonza's technical capabilities and commercial reach rather than acquiring simply to add scale. Lonza also announced a Capital Markets Day in October 2026 at its Vacaville, US site, which is being transformed into a fully CDMO-capable facility.",
+            "On financials and segment performance, Advanced Synthesis grew 28% in H1 2026, driven by highly potent small-molecule APIs and bioconjugation services; however, its 48% EBITDA margin is viewed by management as a peak rather than a sustainable run rate, with a more normal level around 40% over time. Integrated Biologics is expected to grow about 10% in 2026, constrained by the timing of new capacity rather than weak demand. Specialized Modalities recovered from 2025 disruptions and is approaching the group's 32%–34% margin range but remains slightly dilutive. Capital expenditure is expected to normalize from above 20% of sales to 14%–19%, supporting better cash generation.",
+            "Management noted that CDMO capacity demand remains tight—especially in mammalian manufacturing—and that it has seen little direct impact so far from tariffs or the US BIOSECURE Act, with related costs typically passed through to customers. Lonza's market capitalization is around US$46 billion with a P/E of about 34.7x, reflecting premium market expectations.",
+            {
+                "h": "About Lonza"
+            },
+            "Lonza is a Swiss-headquartered global CDMO giant spanning biologics, advanced synthesis (small molecules and bioconjugates), drug product, and cell & gene therapy. Built on the integrated Synaffix platform, it has developed end-to-end ADC capability and continues to expand capacity in Visp, Stein, and Vacaville, serving pharma and biotech customers from early development through commercial manufacturing."
+        ]
+    },
+    "insilico-ism1354-gipr-2026": {
+        "title": "Breaking the Safety Barrier: Insilico Medicine Nominates ISM1354, Next-Gen Small-Molecule GIPR Antagonist",
+        "summary": "Powered by its generative-AI platform, Insilico Medicine nominated ISM1354—a novel small-molecule PCC targeting GIPR—for obesity, type 2 diabetes and cardiovascular indications; preclinical data show 75%–104% oral bioavailability, at least 18-fold greater plasma exposure than a clinical-stage benchmark, and a markedly wider safety window.",
+        "source": "Insilico Medicine",
+        "source_url": "https://insilico.com/news/prfc6c0d56cc3e2211e1d0-ism1354-gipr-antagonist",
+        "body": [
+            "Amid accelerating population aging and surging demand for obesity and metabolic-disease treatments, GLP-1 receptor agonist (GLP-1RA) drugs are experiencing explosive growth—with tirzepatide becoming the new 'top drug' on 2025 sales of US$36.507 billion. To make weight management longer-acting and more precise, the industry has proposed combining a GIPR (glucose-dependent insulinotropic polypeptide receptor) antagonist with GLP-1 therapy to reduce fat while preserving muscle mass; yet several GIPR candidates have recently stumbled in the clinic due to toxicity and tolerability, underscoring the development challenge.",
+            {
+                "img": "/assets/img/insilico-ism1354-gipr-2026/ism1354.png",
+                "caption": "Insilico Medicine nominates ISM1354, its next-generation small-molecule GIPR antagonist (Image: Insilico Medicine)"
+            },
+            "Insilico Medicine (HKEX: 3696), a clinical-stage biotech powered by generative AI, announced the nomination of ISM1354—an AI-driven, novel small-molecule preclinical candidate (PCC) targeting GIPR—for potential intervention in obesity, type 2 diabetes, and related metabolic disorders, with potential expansion into cardiovascular disease. Notably, Insilico nominated another GIPR antagonist, ISM0676, in January this year, which showed up to 31.3% weight loss in humanized mouse models when combined with semaglutide; ISM1354 retains robust weight-loss efficacy while delivering multidimensional improvements in pharmacokinetics and in vitro/in vivo safety.",
+            {
+                "quote": "Generative AI is demonstrating immense potential in cracking complex drug discovery challenges. Given the structural complexity and intricate functional mechanisms of GIPR, the identification of viable small-molecule GIPR antagonists and the optimization of their drug-like properties remain major challenges in drug development. However, by leveraging the highly efficient molecular generation and optimization capabilities of our Pharma.AI platform, we successfully overcame these bottlenecks in a very short time and nominated the next-generation GIPR antagonist, ISM1354. This breakthrough, balancing both speed and quality, is truly encouraging.",
+                "by": "Feng Ren, PhD, Co-CEO and CSO of Insilico Medicine"
+            },
+            "Leveraging its proprietary generative chemistry platform Chemistry42, the R&D team integrated multiple prediction modules into molecular generation and optimization—balancing potency, selectivity, and safety. A drug-induced liver injury (DILI) prediction model pre-filtered candidates with improved safety profiles, while free-energy perturbation (FEP) supported affinity prediction and ranking; after multiple design-make-test-analyze (DMTA) iterations, ISM1354 emerged as the candidate.",
+            "Preclinical studies showed that ISM1354 exhibits excellent and consistent pharmacokinetics across mice, rats, dogs, and monkeys, with oral bioavailability of 75%–104%. At the same dose, its plasma exposure was at least 18-fold greater than a clinical-stage benchmark compound. In vitro, ISM1354 showed substantially weaker OATP1B1 inhibition; in primary human and monkey hepatocytes it had minimal effect on viability even at 200 μM, whereas the benchmark compound showed cytotoxicity with IC50 of ~25 μM (human) and ~20 μM (monkey)—indicating a markedly wider safety window and lower hepatotoxicity risk. A non-GLP monkey toxicology assessment showed no significant toxicity signals, with a margin of safety (MOS) of about 45x.",
+            {
+                "quote": "Obesity is not an isolated health issue; it is also a driver of many diseases, and lipid metabolic disorder itself is one of the core hallmarks of biological aging. I believe GLP-1 class therapies have the potential to become among the first scalable 'longevity drugs,' a monumental opportunity that is hard to quantify in monetary terms. However, we must not sacrifice physical function and muscle mass for weight loss—this is a long-standing industry pain point.",
+                "by": "Alex Zhavoronkov, PhD, Founder and Co-CEO of Insilico Medicine"
+            },
+            {
+                "h": "About Insilico Medicine"
+            },
+            "Insilico Medicine is a global pioneering biotech dedicated to integrating artificial intelligence and automation to accelerate drug discovery and advance innovation across the life sciences, enabling longer and healthier lives. The company listed on the Main Board of the Hong Kong Stock Exchange on 30 December 2025 under the stock code 03696.HK. Using its proprietary Pharma.AI platform and advanced automated biology laboratories, Insilico delivers innovative drug solutions for underserved areas including fibrosis, oncology, immunology, pain, obesity, and metabolic disorders, while extending Pharma.AI into advanced materials, agriculture, nutrition, and veterinary medicine. Learn more at www.insilico.com."
+        ]
+    }
 }
 
 COMPANIES_EN = {
