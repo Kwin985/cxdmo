@@ -882,7 +882,80 @@ ARTICLES_EN = {
             },
             "Insilico Medicine is a global pioneering biotech dedicated to integrating artificial intelligence and automation to accelerate drug discovery and advance innovation across the life sciences, enabling longer and healthier lives. The company listed on the Main Board of the Hong Kong Stock Exchange on 30 December 2025 under the stock code 03696.HK. Using its proprietary Pharma.AI platform and advanced automated biology laboratories, Insilico delivers innovative drug solutions for underserved areas including fibrosis, oncology, immunology, pain, obesity, and metabolic disorders, while extending Pharma.AI into advanced materials, agriculture, nutrition, and veterinary medicine. Learn more at www.insilico.com."
         ]
-    }
+    },
+    "lonza-aseptic-spray-drying-biologics-2026": {
+    "title": "Lonza Advances Preclinical Aseptic Spray Drying to Address High-Dose Biologics Delivery Challenges",
+    "summary": "On 1 October 2026, Lonza announced it is advancing a preclinical aseptic spray drying program to give biopharma companies new formulation and delivery options for biologics constrained by high-dose subcutaneous administration, PK, stability or manufacturability. Based in Bend (US), the platform has passed proof-of-concept for mAbs, ADCs and peptides.",
+    "source": "Lonza",
+    "source_url": "https://www.lonza.com/media-advisories/2026-10-01-14-00",
+    "body": [
+        "Basel, Switzerland, 1 October 2026 – Lonza, the world's leading CDMO, announced today that it is advancing a preclinical aseptic spray drying program to provide biopharma companies with additional formulation and delivery options for biologics that otherwise face limitations related to high-dose subcutaneous administration, pharmacokinetics, stability or manufacturability. The initiative builds on successful proof-of-concept work demonstrating the reliable formulation and spray drying of a range of monoclonal antibodies and conjugates at high concentration.",
+        "The program, based in Bend (US), is focused on new approaches for biologics, including high-dose subcutaneous (SC) therapies, an area where current delivery options remain limited. As demand grows for patient-friendly biologic treatments, drug developers are seeking innovative solutions to deliver higher doses in smaller injection volumes.",
+        "Aseptic spray drying remains a highly specialized technology with limited adoption across the industry. Lonza has leveraged its formulation science, analytical capabilities and particle engineering expertise to develop a facile and inexpensive aseptic spray drying platform for proof-of-concept studies. The approach is being investigated for a broad range of therapeutic modalities, including monoclonal antibodies, antibody-drug conjugates (ADCs), and peptides.",
+        "While spray drying offers potential advantages, such as improved stability and reduced viscosity of highly concentrated formulations through suspensions, technical hurdles remain, including protein stability, fast and reliable aseptic processing, formulation optimization, and scalable manufacturing.",
+        {
+            "h": "Comment from Lonza R&D leadership"
+        },
+        "Francois Ricard, Head of R&D, Advanced Synthesis, Lonza, commented: “We believe aseptic spray drying has the potential to expand drug delivery options for biologics and new therapeutic modalities by addressing challenges associated with stability, dose concentration and patient convenience, but also pharmacokinetics. By applying our expertise in formulation science and spray drying, we are advancing approaches that could help customers develop and manufacture the next generation of biologic therapies.”",
+        {
+            "h": "About Lonza"
+        },
+        "Lonza is a Swiss-based global CDMO with capabilities spanning biologics, advanced synthesis (small molecules and bioconjugation), drug product, and cell and gene therapy. Through its Synaffix platform it has built end-to-end ADC capabilities and continues to expand capacity at Visp, Stein and Vacaville."
+    ]
+},
+    "lonza-asimov-lvv-2026": {
+    "title": "Lonza and Asimov Collaborate to Advance In Vivo Lentiviral Vector Manufacturing",
+    "summary": "On 2 October 2026, Lonza and Asimov announced a strategic collaboration combining Asimov's LV Edge cell-line technology with Lonza's process development, scale-up and GMP manufacturing expertise to advance scalable, reproducible lentiviral vector (LVV) manufacturing for emerging in vivo applications.",
+    "source": "Lonza",
+    "source_url": "https://www.lonza.com/media-advisories/2026-10-02-14-00",
+    "body": [
+        "Basel, Switzerland, and Boston, MA, USA, 2 October 2026 – Lonza, the world's leading CDMO, and Asimov, the company building an AI-native synthetic biology platform to advance therapeutic development, announced today a strategic collaboration to advance lentiviral vector (LVV) manufacturing for emerging in vivo applications.",
+        "The collaboration brings together Asimov's LV Edge system cell line technologies with Lonza's expertise in process development, scale-up, analytics and GMP manufacturing. By connecting early design decisions with development and manufacturing considerations, the collaboration helps developers incorporate manufacturing considerations earlier in development, creating a stronger foundation for scalable clinical and commercial production.",
+        "Most current methods of lentiviral vector production still depend on multi-plasmid transient transfection, which limits scalability and consistency. Stable production systems for lentiviral vector manufacturing can potentially enable scalable, reproducible and controlled product profiles for lentiviral vectors, unlocking emerging applications including in vivo LVV programs. The same approaches can also support ex vivo LVV programs.",
+        {
+            "h": "Comments from both companies"
+        },
+        "Daniel Palmacci, Head of Specialized Modalities, Lonza, commented: “The development of in vivo lentiviral therapies requires design and manufacturing strategy to be considered together from the earliest stages. By combining Asimov's design and cell line technologies with our process development and GMP manufacturing expertise, we can bring manufacturability considerations earlier into development and provide customers with a more connected path towards scalable clinical and commercial manufacturing.”",
+        "Alec Nielsen, co-founder and CEO, Asimov, commented: “In vivo lentiviral therapies turn the vector from a manufacturing reagent into the drug itself. This raises the bar for titer, product quality, and scale. By pairing LV Edge stable cell lines with Lonza's manufacturing expertise, developers can get a scalable path from sequence to clinic.”",
+        "As the collaboration progresses, Lonza and Asimov will continue to define a feasibility-first framework spanning transgene optimization, cell line development, process development, advanced analytics, scale-up, GMP manufacturing and CMC readiness. Asimov, founded by bioengineers from MIT and Boston University and headquartered in Boston, has raised over $200 million from investors including Andreessen Horowitz, CPP Investments, Horizons Ventures, and Fidelity Management & Research Company.",
+        {
+            "h": "About Lonza"
+        },
+        "Lonza is a Swiss-based global CDMO with capabilities spanning biologics, advanced synthesis (small molecules and bioconjugation), drug product, and cell and gene therapy. Through its Synaffix platform it has built end-to-end ADC capabilities and continues to expand capacity at Visp, Stein and Vacaville."
+    ]
+},
+    "biodlink-cdmo-growth-2026": {
+    "title": "BioDlink's CDMO Business Accelerates: 14 New CMC Projects Signed, Backlog Reaches RMB 391M (+95.5% YoY)",
+    "summary": "BioDlink (TOT Biopharm, 1875.HK) reports rapid CDMO growth: 14 new CMC projects signed, bringing its total CMC pipeline to 134, with an order backlog of RMB 391 million, up 95.5% year over year. Its in-house bevacizumab (Pusintin) gained two more overseas approvals, reaching seven countries.",
+    "source": "BioDlink company profile (QCC, 2026-10-02)",
+    "source_url": "https://www.qcc.com/cindustry/56c237b8ea7caf78f1dfe360d976f678.html",
+    "body": [
+        "BioDlink (TOT Biopharm, 1875.HK) is entering a phase of rapid CDMO growth following its integration into the WuXi XDC (WuXi Biologics' ADC arm) system. According to the company's latest public information, it recently signed 14 new CMC (Chemistry, Manufacturing and Controls) projects, lifting its total CMC pipeline from 120 to 134, while its order backlog reached RMB 391 million, up 95.5% year over year.",
+        "The momentum builds on a strong first half of 2026: interim results showed BioDlink's CDMO revenue of RMB 199 million, up 157% year over year. After formally joining the WuXi XDC system, synergies with the Wuxi site are being unlocked. In June 2026, the two sides held a joint open day, transitioning from strategic integration to operational collaboration and launching a 'moving forward together' initiative focused on opportunities and challenges in the XDC era.",
+        "On technology, BioDlink continues to deepen its proprietary platforms: its GL-DisacLink site-specific glycan conjugation platform has supported nearly 500 early-stage innovative molecule programs, with the first project completing ADC process development, GMP manufacturing and FDA IND filing within four months; the BDKcell (CHO-K1) cell-line platform, paired with in-house BDKMedia, enables upstream self-sufficiency; and the BDKLyo intelligent lyophilization modeling platform cuts lyophilization process development cycles by over 50%.",
+        "On proprietary-product globalization, its anti-tumor monoclonal antibody Pusintin (bevacizumab) gained approvals in two additional overseas countries, bringing the total to seven. As a key piece of the WuXi XDC ADC/XDC capacity network, BioDlink's Suzhou site (over 20,000 L) is coordinating with the Wuxi, Jiangyin, Hefei and Singapore sites to support global bioconjugation capacity expansion.",
+        {
+            "h": "About BioDlink"
+        },
+        "BioDlink (1875.HK) is a subsidiary of WuXi XDC (WuXi Biologics' ADC arm) and a global biologics and bioconjugate (ADC/XDC) CDMO offering end-to-end services from early development to commercial manufacturing. Leveraging an integrated one-stop platform and proprietary technologies such as GL-DisacLink, BDKcell and BDKLyo, it operates four commercial production lines with large-scale aseptic filling capability, and its quality system is recognized by Japan's PMDA. In H1 2026 its CDMO revenue reached RMB 199 million, up 157% year over year."
+    ]
+},
+    "samsung-biologics-oct-events-2026": {
+    "title": "Samsung Biologics Targets CDMO Contracts Across Four Global Events in October",
+    "summary": "Samsung Biologics will participate in four major biotech events in October — BioJapan (Yokohama), CPHI Worldwide (Milan), World ADC (San Diego) and BIX Korea (Seoul) — showcasing its end-to-end CDMO capabilities, 845,000 L of capacity and growing ADC/bioconjugation expertise. Its cumulative 2026 orders now approach ₩30 trillion.",
+    "source": "Samsung Biologics / Herald Economy (Korea)",
+    "source_url": "https://biz.heraldcorp.com/article/10889838",
+    "body": [
+        "On 1 October 2026, Samsung Biologics announced it will attend a string of major global pharmaceutical and biotech events across Asia, Europe, the Americas and Korea this month, using each platform to highlight its differentiated production capabilities and next-generation modality technology under a three-pillar expansion strategy of capacity, portfolio and global presence.",
+        "In Asia, the company will return for the fourth consecutive year to BioJapan 2026 in Yokohama (Oct 7–9) with a standalone booth targeting the APAC market. EVP James Choi will present on integrated CDMO services, while Yeonjung Choi of the New Modality Group will unveil research on optimizing ADC conjugation using computational fluid dynamics (CFD).",
+        "In Europe, Samsung Biologics will exhibit at CPHI Worldwide in Milan (Oct 6–8) for partnering meetings with global pharma, showcasing its CMO competitiveness, global production network and next-generation multimodality technology. In the US, at World ADC San Diego (Oct 12–15), Marc Studer, Head of ADC and mRNA Operations, will present on key success factors for ramping up ADC GMP production, with Jina Kim and Segyu Oh presenting posters on bispecific ADCs and patient-derived organoids.",
+        "Domestically, the company will join BIX Korea 2026 at COEX in Seoul (Oct 28–30), where VP Taeheui Lee will present bispecific and multispecific antibody development strategies. Samsung Biologics emphasizes its world-leading 845,000 liters of biomanufacturing capacity and its growing ADC and multispecific-antibody capabilities as it seeks to secure new contracts ahead of the curve; its cumulative 2026 orders now approach ₩30 trillion, including a $262.18M European CMO contract running through 2033 disclosed earlier this year.",
+        {
+            "h": "About Samsung Biologics"
+        },
+        "Samsung Biologics is a leading Korean biologics CDMO with the world's largest single-site biomanufacturing capacity (about 845,000 L), offering end-to-end services from cell-line development and process development to commercial manufacturing, while expanding next-generation modalities such as ADCs and bispecific antibodies for global pharma and emerging biotech clients."
+    ]
+}
 }
 
 COMPANIES_EN = {
