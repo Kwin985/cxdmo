@@ -955,7 +955,53 @@ ARTICLES_EN = {
         },
         "Samsung Biologics is a leading Korean biologics CDMO with the world's largest single-site biomanufacturing capacity (about 845,000 L), offering end-to-end services from cell-line development and process development to commercial manufacturing, while expanding next-generation modalities such as ADCs and bispecific antibodies for global pharma and emerging biotech clients."
     ]
-}
+},
+    "nobel-medicine-2026": {
+        "title": "2026 Nobel Prize in Physiology or Medicine: Optogenetics Pioneers Honored",
+        "summary": "The 2026 Nobel Prize in Physiology or Medicine goes to Karl Deisseroth, Peter Hegemann and Georg Nagel for the discovery of optogenetics—using a light-sensitive algal protein to switch individual nerve cells on or off in a living brain.",
+        "source": "NobelPrize.org",
+        "source_url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/",
+        "body": [
+            "The 2026 Nobel Prize in Physiology or Medicine has been awarded to Karl Deisseroth, Peter Hegemann and Georg Nagel for their pioneering contributions to optogenetics. Their work made it possible to switch the activity of individual nerve cells in a living brain on or off using light.",
+            "At the heart of optogenetics is a light-sensitive protein from algae—channelrhodopsin. Hegemann and Nagel showed how this protein converts light into electrical signals; Deisseroth combined it with neuroscience tooling so that researchers could remotely control specific neural circuits in freely moving animals with millisecond precision.",
+            "The method is now used in laboratories worldwide to unravel how the brain forms memories, feelings and behaviours, and has opened new avenues for studying neurological and psychiatric disorders.",
+            {
+                "quote": "Optogenetics made it possible to switch on, or off, the activity of individual nerve cells in a living brain—now a standard tool in labs worldwide.",
+                "by": "The Nobel Committee for Physiology or Medicine"
+            },
+            "For CDMOs and biotech companies focused on neuroscience drug development, the precise-control thinking behind optogenetics continues to inspire new neuromodulation therapies and delivery approaches."
+        ]
+    },
+    "nobel-physics-2026": {
+        "title": "2026 Nobel Prize in Physics: Francis Halzen and the IceCube Neutrino Observatory",
+        "summary": "The 2026 Nobel Prize in Physics goes to Francis Halzen for his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.",
+        "source": "NobelPrize.org",
+        "source_url": "https://www.nobelprize.org/prizes/physics/2026/press-release/",
+        "body": [
+            "The 2026 Nobel Prize in Physics has been awarded to Francis Halzen, professor at the University of Wisconsin–Madison, for his decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.",
+            "Neutrinos are almost everywhere yet pass through Earth and our bodies unnoticed; only in extremely rare cases does a single neutrino interact with an atomic nucleus, leaving a detectable flash of light. Halzen first proposed in 1988 to capture neutrinos using the ice at the South Pole—deploying optical sensors throughout roughly a cubic kilometre of clear ice to track high-energy neutrinos from deep space.",
+            "Under his leadership, the IceCube observatory was completed in 2011, went on to detect the first high-energy neutrinos, and later confirmed that some originate outside our solar system. Mark Pearce, Chair of the Nobel Committee for Physics, said Halzen’s tenacity and scientific vision “paved the way for a new kind of astronomy.”",
+            {
+                "quote": "His tenacity and scientific vision paved the way for a new kind of astronomy.",
+                "by": "Mark Pearce, Chair of the Nobel Committee for Physics"
+            }
+        ]
+    },
+    "nobel-chemistry-2026": {
+        "title": "2026 Nobel Prize in Chemistry: Kagan and Soai Solve the Mystery of Chirality",
+        "summary": "The 2026 Nobel Prize in Chemistry goes to Henri B. Kagan and Kenso Soai for discovering non-linear effects and autocatalysis in asymmetric organic synthesis—the chemical foundation for making single-enantiomer drug molecules, directly relevant to CDMOs and the pharmaceutical industry.",
+        "source": "NobelPrize.org",
+        "source_url": "https://www.nobelprize.org/prizes/chemistry/2026/press-release/",
+        "body": [
+            "The 2026 Nobel Prize in Chemistry has been awarded to French scientist Henri B. Kagan and Japanese scientist Kenso Soai for discovering non-linear effects and autocatalysis in asymmetric organic synthesis. Many molecules—such as amino acids—exist as two mirror-image forms, yet living organisms typically contain only one of them. This phenomenon, called “homochirality,” long puzzled chemists.",
+            "In 1986, Kagan discovered non-linear effects in asymmetric reactions, allowing one mirror-image form to predominate far beyond what had been thought possible. Soai went further, discovering asymmetric autocatalysis—where the product itself acts as a catalyst, driving the formation of more of the same handedness—and in 2003 achieved a reaction that produced only a single mirror-image form.",
+            "For drug discovery and CDMO manufacturing, the ability to reliably produce single-enantiomer (chiral) active pharmaceutical ingredients is essential: the two mirror-image forms of a molecule can interact with the human body in completely different ways—one may heal, the other may harm. The laureates’ discoveries are now widely applied in organic synthesis and pharma, forming a core basis of modern chiral API processes.",
+            {
+                "quote": "Kagan and Soai have provided a solution to a chemical mystery that is over a century old: how homochirality can emerge spontaneously. The chemical reactions they have developed are spectacular.",
+                "by": "Heiner Linke, Chair of the Nobel Committee for Chemistry"
+            }
+        ]
+    }
 }
 
 COMPANIES_EN = {
