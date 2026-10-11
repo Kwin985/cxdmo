@@ -1001,6 +1001,46 @@ ARTICLES_EN = {
                 "by": "Heiner Linke, Chair of the Nobel Committee for Chemistry"
             }
         ]
+    },
+    "asymchem-apac-award-2026": {
+        "title": "AsymBio Named 'Integrated Biologics CDMO Company of the Year in APAC 2026'",
+        "summary": "International pharmaceutical media Life Sciences Review APAC exclusively named AsymBio the 'Integrated Biologics CDMO Company of the Year in APAC 2026' and included it in the 'Top CDMO in APAC' list, recognizing its one-stop biologics CDMO capabilities across antibodies and ADCs.",
+        "body": [
+            "Life Sciences Review APAC, an international pharmaceutical industry media outlet, has named AsymBio (Kaileiying Biologics / AsymBio) the exclusive 'Integrated Biologics CDMO Company of the Year in APAC 2026' and included it among the 'Top CDMO in APAC' list. The award recognizes leading enterprises excelling in technological innovation, biopharma services, global compliance, commercial delivery and industry influence.",
+            "Leveraging the group's synergies, AsymBio has built an end-to-end, one-stop biologics CDMO service covering next-generation biologics — from antibodies and bispecific antibodies to ADCs — spanning candidate assessment, process development, manufacturing and regulatory filing.",
+            "Through its AccPCC early-stage R&D acceleration platform, AsymBio bridges early research, non-clinical and clinical development. Its dual-site manufacturing layout in Jinshan and Fengxian, Shanghai provides capacity from early R&D and toxicology batches through clinical samples to commercial-scale manufacturing. The quality management system complies with NMPA, FDA and EMA requirements, and all project IP rights are fully retained by the client.",
+            "In an exclusive interview, AsymBio CEO Rui Yang said: 'Leveraging our integrated CDMO service model and AccPCC early-stage R&D acceleration platform, we take a holistic approach to forward-looking pipeline planning, project timelines and risk management, and critical commercialization milestones — helping clients accelerate clinical progression and advance toward successful commercialization.'"
+        ]
+    },
+    "lonza-chi-divestiture-2026": {
+        "title": "Lonza to Sell Capsules & Health Ingredients (CHI) to Lone Star Funds for CHF 2.3B, Completing Pure-Play CDMO Pivot",
+        "summary": "Lonza agreed to divest its Capsules & Health Ingredients business to private-equity firm Lone Star Funds for an enterprise value of CHF 2.3 billion, retaining a 40% stake and receiving CHF 1.7 billion upfront. The deal, expected to close in H2 2026, completes Lonza's transformation into a pure-play pharmaceutical CDMO.",
+        "body": [
+            "On 6 March 2026, Lonza entered into a definitive agreement to divest its Capsules & Health Ingredients (CHI) business — including its Capsugel nutraceutical and health-ingredient manufacturing operations — to private-equity firm Lone Star Funds for an enterprise value of CHF 2.3 billion (approximately USD 3.0 billion).",
+            "Under the transaction structure, Lonza will receive upfront proceeds of CHF 1.7 billion and retain a 40% stake in the divested business, with additional preferential participation in a future exit. The transaction is expected to close in the second half of 2026, subject to regulatory approvals and completion of the required separation process.",
+            "Lonza said the divestiture completes its transformation into a pure-play pharmaceutical CDMO, with proceeds earmarked for organic growth investment and bolt-on acquisitions in its continuing business. The move aligns with a broader industry trend in which legacy Western CDMOs divest non-core assets — alongside transactions such as Novo Holdings' acquisition of Catalent — to concentrate on high-margin CDMO operations.",
+            "For the CDMO sector, the transaction underscores the attractiveness of specialized pharmaceutical supply-chain assets to financial investors, particularly those with strong market positions, recurring demand, specialized technology and high barriers to entry amid renewed emphasis on supply-chain resilience."
+        ]
+    },
+    "samsung-biologics-22b-orders-2026": {
+        "title": "Samsung Biologics Crosses $22B Cumulative Order Barrier; 845,000 L Capacity Leads the World",
+        "summary": "A new KRW 93.48 billion European contract pushed Samsung Biologics' cumulative order total (on an MTOP basis) past $22 billion (~KRW 29.9 trillion). Its 845,000 L total capacity leads Switzerland's Lonza (~741,000 L) and China's WuXi Biologics (~305,000 L).",
+        "body": [
+            "On 2 October 2026, Samsung Biologics signed a KRW 93.47862 billion (about $68.8 million) manufacturing contract with a European pharmaceutical company, running through 31 December 2031. Measured by the minimum take-or-pay (MTOP) guarantee, cumulative orders reached $22.01975 billion (~KRW 29.938 trillion), crossing the $22 billion threshold for the first time.",
+            "The milestone traces back to Samsung Biologics' first commercial production contract with Bristol Myers Squibb in July 2013, when it was an unproven new plant. Thirteen years later, the 15-year-old company has become the world's largest biomanufacturing-capacity holder. Long-term contracts with legally guaranteed MTOP provisions lock in revenue visibility: after subtracting $11.77 billion already delivered by H1-end, the remaining backlog stands at around $10 billion — roughly three times last year's annual sales of KRW 4.5569 trillion.",
+            "Capacity is the decisive edge. From Plant 1's modest 30,000 L at BMS-contract time, Samsung Biologics successively completed Plants 2–5 (155,000 / 180,000 / 240,000 / 180,000 L) and, with the March 2026 acquisition of the Rockville, Maryland site (60,000 L), reached total capacity of 845,000 L. On the same basis, Switzerland's Lonza stands at ~741,000 L, China's WuXi Biologics at ~305,000 L and Japan's Fujifilm Diosynth at ~260,000 L — widening Samsung's lead over the No. 2 player by more than 100,000 L.",
+            "Existing big-pharma clients keep expanding commitments: one European client's contract was raised from KRW 279.6 billion to KRW 400.7 billion this year, a virtuous 'small first, then scale up' cycle. The Rockville US site enables nearby supply for clients reshoring production, while the proposed PolyPeptide Group acquisition and Bio Campus II expansion extend its portfolio across antibodies, ADCs and peptides."
+        ]
+    },
+    "wuxi-biologics-cphi-milan-2026": {
+        "title": "WuXi Biologics at CPHI Milan 2026: Empowering European Biomanufacturing via Integrated CRDMO & Global Dual Sourcing",
+        "summary": "At CPHI Milan 2026 (62,000+ professionals, 2,900 exhibitors), WuXi Biologics showcased its integrated CRDMO platform, Global Dual Sourcing strategy and its two European hubs — Dundalk, Ireland (54,000 L) and Wuppertal, Germany — as pillars of supply resilience.",
+        "body": [
+            "On 9 October 2026, WuXi Biologics showcased its ability to empower European biomanufacturing at CPHI Milan 2026, which brought together more than 62,000 pharmaceutical professionals and 2,900 exhibitors. The European biologics market, valued at an estimated $123.75 billion in 2025, is projected to grow at an 8.1% CAGR from 2026 to 2035, reaching approximately $269.65 billion — underscoring demand for faster development, reliable manufacturing and regional supply resilience.",
+            "During the event, WuXi Biologics engaged extensively with global biopharma partners, demonstrating how its innovative technologies advance complex biologics from development to reliable supply. As of June 2026, the company had passed 49 regulatory inspections (including 23 by the FDA and EMA), secured 166 facility license approvals, and passed more than 2,000 GMP quality audits by global clients, including over 280 audits by EU Qualified Persons.",
+            "At the core of WuXi Biologics' approach is Global Dual Sourcing, which aligns quality, analytics and technology transfer across its global sites in Ireland, Germany, the US, China and Singapore — enabling manufacturing processes to be transferred, scaled and replicated while maintaining product quality, comparability and execution consistency.",
+            "In Europe, the Dundalk, Ireland site is an established commercial manufacturing hub operating under an HPRA GMP license, supporting EMA-approved commercial products, serving 10+ clients and providing 54,000 L of drug-substance capacity; the Wuppertal, Germany site offers flexible development-to-clinical-scale manufacturing — together forming the twin pillars of WuXi Biologics' European supply resilience."
+        ]
     }
 }
 
