@@ -1041,6 +1041,47 @@ ARTICLES_EN = {
             "At the core of WuXi Biologics' approach is Global Dual Sourcing, which aligns quality, analytics and technology transfer across its global sites in Ireland, Germany, the US, China and Singapore — enabling manufacturing processes to be transferred, scaled and replicated while maintaining product quality, comparability and execution consistency.",
             "In Europe, the Dundalk, Ireland site is an established commercial manufacturing hub operating under an HPRA GMP license, supporting EMA-approved commercial products, serving 10+ clients and providing 54,000 L of drug-substance capacity; the Wuppertal, Germany site offers flexible development-to-clinical-scale manufacturing — together forming the twin pillars of WuXi Biologics' European supply resilience."
         ]
+    },
+    "wuxi-apptec-induced-proximity-q3-2026": {
+        "title": "Treating the 'King of Cancers': How New RAS Inhibitors Expand the Boundaries of Small-Molecule Drugs — 2026 Q3 Induced-Proximity Watch",
+        "summary": "In Q3 2026, the FDA approved two induced-proximity drugs using different mechanisms — BMS's CELMoD iberdomide and Revolution Medicines' RAS molecular glue daraxonrasib — while non-degrading induced proximity entered industrial validation through deals by Merck, Chugai and others. WuXi AppTec surveys the trend and highlights its integrated CRDMO platform spanning PROTAC, molecular glues, RIPTAC and more.",
+        "source": "WuXi AppTec WeChat Official Account",
+        "source_url": "https://mp.weixin.qq.com/s/IJvDAVIJqVRatqdMZttmVA",
+        "body": [
+            {
+                "lead": "For the past few years, induced proximity has mainly been used to bring a target protein close to an E3 ubiquitin ligase so that disease-related proteins are 'destroyed' by the cell's own degradation machinery. Yet induced proximity changes more than protein stability — it reshapes molecular interactions. A drug can degrade one protein, or bring two proteins into a new complex, thereby inhibiting signaling, stabilizing a protein, or even altering its location or function."
+            },
+            "In Q3 2026, two new drugs using distinct induced-proximity mechanisms were approved by the US FDA in succession, signaling that induced proximity is moving toward clinical translation across multiple modes of action. New strategies exemplified by RAS ternary-complex inhibitors and non-degrading molecular glues illustrate the field's potential beyond protein degradation. In response, WuXi AppTec has built, on its integrated end-to-end CRDMO platform, capabilities spanning PROTAC, molecular glues, RIPTAC and other modalities to accelerate induced-proximity drugs toward the clinic.",
+            {
+                "h": "Two induced-proximity drugs with different mechanisms approved by the FDA in one quarter"
+            },
+            "In May, Pfizer and Arvinas' vepdegestrant (Veppanu) was approved by the FDA, marking a major leap for bifunctional degraders from scientific concept to marketed drug. The third quarter brought two more regulatory milestones.",
+            "On 13 August, the FDA granted accelerated approval to Bristol Myers Squibb's iberdomide (Zenbexus), which binds the cereblon (CRBN) substrate-recognition protein of the E3 ligase complex, promoting ubiquitination and degradation of transcription factors Aiolos and Ikaros; BMS called it the company's first approved CRBN E3 ligase modulator (CELMoD) therapy. On 26 August, Revolution Medicines' daraxonrasib (Rasonque) was approved for metastatic pancreatic adenocarcinoma; it first binds the chaperone cyclophilin A (CypA) to form a binary complex, then engages active, GTP-bound RAS into a ternary complex that sterically blocks RAS from downstream effector proteins — without sending RAS to the proteasome.",
+            {
+                "h": "Non-degrading induced proximity accelerates into industrial validation"
+            },
+            "If protein degradation is among the most mature directions in induced proximity, then Q3 2026 saw non-degrading induced proximity form clearer clinical and industrial signals. Daraxonrasib is the most direct example: it uses CypA to induce a RAS–drug–CypA ternary complex, blocking RAS from downstream effectors via steric hindrance.",
+            "The idea is extending into more RAS/MAPK-pathway drugs. On 28 September, Merck (MSD) and SciBrunch Therapeutics entered a global exclusive license for SPR2015, an oral KRAS G12D (ON) molecular-glue inhibitor, with SciBrunch receiving a $400 million upfront and up to $2.13 billion in potential total value. Just a day later, Chugai announced a global license with InxMed for SPYK04, a RAF-MEK molecular glue that simultaneously binds RAF and MEK, 'gluing' them into an inactive complex that blocks tumor-growth signaling.",
+            "Beyond oncology, non-degrading molecular glues are entering other disease areas. Enveda's oral small molecule ENV-294 is a non-degrading glue that stabilizes a previously undrugged immunology-related protein; its positive Phase 1b readout in moderate-to-severe atopic dermatitis is now advancing into multiple Phase 2 studies. Together, these programs suggest induced proximity is expanding from 'promoting protein degradation' to 'altering protein function by modulating protein–protein interactions.'",
+            {
+                "quote": "Beyond directly binding a specific pocket on the target protein, a drug can leverage new molecular interactions to change the fate or function of the target.",
+                "by": "WuXi AppTec, '2026 Q3 Induced-Proximity Drugs Watch'"
+            },
+            {
+                "h": "From rational design to systematic discovery: the toolbox expands"
+            },
+            "Molecular-glue discovery long relied heavily on serendipity. As the mechanisms of E3 ligases such as CRBN were elucidated, researchers gained the ability to optimize glues more purposefully. This quarter, several studies pushed the frontier further: an August Nature paper reported a multiplexed-mass-spectrometry glue-screening method that combinatorially screened 7 E3 ligases against 5,000 small molecules, discovering M12, a molecule that reprograms the E3 ligase DCAF11 — it requires glutathione S-transferase-mediated glutathionylation to become an active glue that recruits and degrades the RNA helicase DDX18.",
+            "A separate August Nature Biotechnology study expanded the search to the proteome-scale 'latent interaction space': using GluePCA to analyze proteins recruitable by the CRBN-pomalidomide complex, the team found roughly 210 zinc-finger domains capable of interacting, and by combining the AI surface-analysis tool MaSIF-mimicry, identified 6 known and 43 previously unknown CRBN-pomalidomide binders. Meanwhile, an August ACS Chemical Biology paper introduced PhenoDEL, pairing DNA-encoded libraries with single-cell optofluidics to read out intracellular degradation phenotypes directly. The thinking is shifting: from optimizing known molecules to systematically searching for new E3s, from finding known substrates to mapping latent interaction networks, and from detecting binding to directly screening cellular functional phenotypes.",
+            {
+                "h": "An integrated platform powers induced-proximity drug development"
+            },
+            "WuXi AppTec has participated almost throughout the decade-long translational journey of targeted protein degradation. To address the low hit rates of unbiased screening in early molecular-glue discovery, the company pursues a dual-track strategy: diverse DNA-encoded libraries (DEL) to broadly explore chemical space, alongside focused libraries to study known protein systems in depth. On the screening front, its affinity-selection mass spectrometry (ASMS) deploys a broad-spectrum library of over 370,000 small molecules, screening for glue candidates by comparing mass-spectrometry signal differences between single-protein and dual-protein conditions; high-throughput screening (HTS) operates in a 'one compound per well' automated mode, combining functional assays to rapidly lock in active candidates.",
+            "Today, WuXi AppTec's capabilities span the major modalities — PROTAC, RIPTAC, AUTAC, LYTAC, DUBTAC, RIBOTAC, PHIC and DAC — and it continues to leverage its integrated, end-to-end CRDMO platform to help partners accelerate innovative drug R&D.",
+            {
+                "quote": "Looking ahead, WuXi AppTec will continue to rely on its integrated, end-to-end CRDMO platform to help global partners accelerate the R&D and manufacturing of innovative medicines, bringing scientific breakthroughs to patients sooner.",
+                "by": "WuXi AppTec"
+            }
+        ]
     }
 }
 
