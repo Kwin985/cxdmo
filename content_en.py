@@ -1082,6 +1082,76 @@ ARTICLES_EN = {
                 "by": "WuXi AppTec"
             }
         ]
+    },
+    "newdrug-weekly-roundup-2026-10-12": {
+        "title": "Weekly New-Drug Roundup: CDH6 ADC Shows Promise in Ovarian Cancer; Arvinas' Parkinson Degrader Data Disclosed",
+        "summary": "WuXi AppTec's weekly new-drug roundup: OnCusp's CDH6 ADC CUSP06 posted 62% ORR in platinum-resistant ovarian cancer; Arvinas' LRRK2 degrader ARV-102 showed dose-related oculomotor and biomarker signals in Parkinson's disease; Ractigen RAG-18, Korro KRRO-121, Crescent CR-002 and Medicovestor MC001 disclosed first-in-human or IND milestones.",
+        "source": "WuXi AppTec WeChat Official Account",
+        "source_url": "https://mp.weixin.qq.com/s/emMk-f-Nl82AaAjrICp2AQ",
+        "body": [
+            {
+                "lead": "This roundup highlights recently disclosed clinical and regulatory milestones across modalities — ADCs, targeted protein degraders, small activating RNA and oligonucleotide editors — signaling continued pipeline momentum."
+            },
+            "OnCusp Therapeutics reported 1b dose-expansion data for CUSP06, a CDH6-directed ADC. The study enrolled 86 patients with platinum-resistant ovarian cancer (median three prior lines), with 81 evaluable. CUSP06 delivers exatecan (a topoisomerase I inhibitor) via an anti-CDH6 antibody and cleavable linker. In the 4.0 mg/kg cohort (n=21), the objective response rate (ORR) was 62%, including 3 complete responses; the 3.6 mg/kg cohort (n=20) showed 50% ORR. Among 30 evaluable patients previously treated with mirvetuximab soravtansine, 16 responded (ORR 53%). Principal adverse events involved hematology, gastrointestinal reactions and fatigue, with no ocular toxicity reported.",
+            {
+                "h": "Arvinas' LRRK2 degrader ARV-102: exploratory Phase 1 data in Parkinson's"
+            },
+            "Arvinas disclosed Phase 1 data for ARV-102, an oral LRRK2-targeted protein degrader, in Parkinson's disease patients. The study enrolled 24 patients receiving 20–80 mg or placebo for 28 days. Compared with placebo, ARV-102 produced dose-related improvements in saccadic amplitude; reduced CSF LRRK2 protein levels correlated with oculomotor changes and biomarker shifts in related pathways. ARV-102 is designed to cross the blood–brain barrier and degrade LRRK2, modulating neurodegeneration-related biology. Endolysosomal and neuroinflammatory markers decreased while synapse-integrity and axon-guidance markers rose — supporting central target engagement — though the oculomotor analysis was exploratory and the study was not designed to demonstrate efficacy.",
+            {
+                "h": "Multiple programs disclose first-in-human and IND progress"
+            },
+            "Ractigen Therapeutics reported first-in-human data for RAG-18, a lipid-conjugated small activating RNA targeting the UTRN promoter to raise utrophin expression and compensate for dystrophin loss. In the first cohort, three DMD boys received 15 mg IV monthly; day-113 muscle biopsies showed sarcolemmal utrophin signal density 3.5–5.3× baseline. Through day 169 there were no DLTs, SAEs or ≥grade-3 TEAEs; functional measures were inconsistent (6-minute walk changes +36.5 / −1 / −62.5 m; all three NSAA scores fell by 3), providing primarily mechanism and early safety signals.",
+            "Korro Bio dosed the first healthy-subject cohort (2 mg/kg SC) in the ANCHOR Phase 1/2 trial of KRRO-121, a GalNAc-conjugated oligonucleotide directing RNA editing to the glutamine synthetase transcript to generate a more stable enzyme for hyperammonemia; the Australian Phase 1 (up to 50 subjects) is ongoing, with the patient Phase 2 portion planned later.",
+            "Crescent Biopharma's PD-L1-targeted ADC CR-002 and Medicovestor's 'first-in-class' dimeric ADC chemo-immunotherapy MC001 each cleared FDA IND, advancing into the global Phase 1/2 APOLLO study (solid tumors) and an international Phase 1 (advanced solid tumors, pancreatic focus), respectively — both moving from preclinical to human study without yet disclosing efficacy or full safety data.",
+            {
+                "quote": "From ADCs and targeted degradation to RNA activation and oligonucleotide editing, multiple programs reported clinical and regulatory milestones this week, underscoring how frontier modalities keep advancing from concept toward clinical validation.",
+                "by": "WuXi AppTec, Weekly New-Drug Roundup"
+            }
+        ]
+    },
+    "fda-pritelivir-hsv-2026": {
+        "title": "Breaking: FDA Approves Novel Antiviral Small Molecule — First New-Mechanism HSV Therapy in ~30 Years",
+        "summary": "Asahi Kasei Therapeutics' oral antiviral Hovilpri (pritelivir) won FDA approval for acyclovir-resistant HSV mucosal-skin infections in immunocompromised adults — the first new-mechanism HSV therapy approved by the FDA in nearly three decades. The pivotal Phase 3 PRIOH-1 met its primary endpoint (63% vs 34% complete healing at day 28).",
+        "source": "WuXi AppTec WeChat Official Account",
+        "source_url": "https://mp.weixin.qq.com/s/KsMHBXlVNDYe18iCWcUSkA",
+        "body": [
+            {
+                "lead": "Herpes simplex virus (HSV-1/HSV-2) establishes lifelong latency and can reactivate, causing painful oral or genital lesions. In immunocompromised populations — transplant recipients, people living with HIV, cancer patients — infections can become frequent, severe and refractory."
+            },
+            "Asahi Kasei Therapeutics announced today that the US FDA approved its oral antiviral Hovilpri (pritelivir) 100 mg tablets for mucocutaneous HSV infections in immunocompromised adults who are unresponsive to acyclovir, valacyclovir or famciclovir. Per the company, this is the first FDA-approved HSV therapy with a new mechanism of action in nearly 30 years. Hovilpri was originally developed by Aicuris, which Asahi Kasei acquired in April this year.",
+            {
+                "h": "A novel mechanism that bypasses resistant strains"
+            },
+            "Nucleoside analogs such as acyclovir, valacyclovir and famciclovir remain mainstays, but their antiviral effect depends on specific viral enzymes; mutations can erode susceptibility and drive resistance. Unlike them, Hovilpri directly targets the HSV helicase–primase complex, interfering with the key steps of viral genome replication — retaining activity against some nucleoside-analog-resistant strains. As an oral agent, it also avoids the need for intravenous administration.",
+            {
+                "h": "Pivotal Phase 3 PRIOH-1 met its primary endpoint"
+            },
+            "Approval was based primarily on Part C of the pivotal Phase 3 PRIOH-1 study, a randomized, open-label, controlled superiority trial in 101 immunocompromised adults randomized to oral Hovilpri or investigator's choice, for up to 28 days (extendable to 42 days for improving-but-unhealed lesions). The primary endpoint was met: by day 28, 63% of Hovilpri patients achieved complete healing of all lesions versus 34% in the control arm, an adjusted treatment difference of 28.4 percentage points (95% CI 9.6–47.3; p=0.0047).",
+            "With extension to 42 days, complete-healing rates were 82% for Hovilpri versus 42% for investigator's choice (adjusted difference 40 percentage points). Safety: treatment-emergent adverse events were reported by 22% of Hovilpri patients versus 54% of controls, and discontinuations due to adverse events were 2% versus 20%; the most common Hovilpri event was headache (6%). Given the open-label design and limited sample size, safety interpretations should account for event types and patient baselines."
+        ]
+    },
+    "newdrug-roundup-roche-ipf-lilly-2026-10": {
+        "title": "Roche's Immunotherapy Approved as Adjuvant in Colon Cancer; Endeavor's IPF Hedgehog Inhibitor Hits Phase 2b Endpoints | Industry News",
+        "summary": "Roche's Tecentriq (atezolizumab) won FDA approval as adjuvant therapy for stage III dMMR colon cancer, cutting recurrence or death risk by 50%; Endeavor's Hedgehog-pathway inhibitor taladegib (ENV-101) met primary and key secondary endpoints in a Phase 2b IPF trial; Lilly's Taltz+Zepbound Phase 3b revealed immuno-metabolic links in psoriasis and obesity.",
+        "source": "WuXi AppTec WeChat Official Account",
+        "source_url": "https://mp.weixin.qq.com/s/2BveSBMoTtWlYrtSgZVtVg",
+        "body": [
+            {
+                "h": "Roche's Tecentriq approved as adjuvant therapy in stage III dMMR colon cancer"
+            },
+            "Roche announced today that the US FDA approved Tecentriq (atezolizumab) and its subcutaneous formulation Tecentriq Hybreza (atezolizumab and hyaluronidase), each combined with a fluoropyrimidine and oxaliplatin, for adjuvant treatment after surgery in patients with stage III deficient mismatch repair (dMMR) colon cancer. The company noted this is the first FDA approval of an immune adjuvant therapy for stage III dMMR colon cancer, based primarily on the Phase 3 ATOMIC study.",
+            "ATOMIC was a multicenter, randomized, open-label, active-controlled Phase 3 trial in 712 patients with resected stage III dMMR colon cancer, randomized 1:1 to Tecentriq plus mFOLFOX6 for 12 cycles followed by Tecentriq monotherapy for 13 cycles, or mFOLFOX6 for 12 cycles. The primary endpoint was disease-free survival (DFS). Tecentriq combination reduced the risk of recurrence or death by 50% versus the active-control arm; at month 36, DFS rate was 86% versus 76%. The safety profile was consistent with known Tecentriq and mFOLFOX6 characteristics. Tecentriq is a PD-L1-targeted checkpoint inhibitor that helps restore T-cell antitumor activity by blocking PD-L1 interactions with PD-1 and B7.1.",
+            {
+                "h": "Endeavor's taladegib meets Phase 2b primary and key secondary endpoints in IPF"
+            },
+            "Endeavor BioMedicines reported positive topline results from the Phase 2b WHISTLE-PF trial of taladegib (ENV-101), an oral Hedgehog-pathway inhibitor, in idiopathic pulmonary fibrosis (IPF): the trial met its primary endpoint, with a statistically significant improvement in ppFVC from baseline at week 24 versus placebo, and multiple key secondary endpoints were also significant. The company plans to discuss a Phase 3 program with global regulators.",
+            "WHISTLE-PF was a 24-week, randomized, double-blind, placebo-controlled, dose-finding Phase 2b study in 213 IPF patients across 74 sites in 14 countries; 73% also received standard antifibrotic therapy. Beyond the ppFVC primary endpoint, taladegib showed statistically significant improvements versus placebo on total lung capacity (TLC), quantitative total interstitial lung disease and quantitative fibrosis proportions on HRCT, and absolute FVC. The drug inhibits the Hedgehog pathway — aberrantly activated in fibrotic lung disease and promoting scar formation — and holds FDA and EMA orphan-drug designation plus EMA PRIME status.",
+            {
+                "h": "Lilly's Taltz + Zepbound Phase 3b reveals immuno-metabolic links"
+            },
+            "Eli Lilly reported prespecified exploratory analyses from the Phase 3b TOGETHER-PsO study evaluating Taltz (ixekizumab, an IL-17A monoclonal antibody) plus Zepbound (tirzepatide, a GIP/GLP-1 dual agonist) in adults with moderate-to-severe plaque psoriasis who are obese or overweight with at least one weight-related comorbidity. The new analyses linked combination therapy to broader shifts in psoriasis, immune and metabolic biomarkers.",
+            "TOGETHER-PsO was a 52-week, randomized, investigator-blinded, open-label Phase 3b study in 274 patients randomized 1:1 to Taltz alone or Taltz plus Zepbound, with lifestyle guidance. At week 36, the combination arm showed 482 differentially expressed proteins and 467 differentially expressed genes versus 140 and 16 in the active-control arm, emerging as early as week 12 and spanning psoriasis inflammation, immune and metabolic pathways; changes in neutrophil-related inflammatory markers may mediate some of the additional skin improvement. The study had previously met its primary endpoint (PASI 100 and ≥10% weight loss at week 36), with maintenance or improvement at week 52 and no new safety signals."
+        ]
     }
 }
 

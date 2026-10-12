@@ -37,6 +37,7 @@ COMPANY_COLORS = {
     "东曜药业 / BioDlink": "#3a7d44",
     "英矽智能": "#6a3aa0", "Insilico Medicine": "#6a3aa0",
     "行业观察": "#5b6b7a",
+    "新药动态": "#b5179e",
 }
 
 # 文章 company（中文）→ 英文显示名
@@ -55,8 +56,9 @@ CO_EN = {
     "东曜药业 / BioDlink": "BioDlink (TOT Biopharm)",
     "英矽智能": "Insilico Medicine",
     "行业观察": "Industry Insight",
+    "新药动态": "New Drugs",
 }
-GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight"}
+GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight", "新药动态": "New Drugs"}
 CAT_EN = {
     "财报": "Results", "公告": "Announcement", "产能": "Capacity", "并购": "M&A",
     "里程碑": "Milestone", "行业观察": "Insight",
@@ -262,6 +264,8 @@ def g_of(company):
     for c in COMPANIES:
         if company in c["name"] or c["name"] in company:
             return c["group"]
+    if company == "新药动态":
+        return "新药动态"
     return "行业观察"
 
 
@@ -282,15 +286,15 @@ T = {
         "hero_kicker": "CXDMO INDUSTRY NEWS · 行业资讯门户",
         "hero_h1": "追踪全球 CXDMO 产业脉动",
         "hero_sub": '聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 龙头，<br class="br">以及三星生物、Lonza 等全球前沿 CDMO 的财报、产能、并购与合作动态。',
-        "stats": [("10", "追踪企业"), ("{n}", "收录资讯"), ("3", "板块 · 药明系 / 国内 / 海外")],
+        "stats": [("10", "追踪企业"), ("{n}", "收录资讯"), ("5", "板块 · 药明系/国内/海外/观察/新药")],
         "top": "头条要闻", "top_en": "Top Story", "latest": "最新资讯", "latest_en": "Latest",
-        "insight": "行业观察", "insight_en": "Insight", "all_news": "全部资讯 →",
+        "insight": "行业观察", "insight_en": "Insight", "newdrug": "新药动态", "newdrug_en": "New Drugs", "all_news": "全部资讯 →",
         "news_h1": "全部资讯", "news_h1_en": "News",
         "news_sub": "共收录 {n} 篇行业资讯，按企业板块与分类筛选浏览。",
         "seg": "板块", "catlabel": "分类", "search": "搜索",
         "search_ph": "输入关键词，如：ADC、多肽、产能…",
         "empty": "没有匹配的资讯。",
-        "groups": ["全部", "药明系", "国内 CXDMO", "海外前沿", "行业观察"],
+        "groups": ["全部", "药明系", "国内 CXDMO", "海外前沿", "行业观察", "新药动态"],
         "cat_all": "全部",
         "co_h1": "企业名录", "co_h1_en": "Companies",
         "co_sub": "追踪 8 家全球代表性 CXDMO 企业：药明系三驾马车、国内 CXDMO 三强、海外前沿双巨头。",
@@ -320,15 +324,15 @@ T = {
         "hero_kicker": "CXDMO INDUSTRY NEWS",
         "hero_h1": "Tracking the Global CXDMO Pulse",
         "hero_sub": 'Covering WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem and Porton — China\u2019s CXDMO leaders —<br class="br">plus Samsung Biologics, Lonza and the global CDMO frontier: results, capacity, M&A and partnerships.',
-        "stats": [("8", "Companies Tracked"), ("{n}", "Stories"), ("3", "Segments · WuXi / Domestic / Global")],
+        "stats": [("8", "Companies Tracked"), ("{n}", "Stories"), ("5", "Segments · WuXi / Domestic / Global / Insight / New Drugs")],
         "top": "Top Story", "top_en": "", "latest": "Latest", "latest_en": "",
-        "insight": "Insight", "insight_en": "", "all_news": "All News →",
+        "insight": "Insight", "insight_en": "", "newdrug": "New Drugs", "newdrug_en": "", "all_news": "All News →",
         "news_h1": "All News", "news_h1_en": "",
         "news_sub": "{n} industry stories, filterable by segment, category and keyword.",
         "seg": "Segment", "catlabel": "Category", "search": "Search",
         "search_ph": "Keywords, e.g. ADC, peptide, capacity…",
         "empty": "No matching stories.",
-        "groups": ["All", "WuXi Group", "Domestic", "Global", "Insight"],
+        "groups": ["All", "WuXi Group", "Domestic", "Global", "Insight", "New Drugs"],
         "cat_all": "All",
         "co_h1": "Companies", "co_h1_en": "",
         "co_sub": "Tracking 8 representative global CXDMOs: the WuXi trio, China\u2019s domestic leaders, and the global frontier giants.",
@@ -637,6 +641,7 @@ def build_index(lang):
         f' style="--tag-color:{COMPANY_COLORS.get(c["name"], "#0a5c8c")}">{esc(c["name_en"] if lang == "en" else c["name"])}</a>'
         for c in COMPANIES)
     industry = [a for a in articles if a["company"] == "行业观察"][:2]
+    newdrug = [a for a in articles if a["company"] == "新药动态"][:2]
     stats = "".join(f'<div class="stat"><b>{v.replace("{n}", str(len(articles)))}</b><span>{k}</span></div>'
                     for v, k in t["stats"])
     content = f'''
@@ -661,6 +666,10 @@ def build_index(lang):
   <section class="section">
     <div class="section-head"><h2>{t["insight"]}{f' <span>{t["insight_en"]}</span>' if t["insight_en"] else ''}</h2></div>
     <div class="card-grid two">{"".join(card(lang, a) for a in industry)}</div>
+  </section>
+  <section class="section">
+    <div class="section-head"><h2>{t["newdrug"]}{f' <span>{t["newdrug_en"]}</span>' if t["newdrug_en"] else ''}</h2><a class="see-all" href="{lang_path(lang, "news.html")}?company={esc("新药动态" if lang == "zh" else "New Drugs")}">{t["all_news"]}</a></div>
+    <div class="card-grid two">{"".join(card(lang, a) for a in newdrug)}</div>
   </section>
 </main>'''
     return page(lang, t["site_title"], t["site_desc"], "index.html", content)
