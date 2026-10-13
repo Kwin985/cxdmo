@@ -963,6 +963,48 @@ def _cap_article_link(lang, rid):
     return f'<a href="{lang_path(lang, "articles/" + rid + ".html")}">{esc(a_title(a, lang))} →</a>'
 
 
+def capacity_jsonld(lang):
+    """产能数据库页 Dataset JSON-LD（描述这份 CDMO 生物制造产能数据集）。"""
+    asof = CAPACITY[0]["as_of"]
+    url = f"{DOMAIN}{lang_path(lang, 'capacity.html')}"
+    name = "CDMO 生物制造产能数据库" if lang == "zh" else "CDMO Biomanufacturing Capacity Database"
+    desc = T[lang]["cap_sub"].format(asof=asof)
+    companies = [c["name_zh"] if lang == "zh" else c["name_en"] for c in CAPACITY]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "@id": url + "#dataset",
+        "name": name,
+        "description": desc,
+        "url": url,
+        "identifier": url,
+        "keywords": [
+            "CDMO", "biomanufacturing capacity", "bioreactor",
+            "contract development and manufacturing organization",
+            "mammalian cell culture", "biologics",
+        ] + companies,
+        "creator": {
+            "@type": "Organization",
+            "name": "CXDMO",
+            "url": DOMAIN,
+        },
+        "dateModified": asof,
+        "spatialCoverage": {"@type": "Place", "name": "Global"},
+        "variableMeasured": {
+            "@type": "PropertyValue",
+            "name": "Biomanufacturing capacity",
+            "unitText": "liters",
+        },
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "distribution": [{
+            "@type": "DataDownload",
+            "encodingFormat": "text/html",
+            "contentUrl": url,
+        }],
+    }
+    return _jsonld(data)
+
+
 def build_capacity(lang):
     t = T[lang]
     asof = CAPACITY[0]["as_of"]
@@ -1017,7 +1059,7 @@ def build_capacity(lang):
 </section>'''
     title = (t["cap_h1"] + " — CXDMO") if lang == "zh" else (t["cap_h1"] + " — CXDMO")
     desc = t["cap_sub"].format(asof=asof)
-    return page(lang, title, desc, "capacity.html", content, "capacity.html")
+    return page(lang, title, desc, "capacity.html", content, "capacity.html", extra_head=capacity_jsonld(lang))
 
 
 # ---------------- 文章页 ----------------
