@@ -1152,6 +1152,24 @@ ARTICLES_EN = {
             "Eli Lilly reported prespecified exploratory analyses from the Phase 3b TOGETHER-PsO study evaluating Taltz (ixekizumab, an IL-17A monoclonal antibody) plus Zepbound (tirzepatide, a GIP/GLP-1 dual agonist) in adults with moderate-to-severe plaque psoriasis who are obese or overweight with at least one weight-related comorbidity. The new analyses linked combination therapy to broader shifts in psoriasis, immune and metabolic biomarkers.",
             "TOGETHER-PsO was a 52-week, randomized, investigator-blinded, open-label Phase 3b study in 274 patients randomized 1:1 to Taltz alone or Taltz plus Zepbound, with lifestyle guidance. At week 36, the combination arm showed 482 differentially expressed proteins and 467 differentially expressed genes versus 140 and 16 in the active-control arm, emerging as early as week 12 and spanning psoriasis inflammation, immune and metabolic pathways; changes in neutrophil-related inflammatory markers may mediate some of the additional skin improvement. The study had previously met its primary endpoint (PASI 100 and ≥10% weight loss at week 36), with maintenance or improvement at week 52 and no new safety signals."
         ]
+    },
+    "cdmo-monthly-2026-10": {
+        "title": "CDMO Monthly Roundup — October 2026: Capacity Arms Race, Carve-outs and the Induced-Proximity Wave",
+        "summary": "This month the CDMO sector advanced on three fronts: a capacity & order arms race (Samsung Biologics past $22B, AsymBio's APAC award, WuXi Biologics' global dual-sourcing), portfolio carve-outs (Lonza's pure-play pivot), and technology platformization (induced-proximity drugs, conjugates).",
+        "body": [
+            {"lead": "October saw the global CDMO industry move forward on three parallel tracks — capacity, M&A and technology. CXDMO launched its New Drugs board and the CDMO Capacity Database this month; this roundup structures the month's key developments."},
+            {"h": "1. Capacity & Orders: Asia-Pacific and Korea lead the arms race"},
+            "Samsung Biologics' cumulative CDMO order book surpassed $22 billion, backed by ~845,000 L of installed bioreactor capacity — the world's largest — while its acquisition of peptide CDMO PolyPeptide further strengthens multi-modality (peptide/conjugate) reach.",
+            "AsymBio (Asymchem Biologics) was named 'Integrated Biologics CDMO Company of the Year in APAC 2026' by Life Sciences Review APAC; its Jinshan + Fengxian 'dual-site, one-center' model is now a domestic benchmark for end-to-end biologics CDMO.",
+            "WuXi Biologics showcased at CPHI Milan 2026 with its integrated CRDMO and 'Global Dual Sourcing' strategy, highlighting supply resilience from its twin European bases — Dundalk, Ireland (54,000 L) and Wuppertal, Germany.",
+            {"h": "2. M&A & Carve-outs: Lonza completes its pure-play pivot"},
+            "Lonza sold its Capsules & Health Ingredients (CHI) business to Lone Star Funds for CHF 2.3 billion, fully exiting non-core assets to focus on biologics and conjugate CDMO. The transaction closed in March 2026 and was added to CXDMO tracking this month (event timing per company disclosure).",
+            {"h": "3. Technology frontier: induced proximity"},
+            "WuXi AppTec published its '2026 Q3 Induced-Proximity Drug Watch': the FDA approved two novel-mechanism induced-proximity drugs in Q3 — BMS's CELMoD iberdomide and Revolution's RAS molecular glue daraxonrasib; systematic molecular-glue discovery toolboxes (Nature multiplexed MS screening, Nat Biotech GluePCA+MaSIF) emerged, creating fresh demand for PROTAC/molecular-glue CRDMO.",
+            {"h": "4. New Drugs: a dedicated information entry point launches"},
+            "CXDMO launched its New Drugs board this month. The first batch covers a weekly new-drug roundup (CDH6-targeting ADC CUSP06 with positive ovarian-cancer data; Arvinas' LRRK2 degrader ARV-102 in Parkinson's), the FDA approval of pritelivir — the first new-mechanism HSV therapy in ~30 years — and industry news on Roche's Tecentriq adjuvant in colon cancer, Endeavor's taladegib Phase 2b in IPF, and Lilly's Taltz+Zepbound immuno-metabolic data.",
+            {"quote": "Capacity expansion and carve-outs are happening at once, signalling a shift from a 'scale competition' to a 'platform + resilience' competition. Whoever builds verifiable CRDMO capability in multi-modality tech (conjugates, induced proximity, peptides) will win the next generation of orders.", "by": "CXDMO Editorial"}
+        ]
     }
 }
 

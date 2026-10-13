@@ -1581,5 +1581,29 @@ ARTICLES = [
             "礼来（Eli Lilly）公布 TOGETHER-PsO 3b 期研究的预设探索性分析结果：评估 Taltz（ixekizumab，IL-17A 单抗）与 Zepbound（tirzepatide，GIP/GLP-1 双受体激动剂）联合，治疗合并肥胖或超重伴至少一种体重相关合并症的中重度斑块状银屑病成人。新分析显示，联合治疗与更多银屑病、免疫及代谢相关生物标志物变化有关。",
             "TOGETHER-PsO 为 52 周随机、多中心、评估者设盲、开放标签 3b 期研究，共 274 例患者按 1:1 随机接受 Taltz 单药或 Taltz 联合 Zepbound 皮下注射，均接受热量摄入减少与运动的生活方式指导。第 36 周时，联合组观察到 482 种差异表达蛋白与 467 个差异表达基因（活性对照组分别为 140 种与 16 个），变化最早第 12 周即可观察到，涉及银屑病相关炎症、免疫反应及代谢通路；中性粒细胞相关炎症标志物的变化，可能介导联合治疗带来的部分额外皮损改善。此前临床已达主要终点（第 36 周 PASI 100 且体重下降≥10% 比例），52 周维持或提高，无新安全问题。"
         ]
+    },
+    {
+        "id": "cdmo-monthly-2026-10",
+        "date": "2026-10-13",
+        "company": "行业观察",
+        "category": "行业观察",
+        "title": "2026 年 10 月 CDMO 动态盘点：产能军备、并购归核与诱导接近药物浪潮",
+        "summary": "本月 CDMO 行业延续三条主线：产能与订单军备竞赛（三星生物破 220 亿美元、凯莱英生物获 APAC 大奖、药明生物秀全球双源）、并购归核（Lonza 完成 pure-play 转型），以及技术平台化（诱导接近药物、偶联疗法）。",
+        "source": "CXDMO 编辑部整理",
+        "source_url": "https://cxdmo.com/zh/news.html",
+        "body": [
+            {"lead": "十月，全球 CDMO 行业在「产能、并购、技术」三条主线上同步推进。CXDMO 本月上线「新药动态」板块并完成 CDMO 产能数据库，本文对当月核心动态做一次结构化盘点。"},
+            {"h": "一、产能与订单：亚太与韩国领跑军备竞赛"},
+            "三星生物累计 CDMO 订单突破 220 亿美元，对应约 84.5 万升在产生物反应器产能，稳居全球第一；其收购多肽 CDMO PolyPeptide 的动作，进一步补强多模态（多肽/偶联）能力。",
+            "凯莱英生物荣膺 Life Sciences Review APAC「Integrated Biologics CDMO Company of the Year in APAC 2026」，金山 + 奉贤「双基地 + 一中心」模式成为国产生物药 CDMO 一体化标杆。",
+            "药明生物亮相 2026 米兰 CPHI，以一体化 CRDMO 与「全球双源（Global Dual Sourcing）」战略，展示爱尔兰 Dundalk（5.4 万升）与德国 Wuppertal 双欧洲基地的供应韧性。",
+            {"h": "二、并购与归核：Lonza 完成 pure-play 转型"},
+            "Lonza 以 23 亿瑞郎向 Lone Star Funds 出售胶囊与保健成分（CHI）业务，彻底剥离非核心资产，聚焦生物药与偶联 CDMO 主业。该交易发生于 2026 年 3 月，本站于本月纳入跟踪（事件时间以企业公告为准）。",
+            {"h": "三、技术前沿：诱导接近药物（induced proximity）"},
+            "药明康德发布《2026 Q3 诱导接近药物观察》：FDA 第三季度连批 BMS 的 CELMoD iberdomide 与 Revolution 的 RAS 分子胶 daraxonrasib；Nature 多重质谱筛选、Nat Biotech GluePCA+MaSIF 等系统化分子胶发现工具箱浮出水面，为 PROTAC/分子胶 CRDMO 创造新需求。",
+            {"h": "四、新药动态：独立信息入口上线"},
+            "本月 CxDMO 上线「新药动态」板块，首期收录：一周新药盘点（CDH6 靶向 ADC CUSP06 卵巢癌临床积极、Arvinas LRRK2 降解剂 ARV-102 帕金森病数据）、FDA 批准近 30 年首款新机制 HSV 疗法 pritelivir，以及罗氏 Tecentriq 结肠癌辅助疗法、Endeavor taladegib IPF 2b 期、礼来 Taltz+Zepbound 免疫代谢数据等产业新闻。",
+            {"quote": "产能扩张与并购归核并行，说明行业正从「规模竞争」走向「平台 + 韧性」竞争；谁能在多模态技术（偶联、诱导接近、多肽）上建立可被验证的 CRDMO 能力，谁就能在下一代订单中占先。", "by": "CXDMO 编辑部"}
+        ]
     }
 ]

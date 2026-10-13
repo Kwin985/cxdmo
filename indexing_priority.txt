@@ -1,0 +1,44 @@
+# cxdmo.com — GSC 优先「申请编入索引」清单
+# 使用方法：GSC → 「URL 检查」→ 粘贴下面任一 URL → 「请求编入索引」。
+# 建议每天提交 10-15 条，分 2-3 天覆盖。优先顺序：核心页 → 最新 8 篇（中英）→ 其余。
+
+## 一、核心页（先提交，权重最高）
+https://cxdmo.com/
+https://cxdmo.com/zh/
+https://cxdmo.com/news.html
+https://cxdmo.com/zh/news.html
+https://cxdmo.com/companies.html
+https://cxdmo.com/zh/companies.html
+
+## 二、最新 8 篇（新鲜度信号强，中英双语各一条）
+# 新药动态 3 篇
+https://cxdmo.com/zh/articles/newdrug-weekly-roundup-2026-10-12.html
+https://cxdmo.com/articles/newdrug-weekly-roundup-2026-10-12.html
+https://cxdmo.com/zh/articles/fda-pritelivir-hsv-2026.html
+https://cxdmo.com/articles/fda-pritelivir-hsv-2026.html
+https://cxdmo.com/zh/articles/newdrug-roundup-roche-ipf-lilly-2026-10.html
+https://cxdmo.com/articles/newdrug-roundup-roche-ipf-lilly-2026-10.html
+
+# 药明康德诱导接近药物观察
+https://cxdmo.com/zh/articles/wuxi-apptec-induced-proximity-q3-2026.html
+https://cxdmo.com/articles/wuxi-apptec-induced-proximity-q3-2026.html
+
+# 10 月公司动态 4 篇
+https://cxdmo.com/zh/articles/asymchem-apac-award-2026.html
+https://cxdmo.com/articles/asymchem-apac-award-2026.html
+https://cxdmo.com/zh/articles/samsung-biologics-22b-orders-2026.html
+https://cxdmo.com/articles/samsung-biologics-22b-orders-2026.html
+https://cxdmo.com/zh/articles/lonza-chi-divestiture-2026.html
+https://cxdmo.com/articles/lonza-chi-divestiture-2026.html
+https://cxdmo.com/zh/articles/wuxi-biologics-cphi-milan-2026.html
+https://cxdmo.com/articles/wuxi-biologics-cphi-milan-2026.html
+
+## 三、常青页（P1 内容杠杆，优先申请索引）
+https://cxdmo.com/zh/capacity.html
+https://cxdmo.com/capacity.html
+https://cxdmo.com/zh/articles/cdmo-monthly-2026-10.html
+https://cxdmo.com/articles/cdmo-monthly-2026-10.html
+
+# 四、sitemap 重新提交
+# GSC → 「站点地图」→ 确认 https://cxdmo.com/sitemap.xml 已提交且无错误 → 点「重新提交」
+# （当前共 136 条：63 篇×2 语言 + 5 静态页×2）
