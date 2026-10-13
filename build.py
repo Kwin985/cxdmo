@@ -175,6 +175,8 @@ def _render_body(body):
             qby = item.get("by") or ""
             by_html = f'<footer>{esc(qby)}</footer>' if qby else ""
             out.append(f"<blockquote><p>{qtext}</p>{by_html}</blockquote>")
+        elif isinstance(item, dict) and item.get("faq") is not None:
+            out.append("")  # FAQ blocks are rendered separately via build_article (with JSON-LD)
         elif isinstance(item, dict) and item.get("img"):
             cap = item.get("caption") or ""
             cap_html = f'<figcaption>{esc(cap)}</figcaption>' if cap else ""
@@ -206,6 +208,40 @@ def _render_body(body):
         else:
             out.append(f"<p>{esc(item)}</p>")
     return out
+
+
+def _extract_faq(body):
+    """从正文块中提取所有 FAQ 条目（{"faq":[{"q":, "a":}, ...}]）。"""
+    faqs = []
+    for item in body:
+        if isinstance(item, dict) and isinstance(item.get("faq"), list):
+            faqs.extend(item["faq"])
+    return faqs
+
+
+def render_faq(lang, faqs):
+    if not faqs:
+        return ""
+    head = "常见问题" if lang == "zh" else "FAQ"
+    items = "".join(
+        f'<div class="faq-item"><h3>{esc(f.get("q", ""))}</h3><p>{esc(f.get("a", ""))}</p></div>'
+        for f in faqs)
+    return f'<section class="faq"><h2>{head}</h2>{items}</section>'
+
+
+def faq_jsonld(faqs):
+    if not faqs:
+        return ""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": f.get("q", ""),
+             "acceptedAnswer": {"@type": "Answer", "text": f.get("a", "")}}
+            for f in faqs
+        ],
+    }
+    return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
 
 
 def date_cn(d):
@@ -997,7 +1033,11 @@ def build_article(lang, a):
         <div class="card-meta"><time>{date_of(x["date"], lang)}</time></div>
       </article>''' for x in related)
     paragraphs = "".join(_render_body(a_body(a, lang)))
+    faqs = _extract_faq(a_body(a, lang))
     crumb_co = a_company(a, lang)
+    cap_label = "查看 CDMO 产能数据库 →" if lang == "zh" else "See the CDMO Capacity Database →"
+    cap_xref = f'<p class="cap-xref"><a href="{lang_path(lang, "capacity.html")}">{cap_label}</a></p>'
+    faq_html = render_faq(lang, faqs)
     content = f'''
 <article class="article">
   <div class="wrap">
@@ -1012,7 +1052,7 @@ def build_article(lang, a):
     </div>
     <div class="prose">
       <p class="lead">{esc(a_summary(a, lang))}</p>
-      {paragraphs}
+      {paragraphs}{faq_html}
     </div>
     <div class="art-src">{t["art_note"].replace("{s}", f'<a href="{a_source_url(a, lang)}" target="_blank" rel="noopener">{esc(a_source(a, lang))}</a>')}</div>
   </div>
@@ -1020,6 +1060,7 @@ def build_article(lang, a):
 <section class="section related">
   <div class="wrap">
     <div class="section-head"><h2>{t["related"]}{f' <span>{t["related_en"]}</span>' if t["related_en"] else ''}</h2><a class="see-all" href="{lang_path(lang, "news.html")}">{t["all_news"]}</a></div>
+    {cap_xref}
     <div class="card-grid three">{rel_html}</div>
   </div>
 </section>'''
@@ -1029,7 +1070,8 @@ def build_article(lang, a):
         f'<meta property="article:section" content="{esc(a_cat(a, lang))}">\n'
         f'<meta property="article:tag" content="{esc(a_company(a, lang))}">\n'
         f'<meta property="article:tag" content="{esc(a_cat(a, lang))}">\n'
-        + article_jsonld(lang, a))
+        + article_jsonld(lang, a)
+        + faq_jsonld(faqs))
     return page(lang, f'{a_title(a, lang)} — {SITE_NAME}', a_summary(a, lang), "news.html", content, p, extra_head=head_extras)
 
 
@@ -1239,6 +1281,16 @@ img{max-width:100%}
 .cap-notes{margin-top:26px;background:#fbfcfe;border:1px solid #eef2f6;border-radius:12px;padding:16px 20px}
 .cap-notes h3{margin:0 0 6px;font-size:15px;color:#0a5c8c}
 .cap-notes p{margin:0;font-size:13px;color:#5b6b7a;line-height:1.6}
+/* 文章页 FAQ 区（配 FAQPage 结构化数据） */
+.faq{margin:28px 0 8px;border-top:1px solid #eef2f6;padding-top:18px}
+.faq h2{font-size:18px;color:#0a5c8c;margin:0 0 12px}
+.faq-item{margin-bottom:14px}
+.faq-item h3{margin:0 0 4px;font-size:15px;color:#16232e}
+.faq-item p{margin:0;font-size:14px;color:#33424f;line-height:1.7}
+/* 文章页 → 产能数据库 内链 */
+.cap-xref{margin:0 0 14px}
+.cap-xref a{display:inline-block;background:#eef5fb;color:#0a5c8c;border:1px solid #d6e6f2;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:600}
+.cap-xref a:hover{background:#0a5c8c;color:#fff}
 '''
 
 

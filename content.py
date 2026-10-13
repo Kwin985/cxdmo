@@ -1497,6 +1497,13 @@ ARTICLES = [
             {
                 "quote": "展望未来，药明康德将持续以一体化、端到端的 CRDMO 赋能平台，助力全球合作伙伴加速创新药物的研发生产进程，让科学突破更快为患者带来福祉。",
                 "by": "药明康德"
+            },
+            {
+                "faq": [
+                    {"q": "什么是诱导接近药物（induced-proximity drugs）？", "a": "一类通过让两个蛋白物理靠近而调控其功能的药物，涵盖 PROTAC（靶向蛋白降解）、分子胶、RIPTAC / LYTAC / DUBTAC / RIBOTAC 等，区别于传统占位抑制。"},
+                    {"q": "2026 年第三季度有哪些监管里程碑？", "a": "FDA 于第三季度连批 BMS 的 CELMoD iberdomide 与 Revolution 的 RAS 分子胶 daraxonrasib，显示诱导接近机制进入产业验证期。"},
+                    {"q": "这对 CDMO 意味着什么机会？", "a": "分子胶与 PROTAC 需要复杂的多步合成、偶联、analytical 与 CMC 能力，为 CRDMO 在高活性复杂小分子与偶联平台创造增量订单。"}
+                ]
             }
         ]
     },

@@ -1080,6 +1080,13 @@ ARTICLES_EN = {
             {
                 "quote": "Looking ahead, WuXi AppTec will continue to rely on its integrated, end-to-end CRDMO platform to help global partners accelerate the R&D and manufacturing of innovative medicines, bringing scientific breakthroughs to patients sooner.",
                 "by": "WuXi AppTec"
+            },
+            {
+                "faq": [
+                    {"q": "What are induced-proximity drugs?", "a": "A class of drugs that modulate function by physically bringing two proteins together — spanning PROTACs (targeted protein degradation), molecular glues, and RIPTAC / LYTAC / DUBTAC / RIBOTAC. They differ from classical occupancy-based inhibitors."},
+                    {"q": "What were the Q3 2026 regulatory milestones?", "a": "The FDA approved two novel-mechanism induced-proximity drugs in Q3: BMS's CELMoD iberdomide and Revolution's RAS molecular glue daraxonrasib — signalling that the modality has entered industrial validation."},
+                    {"q": "What opportunity does this create for CDMOs?", "a": "Molecular glues and PROTACs demand complex multi-step synthesis, conjugation, analytical and CMC work, generating incremental orders for CRDMOs in high-potency complex small molecules and conjugate platforms."}
+                ]
             }
         ]
     },
