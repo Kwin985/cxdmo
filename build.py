@@ -532,6 +532,13 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
     alt_label = "中文" if lang == "en" else "EN"
     og_type = "article" if p.startswith("articles/") else "website"
     og_locale = "en_US" if lang == "en" else "zh_CN"
+    if p.startswith("articles/"):
+        slug = p[len("articles/"):-len(".html")]
+        og_img = f"{DOMAIN}/assets/img/{slug}{'-en' if lang == 'en' else ''}.png"
+        og_image_alt = esc(title)
+    else:
+        og_img = OG_IMG
+        og_image_alt = "CXDMO — Tracking the Global CXDMO Pulse"
     return f'''<!DOCTYPE html>
 <html lang="{'en' if lang == 'en' else 'zh-CN'}">
 <head>
@@ -549,15 +556,15 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
 <meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:url" content="{canonical_path(lang, p)}">
 <meta property="og:locale" content="{og_locale}">
-<meta property="og:image" content="{OG_IMG}">
+<meta property="og:image" content="{og_img}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="CXDMO — Tracking the Global CXDMO Pulse">
+<meta property="og:image:alt" content="{og_image_alt}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(desc)}">
-<meta name="twitter:image" content="{OG_IMG}">
-<meta name="twitter:image:alt" content="CXDMO — Tracking the Global CXDMO Pulse">
+<meta name="twitter:image" content="{og_img}">
+<meta name="twitter:image:alt" content="{og_image_alt}">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 {ga_head()}
