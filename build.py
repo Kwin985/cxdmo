@@ -14,6 +14,7 @@ import shutil
 import difflib
 from content import ARTICLES, COMPANIES
 from content_en import ARTICLES_EN, COMPANIES_EN
+from capacity import CAPACITY
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = "CXDMO"
@@ -282,7 +283,8 @@ def co_matches(company, co_name):
 T = {
     "zh": {
         "nav": [("index.html", "首页", "Home"), ("news.html", "资讯", "News"),
-                ("companies.html", "企业", "Companies"), ("about.html", "关于", "About")],
+                ("companies.html", "企业", "Companies"), ("capacity.html", "数据库", "Data"),
+                ("about.html", "关于", "About")],
         "hero_kicker": "CXDMO INDUSTRY NEWS · 行业资讯门户",
         "hero_h1": "追踪全球 CXDMO 产业脉动",
         "hero_sub": '聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 龙头，<br class="br">以及三星生物、Lonza 等全球前沿 CDMO 的财报、产能、并购与合作动态。',
@@ -317,10 +319,20 @@ T = {
         "co_desc": "药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾、三星生物、Lonza 企业档案与最新动态。",
         "about_title": "关于本站 — CXDMO",
         "about_desc": "CXDMO 资讯门户：站点定位、覆盖范围与内容来源说明。",
+        "cap_h1": "CDMO 产能数据库", "cap_h1_en": "Capacity",
+        "cap_sub": "全球主要 CXDMO 生物反应器产能对比（截至 {asof}），含基地、技术平台与近期扩产；未公开聚合产能者已标注反应器规格。",
+        "cap_sub_en": "",
+        "cap_total": "已知在产/规划产能合计", "cap_total_en": "Known capacity (sum)",
+        "cap_asof": "数据截至", "cap_asof_en": "As of",
+        "cap_source": "来源", "cap_source_en": "Source",
+        "cap_related": "相关动态", "cap_related_en": "Related",
+        "cap_note_title": "数据说明", "cap_note_title_en": "Notes",
+        "cap_note": "产能数值来自各公司官网、财报与官方新闻稿（{asof}）。带「未公开聚合」者表示公司未披露单一总产能，仅列出反应器规格；标 * 为非生物药 CDMO（药明康德以小分子 CRDMO 为主、英矽智能为 AI 药物发现），仅供对照。",
     },
     "en": {
         "nav": [("index.html", "Home", ""), ("news.html", "News", ""),
-                ("companies.html", "Companies", ""), ("about.html", "About", "")],
+                ("companies.html", "Companies", ""), ("capacity.html", "Data", ""),
+                ("about.html", "About", "")],
         "hero_kicker": "CXDMO INDUSTRY NEWS",
         "hero_h1": "Tracking the Global CXDMO Pulse",
         "hero_sub": 'Covering WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem and Porton — China\u2019s CXDMO leaders —<br class="br">plus Samsung Biologics, Lonza and the global CDMO frontier: results, capacity, M&A and partnerships.',
@@ -340,6 +352,15 @@ T = {
         "ticker": "Ticker", "hq": "HQ", "visit": "Official Website ↗",
         "about_h1": "About", "about_h1_en": "",
         "about_sub": "cxdmo.com — the CXDMO industry news portal.",
+        "cap_h1": "CDMO Capacity Database", "cap_h1_en": "",
+        "cap_sub": "Global CXDMO bioreactor capacity comparison (as of {asof}), covering sites, modalities and recent expansion. Companies without a published aggregate show reactor specs instead.",
+        "cap_sub_en": "",
+        "cap_total": "Known capacity (sum)", "cap_total_en": "",
+        "cap_asof": "As of", "cap_asof_en": "",
+        "cap_source": "Source", "cap_source_en": "",
+        "cap_related": "Related", "cap_related_en": "",
+        "cap_note_title": "Notes", "cap_note_title_en": "",
+        "cap_note": "Figures are sourced from company websites, filings and official releases (as of {asof}). 'Not aggregated' means no single total capacity is disclosed — only reactor specs are listed. Entries marked * are not biologics CDMOs (WuXi AppTec is small-molecule CRDMO-led; Insilico is AI drug discovery) and are shown for reference only.",
         "read": "Read More →", "source": "Source: ",
         "home": "Home", "news_crumb": "News",
         "art_note": "This article is compiled from public reporting. Original source: {s} · For industry reference only; not investment advice.",
@@ -588,12 +609,13 @@ def page(lang, title, desc, active, content, p="index.html", extra_head=""):
       <div class="logo footer-logo"><span class="logo-mark">CX</span><span class="logo-text light">CXDMO</span></div>
       <p>{t["footer_about"]}</p>
     </div>
-    <div class="footer-col">
-      <h4>{t["footer_cols"]}</h4>
-      <a href="{lang_path(lang, 'news.html')}">{t["nav"][1][1]}</a>
-      <a href="{lang_path(lang, 'companies.html')}">{t["nav"][2][1]}</a>
-      <a href="{lang_path(lang, 'about.html')}">{t["nav"][3][1]}</a>
-    </div>
+      <div class="footer-col">
+        <h4>{t["footer_cols"]}</h4>
+        <a href="{lang_path(lang, 'news.html')}">{t["nav"][1][1]}</a>
+        <a href="{lang_path(lang, 'companies.html')}">{t["nav"][2][1]}</a>
+        <a href="{lang_path(lang, 'capacity.html')}">{t["nav"][3][1]}</a>
+        <a href="{lang_path(lang, 'about.html')}">{t["nav"][4][1]}</a>
+      </div>
     <div class="footer-col">
       <h4>{t["footer_decl"]}</h4>
       <p class="small">{t["footer_decl_text"]}</p>
@@ -897,6 +919,71 @@ def build_about(lang):
     return page(lang, T["zh"]["about_title"], T["zh"]["about_desc"], "about.html", content, "about.html")
 
 
+# ---------------- 产能数据库页 ----------------
+def _cap_article_link(lang, rid):
+    a = next((x for x in articles if x["id"] == rid), None)
+    if not a:
+        return ""
+    return f'<a href="{lang_path(lang, "articles/" + rid + ".html")}">{esc(a_title(a, lang))} →</a>'
+
+
+def build_capacity(lang):
+    t = T[lang]
+    asof = CAPACITY[0]["as_of"]
+    rows = sorted(CAPACITY, key=lambda c: (c["capacity_l"] is None, -(c["capacity_l"] or 0)))
+    known_sum = sum(c["capacity_l"] for c in CAPACITY if c["capacity_l"])
+    label_site = "基地" if lang == "zh" else "Sites"
+    label_mod = "技术平台" if lang == "zh" else "Modalities"
+    label_expand = "近期扩产" if lang == "zh" else "Expansion"
+    cards = []
+    for c in rows:
+        tags = "".join(f'<span class="tag">{esc(m)}</span>' for m in c["modalities"])
+        sites = "".join(f"<li>{esc(s)}</li>" for s in c["sites"])
+        rel = "".join(_cap_article_link(lang, r) for r in c.get("related", []))
+        star = "" if c["is_cdmo"] else ' <span class="cap-star" title="非生物药 CDMO">*</span>'
+        hq = c["hq_zh"] if lang == "zh" else c["hq_en"]
+        name = c["name_zh"] if lang == "zh" else c["name_en"]
+        cards.append(f'''
+        <article class="card cap-card">
+          <div class="cap-card-head">
+            <div>
+              <h3>{esc(name)}{star}</h3>
+              <span class="cap-ticker">{esc(c["ticker"])}</span>
+            </div>
+            <div class="cap-badge">{esc(c["capacity_display"])}</div>
+          </div>
+          <dl class="cap-meta">
+            <dt>{t["hq"]}</dt><dd>{esc(hq)}</dd>
+            <dt>{t["cap_source"]}</dt><dd><a href="{esc(c["source"])}" target="_blank" rel="noopener">{esc(c["source"])} ↗</a></dd>
+          </dl>
+          <div class="cap-section"><span class="cap-label">{label_mod}</span><div class="tags">{tags}</div></div>
+          <div class="cap-section"><span class="cap-label">{label_site}</span><ul class="cap-sites">{sites}</ul></div>
+          {f'<p class="cap-note">{esc(c["capacity_note"])}</p>' if c.get("capacity_note") else ""}
+          {f'<p class="cap-expand"><b>{label_expand}：</b>{esc(c["expansion"])}</p>' if c.get("expansion") else ""}
+          {f'<div class="cap-related"><span class="cap-label">{t["cap_related"]}</span>{rel}</div>' if rel else ""}
+        </article>''')
+    content = f'''
+<section class="section">
+  <div class="section-head"><h2>{t["cap_h1"]} <span>{t["cap_h1_en"]}</span></h2></div>
+  <p class="lead">{t["cap_sub"].format(asof=asof)}</p>
+  <div class="cap-summary">
+    <div class="cap-stat"><b>{len(CAPACITY)}</b><span>{'追踪企业' if lang=='zh' else 'Companies'}</span></div>
+    <div class="cap-stat"><b>{known_sum:,} L</b><span>{t["cap_total"]}</span></div>
+    <div class="cap-stat"><b>{asof}</b><span>{t["cap_asof"]}</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="card-grid three">{''.join(cards)}</div>
+  <div class="cap-notes">
+    <h3>{t["cap_note_title"]}</h3>
+    <p>{t["cap_note"].format(asof=asof)}</p>
+  </div>
+</section>'''
+    title = (t["cap_h1"] + " — CXDMO") if lang == "zh" else (t["cap_h1"] + " — CXDMO")
+    desc = t["cap_sub"].format(asof=asof)
+    return page(lang, title, desc, "capacity.html", content, "capacity.html")
+
+
 # ---------------- 文章页 ----------------
 def build_article(lang, a):
     t = T[lang]
@@ -1129,6 +1216,29 @@ img{max-width:100%}
   .hero{padding:48px 0}
   .hero h1{font-size:28px}
 }
+/* ===== 产能数据库页 ===== */
+.cap-summary{display:flex;gap:18px;flex-wrap:wrap;margin:18px 0 6px}
+.cap-stat{background:#f3f7fb;border:1px solid #dce7f0;border-radius:12px;padding:14px 20px;min-width:150px}
+.cap-stat b{display:block;font-size:22px;color:#0a5c8c}
+.cap-stat span{font-size:13px;color:#5b6b7a}
+.cap-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}
+.cap-card-head h3{margin:0;font-size:17px}
+.cap-ticker{font-size:12px;color:#7a8a98}
+.cap-badge{background:#0a5c8c;color:#fff;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:600;white-space:nowrap;text-align:center}
+.cap-star{color:#c0392b;font-weight:700;margin-left:4px}
+.cap-meta{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:8px 0;font-size:13px}
+.cap-meta dt{color:#5b6b7a}
+.cap-meta dd{margin:0}
+.cap-section{margin-top:10px}
+.cap-label{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#90a0ad;margin-bottom:6px}
+.cap-sites{margin:0;padding-left:18px;font-size:13px;color:#33424f}
+.cap-note{font-size:12.5px;color:#5b6b7a;background:#f7f9fb;border-left:3px solid #dce7f0;padding:8px 10px;border-radius:0 6px 6px 0;margin:10px 0}
+.cap-expand{font-size:13px;color:#33424f;margin:8px 0}
+.cap-related{margin-top:10px;font-size:13px}
+.cap-related a{display:inline-block;margin:2px 10px 2px 0;color:#0a5c8c}
+.cap-notes{margin-top:26px;background:#fbfcfe;border:1px solid #eef2f6;border-radius:12px;padding:16px 20px}
+.cap-notes h3{margin:0 0 6px;font-size:15px;color:#0a5c8c}
+.cap-notes p{margin:0;font-size:13px;color:#5b6b7a;line-height:1.6}
 '''
 
 
@@ -1181,6 +1291,7 @@ def build():
         files[f"{pfx}index.html"] = build_index(lang)
         files[f"{pfx}news.html"] = build_news(lang)
         files[f"{pfx}companies.html"] = build_companies(lang)
+        files[f"{pfx}capacity.html"] = build_capacity(lang)
         files[f"{pfx}about.html"] = build_about(lang)
         for a in articles:
             files[f"{pfx}articles/{a['id']}.html"] = build_article(lang, a)
@@ -1214,7 +1325,7 @@ def build():
         return s
 
     # 静态页：双语各列一次（带全量 hreflang 交替）
-    for pname in ("", "news.html", "companies.html", "about.html"):
+    for pname in ("", "news.html", "companies.html", "capacity.html", "about.html"):
         en_loc, zh_loc = _alt_pair(pname)
         sm += _url(en_loc, None, en_loc, zh_loc)
         sm += _url(zh_loc, None, en_loc, zh_loc)
