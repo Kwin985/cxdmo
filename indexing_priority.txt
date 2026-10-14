@@ -1,6 +1,7 @@
 # cxdmo.com — GSC 优先「申请编入索引」清单
 # 使用方法：GSC → 「URL 检查」→ 粘贴下面任一 URL → 「请求编入索引」。
-# 建议每天提交 10-15 条，分 2-3 天覆盖。优先顺序：核心页 → 最新 8 篇（中英）→ 其余。
+# 建议每天提交 10-15 条，分 2-3 天覆盖。优先顺序：核心页 → 最新 8 篇（中英）→ 常青页。
+# 「本批增强」标记 = 刚补了结构化数据（FAQ / Dataset），sitemap 已是新 URL 但旧抓取无结构，建议优先重提以刷新富媒体。
 
 ## 一、核心页（先提交，权重最高）
 https://cxdmo.com/
@@ -19,7 +20,7 @@ https://cxdmo.com/articles/fda-pritelivir-hsv-2026.html
 https://cxdmo.com/zh/articles/newdrug-roundup-roche-ipf-lilly-2026-10.html
 https://cxdmo.com/articles/newdrug-roundup-roche-ipf-lilly-2026-10.html
 
-# 药明康德诱导接近药物观察
+# 药明康德诱导接近药物观察【本批增强：新增 FAQPage 结构化数据 + 产能库内链】
 https://cxdmo.com/zh/articles/wuxi-apptec-induced-proximity-q3-2026.html
 https://cxdmo.com/articles/wuxi-apptec-induced-proximity-q3-2026.html
 
@@ -34,6 +35,7 @@ https://cxdmo.com/zh/articles/wuxi-biologics-cphi-milan-2026.html
 https://cxdmo.com/articles/wuxi-biologics-cphi-milan-2026.html
 
 ## 三、常青页（P1 内容杠杆，优先申请索引）
+# CDMO 产能数据库【本批增强：新增 Dataset 结构化数据】
 https://cxdmo.com/zh/capacity.html
 https://cxdmo.com/capacity.html
 https://cxdmo.com/zh/articles/cdmo-monthly-2026-10.html
