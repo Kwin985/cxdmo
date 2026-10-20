@@ -1445,6 +1445,84 @@ ARTICLES_EN = {
                 {"q": "What validation points are coming in late October?", "a": "WuXi AppTec's Q3 call and Samsung Biologics' Q3 results both land on October 27, with Asymchem, Pharmaron and other A-share CXOs reporting in sequence. At the FDA, GSK's bepirovirsen (chronic hepatitis B) has an October 26 goal date and Inovio's INO-3107 (recurrent respiratory papillomatosis) October 30."}
             ]}
         ]
+    },
+    "keytruda-biosimilar-fyb206-2026": {
+        "title": "Biosimilar Race for the 'King of Drugs': FDA Accepts First Keytruda Biosimilar BLA — Without a Comparative Phase III",
+        "summary": "On October 13, Zydus Lifesciences and Formycon announced FDA acceptance of the FYB206 BLA — a pembrolizumab (Keytruda) biosimilar and, to the companies' knowledge, the first publicly announced Keytruda biosimilar filing accepted in the US. Developed without a comparative Phase III efficacy trial under a February 2025 FDA agreement, FYB206 could see a decision by Q3 2027. Keytruda posted US$8.4B in Q2 2026 quarterly sales, putting the industry's largest patent cliff on the clock.",
+        "body": [
+            {
+                "lead": "The world's biggest-selling oncology drug has entered its imitation window. On October 13, India's Zydus Lifesciences and Germany's Formycon jointly announced that FDA accepted the Biologics License Application (BLA) for FYB206, a proposed biosimilar to pembrolizumab (Keytruda). To the companies' knowledge, it is the first publicly announced US acceptance of a Keytruda biosimilar filing; the BLA was submitted in Q3 2026 and a Canadian dossier has also been filed. Under the BsUFA review clock, FDA aims to complete review within 12 months of acceptance, with a decision possible as early as Q3 2027."
+            },
+            {
+                "h": "No comparative Phase III: the regulatory pathway is itself the news"
+            },
+            "What makes FYB206 notable is not merely that it is 'another biosimilar' but how it was developed: under an agreement reached with FDA in February 2025, the program required no comparative Phase III efficacy trial. Formycon CEO Stefan Glombitza said the pathway materially shortened the program and cut development spending. For the industry, it is a landmark demonstration — FDA's biosimilar regulation is easing comparative efficacy studies while tightening CMC and process characterization, and FYB206 is the first filing-level embodiment of that policy shift.",
+            {
+                "h": "Two 'firsts' in one month: OMLYCLO and FYB206"
+            },
+            "October produced an unusual cluster of biosimilar firsts. On October 5, Celltrion announced the US launch of OMLYCLO (omalizumab-igec) — the first and only FDA-approved interchangeable biosimilar to XOLAIR, covering all four XOLAIR indications (moderate-to-severe allergic asthma, CRSwNP, IgE-mediated food allergy and chronic spontaneous urticaria), meaning pharmacy-level substitution is possible subject to state pharmacy laws. On September 25, Teva's Degevma (denosumab-adet) was approved across all Xgeva indications, completing the denosumab pair alongside the March-approved Prolia biosimilar. With FYB206's acceptance, October has showcased the full biosimilar spectrum — approvals, launches, and the first filing against the biggest molecule of all.",
+            {
+                "h": "Editorial view: the capacity and process dividend of a US$8.4B-per-quarter blockbuster"
+            },
+            "Merck reported combined KEYTRUDA and KEYTRUDA QLEX sales of US$8.4B in Q2 2026 (with the subcutaneous QLEX contributing US$463M). As key patents approach expiry, Keytruda is set to become the single largest biosimilar opportunity in history. For CDMOs, the value of this news sits upstream: commercial biosimilar manufacturing and tech-transfer orders are becoming the stable base load of large-molecule CDMO businesses, while interchangeability and the no-comparative-Phase-III pathway raise the bar on quality systems, batch consistency and process characterization. As earlier industry analysis noted, the first-to-launch player could capture over 30% share with the top three taking 60–70% — launch timing is the revenue watershed. Capacity holders with strong CMC, including biosimilar manufacturing footprints in China, stand to benefit directly from this 'process wins' transition.",
+            {
+                "faq": [
+                    {
+                        "q": "What is FYB206 and who develops it?",
+                        "a": "FYB206 is a proposed biosimilar to pembrolizumab (Keytruda). Formycon handles development, filing and supply while retaining global rights; Zydus holds exclusive US and Canada commercialization rights. FDA accepted the BLA on October 13, 2026, and under a 12-month review clock a decision could come as early as Q3 2027."
+                    },
+                    {
+                        "q": "Why is no comparative Phase III required?",
+                        "a": "Per the companies, FDA agreed in February 2025 that a comparative Phase III efficacy trial was not required. That aligns with FDA's broader shift away from comparative efficacy studies toward CMC and analytical characterization, shortening timelines and cutting costs. Acceptance is not approval — the review could still end in a Complete Response Letter."
+                    },
+                    {
+                        "q": "What does this mean for CDMOs?",
+                        "a": "Keytruda's US$8.4B Q2 2025 quarterly sales make it the largest biosimilar target ever; the imitation race will generate substantial commercial manufacturing, tech-transfer and analytical characterization orders. With no comparative Phase III and interchangeability requirements, competition shifts to process and quality systems — favoring CDMOs with compliant, scaled capacity and biosimilar delivery track records."
+                    }
+                ]
+            }
+        ]
+    },
+    "cphi-milan-peptide-oligo-capacity-2026": {
+        "title": "On the Ground at CPHI Milan: Peptides, Oligonucleotides and Bioconjugation Draw the Money as CDMO Capacity Investment Refuses to Cool",
+        "summary": "C&EN's on-site reporting from CPHI Milan 2026 (October 6–8) shows capacity investment in contract pharma remains hot despite big pharma's insourcing push: SK pharmteco commits US$200M over five years, Flamma buys Lundbeck's Padova API plant, and Agilent's US$725M oligonucleotide program enters phase one in March 2027. On the demand side, Orforglipron captured over 30% of new US oral-obesity patients within months, pushing peptide API demand toward the tens-of-tons scale.",
+        "body": [
+            {
+                "lead": "From October 6 to 8, CPHI Milan 2026 gathered the global API and contract-pharma industry. C&EN's on-the-ground reporting surfaced a fact that runs counter to the 'insourcing' narrative: capacity investment in contract manufacturing (CDMO/API) has not cooled, and capital is concentrating on three fronts — peptides, oligonucleotides and bioconjugation."
+            },
+            {
+                "h": "The Western capacity list: at least five expansions in one week"
+            },
+            "The expansions disclosed on site include: SK pharmteco plans to invest US$200M over five years to expand US peptide and small-molecule capacity, build new laboratories and add roughly 100 jobs; Italy's Flamma Group is acquiring Lundbeck's API plant in Padova, adding 220 cubic meters of reactor volume to reach 1,100 cubic meters of total Italian capacity; Agilent is adding laboratory space in Boulder, with phase one of its US$725M oligonucleotide investment slated to come online in March 2027 — its bet on enzymatic ligation, if it scales, could rewrite the cost structure of conventional solid-phase synthesis; Sterling is doubling bioconjugation capacity in Wales; and Hovione is doubling spray-drying capacity in New Jersey.",
+            {
+                "h": "Demand-side validation: oral GLP-1 pushes peptide API toward the tens-of-tons scale"
+            },
+            "Behind the capex is continued demand validation. Eli Lilly's oral small-molecule GLP-1 Orforglipron, FDA-approved in April 2026, had already captured over 30% of new-patient share in the US oral obesity market by September 18; tirzepatide posted US$27.69B in global H1 2026 sales (+88%), the world's largest drug. Oral peptides suffer a 'bioavailability paradox' — oral semaglutide's absolute bioavailability is about 1%, so matching systemic exposure consumes tens of times more API than injections, pushing peptide API demand from kilogram scale toward tens or even hundreds of tons. QYResearch expects the peptide CDMO market to grow from about US$4.8B in 2025 to about US$12.6B by 2032 (CAGR ~15%).",
+            {
+                "h": "China's supply side scales in step"
+            },
+            "Chinese peptide capacity is ramping just as fast: WuXi AppTec's total SPPS reactor volume has exceeded 100,000 L; Asymchem's peptide capacity is 45,000 L, expanding to 69,000 L by end-2026; and Sichuan Shuangma's Hubei Jianxiang A16 workshop, starting up in November, lifts peptide API capacity from 4 to 10 tons with oral GLP-1 API orders already in hand. Add Samsung Biologics' ~US$2B tender for PolyPeptide and Novo Nordisk's pivot to CMO-sourced peptide API, and peptide manufacturing has become the most intensely contested arena in global CDMO.",
+            {
+                "h": "Editorial view: the race isn't cooling, but the winning hand is shifting"
+            },
+            "The CPHI signals cut both ways. On one hand, sustained Western investment in high-end dosage forms and emerging modalities confirms that outsourcing penetration and total demand keep expanding; on the other, the market has begun to worry that peptide CDMO could replay the small-molecule overcapacity script. The divergence point: commodity short peptides will feel price pressure first, while compliant capacity for long-chain and highly modified peptides and for bioconjugation remains scarce — Agilent's enzymatic route is a frontal assault on the cost curve itself. Over the next two years the competitive window narrows, and the winning hand shifts from 'can you make it' to a three-way contest of unit cost, compliance quality and delivery certainty.",
+            {
+                "faq": [
+                    {
+                        "q": "What are the representative capacity investments announced at CPHI Milan?",
+                        "a": "SK pharmteco's five-year, US$200M US peptide and small-molecule expansion; Flamma's acquisition of Lundbeck's Padova API plant (total Italian capacity reaching 1,100 cubic meters); phase one of Agilent's US$725M oligonucleotide investment online in March 2027; Sterling doubling bioconjugation capacity in Wales; and Hovione doubling spray-drying capacity in New Jersey."
+                    },
+                    {
+                        "q": "Why does oral GLP-1 amplify peptide API demand?",
+                        "a": "Oral peptides have extremely low absolute bioavailability (about 1% for oral semaglutide), so matching systemic exposure consumes tens of times more API than injections. Orforglipron taking over 30% of new US oral-obesity patients within months and Novo Nordisk's target of 15 million oral Wegovy patients by 2030 both push peptide API demand toward the tens-of-tons scale."
+                    },
+                    {
+                        "q": "Will peptide CDMO become oversupplied?",
+                        "a": "Markets do worry that commodity short peptides could replay the small-molecule overcapacity script. But compliant capacity for long-chain, highly modified peptides and bioconjugation remains scarce, and the incremental demand from oral GLP-1 concentrates in high-difficulty molecules — leading players with process depth and compliance credentials are relatively insulated from price wars."
+                    }
+                ]
+            }
+        ]
     }
 }
 
