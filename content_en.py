@@ -1524,6 +1524,84 @@ ARTICLES_EN = {
             }
         ]
     }
+,
+
+    "samsung-biologics-injunction-2026": {
+        "id": "samsung-biologics-injunction-2026",
+        "title": "Plot Twist at Samsung Biologics: Seoul High Court Extends Strike Ban to All Nine Core Bioprocess Stages; Oct 26 Walkout Postponed",
+        "summary": "Less than ten days before a planned three-week general strike, the Seoul High Court expanded its injunction from three to all nine core drug-substance manufacturing stages at the Songdo campus, and the union subsequently postponed the October 26 walkout. For the first time, the \"unpausable\" nature of biologics manufacturing has been written into labor rules via an injunction with financial penalties — and for global clients, the real test remains delivery certainty.",
+        "body": [
+            "On October 19 we reported that Samsung Biologics' union had called a second general strike for October 26, lasting three weeks. The plot has now twisted: on October 16, the Seoul High Court ruled on the company's appeal, expanding the injunction against industrial action from the final three stages — the only ones protected by the lower court in April — to all nine core drug-substance manufacturing stages at the Songdo campus in Incheon. According to Fierce Pharma and multiple Korean outlets, the union subsequently postponed the walkout it had planned for October 26.",
+            {
+                "h": "Which nine stages are covered, and why it matters"
+            },
+            "The injunction covers: seed (flask) culture, bioreactor culture, harvest, media preparation and supply, chromatography, viral filtration, concentration and buffer exchange, drug-substance filling, and buffer preparation and supply — essentially the entire continuous production chain from cell culture to DS filling. The court classified these as work \"necessary to prevent the deterioration or spoilage of raw materials and products\": even during industrial action, these stages must run with the same staffing, working hours, production scale and duty of care as normal, with indirect enforcement costs of 20 million won (about US$13,100) per violation. The ruling also weighed potential losses from a halt and supply disruption for treatments with no substitutes.",
+            "The industrial logic is straightforward: living-cell culture cannot be paused, and an interruption does not delay a batch — it typically destroys it. For the world's largest biologics CDMO, with 845,000 liters of capacity, the injunction amounts to a judicial confirmation that continuous production is legally non-interruptible.",
+            {
+                "h": "Why the strike was postponed"
+            },
+            "The union counts roughly 4,000 members, about 73% of the company's 5,455 employees. Talks have been deadlocked since March: after three rounds of mediation failed in September, the union demanded a 15% base-pay increase plus a 15% share of operating profit (some reports cite 9.5% plus a fixed payment), which the company called unacceptable and countered with 6.2% plus interest support for employee stock purchases. After the injunction, the union canceled a planned mid-week rally and said it would appeal while reviewing its strike schedule — the strike option has not been abandoned. The union has also demanded collective bargaining with second-largest shareholder Samsung Electronics and petitioned the Korea Exchange and the Financial Services Commission over a capital increase.",
+            {
+                "h": "May's precedent, and the client's point of view"
+            },
+            "The first general strike lasted five days in May; the company said proactive production adjustments resulted in roughly 150 billion won (about US$102M) in sales losses. In its latest statement, Samsung Biologics stressed that biologics manufacturing \"depends on living cells and time-sensitive steps\" and that its business-continuity plans cover every client's batches, deliveries and staffing, with clients notified directly of any changes.",
+            "Three takeaways go beyond one company. First, \"delivery certainty\" at CDMOs is becoming a legally definable asset: by extending protection to the culture stages, the appellate court effectively recognized the non-interruptibility of the entire biologics production chain — a landmark in global CDMO labor disputes. Second, buyers now need to price labor risk at single mega-capacity nodes: dual sourcing and multi-region backup are moving from slogan to budget line. Third, Samsung Biologics reports Q3 results on October 27, and how much the strike cloud has lifted will shape the market's read of its 2026 guidance and order book. The union has not abandoned the strike option, so the story may still zigzag — but in the short term, the world's largest biologics CDMO's delivery risk now has a judicial backstop.",
+            {
+                "faq": [
+                    {
+                        "q": "Which processes does the Seoul High Court injunction cover?",
+                        "a": "All nine core drug-substance stages at Songdo: flask culture, bioreactor culture, harvest, media preparation and supply, chromatography, viral filtration, concentration and buffer exchange, drug-substance filling, and buffer preparation and supply. Even during a strike, these must run at normal staffing and production scale; each violation costs 20 million won."
+                    },
+                    {
+                        "q": "Will the October 26 strike still happen?",
+                        "a": "The union postponed the strike after the injunction and canceled a planned rally; it says it will appeal and review its strike schedule, without abandoning the option. Its demands (15% base-pay rise plus 15% of operating profit) and the company's 6.2% offer remain far apart."
+                    },
+                    {
+                        "q": "What does this mean for global CDMO clients?",
+                        "a": "The ruling establishes the legal non-interruptibility of continuous biologics production, reducing near-term delivery risk at the world's largest CDMO (845,000 L). But it also reminds buyers to factor labor risk at single mega-capacity nodes into sourcing strategy — dual sourcing and multi-region backup are becoming industry consensus."
+                    }
+                ]
+            }
+        ]
+    },
+
+    "wuxi-quality-compliance-2026": {
+        "id": "wuxi-quality-compliance-2026",
+        "title": "Quality and Compliance as the CXO Divide: WuXi Biologics Clears an FDA No-Notice Inspection While WuXi AppTec Wins Frost & Sullivan's CRDMO Company of the Year for a Tenth Straight Year",
+        "summary": "Two quality signals landed on the same day: WuXi Biologics' Wuxi Mashan site passed an FDA unannounced GMP inspection with no major or critical findings, sending the stock up nearly 7% intraday; and WuXi AppTec received Frost & Sullivan's 2026 Global Company of the Year recognition in CRDMO for the tenth consecutive year. In 2026's geopolitical and regulatory climate, verifiable compliance records are turning from a bonus into the admission ticket for order allocation.",
+        "body": [
+            "On October 20, both WuXi-system companies collected landmark quality and compliance recognition on the same day. First, per Finance Titan HK citing a Northeast Securities report, WuXi Biologics' Wuxi Mashan production base successfully passed an FDA unannounced (no-notice) GMP on-site inspection with no major or critical findings. Hong Kong biotech rallied on the news: WuXi Biologics (2269.HK) rose as much as nearly 7% intraday before closing up 3.84% at HK$50.05. Second, Frost & Sullivan awarded WuXi AppTec the 2026 Global Company of the Year recognition in the CRDMO industry — its tenth consecutive year of recognition.",
+            {
+                "h": "Mashan: a no-notice inspection with zero major findings"
+            },
+            "FDA no-notice inspections — verifying production discipline, quality systems, materials management and data integrity without warning — are widely regarded as the toughest test in the industry. Mashan is China's first biologics site holding both FDA and EMA commercial manufacturing licenses, running integrated large-scale production of drug substance and drug product for mAbs, bispecifics, fusion proteins and enzymes; it is the core capacity behind WuXi Biologics' late-stage and commercial contracts with multinational pharma and its stable supply to the US market.",
+            {
+                "h": "600+ audits, 100% pass: the compounding value of a compliance record"
+            },
+            "Compliance is not one inspection's luck but the accumulation of a long record: as of end-June 2026, WuXi Biologics had completed 49 global regulatory inspections and held 166 global facility licenses; in thirteen years of operation, Mashan has passed 600+ regulatory and client audits with a 100% rate and supported the global approval of 20+ biologics. Northeast Securities argues the clean no-notice pass validates the reliability of the standardized quality system, easing overseas clients' concerns about the compliance of China-based capacity and supporting continued intake of major US/EU commercial programs.",
+            {
+                "h": "Ten years, ten awards: institutional recognition of the CRDMO model"
+            },
+            "Frost & Sullivan's Company of the Year is its top honor, benchmarking strategy effectiveness and execution. This year's citation highlights WuXi AppTec's integrated CRDMO model, global capacity across the full drug-development lifecycle, and continued investment in emerging modalities including oligonucleotides, peptides and related conjugated medicines. On quality, the company alone completed 741 regulatory inspections and client audits in 2025 with zero critical findings, governed by a One Global Quality System. Chairman and CEO Dr. Ge Li said the company will remain committed to its CRDMO strategy to help global clients bring new medicines to patients faster.",
+            "Read against 2026's backdrop, both news items point to the same conclusion: compliance capability is shifting from a cost item to a competitive moat. On the regulatory side, FDA's pivot on biosimilars — de-emphasizing comparative clinical efficacy in favor of CMC — systematically raises the weight of process and quality systems. On the geopolitical side, with export-control consultations covering biotech technologies, overseas clients are weighting \"verifiable compliance records\" more heavily in supplier selection. On the demand side, high-value modalities such as GLP-1 peptides, ADCs and bispecifics demand far more GMP discipline and data integrity than traditional small molecules. Stacked together, audit pass rates are becoming the leading indicator of order allocation — for anyone tracking the CXO landscape, that is worth more attention than any single award.",
+            {
+                "faq": [
+                    {
+                        "q": "What was the outcome of the FDA inspection at WuXi Biologics' Mashan site?",
+                        "a": "Per Northeast Securities, the Mashan site passed an FDA unannounced GMP inspection with no major or critical findings. Mashan is China's first biologics site holding both FDA and EMA commercial licenses, has passed 600+ regulatory and client audits over thirteen years with a 100% rate, and supports 20+ globally approved biologics."
+                    },
+                    {
+                        "q": "What does Frost & Sullivan's Global Company of the Year mean?",
+                        "a": "It is Frost & Sullivan's top honor, based on rigorous benchmarking of strategy effectiveness and execution. WuXi AppTec has won for ten consecutive years since 2017, and completed 741 regulatory inspections and client audits in 2025 with zero critical findings — sustained institutional recognition of its integrated CRDMO model and quality system."
+                    },
+                    {
+                        "q": "Why is quality and compliance becoming the dividing line in CXO?",
+                        "a": "Three forces stack: FDA's biosimilar pivot elevates CMC's weight; geopolitical policy shifts make verifiable compliance records decisive for overseas clients; and high-value modalities (GLP-1 peptides, ADCs, bispecifics) demand stricter GMP discipline and data integrity. Audit pass rates are becoming the leading indicator of order allocation, squeezing out capacity that cannot meet the bar."
+                    }
+                ]
+            }
+        ]
+    }
 }
 
 COMPANIES_EN = {
