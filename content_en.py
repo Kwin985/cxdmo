@@ -1601,7 +1601,139 @@ ARTICLES_EN = {
                 ]
             }
         ]
-    }
+    },
+    "samsung-biologics-q3-2026": {
+        "title": "Samsung Biologics Q3 2026: Revenue Up 18.5% but Net Profit Down 21.2% as Margin Slips from 50.4% to 42.9%",
+        "summary": "Q3 revenue reached KRW 1.4903T (+18.5% YoY), operating profit KRW 640.1B (+1.0%) and net profit KRW 391.1B (-21.2%), with the operating margin falling from 50.4% to 42.9%. Growth came from full utilisation of Plants 1-4, the Plant 5 ramp and the first revenue contribution from Rockville, while three cost items landed at once. Management still raised full-year revenue growth guidance to 20% and holds USD 21.9B in cumulative binding CMO contracts.",
+        "body": [
+            "On 21 October, Samsung Biologics (KRX: 207940) reported third-quarter 2026 results. Q3 revenue was KRW 1.4903T, up 18.5% year on year and 12.8% quarter on quarter; operating profit was KRW 640.1B, up just 1.0%; net profit was KRW 391.1B, down 21.2% year on year and 9.2% sequentially. For the first nine months, revenue reached KRW 4.0684T (+24.4%), operating profit KRW 1.8073T (+17.3%) and net profit KRW 1.291T (+11.2%).",
+            {
+                "h": "The revenue-profit scissors: three cost items at once"
+            },
+            "Gross profit barely moved, from roughly KRW 736.0B to KRW 738.0B, which tells you capacity utilisation did not deteriorate. The pressure sat entirely below the gross line: the operating margin fell 7.5 percentage points to 42.9%. Management attributed this to three overlapping factors: incremental costs from process performance qualification (PPQ) batches as Plant 5 (180,000 L) ramps; initial operating costs at the Rockville, Maryland facility acquired in March, which contributed revenue for the first time this quarter while still filling capacity; and the translation effect of roughly 95% of revenue being denominated in US dollars. In addition, net non-operating income swung from +KRW 29.1B a year earlier to -KRW 108.1B, a KRW 137.2B deterioration that exceeded the entire year-on-year increase in operating profit (KRW 6.6B) and pushed pre-tax profit down 19.7% — the single largest reporting factor behind the net profit decline.",
+            {
+                "h": "USD 21.9B in orders, full-year guidance raised to 20%"
+            },
+            "The commercial side kept expanding. Cumulative binding CMO contract value reached USD 21.9B at the end of Q3, up about 9.0% from USD 20.1B a year earlier. The company has 117 cumulative CMO projects and 184 CDO projects, versus 107 and 164 respectively at the end of 2025, and has obtained 496 cumulative regulatory approvals for CMO products. Citing full utilisation of Plants 1-4, revenue contribution from Plant 5 PPQ batches and stabilising commercial production at Rockville, management raised 2026 full-year revenue growth guidance to 20% from a prior range of 15-20%, implying roughly KRW 5.47T. President and CEO John Rim framed the environment simply: as global pipelines become more diverse and supply requirements more complex, consistent execution across manufacturing programmes matters more than ever.",
+            "One detail deserves attention: the gap between order growth and revenue growth. Cumulative contract value rose 9.0% while quarterly revenue rose 18.5%, which means the quarter was driven more by execution on existing contracts and new capacity coming online than by fresh order intake. For a business model built on full utilisation and long-term agreements that is not abnormal, but it does mean 2027 revenue elasticity depends on signing new contracts against the remaining Plant 5 capacity and the unused capacity at Rockville — which the company confirms is still under negotiation.",
+            {
+                "h": "Capacity roadmap: from 845,000 L to 1,385,000 L"
+            },
+            "Total global biologics capacity stands at 845,000 L: 785,000 L across Plants 1-5 in Songdo and 60,000 L at Rockville, with Plants 1-4 at full utilisation. The second bio campus is planned with Plants 6-8 at 180,000 L each, taking antibody capacity to 1,385,000 L once complete; land has been secured for a third bio campus focused on emerging modalities. Commercially, the company opened a sales office in the Netherlands this quarter to strengthen local engagement with European clients.",
+            {
+                "h": "A KRW 3T rights offering and PolyPeptide: peptides are the next card"
+            },
+            "Two capital actions are running in parallel. The public tender offer for Switzerland's PolyPeptide Group has met its acceptance condition with an 87.92% participation rate against a 66.7% threshold, extending the service portfolio from antibodies and conjugates into peptide-based therapeutics and adding PolyPeptide's manufacturing network across Europe, the United States and India. Separately, Samsung Biologics announced a KRW 3T rights offering to fund the acquisition and future capacity expansion, with existing shareholder subscriptions in November followed by a public offering of unsubscribed shares. The company also received an A rating in the latest MSCI ESG assessment and established a greenhouse gas emissions calculation system.",
+            "Read against the 2026 industry backdrop, the significance of this quarter is not the growth rate but the direction of margin. For two years the Samsung narrative was 'number one in capacity, full utilisation, pricing power'; 2026 is the phase of trading margin for share, with new plant ramps, overseas consolidation and integration costs all consuming margin simultaneously. Contrast Lonza, which on 14 October raised its mid-term CORE EBITDA margin ambition to the high thirties while keeping capex at a mid-to-high teens percentage of sales: the two leaders are now on opposite margin trajectories — Lonza pushing margin up inside a pure-play CDMO model, Samsung letting margin normalise as it scales. At 42.9% the current margin still sits above Lonza's mid-term target range, but the trend matters more: once depreciation on Plants 6-8 lands in 2027-2028, price elasticity becomes the next variable in order allocation.",
+            "Three things to watch: whether the three-week general strike originally set for 26 October actually goes ahead — the Seoul High Court expanded its injunction to nine core drug-substance processes at Songdo on 16 October, and the union has postponed while appealing without withdrawing; whether new contracts for Rockville's remaining capacity are signed this year; and how much the KRW 3T rights offering dilutes per-share metrics.",
+            {
+                "faq": [
+                    {
+                        "q": "What are the key numbers in Samsung Biologics' Q3 2026 results?",
+                        "a": "Q3 revenue was KRW 1.4903T (+18.5% YoY, +12.8% QoQ), operating profit KRW 640.1B (+1.0%) and net profit KRW 391.1B (-21.2%), with the operating margin at 42.9% versus 50.4% a year earlier. Nine-month revenue reached KRW 4.0684T (+24.4%), operating profit KRW 1.8073T (+17.3%) and net profit KRW 1.291T (+11.2%)."
+                    },
+                    {
+                        "q": "Why did net profit fall while revenue grew?",
+                        "a": "Gross profit was essentially flat (about KRW 736.0B to 738.0B). Pressure came from the Plant 5 PPQ ramp, initial operating costs at the newly consolidated Rockville facility and FX on roughly 95% USD-denominated revenue. Net non-operating income also swung from +KRW 29.1B to -KRW 108.1B, cutting pre-tax profit 19.7% and driving most of the net profit decline."
+                    },
+                    {
+                        "q": "What does Samsung Biologics' capacity and order backlog look like?",
+                        "a": "Global capacity is 845,000 L (785,000 L across Songdo Plants 1-5 plus 60,000 L at Rockville), with Plants 1-4 at full utilisation. Plants 6-8 at 180,000 L each would take capacity to 1,385,000 L. Cumulative binding CMO contracts reached USD 21.9B, with 117 CMO and 184 CDO projects and 496 regulatory approvals; full-year revenue growth guidance was raised to 20%."
+                    }
+                ]
+            }
+        ]
+    },
+    "hansoh-roche-adc-platform-2026": {
+        "title": "From Selling Molecules to Selling Platforms: Hansoh's USD 15.5B+ ADC Deal with Roche as China's Out-Licensing Tops USD 130B in Nine Months",
+        "summary": "Hansoh Pharma announced a platform-level ADC partnership with Roche on 19 October: USD 400M upfront, USD 110M on the one-year anniversary and more than USD 15B in potential milestones, a total exceeding USD 15.5B and the second-largest China out-licensing deal on record. The subject is no longer a single molecule but two preclinical programmes plus multiple Roche-proposed targets developed on Hansoh's own ADC platform. In the same window, METiS partnered with Lilly on an AI-driven extrahepatic LNP platform and Hutchmed closed a USD 110M upfront, while the NDRC reported roughly USD 130B of innovation-drug technology licensing in the first nine months.",
+        "body": [
+            "On the evening of 19 October, Hansoh Pharma (03692.HK) announced a strategic collaboration and licence agreement with Roche. The structure: USD 400M upfront, USD 110M payable on the one-year anniversary, more than USD 15B in potential development, regulatory and commercial milestones, plus tiered royalties on future sales — a potential total above USD 15.5B, the second-largest out-licensing deal by a Chinese innovative drug company. The next day the stock rose as much as 9% intraday and closed up 8.32% at HK$34.38, taking market capitalisation back above HK$200B to HK$208.5B.",
+            {
+                "h": "The subject changed from a molecule to a platform"
+            },
+            "Unlike a typical single-asset licence, this collaboration covers a portfolio of ADC programmes: two of Hansoh's preclinical ADC projects plus multiple projects against targets proposed by Roche, developed using Hansoh's proprietary ADC technology platform. Under the split, Hansoh leads early development for each programme up to completion of global Phase Ia at the latest, Roche takes over development and commercialisation outside Greater China, and Hansoh retains all Greater China rights. Hansoh may also designate up to two programmes to participate in overseas development, earning additional US commercial economics on those two in return for its investment.",
+            "Two features of the terms carry the real information. First, the payment structure prices a platform option: USD 400M upfront for molecules that have not yet entered the clinic and for platform capability rather than clinical data. Second, Hansoh keeps all Greater China rights and can opt into overseas development economics, meaning it has not exited downstream investment in these programmes — which preserves its negotiating position but also commits it to domestic clinical supply and downstream CMC for those assets, demand that ultimately lands with CDMOs holding ADC conjugation and high-potency capacity.",
+            {
+                "h": "A second deal within a year, ten times the size"
+            },
+            "This is the second collaboration between the two companies in twelve months. In October 2025, Hansoh licensed ex-Greater China rights to HS-20110, a CDH17-targeting ADC, for USD 80M upfront, up to USD 1.45B in milestones and sales royalties, a total of about USD 1.53B. The jump from USD 1.53B to USD 15.5B is not simply a better asset: the counterparty now pays for a platform's ability to keep producing molecules, not for one candidate. Multinational interest in Chinese ADC assets is shifting from buying a molecule with attractive clinical data to locking in the design and process capability that generates them.",
+            {
+                "h": "Three deals in three days, one direction"
+            },
+            "Between 19 and 21 October, platform-level and early-stage licensing landed in clusters. METiS announced a strategic collaboration with Lilly to develop next-generation extrahepatic LNP delivery using its AI-driven NanoForge / AiLNP platform, with an upfront above USD 10M and up to USD 1.1B in milestones — among the largest AI-driven extrahepatic LNP platform deals globally. On 21 October, Hutchmed closed its licence deal with GSK for HMPL-A830, receiving a USD 110M upfront plus up to USD 1.185B in development, regulatory and commercial milestones — for an asset still in Phase Ia. HMPL-A830 is an antibody-targeted therapeutic conjugate (ATTC) pairing an EGFR antibody with a KRAS small-molecule inhibitor payload. A Phase Ia molecule attracting a USD 110M upfront means the buyer is paying for molecular design and conjugation-delivery logic, not clinical data.",
+            "At the aggregate level, the National Development and Reform Commission said at its 20 October press conference that China's innovation-drug technology out-licensing reached roughly USD 130B in the first nine months of 2026, close to the whole of last year. The half-year data is more granular: according to Industrial Securities, China recorded 100 out-licensing deals in H1 2026 with USD 5B in upforwards and USD 99.7B in total deal value, all records for the period; for January-September the count reached 158 deals (+60% YoY) with USD 129.3B in disclosed total value (+33%).",
+            {
+                "h": "Hard validation on the demand side: 29 Chinese late-breakers at ESMO"
+            },
+            "Licensing valuations ultimately rest on data. At the 2026 ESMO Congress on 23-27 October, 29 Chinese innovative-drug studies were selected as late-breaking abstracts — roughly one third of the total, a record — with five earning places in the highest-format presidential sessions. Guangda Securities reads this as a key window on the industry inflection, with companies shifting from a 'R&D spending narrative' to a 'product revenue plus milestone delivery' logic. For CROs and CDMOs, every link in that conversion chain requires outsourcing: registration batches, clinical supply, comparators and biomarker testing all have to be completed before the readout.",
+            {
+                "h": "Three layers of transmission to CRO and CDMO demand"
+            },
+            "Platform-level licensing transmits to outsourcing demand in three thicker layers than single-asset deals. The first is funnel expansion: platform collaborations mean multiple programmes advancing in parallel, concentrating demand for early process development, analytical methods, stability and toxicology batches within a single year — and these orders are far stickier than single-asset work, because once a process is locked early, subsequent clinical phases and commercial supply usually stay with the same provider. The second is where Greater China capacity sits: Hansoh retains all Greater China rights, so domestic clinical supply and eventual commercial manufacturing for these programmes must run through Chinese capacity, further sharpening scarcity in ADC conjugation and high-potency suites. The third is that milestone realisation depends on CMC execution: whether USD 15B of milestones is ever paid depends on programmes reaching IND, pivotal trials and launch on schedule, and the biggest variable in any schedule is process scale-up and batch consistency — which is why buyers now weight schedule certainty alongside price when selecting a CDMO.",
+            "The sober side deserves equal space. First, milestone payments are conditional; the USD 15.5B headline and actual cash flows may differ by an order of magnitude, and only USD 510M of upfront and anniversary payments is currently recognisable, under 4% of the nominal total. Second, ADC target crowding is already high: whether Roche-proposed targets can be differentiated depends on how fast Hansoh's linker and payload platform iterates, not on the number of molecules. Third, the repeat-business character of platform deals cuts both ways — the deeper the client lock-in, the more directly a single client's pipeline volatility hits a CDMO's utilisation.",
+            "Taken together, the shape of China's innovation-drug out-licensing has changed in 2026: from selling molecules to selling platforms, from selling late-stage assets to selling early design capability, from one-off transactions to repeat business with the same counterparty inside a year. For CROs and CDMOs the implication is order front-loading — licensing now happens before the clinic, so process development moves earlier and revenue recognition shows up sooner in early-stage outsourcing. If you want a leading indicator for 2027 CXO orders, the repeat rate of multinationals licensing Chinese early-stage platforms may be more reliable than any single deal value.",
+            {
+                "faq": [
+                    {
+                        "q": "What are the terms of the Hansoh-Roche deal?",
+                        "a": "Hansoh receives USD 400M upfront, USD 110M on the one-year anniversary, more than USD 15B in potential milestones and tiered royalties, for a potential total above USD 15.5B. The collaboration covers two Hansoh preclinical ADC programmes and multiple Roche-proposed targets developed on Hansoh's ADC platform; Hansoh leads early development through global Phase Ia and retains all Greater China rights."
+                    },
+                    {
+                        "q": "Why is this described as moving from selling molecules to selling platforms?",
+                        "a": "In October 2025 Hansoh licensed a single CDH17 ADC (HS-20110) to Roche for about USD 1.53B in total. This deal covers the platform's ability to keep generating molecules and is ten times larger at over USD 15.5B. METiS' AI-driven extrahepatic LNP platform deal with Lilly (up to USD 1.1B in milestones) and Hutchmed's USD 110M upfront for a Phase Ia ATTC point the same way."
+                    },
+                    {
+                        "q": "How does platform-level licensing translate into CRO/CDMO orders?",
+                        "a": "Through three channels: parallel early programmes concentrate demand for process development, analytical methods and toxicology batches, and early process lock-in is highly sticky; Hansoh's retained Greater China rights route domestic clinical and commercial supply to Chinese ADC conjugation and high-potency capacity; and milestone realisation depends on scale-up and batch consistency, so buyers now weight schedule certainty alongside price."
+                    }
+                ]
+            }
+        ]
+    },
+    "wuxi-apptec-changzhou-800t-2026": {
+        "title": "WuXi AppTec Adds 800 Tonnes of API Capacity in Changzhou: RMB 10.1B Investment, 630 Mu Site, 2026 Capex of RMB 7.5-8.5B",
+        "summary": "A Morgan Stanley note dated 15 October disclosed that WuXi AppTec plans to invest RMB 10.1B to expand WuXi STA's Changzhou site, adding 800 tonnes of API capacity on about 420,000 sqm (630 mu), focused on technical services and process development across six therapeutic areas. Combined with 2026 targets to lift small-molecule reactor capacity from 4,000 to 5,000 cbm and solid-phase peptide synthesis from 100,000 to 130,000 L, the expansion pace now exceeds the original plan and serves as a leading indicator for 2027.",
+        "body": [
+            "In a note dated 15 October, Morgan Stanley maintained an Overweight rating and HK$207.40 target price on WuXi AppTec (02359.HK), with the core message a capacity plan that the market has not fully priced: the company intends to invest RMB 10.1B to expand the Changzhou site of its subsidiary WuXi STA, adding an estimated 800 tonnes of active pharmaceutical ingredient capacity in phases over the coming years. The new site covers about 420,000 square metres, roughly 630 mu.",
+            {
+                "h": "Three capacity targets revised at once"
+            },
+            "Placing this investment against the company's stated 2026 capacity targets shows the change in pace. The company had planned to lift small-molecule reactor capacity from 4,000 to 5,000 cubic metres (+25%) and solid-phase peptide synthesis (SPPS) capacity from 100,000 to 130,000 litres (+30%) within 2026, with capital expenditure guidance of RMB 7.5-8.5B, part of it already earmarked for the new Changzhou base. Morgan Stanley states plainly that the 800-tonne expansion 'exceeds the original target', evidence that group capacity expansion has accelerated.",
+            "The characterisation of the project matters as much as the tonnage. The note says the expansion will focus on technical services and process development, specifically addressing stability and toxicology testing needs for branded drugs. That is not simply piling on volume: it moves high-value, high-stickiness service capability into an API site. For clients it means process continuity and data traceability from preclinical through commercialisation inside one campus; for the company it puts development service revenue and commercial manufacturing revenue on the same balance sheet.",
+            {
+                "h": "Six therapeutic areas and the weight of peptides"
+            },
+            "The new base will serve six therapeutic areas: diabetes, oncology, cardiovascular, antivirals, autoimmune disease and infectious disease. Peptide programmes within that mix span oncology, diabetes, infectious disease and cardiovascular — consistent with the expansion of the TIDES business, which generated RMB 7.26B in H1 2026, up 44.3% and equal to 25.1% of revenue, with roughly 45% growth expected for the full year. As GLP-1 peptides move from rare metabolic indications to large-scale chronic disease, API demand shifts from kilograms to tonnes, which is precisely why 800 tonnes of API and 130,000 litres of SPPS have to advance together.",
+            {
+                "h": "Q3 results on 26 October: consensus points to re-acceleration"
+            },
+            "The current fundamentals behind the investment: H1 2026 revenue of RMB 28.897B (+38.93%), non-GAAP attributable net profit of RMB 10.572B (+89.39%) and gross margin of 53.91% versus about 44.4% a year earlier; continuing-operations backlog of RMB 66.43B (+25.2%); and full-year revenue guidance raised from RMB 51.3-53.0B to RMB 58.5-60.5B. Consensus for the 26 October report is revenue of about RMB 15.294B (+26.8% YoY) and net profit of about RMB 5.401B (+53.7%); Zheshang Securities is more optimistic, modelling Q3 revenue growth of 30-40% and adjusted net profit growth of 56-76%, with nine-month revenue up 36-39%.",
+            "One accounting trap needs flagging before reading that report: on 27 August the company reduced its stake in WuXi XDC, generating an estimated RMB 3.143B of pre-tax investment income (about RMB 2.67B after tax) that will flow through Q3 attributable net profit. Attributable and non-GAAP/adjusted net profit will therefore diverge sharply, and cross-company comparisons must use a single basis or they will overstate the operational improvement.",
+            {
+                "h": "Editor's view: the small-molecule 'overcapacity' thesis is retiring"
+            },
+            "The prevailing view on Chinese small-molecule CDMOs in 2024-2025 was overcapacity and price war. WuXi AppTec's RMB 10.1B expansion is a direct rebuttal, but not by arguing that total capacity is short — it is arguing that premium capacity is short. Commodity reactors are indeed oversupplied; what remains scarce is capacity that can handle branded-drug stability and toxicology batches, run high-potency chemistry and solid-phase peptide synthesis, and carry a programme from process development to commercial scale on one campus. That matches feedback from CPHI Milan 2026, where customers compared Asia against the US and Europe rather than China against China, with price gaps of several multiples, and competition concentrated on premium lines that can hold a schedule.",
+            "The second observation is depreciation timing. The RMB 10.1B will be spent in phases over several years, so 800 tonnes of capacity and ramp costs will not hit the P&L at once, but 2027-2028 will bring concentrated depreciation. Morgan Stanley calls the expansion a positive leading indicator for 2027 on the logic that capacity precedes orders and orders precede revenue; conversely, if global biopharma funding cools in 2027, that capacity turns from leading indicator into margin drag. It is also why the company holds 2026 capex at RMB 7.5-8.5B and reserves only part of it for Changzhou instead of building everything at once.",
+            "The third observation is the symmetry of competition. In the same week, Samsung Biologics committed a KRW 3T rights offering to fund the PolyPeptide acquisition and a 1,385,000 L antibody capacity plan, while Lonza raised its mid-term margin ambition to the high thirties and kept capex at a mid-to-high teens percentage of sales — all three global leaders chose to keep investing in capacity in 2026. What differs is where: Samsung in antibodies and peptides, Lonza in complex biologics and ADC platforms, WuXi AppTec in small-molecule API and peptides. All three bets face a demand test around 2028, and which one proves right will define the next cycle more than any single quarter.",
+            {
+                "faq": [
+                    {
+                        "q": "How large is WuXi AppTec's Changzhou expansion?",
+                        "a": "Per Morgan Stanley, the company plans to invest RMB 10.1B to expand WuXi STA's Changzhou site, adding 800 tonnes of API capacity on about 420,000 sqm (630 mu) in phases over several years, focused on technical services and process development across diabetes, oncology, cardiovascular, antivirals, autoimmune and infectious disease."
+                    },
+                    {
+                        "q": "How does this expansion relate to the 2026 capacity targets?",
+                        "a": "The company had planned to lift small-molecule reactor capacity from 4,000 to 5,000 cbm (+25%) and SPPS capacity from 100,000 to 130,000 L (+30%) in 2026, with capex guidance of RMB 7.5-8.5B. Morgan Stanley views the 800-tonne Changzhou project as exceeding the original target, evidence of an accelerated pace and a positive leading indicator for 2027."
+                    },
+                    {
+                        "q": "How should the 26 October Q3 net profit be read?",
+                        "a": "Consensus is roughly RMB 15.294B revenue (+26.8%) and RMB 5.401B net profit (+53.7%), but attributable net profit includes an estimated RMB 3.143B pre-tax gain (about RMB 2.67B after tax) from the 27 August WuXi XDC stake reduction. Attributable and adjusted figures therefore diverge sharply and comparisons should use the adjusted basis."
+                    }
+                ]
+            }
+        ]
+    },
 }
 
 COMPANIES_EN = {
