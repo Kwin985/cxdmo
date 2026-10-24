@@ -1870,7 +1870,165 @@ ARTICLES_EN = {
                     ]
                 }
             ]
-        }
+        },
+    "jiuzhou-q3-2026": {
+        "title": "Jiuzhou Pharma Q3 2026: Revenue Returns to Growth at RMB 1.36B, but RMB 5B in Peptide Backlog Is Still Bottlenecked by Capacity",
+        "summary": "9M26 revenue reached RMB 3.94B (-5.38%) and net profit RMB 617M (-17.50%), yet Q3 alone grew 5.58% to RMB 1.36B with net profit up 3.41% to RMB 229M. New small-molecule CDMO projects rose over 25% YoY and TIDES added 20+ projects with a backlog above RMB 5B, while group-wide capacity utilisation sits at just ~70%.",
+        "body": [
+            "On 22 October, Jiuzhou Pharmaceutical (603456.SH) reported third-quarter 2026 results. For the first nine months revenue was RMB 3.937B, down 5.38% year on year; net profit attributable to shareholders was RMB 617M, down 17.50%; and net profit excluding non-recurring items was RMB 615M, down 17.54%. In Q3 alone revenue reached RMB 1.361B (+5.58%), net profit RMB 229M (+3.41%) and recurring net profit RMB 229M (+4.02%) — after sequential improvement in Q2, the company is officially back to year-on-year growth. The nine-month recurring net margin was 15.63%.",
+            {
+                "h": "How to read the numbers: the cumulative figure still falls, the inflection is quarterly"
+            },
+            "Split across three quarters, the picture is clearer. The cumulative decline stems mainly from pricing and product-mix pressure in generic APIs plus the delivery timing of certain legacy CDMO projects, while single-quarter growth with profit expanding in line with revenue suggests the drag from legacy project adjustments is fading and new projects are starting to contribute. Management attributed the slight decline in Q3 gross margin to customer delivery mix, calling it normal quarterly volatility with the full-year level expected to hold — a claim that needs to be tested against the Q4 delivery mix before it can be read as a trend.",
+            {
+                "h": "Capacity utilisation at 70%, but the sites tell two different stories"
+            },
+            "In an investor call with 52 institutions after the results, the most valuable disclosure was on capacity: group CDMO utilisation is around 70%, but the sites are sharply divergent. The small-molecule workshops at Ruibo Suzhou are fully booked and running above 80%, serving as the core plant for late-phase and commercial orders from multinationals; Zhejiang Ruibo is seeing utilisation climb steadily as Phase III projects enter process performance qualification (PPQ).",
+            "That ten-point gap between 70% group-wide and 80%-plus at the flagship plant is exactly where second-tier CDMOs stand in 2026: not a shortage of orders, but orders concentrated in a few sites and a few stages. It also explains why the same report can show new small-molecule CDMO projects up more than 25% while revenue still contracts — 18 to 36 months separate a signed project from PPQ and from commercial batch revenue.",
+            {
+                "h": "Peptides: RMB 5B backlog, and the constraint is capacity, not demand"
+            },
+            "TIDES is the fastest-growing block. It added more than 20 projects in the first nine months, spanning IND through ND stages, concentrated in GLP-1, Parkinson's disease and autoimmune indications. Solid-phase peptide capacity was expanded 300% year on year in H1, yet management is explicit that growth remains constrained by capacity scale; the company is accelerating construction of commercial peptide lines, with backlog value above RMB 5B.",
+            "Capex tells the same story: the 2026 fixed-asset investment plan is capped at RMB 1B, with 2027 expected at a similar level, directed at the Ruibo Suzhou small-molecule and peptide commercial lines, oligonucleotide capabilities, a new conjugation (DC) line at the Taizhou site and renovation of legacy workshops at Zhejiang Ruibo. The Ruibo Suzhou commercial small-molecule line is scheduled to start production in H2 2027, with the Taizhou DC line planned for 2027.",
+            "Put RMB 1B a year in context: WuXi AppTec guides 2026 capex at RMB 7.5-8.5B, with RMB 10.1B committed to its Changzhou site alone, while Asymchem and Porton operate in the multi-billion range. Jiuzhou's intensity means it cannot build everything — doing two of peptides, conjugation and oligonucleotides really well is already a stretch. That is a structural constraint on second-tier CDMOs in 2026, not a question of execution.",
+            {
+                "h": "Customer mix: Novartis remains the anchor, overseas front-ends fill in"
+            },
+            "Novartis is still the core strategic customer. The Novartis product cycle maps directly onto Jiuzhou's order book: Entresto still contributed USD 2.486B in sales as a cash-flow anchor despite generic competition, Kisqali took over as the new core at USD 3.211B (+51% YoY), and Fabhalta grew 96%. On the funnel side, by the end of H1 the company had 1,224 Phase I/II projects, 99 Phase III and 44 commercial, up 66, 5 and 5 respectively from end-2025; the key-account team won 11 new projects in H1.",
+            "Overseas localisation is starting to pay. In the first nine months Jiuzhou Europe delivered 8 projects; Ruibo US booked 42 orders and added 17 new customers; Japan and Korea contributed 28 new orders. The Suzhou pilot plant hosts more than 30 active programmes, at least five in late-stage clinical development across oncology and autoimmune disease. The model is a technical BD approach — overseas front-ends in the US, Kamakura and Konstanz take on development services, with Chinese sites scaling and delivering from kilogram quantities upward — competing on process understanding rather than price.",
+            {
+                "h": "External variable: how brokers read Announcement No. 48"
+            },
+            "On 16 October, MOFCOM and MOST opened consultation on a revised catalogue of technologies prohibited or restricted from export (Announcement No. 48 of 2026). Five biopharma technologies are involved, three of which — proprietary cell and gene therapy process platforms, siRNA drug process platforms and engineered pathogen gain-of-function techniques — are proposed for the prohibited list. Sinolink Securities judges the impact limited: mainstream licence-out deals do not transfer technology ownership, and CDMO value lies in outsourced services with customer IP typically held offshore.",
+            "For a structure like Jiuzhou's — Chinese capacity serving overseas customers — the near-term effect is sentiment. The medium-term question is whether its oligonucleotide build-out lands inside the 'services' framework or brushes against 'technology transfer'. That is the question worth asking in the next few investor calls.",
+            {
+                "h": "Editorial: three paths to margin repair, and Jiuzhou picked the hardest"
+            },
+            "Line up three peers and Q3 2026 shows three entirely different margin curves. Asymchem grew Q3 revenue 24.04% and net profit 81.49%, but emerging businesses ran at a 30.95% gross margin against 47.97% for small molecules — trading margin for scale. Samsung Biologics saw its operating margin fall from 50.4% to 42.9% as Plant 5 PPQ costs and the first Rockville consolidation landed — a classic ramp-up tax, trading near-term margin for capacity position through 2032. Lonza anchored mid-term CORE EBITDA margin in the high thirties at its Capital Markets Day, the structural margin of a pure-play CDMO.",
+            "Jiuzhou is a fourth path, and the hardest: protect profitability in legacy small molecules (management says profit, not revenue, is the priority) while betting on peptides, conjugation and oligonucleotides converting capacity into revenue in 2027-2028. That requires two things to hold simultaneously — no cash-flow stall in the base business, and no delay in validating and delivering new capacity.",
+            "The valuation anchor for this kind of company therefore should not be backlog value but the conversion rate from orders to revenue. Two verifiable inputs: the PPQ schedule of new projects, and utilisation at the flagship sites. How much of that RMB 5B peptide backlog converts, and how fast, matters far more than the headline number — especially with group utilisation at 70% and dedicated peptide lines not yet built.",
+            "The risk is equally clear: sector-wide capacity expansion means a healthy order book is not the same as durable undersupply. If demand growth lags capacity release, falling utilisation and new depreciation will compress margins together — a particularly dangerous combination for a second-tier CDMO spending a tenth of the leader's capex while betting on three new modalities at once.",
+            {
+                "faq": [
+                    {
+                        "q": "What were Jiuzhou Pharmaceutical's 9M26 results?",
+                        "a": "Revenue of RMB 3.937B (-5.38% YoY), net profit of RMB 617M (-17.50%) and recurring net profit of RMB 615M (-17.54%), for a 15.63% recurring net margin. Q3 alone delivered revenue of RMB 1.361B (+5.58%), net profit of RMB 229M (+3.41%) and recurring net profit of RMB 229M (+4.02%), returning to year-on-year growth."
+                    },
+                    {
+                        "q": "Why is Jiuzhou's peptide business capacity-constrained?",
+                        "a": "TIDES added more than 20 projects in the first nine months with backlog above RMB 5B, and solid-phase peptide capacity already expanded 300% YoY in H1. Management states growth remains limited by capacity scale and is accelerating commercial peptide lines; the Ruibo Suzhou commercial small-molecule line starts production in H2 2027, alongside a Taizhou conjugation line and oligonucleotide build-out."
+                    },
+                    {
+                        "q": "What is Jiuzhou's capacity utilisation?",
+                        "a": "About 70% group-wide for CDMO, but sharply divergent by site: Ruibo Suzhou small-molecule workshops are fully booked above 80% and serve as the core plant for late-phase and commercial multinational orders, while Zhejiang Ruibo utilisation rises as Phase III projects enter PPQ."
+                    },
+                    {
+                        "q": "Does MOFCOM Announcement No. 48 affect CXOs like Jiuzhou?",
+                        "a": "The draft adds three biopharma technologies to the prohibited export list, including CGT and siRNA process platforms, and two to the restricted list. Brokers see limited impact: mainstream licence-out deals do not transfer ownership, and CXOs export service capability with customer IP held offshore. The open question is whether domestic oligonucleotide capacity sits inside the services framework."
+                    }
+                ]
+            }
+        ]
+    },
+    "cdmo-capacity-geography-2026": {
+        "title": "793,000 L vs 784,000 L: Lonza and Samsung Biologics Have Almost the Same Capacity and Almost Opposite Maps",
+        "summary": "Lonza runs 484,000 L in the US, 219,000 L in Europe and 90,000 L in Singapore — 793,000 L total, roughly two-thirds in America. Samsung Biologics has 784,000 L across Plants 1-5 in Songdo, over 90% in Korea. A 1.1% difference in volume, mirrored geopolitical exposure, and two very different ways to be 'the largest'.",
+        "body": [
+            "At its 2026 Capital Markets Day, Lonza laid out the numbers behind its position in large-scale mammalian capacity: 484,000 L of US mammalian capacity, 219,000 L across European sites and 90,000 L in Singapore, for 793,000 L globally. The Vacaville, California site acquired from Roche in 2024 for USD 1.2B accounts for 332,000 L on its own — 42% of the group total — and is marketed as world-scale biologics capacity. Lonza also claims the largest biologics CDMO network in the US and argues that key operating areas such as mammalian will remain under-supplied over the long term.",
+            "Set that against Samsung Biologics. Bio Campus I in Songdo — Plants 1 through 4 — totals 605,000 L and can legitimately claim to be the world's largest single biomanufacturing site. Plant 5 came online in 2026, adding 180,000 L and lifting total antibody capacity to 784,000 L. Bio Campus II will add Plants 6, 7 and 8 by 2032 for a further 720,000 L. Separately, the company closed its acquisition of GSK's Rockville, Maryland facility in 2026 — two cGMP plants with 60,000 L of drug substance capacity combined — giving it its first US manufacturing footprint.",
+            {
+                "h": "A 9,000-litre gap — and the gap is the map"
+            },
+            "Side by side: 793,000 L versus 784,000 L, a difference of 9,000 L, or 1.1%. In any argument about who is number one, that gap is noise. The meaningful gap is structural: Lonza is 61% US, 28% Europe and 11% Singapore, with the US and Europe together near 89%. Samsung is 92% Korea and 7.7% US.",
+            "Even counting all of Bio Campus II from 2032 (784,000 + 720,000 = 1,504,000 L, plus 60,000 L at Rockville, roughly 1.56 million L), Samsung's Korean share stays around 92%. In other words, over a decade Samsung can double Lonza's volume without changing its geographic concentration at all.",
+            "That difference means the same phrase — 'the largest globally' — carries a completely different risk stack. First, policy exposure: with 61% of capacity on US soil, Lonza is arguably a beneficiary of any 'made in America' supply narrative, while Samsung's 92% Korean base makes transpacific logistics, tariffs and rules of origin hard constraints; a US customer that needs US manufacturing has only those 60,000 Rockville litres to work with. Second, single-campus concentration: Samsung's five Songdo plants sit in one park, so any regional shock — power, labour, industrial action — hits nine-tenths of capacity directly. That is precisely why the two rounds of union disputes in May and October 2026 rattled global customers. Lonza at least spans three continents; Gordon Bates, head of integrated biologics, acknowledges a 'regional imbalance' with nearly two-thirds of capacity in the US, but stresses that the US is the world's largest pharmaceutical market.",
+            {
+                "h": "'We are not in a capacity race' — but the race has moved"
+            },
+            "CEO Wolfgang Wienand insists Lonza is not in a capacity race with anyone. On the same trip, Renzo Cicillini, who heads the Visp site, was blunter: 'We are still the biggest CDMO worldwide but Samsung, WuXi — and the others — are not sleeping. We need to be always one step further than the others.'",
+            "Looking at the past year, the real competitive axes are no longer litres but three finer things. First, the ADC toolbox: in June 2026 Lonza announced an expansion of payload-linker capacity at Visp for highly potent APIs and ADCs, with commercial-scale capability expected in 2028, built around an integrated-biologics logic that links development, drug substance and drug product across the lifecycle. Second, drug product: Samsung plans to launch ADC drug product in 2027, closing the loop from substance to finished vial and going straight at Lonza and WuXi XDC. Third, modality coverage: Samsung entered ADC CDMO in 2025 and is adding peptides through its PolyPeptide tender offer, already accepted by 87.92% of shareholders, picking up six manufacturing sites across Europe, India and the US in one move.",
+            "There is an irony worth remembering here: Lonza sold its peptides business and Belgian operations to PolyPeptide in 2016. Ten years later that capability returns to a major competitor through Samsung's acquisition — and peptides happen to be among the tightest capacity in the GLP-1 era.",
+            {
+                "h": "The third path: ESTEVE's mutual regional parity"
+            },
+            "On 21 October, Spain's ESTEVE CDMO announced a new Shaoxing base: more than USD 80M invested, three manufacturing workshops, 250 m3 of reaction volume in phase one with over 150 m3 reserved and potential to exceed 400 m3, focused on spray drying and highly potent APIs, with automation and digitalisation designed in from the start. In parallel, its Morton Grove, Illinois site has drawn cumulative investment of USD 33M — a USD 17.5M addition in September 2026 bringing two new 500-gallon reactors, better containment for early development and warehouse upgrades.",
+            "This is the third answer, the one mid-sized players give: don't pick a side, build small plants on both. Shaoxing's 250 m3 is not in the same league as Vacaville's 332,000 L, but what it sells is a compliance option — the same molecule can have an amplification and supply path in China and another in North America, addressing origin, tariff and audit requirements. For a customer base of small biotechs and specialty pharma, that regional symmetry is often worth more than absolute scale.",
+            "Cell therapy shows a different direction entirely. On 6 October, Catalent joined Ori Biotech's Preferred Partner Network, with its Princeton, New Jersey site becoming a centre of excellence for the IRO platform supporting autologous cell therapy process development and GMP manufacturing. Closed, automated workflows address batch consistency and scalability rather than litres — which is why the word 'capacity' barely applies in CGT.",
+            {
+                "h": "Editorial: three definitions to check before reading any capacity number"
+            },
+            "One: mammalian cell-culture litres are not reaction volume in cubic metres. Lonza and Samsung count biologics drug substance in litres; ESTEVE and WuXi count small-molecule reactor volume in m3. They cannot be added or compared, which is where most capacity league tables go wrong. Two: drug substance is not drug product. Samsung's 2027 ADC drug-product launch is the real starting point for end-to-end; until then there is a structural gap versus Lonza's integrated biologics offering. Three: GMP release is not full utilisation. Samsung's Plant 5 and Rockville are both online and sub-scale, which points to margin pressure over the next four to eight quarters rather than revenue elasticity today.",
+            "For CXDMO customers and investors, there are two practical implications. First, site selection is shifting from lowest cost to acceptable geopolitical exposure: one molecule may need two regulatory filings and two supply agreements, raising supplier-management cost while lowering the probability of interruption. Second, capacity announcements and depreciation typically sit 6 to 18 months apart — read fixed assets and construction in progress before reading backlog, because where the money went tells you what the order book will cost.",
+            "Which brings us back to that 1.1% gap. In 2026, headline capacity among leading CDMOs has converged; outcomes are decided by three things instead — where the capacity sits on the map, how complete the modality coverage is, and whether the company can carry a molecule from development all the way to finished product. Lonza bets on integration plus a US-European dual core, Samsung on a Korean mega-campus plus modality fill-in, ESTEVE on regional parity. All three work, provided the customer's supply-chain strategy agrees.",
+            {
+                "faq": [
+                    {
+                        "q": "How much biologics capacity do Lonza and Samsung Biologics each have?",
+                        "a": "Lonza has 793,000 L of mammalian capacity: 484,000 L in the US, 219,000 L in Europe and 90,000 L in Singapore, including 332,000 L at Vacaville alone. Samsung Biologics has 605,000 L across Plants 1-4 at Songdo Bio Campus I plus 180,000 L from Plant 5, for 784,000 L of antibody capacity, with Bio Campus II to add 720,000 L by 2032."
+                    },
+                    {
+                        "q": "Why are their geographic footprints almost opposite?",
+                        "a": "About 61% of Lonza's capacity is in the US, 28% in Europe and 11% in Singapore, with the US and Europe near 89% combined. More than 92% of Samsung's sits in Songdo, Korea, with only the 60,000 L Rockville site acquired from GSK (about 7.7%) in the US. Even after Bio Campus II brings the total to roughly 1.56 million L in 2032, Korea would still be around 92%."
+                    },
+                    {
+                        "q": "What are the common mistakes when comparing CDMO capacity?",
+                        "a": "Three main ones: comparing mammalian cell-culture litres with small-molecule reactor cubic metres; conflating drug substance capacity with drug product capacity; and treating capacity that is online but still ramping as fully utilised. Each materially distorts estimates of real delivery capability and margin impact."
+                    }
+                ]
+            }
+        ]
+    },
+    "sirna-capital-wave-2026": {
+        "title": "USD 1.3B for a Once-Quarterly Shot: Merck KGaA Buys Silence as siRNA Moves from Platform Story to Single-Product Cash Flow",
+        "summary": "On 19 October Merck KGaA agreed to acquire Silence Therapeutics at USD 20 per ADS in cash — an enterprise value of USD 1.1B and equity value of about USD 1.3B, a 130% premium to the prior close. Lead asset divesiran is a TMPRSS6 siRNA dosed subcutaneously once every three months, with an 88% vs 19% Phase 2 response rate.",
+        "body": [
+            "On 19 October, Germany's Merck KGaA announced a definitive agreement to acquire London-based Silence Therapeutics (NASDAQ: SLN) for USD 20 per ADS in cash. Each ADS represents three ordinary shares (equivalent to USD 6.6667 per share), implying an enterprise value of USD 1.1B and an equity value of roughly USD 1.3B. The consideration is a 130% premium to the 16 October close, the last trading day before announcement, and an 82% premium to the 30-day volume-weighted average price of USD 10.99. Silence's US shares more than doubled on the day. The deal will be implemented via a UK scheme of arrangement and is expected to close in Q1 2027.",
+            {
+                "h": "What is being bought: a validated mechanism with an unusually low dosing frequency"
+            },
+            "The lead asset, divesiran, is a siRNA targeting TMPRSS6. The mechanism runs: silence TMPRSS6, raise hepcidin — the master regulator of iron metabolism — limit iron availability for red-cell production, control haematocrit and reduce the need for frequent therapeutic phlebotomy in polycythaemia vera (PV). It is dosed subcutaneously once every three months.",
+            "The Phase 2 SANRECO data underpin the valuation: an 88% response rate versus 19% for placebo (p<0.0001), and mean phlebotomies reduced to 0.2 per patient over weeks 0-36 versus 2.1 on placebo (p<0.00001), irrespective of background cytoreductive therapy. Tolerability was good, injection-site reactions were infrequent and self-limiting, and two Grade 1 anaemia cases were assessed by investigators as treatment-related. The company describes the asset as Phase 3-ready. The pipeline also includes zerlasiran for elevated lipoprotein(a) and earlier programmes in high cholesterol, obesity and immune disease, all on the mRNAi GOLD platform.",
+            "The competitor is Mimrylo from Takeda and Protagonist. William Blair analyst Myles Minter argues USD 1.3B looks relatively low: Takeda's implied peak sales estimate for Mimrylo in PV is USD 1B-2B, and Merck is buying not just that single asset but an entire siRNA platform with room to expand into further indications. Conversely, the deal removes the execution risk of commercialising independently in an increasingly crowded market.",
+            {
+                "h": "Merck's M&A cadence: from platforms to specialty cash flow"
+            },
+            "This is Merck's third major acquisition in under two years: SpringWorks Therapeutics for USD 3.9B in 2025, a pending USD 11.3B takeover of life-sciences tools company Bio-Techne, and now Silence at USD 1.3B. Group CEO Kai Beckmann frames it as continuing to transform the pipeline toward highly specialised areas of unmet need. Danny Bar-Zohar, CEO Healthcare, adds two more specific terms — entry into hematology and a biologically validated mechanism of action.",
+            "That phrasing is worth noting. In the 2020-2023 wave of siRNA deals, buyers talked about platform value and technology positioning. In 2026 they price on validated mechanism, a well-defined patient population and very low dosing frequency. PV is a small population with an unambiguous diagnostic pathway and a single standard of care — phlebotomy — which makes the commercial model unusually clean. That is what earns a 130% premium.",
+            {
+                "h": "Capital markets: RNAi is heating up in both private and public markets"
+            },
+            "This is not an isolated event. On 1 October, ADARx Pharmaceuticals raised more than USD 500M in a Nasdaq IPO. City Therapeutics completed an approximately USD 230M IPO, following a USD 135M Series A in 2024 and a USD 99.5M Series B in 2026, with pipeline assets including the Factor XI RNAi programme CITY-FXI and a potential first-in-class RBP4 therapy for Stargardt disease. On 13 October, Souffle Therapeutics closed a USD 135M Series B.",
+            "Together they point one way: progress in next-generation delivery, chemical stabilisation and extrahepatic targeting has reopened investor appetite for nucleic-acid medicines. And RNAi's relative advantage — two to four doses a year with predictable adherence in chronic disease — suddenly looks more acceptable to payers in a 2026 where GLP-1 has normalised self-injection.",
+            {
+                "h": "Three levels of transmission to CXDMO"
+            },
+            "First, order structure. Commercial siRNA assets behave nothing like antibodies or small molecules: few molecules, highly predictable annual volume per product, and extreme purity and impurity-profile requirements. Once-quarterly dosing means kilogram-scale phosphoramidite monomer demand, duplex annealing, and tight control of n-1, n+1 and phosphodiester impurities. CDMOs are no longer taking on many products in small clinical batches but few products in long-cycle commercial supply — which inverts capacity planning: what matters is dedicated lines, locked monomer supply and long-term stability packages, not general reactor utilisation.",
+            "Second, capacity positioning. At CPHI Milan 2026, Agilent announced a USD 725M oligonucleotide expansion betting on enzymatic ligation, with the first phase starting up in March 2027. The timing shows large players are already building for the commercial phase of siRNA rather than waiting for confirmed orders.",
+            "Third, the Chinese divergence. Jiuzhou Pharmaceutical confirmed in its Q3 2026 investor call that oligonucleotide capabilities are under construction within a capex framework capped at RMB 1B a year. WuXi AppTec is moving solid-phase peptide capacity from 100,000 L toward 130,000 L. Asymchem's emerging businesses, including chemical macromolecules, reached RMB 1.923B in the first nine months, up 50.20%, but at a 30.95% gross margin. Meanwhile, the 16 October Announcement No. 48 from MOFCOM and MOST proposes adding siRNA process platforms to the prohibited export list — aimed at transfer of technology ownership, with pure outsourced manufacturing services outside scope. Domestic siRNA assets will therefore split into two paths: local closed-loop production for the China market, and service exports for overseas customers. The first determines capacity; the second determines valuation.",
+            {
+                "h": "Editorial: the siRNA anchor is shifting from 'platform' to 'dosing frequency x patients'"
+            },
+            "In the platform era, valuation tracked pipeline count and target coverage. In the single-product cash-flow era, it tracks a very simple formula: once every three months, times rare-disease patient count, times net price. That is why an asset with only Phase 2 data can fetch USD 1.3B — PV's treatment pathway is simple enough that annual phlebotomy count can serve as the efficacy endpoint, minimising both regulatory friction and commercial modelling uncertainty.",
+            "The lesson for CXDMO is that certainty is worth more than scale in oligonucleotide orders. CDMOs that can offer three things together will hold pricing power through this cycle: guaranteed scheduling for Phase 3 and commercial batches, a complete stability and impurity-profile package, and dual-sourced phosphoramidite monomer supply. Conversely, capacity that can only claim 'we can synthesise oligonucleotides' will face price pressure once new large-scale lines from Agilent and others come online in 2027-2028.",
+            "Three risks to track: divesiran's Phase 3 has not yet started, so enrolment speed and endpoint choice in PV remain open; Mimrylo could reach the market first; and the Lp(a) space around zerlasiran is already crowded with siRNA and ASO programmes, which may compress the commercial window. The deal also requires the UK scheme of arrangement and customary conditions — whether it closes in Q1 2027 as planned will be the first signal of regulatory posture.",
+            {
+                "faq": [
+                    {
+                        "q": "What are the terms and premium of Merck's acquisition of Silence Therapeutics?",
+                        "a": "USD 20 per ADS in cash, with each ADS representing three ordinary shares (USD 6.6667 per share), implying an enterprise value of USD 1.1B and an equity value of about USD 1.3B. That is a 130% premium to the 16 October close and 82% to the 30-day VWAP of USD 10.99, with closing expected in Q1 2027."
+                    },
+                    {
+                        "q": "What are divesiran's key clinical results?",
+                        "a": "In the Phase 2 SANRECO study in phlebotomy-dependent polycythaemia vera, divesiran achieved an 88% response rate versus 19% for placebo (p<0.0001), and reduced mean phlebotomies to 0.2 per patient over weeks 0-36 versus 2.1 on placebo (p<0.00001). Dosing is subcutaneous once every three months."
+                    },
+                    {
+                        "q": "What does the siRNA surge mean for CDMOs?",
+                        "a": "Order structures shift from many products in small clinical batches to few products in long-cycle commercial supply, requiring locked phosphoramidite monomer supply, dedicated capacity and full stability packages. Agilent's USD 725M oligonucleotide expansion (enzymatic ligation, first phase March 2027) shows large players positioning early; capacity with only basic synthesis capability will face price pressure."
+                    }
+                ]
+            }
+        ]
+    }
 }
 
 COMPANIES_EN = {
