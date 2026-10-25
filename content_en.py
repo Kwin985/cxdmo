@@ -2073,3 +2073,194 @@ COMPANIES_EN = {
         "desc": "A clinical-stage generative-AI-driven drug-discovery company (HKEX: 3696) that applies its AI platform from target discovery through clinical candidates and monetizes via out-licensing and R&D partnerships. H1 2026 revenue reached US$106.3M (+287.2%) with its first profitable half-year; YTD BD contract value reached ~US$7.3B.",
     },
 }
+
+ARTICLES_EN.update({
+    "section232-pharma-tariff-cdmo-map-2026": {
+        "title": "Section 232 Pharma Tariffs Go Fully Live: A 100% Base Rate, and a Zero-Rate Exemption List",
+        "summary": "On 29 September 2026 the Section 232 pharmaceutical tariffs exited their grace period and became payable by all importers: patented medicines, their APIs and key starting materials face a 100% base rate, and China sits outside the 19 favoured jurisdictions. The same schedule also hands out zeros — generics, biosimilars, ADCs, cell and gene therapies, plasma-derived therapies and orphan-only drugs are exempt; a committed US onshoring plan buys 20%, and adding an MFN pricing agreement takes it to zero through 20 January 2029. One tariff table splits the CDMO industry into two markets.",
+        "body": [
+            "On 29 September 2026, the Section 232 pharmaceutical tariffs enacted under Proclamation 11020 — signed on 2 April 2026 — ended a two-month grace period and began to be paid by every importer. During the transition only 17 large pharmaceutical companies actually remitted duty; everyone else merely reported their entries. That buffer is gone.",
+            "For the CDMO industry this is a more direct structural event than either currency moves or the financing cycle, because the tariff boundary is not drawn around chemistry. It is drawn around a drug's patent status and its country of origin — and origin is precisely what a CDMO decides.",
+            {
+                "h": "The schedule: 100% is the base rate, and every answer lives in the exceptions"
+            },
+            "Coverage has three moving parts. First, the target is any medicine listed in the FDA's Orange Book or Purple Book that still enjoys a valid, unexpired US patent. Second, it is not only the finished medicine: the API used to make it is captured whether or not that API carries its own patent, along with the key starting materials used to make that API. Third, excipients and inactive ingredients fall outside the definition, as does anything of US origin.",
+            "There is a definitional trap here that is easy to miss: coverage follows the medicine, not the molecule. An API that is off patent in every market on earth still lands inside the 100% bracket if it feeds a product that is patent-protected in the United States. For a CDMO that manages pricing by molecule rather than by product, that means rebuilding the customer ledger once.",
+            "The rates themselves tier as follows. The standard case is 100%, on top of ordinary duty. The European Union, Japan, South Korea, Switzerland and Liechtenstein sit at 15% combined; the United Kingdom at 10%, with scope to fall further under a UK–US pricing arrangement. Companies holding a Commerce Department (BIS)-approved onshoring plan pay 20%, reverting to 100% on 2 April 2030 if the plan is not delivered. Companies that pair an onshoring plan with a most-favoured-nation pricing agreement with HHS reach zero through 20 January 2029. Where more than one rate could apply, the lowest is used.",
+            "The zero list is longer than many expected. Qualifying generics — ANDA approvals, certain 505(b)(2) products rated therapeutically equivalent, authorised generics — and their APIs carry 0%. Biosimilars currently sit outside the tariff framework altogether. On 23 September the Commerce Department confirmed a 0% rate for a set of specialty categories when sourced from designated jurisdictions: medicines whose approved uses are all orphan-designated, plasma-derived therapies, cell and gene therapies, antibody–drug conjugates, nuclear medicines, fertility drugs and medical countermeasures. The designated list runs to 19 jurisdictions with reciprocal trade arrangements — including the EU, Japan, South Korea, Switzerland, the UK, India and Vietnam. Products from outside those jurisdictions can still qualify, but only by petitioning Commerce case by case to demonstrate an urgent US health need, supplying the HTS classification, the manufacturer and importer of record, the disease treated, an assessment of alternatives and the size of the reliant US patient population.",
+            "A second, underrated channel is the use-based exemption: articles imported solely for clinical trials, research and development or other non-commercial purposes carry 0% from 29 September under a newly added heading. For programmes between IND and Phase III this largely removes tariff noise from clinical shipments — provided the intended-use documentation is in place before entry and controls exist against diversion into commercial sale.",
+            "The last piece is drawback. The proclamation explicitly makes Section 232 pharma duties eligible for drawback, which is unusual among Section 232 actions. With a 100% base rate, even partial re-export can recover substantial sums — but it requires end-to-end traceability from imported material through production to export.",
+            "Land the table on China and the answer is blunt: China is not among the 19 favoured jurisdictions. A patented medicine, its API or its key starting materials made in China and imported into the US by a company without an exemption faces the full 100%.",
+            {
+                "h": "Translating it into CDMO language: three dividing lines"
+            },
+            "The first line is patented small-molecule APIs and intermediates. This is the most traditional export category for Chinese CDMOs and the one hit head-on by 100%. For this business, origin stops being a cost line and becomes a tax line: the same shipment leaving China versus leaving Ireland differs by 85 percentage points in landed cost.",
+            "The second line is new modalities. ADCs, cell and gene therapies and plasma-derived therapies sit inside the exemption list, automatically at 0% when sourced from designated jurisdictions. That gives ADC and CGT CDMOs a structural advantage in the tariff dimension: whatever political pressure a customer faces, \"this category is not tariffed\" is a sentence that can go into a commercial term sheet.",
+            "The third line is generic and biosimilar APIs, at 0%. This is the most counter-intuitive outcome — the tariff standing of commodity API exports is actually safer than that of patented originator APIs. Which is exactly why the real pressure on Chinese API makers in 2026 is not the tariff but the price cycle: overcapacity in antibiotics and some veterinary APIs, channel destocking and historic lows in products such as florfenicol arrived earlier and hit harder.",
+            "Stack the three lines and the conclusion is uncomfortable in a useful way: inside a single Chinese CDMO's order book, different categories now face 0% and 100%. Business mix gets priced by a tariff schedule for the first time.",
+            {
+                "h": "Orders are already moving: volumes up, values slow"
+            },
+            "Samsung Biologics' third quarter of 2026 offers an observable cut. Cumulative binding CMO contract value reached USD 21.9B at quarter-end, or USD 24.5B including non-binding agreements — against USD 21.7B and USD 24.3B at the end of Q2, a net add of roughly USD 200M in the quarter, and roughly USD 700M year-to-date from USD 21.2B at the end of 2025. Project counts, however, kept climbing: 117 cumulative CMO projects and 184 CDO projects, up 10 and 20 respectively since the end of 2025.",
+            "Sell-side attribution for that split is direct: the weak contract-value increment is tied to uncertainty over US tariffs and localisation policy, with customers reassessing manufacturing footprint and long-term supply arrangements, which slows the closing of large contracts. Projects are being signed; values are waiting. A site-of-origin diligence step has been inserted into the signing process.",
+            "This dovetails with the capacity map already on the record. Of Lonza's 793,000 litres globally, 484,000 sit in the United States — 61% — including 332,000 at Vacaville alone. Samsung acquired the Rockville, Maryland site from GSK in March 2026, adding 60,000 litres, and is converting it from a single-customer dedicated plant into a multi-client, multi-product CDMO site. US capacity has moved from customer preference to customer arithmetic.",
+            {
+                "h": "A sell-side calibration, plus one new variable"
+            },
+            "On 25 October, Goldman Sachs published a China healthcare note arguing that CDMO results reflect the stability of the sector's cycle, and that visibility increasingly depends on exposure to late-stage and commercial projects rather than the early-stage financing environment. The bank also stated explicitly that AI has not caused structural damage to order volume, backlog quality or pricing. On stocks it stays positive on WuXi AppTec, BeiGene, MicroPort Robotics and Jiangsu Sanyou Medical under Buy ratings, while upgrading iKang Healthcare to Buy and MicroPort Medical to Neutral.",
+            "The framework is worth keeping — but Section 232 adds a variable to it. If visibility comes from late-stage and commercial exposure, then the larger and later a commercial contract is, the more it has to answer a single question: where is it made? Origin is no longer merely a cost and resilience question; it sits in the numerator of the customer's landed cost. Goldman is saying the cycle is stable. Section 232 is saying the cycle is stable but its distribution will be rearranged.",
+            {
+                "h": "Editorial note: tariffs are being productised"
+            },
+            "First, category tiering will feed into how quotes are built. For ADCs, CGT, plasma and orphan drugs, CDMO pricing is shifting from \"cost per kilogram or per litre\" toward \"compliant origin plus exemption status plus tariff certainty\". The same capacity with and without a 0% tariff identity are two different products at two different prices.",
+            "Second, an onshoring commitment is effectively a five-to-ten-year capacity lease. The gap between 20% and 0% means Commerce has handed customers an explicit rate of return on capital expenditure, and the dates 2 April 2030 and 20 January 2029 are the two cliffs on that lease. US capacity planning now carries a policy-expiry axis it did not have before.",
+            "Third, contract terms will be rewritten. Rights to change manufacturing site, tariff allocation mechanisms, ownership of drawback proceeds and repricing triggers if a category is removed from the exemption list will all migrate into master service agreements. For cross-border licensing teams, supply chain, tariff exposure and deal terms now have to be negotiated together: a China-made patented product's landed cost in the US and its odds of an urgent-health-need petition are two pages of the same diligence file.",
+            "Finally, second-order uncertainty deserves respect. The 19-jurisdiction list, the specialty category list and the zero rate for generics are all administrative determinations that can move by notice. The President indicated on 21 July 2026 that generics would return to 100% after two zero-rate years and rise to 200% a year later, though no formal order has implemented that plan, and Commerce must advise within one year of the proclamation on whether to extend tariffs to generics. For CXDMO readers the actionable steps are only two: build a duty matrix for every commercial product across patent status, origin and category exemption, and put tariff clauses into the pricing formula of the next supply agreement rather than leaving them for the following negotiation.",
+            {
+                "faq": [
+                    {
+                        "q": "What is the actual Section 232 pharma tariff rate?",
+                        "a": "The base rate is 100% on top of ordinary duty. Exceptions: 15% combined for the EU, Japan, South Korea, Switzerland and Liechtenstein; 10% for the UK; 20% for holders of a Commerce-approved onshoring plan, reverting to 100% on 2 April 2030 if undelivered; zero through 20 January 2029 for companies that add a most-favoured-nation pricing agreement; and zero for qualifying generics, biosimilars and certain specialty categories. Where several rates could apply, the lowest is used."
+                    },
+                    {
+                        "q": "Which categories sit on the zero list?",
+                        "a": "Qualifying generics including authorised generics and their APIs, biosimilars, medicines whose approved uses are all orphan-designated, plasma-derived therapies, cell and gene therapies, antibody–drug conjugates, nuclear medicines, fertility drugs, medical countermeasures, and imports used solely for clinical trials and R&D. Some categories require origin in one of 19 designated jurisdictions; others need a case-by-case urgent-US-health-need petition."
+                    },
+                    {
+                        "q": "Which provision matters most for Chinese CDMOs?",
+                        "a": "China is outside the 19 favoured jurisdictions, so patented medicines, their APIs and key starting materials made in China and imported without an exemption face the full 100%. The hardest hit category is patented small-molecule API and intermediate exports. Relative beneficiaries are ADCs and cell and gene therapies, which sit inside the exemption list, plus generic and biosimilar APIs that already carry 0%."
+                    },
+                    {
+                        "q": "Why is Samsung Biologics' contract value growth slowing?",
+                        "a": "Binding CMO contract value reached USD 21.9B at the end of Q3 2026, a net add of only about USD 200M in the quarter, even as project counts kept rising to 117 CMO and 184 CDO. Sell-side analysts attribute the weak value increment to uncertainty over US tariffs and localisation policy, with customers reassessing manufacturing footprint and long-term supply arrangements, delaying large contract signings."
+                    }
+                ]
+            }
+        ]
+    },
+    "apelo-cdmo-q3-2026": {
+        "title": "API Down 22.5%, CDMO Up 41%: Apeloa Trades an Ugly Quarter for a Structural Rebuild",
+        "summary": "Apeloa's Q3 2026 report (22 October): nine-month revenue of RMB 6.835B (-11.97%), net profit RMB 614M (-12.37%) and non-recurring net profit RMB 568M (-12.22%). Yet CDMO revenue reached RMB 2.05B (+21.38%), with Q3 alone at RMB 642M (+40.96%), while API was deliberately shrunk to RMB 4.028B (-22.53%). After the results, 185 institutions met management, which disclosed more than RMB 7.8B of commercial backlog to be delivered within three years and 1,715 total projects (+38%).",
+        "body": [
+            "Apeloa published its third-quarter 2026 report on 22 October and within a week had hosted 185 institutions — the busiest healthcare name of the reporting window and second across all sectors. The headline numbers are not flattering: nine-month revenue of RMB 6.835B, down 11.97%; net profit attributable to shareholders of RMB 614M, down 12.37%; non-recurring net profit of RMB 568M, down 12.22%. In the third quarter alone, revenue was RMB 2.011B (-13.28%) and net profit RMB 91.3M (-33.47%).",
+            "Read only the headline numbers, though, and you miss what the report is actually about.",
+            {
+                "h": "A quarter where the total goes down and the structure goes up"
+            },
+            "The divergence across three businesses is unusual. CDMO revenue for the nine months reached RMB 2.05B, up 21.38%, at a 40.39% gross margin; in Q3 alone it was RMB 642M, up 40.96%. API revenue fell 22.53% to RMB 4.028B — management's framing is a deliberate exit from low-margin business, layered on top of florfenicol prices hitting historic lows. Finished-drug revenue fell 14.48% to RMB 716M at a 56.16% gross margin.",
+            "Two non-operating drags were named explicitly in the investor call: foreign exchange, worth about RMB 63M, and staff compensation, about RMB 50M. The first is a revaluation of dollar assets; the second is the price of hiring for CDMO. Neither means the business got worse, but both landed on the income statement.",
+            "That produces a tension worth flagging: non-recurring profit fell 12.22% over nine months, yet management maintained a full-year target of 10% growth in non-recurring net profit. Meeting it requires the fourth quarter to carry a substantial share of the annual figure while three conditions hold simultaneously — no further FX deterioration, commercial CDMO orders delivered on schedule, and no further slide in API prices. It is the single line in this report most in need of later verification, and the hardest to separate from a claim of deliberate contraction.",
+            {
+                "h": "Four numbers in the CDMO story: 7.8B, 1,715, +38%, 35.52%"
+            },
+            "The first is RMB 7.8B: commercial backlog to be delivered over the next three years, above RMB 7.8 billion. The second is 1,715: total CDMO projects, up 38% year on year, with management describing a project funnel that has taken shape and continues to widen. The third is the same +38% read from the other direction — the mouth of the funnel is expanding far faster than revenue, the classic signature of reserves moving ahead of conversion.",
+            "The fourth, 35.52%, is the most easily misread. Q3 CDMO gross margin was 35.52%, below the 40.39% nine-month figure. The cause is not price: management said Q3 carried a higher share of clinical-stage deliveries and a lower share of commercial ones, and expects commercial delivery to exceed clinical from Q4 into next year. Clinical batches are small and process-scale amortisation is incomplete, so margins are structurally lower than on commercial campaigns.",
+            "On price, the wording matters: order pricing has stayed broadly stable, negotiated on a basis of reasonable cost plus reasonable margin. In other words, there is no price war at this tier. Competition happens on whether you can take the order and whether you can deliver it on time — consistent with what first-tier CDMOs are saying, and a reminder that the industry's dividing line in 2026 is capacity and delivery record, not price.",
+            "The capability list is worth recording: ADCs, peptides, cyclic peptides, molecular glues and oligonucleotides. Three of the five are chemical macromolecules, two are conjugation and hard-synthesis directions — a portfolio that extends Apeloa's existing API process chemistry rather than jumping across modalities.",
+            {
+                "h": "A capex decision worth close to RMB 2B"
+            },
+            "Early in 2026 the company began a new capacity programme: five new workshops, two retrofits, roughly RMB 2B of investment. R&D headcount is above 1,500 and is expected to reach 2,000 in the CDMO segment within one to two years.",
+            "Set that against peers. Jiuzhou Pharmaceutical has capped 2026 fixed-asset investment at RMB 1B, expects a similar level in 2027, and is prioritising small-molecule and peptide commercial lines in Suzhou, an ADC line in Taizhou and oligonucleotide capability. WuXi AppTec's Changzhou expansion is a RMB 10.1B, 800-tonne API programme. Apeloa's RMB 2B sits in the middle of that axis — a level of capital intensity no defensive API company would carry.",
+            "More interesting is where the money comes from. Apeloa's cash flow historically came from commodity APIs; today API revenue is being cut by 22.53% on purpose so that workshops, people and capex can move to CDMO. It is a strategy of paying for the new ticket with the old business's cash flow, and the cost is a report that looks bad for a few quarters.",
+            {
+                "h": "Why 'API steps aside' is an industry signal"
+            },
+            "Line up three companies and the same curve appears. Apeloa deliberately shrinks low-margin API and converts workshops to CDMO. Jiuzhou disclosed that improving CDMO business has created short-term bottlenecks at certain plants, so a workshop previously making anti-infective API is being converted to commercial innovative-drug production — which directly reduced specialty API sales. Asymchem keeps small molecules as the base while new modalities open the increment.",
+            "Different routes, same substance: China's second-tier CDMOs are trading the plants, process know-how and EHS capability accumulated in the API era for order eligibility in the new-modality era. The advantage is a low starting cost and smooth customer migration. The cost is a structurally lower gross margin for a while, because what gets cut is the steady margin on mature products and what arrives is low-margin clinical batches plus the fixed costs of ramping capacity.",
+            "There is a counter-intuitive conclusion hiding here about Section 232. Under the US tariff schedule, qualifying generics and commodity APIs carry 0% while patented medicines and their APIs carry 100%. Commodity API exports therefore have a safer tariff standing than patented originator APIs. The real pressure on Chinese API makers in 2026 is not the tariff but the price cycle — overcapacity, channel destocking and historic lows in products such as florfenicol. Jiuzhou's language was that the antibiotics cycle is under pressure, many facilities are near break-even and the industry is clearing slowly.",
+            "Apeloa's choice is therefore not being pushed by tariffs. It is being pushed by the relative slope of two curves: the bottom of the commodity API cycle, and the order visibility of CDMO.",
+            {
+                "h": "Editorial note: the questions institutions ask have changed"
+            },
+            "What 185 institutions pressed on after the report was not CDMO growth rates but four harder items: the revenue share of clinical-stage projects in Q3, the delivery outlook for Q4 and next year, order pricing trends and gross-margin trajectory. All four point at one thing — the efficiency with which backlog converts into revenue and profit.",
+            "This aligns with Goldman Sachs' 25 October framework: CDMO visibility increasingly depends on late-stage and commercial exposure rather than early-stage financing. For a company like Apeloa, still weighted toward clinical batches and migrating toward commercial, the valuation anchor therefore shifts from project-count growth to the commercial share of deliveries.",
+            "Three checkpoints are verifiable. First, whether the commercial share of Q4 deliveries rises as promised — that decides whether 35.52% was a quarterly wobble or a structural step down. Second, the conversion pace of the RMB 7.8B commercial backlog — spread evenly over three years that is roughly RMB 2.6B a year, against RMB 2.05B of CDMO revenue in the first nine months of 2026, so the slope has to show up in 2027. Third, whether utilisation can climb past break-even within 12 to 18 months of the RMB 2B of capacity coming online — the same question every second-tier CDMO will face in 2027.",
+            {
+                "faq": [
+                    {
+                        "q": "Why did Apeloa's nine-month results decline?",
+                        "a": "Revenue fell 11.97% to RMB 6.835B, net profit 12.37% to RMB 614M and non-recurring net profit 12.22% to RMB 568M. The main driver was a deliberate exit from low-margin API business plus florfenicol prices at historic lows, cutting API revenue 22.53%, compounded by about RMB 63M of FX losses and roughly RMB 50M of higher staff costs. CDMO was the only growing segment at +21.38%."
+                    },
+                    {
+                        "q": "Why did CDMO gross margin fall from 40.39% to 35.52% in Q3?",
+                        "a": "Delivery mix, not pricing. Q3 carried a higher share of clinical-stage projects than commercial ones, and clinical batches are small with incomplete scale-up amortisation, so margins are structurally lower. Management said order pricing has stayed stable on a reasonable-cost, reasonable-margin basis and expects the commercial share to rise from Q4 into next year."
+                    },
+                    {
+                        "q": "What does the RMB 7.8B backlog imply?",
+                        "a": "Management disclosed more than RMB 7.8B of in-hand commercial orders to be delivered within three years, roughly RMB 2.6B a year on average. Against RMB 2.05B of CDMO revenue in the first nine months of 2026, that supports the revenue slope for 2027–2028, though timing depends on capacity build-out and commercial batch release."
+                    },
+                    {
+                        "q": "Why increase capex while API revenue is falling?",
+                        "a": "Early in 2026 Apeloa launched a programme to build five workshops and retrofit two, investing close to RMB 2B, alongside plans to grow CDMO R&D headcount from over 1,500 to 2,000 within one to two years. The logic is to pay for new-modality order eligibility with cash flow from commodity APIs; the cost is near-term earnings pressure, with the payback dependent on utilisation ramp and commercial delivery."
+                    }
+                ]
+            }
+        ]
+    },
+    "asymchem-capacity-gap-2027-2026": {
+        "title": "Payload-Linker 'Very Tight', Peptides Sold Out for 2027, Antibodies Just Cleared PAI: Asymchem Lays Out Its Capacity Gaps",
+        "summary": "At a 23 October investor call with more than 500 attendees (18 institutions filed records), Asymchem addressed capacity line by line: existing peptide capacity will run at high utilisation in 2027 with new build planned; payload-linker capacity is \"very tight\" and expansion is accelerating; antibody and fusion-protein orders surged in Q3, the site cleared a PAI inspection and enters commercial production in 2027 with a two-year capacity gap; Q3 new orders grew about 30% on a high base, with full-year guidance of 19%–22% unchanged.",
+        "body": [
+            "On 23 October Asymchem hosted a specific-object investor call attended by CICC, Guojin Securities, Zheshang Securities, Huatai Securities, Guosheng Securities and others, with more than 500 participants; 18 institutions filed records. The value of the session was not financial — the Q3 report had already been published on the evening of 22 October — but that for the first time the company laid out, line by line, exactly where capacity is short.",
+            "Split the answers by business line and a fairly precise gap table appears.",
+            {
+                "h": "The gap table: four lines, four degrees of tightness"
+            },
+            "Peptides: existing capacity will operate at relatively high utilisation in 2027, and new peptide capacity will be planned based on backlog and business development, with details to follow in the annual report. This is the language of \"tight, but with headroom\".",
+            "Payload-linker: the company used the words \"very tight\" and confirmed it is accelerating construction of new capacity. This is the strongest wording of the four lines and the most typical bottleneck in the ADC chain — toxin and linker capacity is jointly constrained by high-potency (OEB) suites, containment infrastructure and safety approvals, so the expansion cycle is far longer than for an ordinary small-molecule plant.",
+            "Antibodies and fusion proteins: orders growing rapidly, with Q3 particularly strong; the site cleared a PAI (pre-approval inspection) dynamic inspection in Q3, meaning commercial production begins in 2027; capacity will remain short for the next two years and expansion is required. This is the most informative line, because clearing PAI is not a quality event but a revenue event: it upgrades a line from \"can take clinical batches\" to \"can take commercial launch volumes\".",
+            "Drug product: capacity needs to increase further as formulation business commercialises and overseas projects multiply. Over the past two years the company has added substantial commercial fill-finish capacity — cartridges, prefilled syringes, blow-fill-seal — and has begun taking late-stage projects.",
+            "Taken together, Asymchem's capacity structure has shifted from \"small-molecule reactors\" to \"four non-interchangeable lines, each short in its own way\". That explains how a CDMO can grow revenue around 20% while running capex in four directions at once: it is not operating in one capacity market but in four.",
+            {
+                "h": "Integrated ADC: what one PAI clearance actually means"
+            },
+            "One fact from the call deserves separate recording: the project that cleared PAI in Q3 was itself an end-to-end ADC programme running from payload-linker through antibody to final drug product.",
+            "That single sentence connects two things. The first is a closed capability loop — the company entered ADC through payload-linker, and can now string toxin-plus-linker, antibody, conjugation and drug product into one delivery chain. The second is customer mix — overseas orders already account for more than 50% of the ADC segment, with more revenue to come from overseas; as antibody, conjugation and DC drug-product work advances, integrated programmes keep increasing, with both customer count and integrated deliveries growing quickly.",
+            "For customers, integration means fewer interfaces and shorter release cycles. For the CDMO, it means higher switching costs and capacity locked earlier. When a single line can take both payload-linker and DC drug product, a customer's cost of moving is not changing supplier but repeating a technology transfer and regulatory filing.",
+            {
+                "h": "Order side: +30%, a heavy fourth quarter, a better 2027"
+            },
+            "The same call produced three statements on orders. First, Q3 new orders grew at a double-digit rate year on year — about 30% — against a high prior-year base; chemical macromolecule and biological macromolecule orders grew rapidly, and small-molecule new orders improved markedly over the first nine months. Second, the Q4 delivery load is very heavy, \"genuinely challenging\", and the company will do everything to protect delivery while remaining confident of hitting full-year reported revenue growth of 19%–22%. Third, looking to 2027, based on new order growth, backlog value and segment development, revenue growth is expected to accelerate from 2026.",
+            "On quarterly phasing the company offered a modellable detail: both of the past two years showed a very high Q4 revenue share; in 2025 the first three quarters swung widely, while in 2026 they were relatively stable at roughly RMB 1.8B each, with a heavier fourth quarter. On the nine-month numbers, Q4 has to come in well above RMB 1.8B to land inside the 19%–22% range — which makes Q4 delivery execution a capacity stress test in its own right.",
+            {
+                "h": "\"Ticket\" is the word to remember"
+            },
+            "Asked how the supply-demand relationship will evolve as domestic peers pile into ADC and oligonucleotides, the company gave the most substantive answer of the call: peptides, DC and oligonucleotides are technically harder and process-wise more complex than small molecules, and demand more of the quality system and technical service capability; taking large-pharma orders requires more than hardware capacity, it requires accumulated soft capability; the company has secured the \"ticket\" in these fields, and globally those tickets are scarce, so supply will continue to lag demand growth for several years.",
+            "The word \"ticket\" captures the 2026 dividing line precisely: the shift from who owns reactors to who has been qualified by a major customer. Qualification is not one audit but a chain of events — quality agreements, PAI inspections, commercial batch release history, change-control records. It cannot be shortened with capex, nor bought with a low price. It also explains why the industry simultaneously contains companies with capacity but no qualification and companies with qualification but no capacity, and why the two should not trade on the same multiple.",
+            {
+                "h": "Placing the four lines on a timeline"
+            },
+            "Q4 2026 is the delivery peak. Quarterly revenue must come in well above the roughly RMB 1.8B run rate of the first three quarters, while all four lines are simultaneously expanding or ramping — delivery and construction in parallel.",
+            "2027 is the first year capacity lands. Existing peptide capacity runs full, new peptide capacity comes online; antibodies and fusion proteins enter their first commercial year; new payload-linker capacity ramps; drug product takes more late-stage work in cartridges, prefilled syringes and blow-fill-seal. The company also expects 2027 growth to exceed 2026 — a guidance that only holds if capacity arrives on schedule.",
+            "From 2028 onward, the antibody gap persists. That implies expansion demand continues for another two years and capex does not peak in 2027.",
+            "Put that timeline beside peers and the whole industry is doing the same thing in the same window. Jiuzhou Pharmaceutical: 2026 fixed-asset investment capped at RMB 1B, Suzhou small-molecule commercial line commissioning in H2 2027, a Taizhou ADC line built in 2027, peptide growth constrained by capacity and oligonucleotides still in platform validation. WuXi AppTec: solid-phase peptide capacity moving from 100,000 to 130,000 litres, plus a RMB 10.1B, 800-tonne API programme in Changzhou. Samsung Biologics: PolyPeptide tender accepted at 87.92%, with Bio Campus II plants 6 to 8 at 180,000 litres each taking total capacity to 1.385 million litres.",
+            {
+                "h": "Editorial note: three pricing implications of tight capacity"
+            },
+            "For CDMOs, tightness restores pricing power. Asymchem speaks of reasonable cost plus reasonable margin; Apeloa says order prices have stayed stable — two companies at different scales and in different niches pointing at the same fact: there is no price war at this tier in 2026. But tightness also means delivery risk, and the heavy fourth quarter is itself a stress test whose result will show up in 2027 renewals.",
+            "For customers, dual sourcing, reserved capacity and earlier order locking will become standard. Section 232 then adds an origin variable on top: the same \"very tight\" payload-linker capacity carries a different tariff identity depending on whether it sits in the US, the EU or China. ADCs are inside the exemption list, but commercial imports beyond clinical and R&D use still need to be checked category by category and jurisdiction by jurisdiction. Site selection has stopped being purely a cost decision.",
+            "For investors, the dispersion in utilisation will exceed the dispersion in revenue growth. If the premise holds — scarce tickets, supply lagging demand — then what is scarce is not litres but qualified litres. The next metric for a CDMO may not be construction in progress but the number of PAI-cleared lines and the commercial batch release record. Neither can be replicated inside a quarter.",
+            {
+                "faq": [
+                    {
+                        "q": "Which capacity is tightest at Asymchem right now?",
+                        "a": "Payload-linker. At the 23 October 2026 investor call the company described capacity there as \"very tight\" and said it is accelerating new construction. Existing peptide capacity will run at high utilisation in 2027 with new build planned, and antibody and fusion-protein capacity will remain short for two years after commercial production begins in 2027."
+                    },
+                    {
+                        "q": "What does clearing a PAI inspection mean?",
+                        "a": "A pre-approval inspection clearance confirms the commercial manufacturing qualification of a line, upgrading it from taking clinical batches to taking commercial launch volumes. The Asymchem project cleared in Q3 2026 was an end-to-end ADC programme running from payload-linker through antibody to drug product, and it moves into commercial production in 2027."
+                    },
+                    {
+                        "q": "What is Asymchem's 2027 revenue guidance?",
+                        "a": "No specific number was given, but the company said that based on new order growth, backlog value and segment development it expects 2027 revenue growth to accelerate versus 2026. Full-year 2026 reported revenue growth guidance remains 19%–22%."
+                    },
+                    {
+                        "q": "What does \"ticket\" mean in the CDMO context?",
+                        "a": "It refers to the full set of qualifications and records needed to take new-modality orders from large pharma: quality systems, PAI clearance, commercial batch release history and change-control capability. The company argues these tickets are globally scarce for peptides, conjugates and oligonucleotides and cannot be obtained through capex alone, so supply will lag demand for several years."
+                    }
+                ]
+            }
+        ]
+    }
+})
