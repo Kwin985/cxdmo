@@ -1789,11 +1789,11 @@ ARTICLES_EN = {
                 {
                     "h": "The five Presidential studies: four ADCs, one bispecific, one targeted combination"
                 },
-                "**SAFFRON (LBA6, HutchMed/AstraZeneca)**: savolitinib plus osimertinib in advanced EGFR-mutant, MET-overexpressed or amplified NSCLC after progression on osimertinib. Both PFS and OS were positive - the first Phase III evidence that a MET-TKI plus third-generation EGFR-TKI combination improves both endpoints in a resistant population.",
-                "**CLARITY-Gastric01 (LBA7, KeyMed Biosciences/Lepu Biopharma, licensed to AstraZeneca)**: the CLDN18.2 ADC CMG901/AZD0901 in previously treated advanced gastroesophageal cancer. The OS co-primary endpoint was met at third-line and beyond, but overall PFS did not reach statistical significance - the only split read among the five. For an ADC, an OS win carries more clinical weight than PFS (regulators view OS as harder to flatter through trial design), yet a PFS miss will be read by overseas partners as a signal of insufficient efficacy magnitude.",
-                "**HARMONi-GI1 (LBA8, Akeso)**: ivonescimab plus chemotherapy versus durvalumab plus chemotherapy in first-line advanced biliary tract cancer. Both OS and PFS were positive - another indication expansion for the PD-1/VEGF bispecific and key evidence for pushing IO 2.0 from lung cancer into cold tumours.",
-                "**ARTEMIS-011 (LBA9, Hansoh Pharma, licensed to GSK)**: the B7-H3 ADC ris-Rez/HS-20093 in heavily pretreated relapsed or refractory osteosarcoma met its PFS primary endpoint - the first positive Phase III in this tumour type in about a decade. Osteosarcoma has long lacked effective systemic therapy; the clinical significance does not map one-to-one onto commercial scale, but it establishes regulatory-grade evidence for B7-H3 outside its core solid-tumour indications.",
-                "**TroFuse-005 (LBA11, Kelun-Biotech/Merck)**: the TROP2 ADC sac-TMT in previously treated advanced or recurrent endometrial cancer met both OS and PFS primary endpoints. This is the second registration-grade readout for sac-TMT in gynaecological oncology and the most direct valuation test for the asset since Merck licensed it.",
+                "SAFFRON (LBA6, HutchMed/AstraZeneca): savolitinib plus osimertinib in advanced EGFR-mutant, MET-overexpressed or amplified NSCLC after progression on osimertinib. Both PFS and OS were positive - the first Phase III evidence that a MET-TKI plus third-generation EGFR-TKI combination improves both endpoints in a resistant population.",
+                "CLARITY-Gastric01 (LBA7, KeyMed Biosciences/Lepu Biopharma, licensed to AstraZeneca): the CLDN18.2 ADC CMG901/AZD0901 in previously treated advanced gastroesophageal cancer. The OS co-primary endpoint was met at third-line and beyond, but overall PFS did not reach statistical significance - the only split read among the five. For an ADC, an OS win carries more clinical weight than PFS (regulators view OS as harder to flatter through trial design), yet a PFS miss will be read by overseas partners as a signal of insufficient efficacy magnitude.",
+                "HARMONi-GI1 (LBA8, Akeso): ivonescimab plus chemotherapy versus durvalumab plus chemotherapy in first-line advanced biliary tract cancer. Both OS and PFS were positive - another indication expansion for the PD-1/VEGF bispecific and key evidence for pushing IO 2.0 from lung cancer into cold tumours.",
+                "ARTEMIS-011 (LBA9, Hansoh Pharma, licensed to GSK): the B7-H3 ADC ris-Rez/HS-20093 in heavily pretreated relapsed or refractory osteosarcoma met its PFS primary endpoint - the first positive Phase III in this tumour type in about a decade. Osteosarcoma has long lacked effective systemic therapy; the clinical significance does not map one-to-one onto commercial scale, but it establishes regulatory-grade evidence for B7-H3 outside its core solid-tumour indications.",
+                "TroFuse-005 (LBA11, Kelun-Biotech/Merck): the TROP2 ADC sac-TMT in previously treated advanced or recurrent endometrial cancer met both OS and PFS primary endpoints. This is the second registration-grade readout for sac-TMT in gynaecological oncology and the most direct valuation test for the asset since Merck licensed it.",
                 "Four of the five are ADCs or bispecifics, one is a targeted combination. The collective signal: the evidence tier for Chinese assets has graduated from early proof of concept to randomised, practice-changing confirmation.",
                 {
                     "h": "Why these five days matter more than an earnings season"
@@ -2258,6 +2258,211 @@ ARTICLES_EN.update({
                     {
                         "q": "What does \"ticket\" mean in the CDMO context?",
                         "a": "It refers to the full set of qualifications and records needed to take new-modality orders from large pharma: quality systems, PAI clearance, commercial batch release history and change-control capability. The company argues these tickets are globally scarce for peptides, conjugates and oligonucleotides and cannot be obtained through capex alone, so supply will lag demand for several years."
+                    }
+                ]
+            }
+        ]
+    }
+})
+
+ARTICLES_EN.update({
+    "us-outbound-investment-biotech-2026": {
+        "title": "Biotech Added to US Outbound Investment Rules: Buying Pipelines Is Still Fine, Buying Equity Is Not",
+        "summary": "On 22 October the US Treasury published a notice of proposed rulemaking under the COINS Act that adds biotechnology as the sixth controlled technology sector — and the only one the Treasury added on its own authority. Drug compounds, biomanufacturing equipment and facilities, biological design and sequencing, brain-computer interfaces, bioinformatics tools, flow cytometers and LC-MS systems would be prohibited. Conventional in-licensing agreements paid in cash without equity, and fee-for-service R&D collaborations, are explicitly carved out. Comments run to 7 December; a final rule is targeted before 13 March 2027.",
+        "body": [
+            "On 22 October the US Treasury released a notice of proposed rulemaking (NPRM) implementing Section C of the Comprehensive Outbound Investment National Security Act (COINS Act). The document formally adds biotechnology as the sixth controlled technology sector, alongside semiconductors and microelectronics, artificial intelligence, quantum information, high-performance and supercomputing, and hypersonic systems. The difference: the first five were designated by Congress, while biotechnology is the only category the Treasury added under its own delegated authority.",
+            "For Chinese CXOs and biotech companies the significance is not that another restriction has been added. It is that the proposal separates capital from services for the first time: equity and quasi-equity are prohibited, while fee-for-service outsourcing and cash-paid licensing are carved out. Where that line falls will shape the channels for Chinese biotech out-licensing and CDMO order-taking for years.",
+            {
+                "h": "The prohibited list: from drug compounds to flow cytometers"
+            },
+            "The proposal places the following in the prohibited rather than notifiable category: certain biological-derived compounds or materials, biomanufacturing equipment and facilities, technologies related to biological design and sequencing, brain-computer interfaces, bioinformatics tools, laboratory automation and cloud laboratory infrastructure, and specific equipment and software such as genetic analysis technologies, flow cytometers and liquid chromatography-mass spectrometry (LC-MS) systems.",
+            "The definition of drug compounds is extremely broad: small-molecule compounds, polymers, vaccines, blood products, allergens, cell and gene therapies, monoclonal antibodies, other recombinant therapeutic proteins, and the delivery systems that carry them into the body. In practice almost every pipeline asset is covered.",
+            "The covered transaction types are equally broad: equity acquisitions, convertible debt financing, new investments, joint venture formation, and investment in certain limited partnership interests. The proposal also names two lists as identifiers of covered entities: the Section 1260H Chinese Military Companies List under the NDAA, and the Biotechnology Companies of Concern List that the Office of Management and Budget is required to prepare under Section 851 of the FY2026 NDAA — the BIOSECURE Act.",
+            "That deserves separate emphasis. The BIOSECURE Act previously operated mainly as a supplier exclusion for federal procurement. Now its list mechanism is wired into investment screening. The same list begins to determine both whether a company can win US government contracts and whether it can raise US capital.",
+            {
+                "h": "The carve-outs are where the line actually sits"
+            },
+            "The proposal generally does not cover two categories of transaction: conventional technology in-licensing agreements, and drug R&D collaborations conducted on a fee-for-service basis. Treasury's Q&A document states explicitly that these two account for most of the multibillion-dollar deals between Western pharmaceutical companies and Chinese partners.",
+            "In industry language: money for pipelines is fine, money for equity is not. Gilead's 22 October agreement to pay USD 1.275 billion in cash upfront for PepStar Therapeutics' oral IL-23R programme, including HCXT-2001, is the textbook move on this line — cash consideration, asset transfer, no equity relationship. Zymeworks' licence to Roche for the DLL3 trispecific T-cell engager, announced the same day (USD 55 million upfront, USD 40 million on Phase 1b initiation, up to USD 718 million in milestones), follows the same model.",
+            "What the line cuts away is the structure that dominated the past two years: the NewCo. A Chinese asset contributes the pipeline, a dollar fund contributes capital, and both hold equity in a newly formed offshore company that then raises or sells. The proposal's anti-evasion provision extends review — previously triggered only when the Chinese party held at least 50% of a NewCo — to all China-related NewCo transactions involving an equity acquisition. A 30% NewCo stake could now require notification or be prohibited outright.",
+            "For BD teams this turns deal structuring from a tax and valuation question into a compliance-line question. The same asset may be acquirable outright but unsellable via a joint venture.",
+            {
+                "h": "Timeline and lobbying: five weeks left"
+            },
+            "The rule remains a proposal. Public comments close on 7 December; a final rule is targeted before 13 March 2027, with the effective date to be set in the final document. Until then the restrictions are not binding.",
+            "Opposition comes from US industry itself. The Biotechnology Innovation Organization warned that an overly broad approach creates uncertainty for innovators and investors and may unintentionally weaken US biotech competitiveness. PhRMA, long opposed to China investment restrictions, argues patients want the most advanced therapies as fast as possible and much promising science in the current ecosystem comes from China. The Taxpayers Protection Alliance called the proposal heavy-handed.",
+            "Beijing responded quickly. On 24 October MOFCOM said the proposed rules discriminatorily expand and tighten restrictions on investment in China, called it a typical case of over-broadening national security, expressed serious concern and firm opposition, and said China reserves the right to take corresponding measures. The foreign ministry had made a similar statement on 23 October.",
+            "One easily missed detail shows the enforcement teeth: in July the Treasury fined a US company USD 200,000 after a subsidiary invested USD 92,500 in a Chinese AI and robotics company without notifying. A USD 92,500 investment producing a USD 200,000 penalty indicates the notification duty is not a paper provision.",
+            {
+                "h": "The numbers behind the timing"
+            },
+            "According to PharmCube data cited by Reuters, potential value of Chinese biotech out-licensing deals reached USD 139.4 billion as of 8 October, exceeding the USD 138.8 billion recorded for all of 2025. Upfront payments reached USD 8 billion in the first three quarters, also above the USD 7.2 billion full-year 2025 total. Roughly one third of the global drug pipeline originates in China.",
+            "These numbers explain why two things are happening at once: US pharma is accelerating its shopping in China while US policy accelerates its restrictions. Commercial motive and security narrative are pulling on the same table, and the proposal chose a middle path — clear the transactions, block the equity.",
+            {
+                "h": "Three channels of impact on Chinese CXOs"
+            },
+            "First, orders are largely unaffected directly. Fee-for-service development and manufacturing collaborations are explicitly carved out, which means the CDMO and CRO business model — charging for services, holding no equity, taking no royalty — sits inside the exemption. The Chinese share of client pipelines will not change because of this document.",
+            "Second, what is hit on the capital side is the equity-for-orders route. Over the past two years some Chinese biotechs moved pipelines offshore through NewCos and routed manufacturing orders back to China, and some CDMOs bound clients through joint ventures or minority stakes. Compliance costs for both structures rise sharply under the new rules. If the NewCo channel narrows, two substitutes are likely: selling the asset outright to an MNC (cash consideration, inside the exemption), or keeping the pipeline onshore and taking development work on service contracts. Both produce CDMO orders, but with different timing and pricing — one-off recognition versus instalments.",
+            "Third, a two-way tightening of equipment and tools. Flow cytometers, LC-MS, genetic analysis, bioinformatics tools, laboratory automation and cloud labs fall within scope, affecting not just investment but technology collaboration and supply chains. For domestic CDMOs this means reassessing procurement cycles, spare-parts assurance and data compliance for high-end analytical instruments and lab software. For domestic substitute suppliers it is a clear window.",
+            {
+                "h": "Editor's view: a three-way split, institutionalised"
+            },
+            "Read alongside other October developments, the document completes an increasingly explicit three-way split: people can come, goods can be sold, money cannot be invested. In mid-October, MOFCOM and MOST's revised draft export control catalogue moved antibodies and small-molecule targeted drugs out of the tightened scope. In late October, the US added biotech to investment prohibitions while exempting licensing and services. Both sides did the same thing at the same time — keep the transaction, remove the binding.",
+            "The direct implication for CXOs: over the next three years the competitive question is not who can raise dollar funds but who can make their services irreplaceable. A capital retreat will compress the number of pipelines at financing-dependent small biotechs, but it will also concentrate the surviving pipelines on CDMOs with certifications, capacity and delivery records. That is the same phenomenon as the order concentration repeatedly visible in October's Q3 reports, seen from the other side.",
+            "The risks are equally clear. The rule is still a draft and the final text may narrow or tighten. The comment period to 7 December is industry's last window. If a final rule lands before March 2027 and takes effect, 2027 will be the first full year of application, and NewCo transactions, cross-border joint venture capacity and equipment procurement will all be stress-tested at once.",
+            {
+                "faq": [
+                    {
+                        "q": "Will the new US rules stop US pharma from licensing Chinese drugs?",
+                        "a": "No. The proposal explicitly exempts conventional in-licensing agreements and fee-for-service R&D collaborations. What is restricted is equity acquisition, convertible debt, new investments, joint ventures and certain LP interests. Licensing or asset purchases paid in cash with milestones and no equity relationship remain available."
+                    },
+                    {
+                        "q": "What is the COINS Act and how does it differ from earlier outbound investment limits?",
+                        "a": "The Comprehensive Outbound Investment National Security Act was signed into law in late 2025 as part of the FY2026 NDAA, upgrading US outbound investment screening from the August 2023 executive order into statute and significantly widening its scope. This NPRM implements Section C, with biotechnology as the newly added sector."
+                    },
+                    {
+                        "q": "Does this directly affect CDMO orders?",
+                        "a": "Direct impact is limited. Fee-for-service development and manufacturing collaborations are excluded from covered transactions, so the CDMO model of charging fees without equity sits inside the carve-out. Indirect effects concentrate in three places: higher compliance costs for equity-linked NewCos or joint ventures, restrictions on equipment and software such as flow cytometers, LC-MS and bioinformatics tools, and changes in client financing that affect the number and pace of early-stage pipelines."
+                    },
+                    {
+                        "q": "Why is the NewCo model specifically targeted?",
+                        "a": "Because of the anti-evasion provision. Previously a transaction was only covered when the Chinese party held at least 50% of the NewCo. The proposal extends coverage to all China-related NewCo transactions involving an equity acquisition, which may require notification or be prohibited. That directly targets the most common structure of the past two years: Chinese asset plus dollar fund plus newly formed offshore company."
+                    },
+                    {
+                        "q": "When do the rules take effect?",
+                        "a": "Public comments close on 7 December 2026. Treasury plans to issue a final rule before 13 March 2027 and announce the effective date then. Until the final rule is issued and takes effect, the restrictions are not binding."
+                    }
+                ]
+            }
+        ]
+    },
+    "gilead-pepstar-oral-peptide-2026": {
+        "title": "USD 1.275 Billion Upfront for a Phase 1 Molecule: Gilead Buys PepStar's Oral IL-23R Macrocycle and Opens Peptides' Second Demand Curve",
+        "summary": "On 22 October Gilead agreed to pay USD 1.275 billion in cash upfront (about RMB 8.5 billion) for Shanghai-based PepStar Therapeutics' oral IL-23R inhibitor programme, whose lead asset HCXT-2001 is still in Phase 1. The seller was founded in April 2023 and moved a molecule to a billion-dollar upfront in just over three years. The valuation is only part of the story: if oral macrocyclic peptides work, they open a second volume curve for peptide CDMOs beyond GLP-1.",
+        "body": [
+            "On 22 October Gilead Sciences announced a definitive agreement with Shanghai-based PepStar Therapeutics to acquire its oral interleukin-23 receptor (IL-23R) inhibitor programme, led by HCXT-2001. The consideration is USD 1.275 billion in cash upfront (about RMB 8.5 billion), payable at closing, with the deal expected to close in the fourth quarter of 2026 and to give Gilead worldwide rights. Gilead also said the transaction would reduce Q4 GAAP and non-GAAP earnings per share by roughly USD 0.79 to 0.83.",
+            "Put the three numbers together and the character of the deal is clear: a Phase 1 molecule, USD 1.275 billion all in cash upfront, the entire consideration paid at the front. This is not a milestone-inflated headline total; it is money leaving the balance sheet this year.",
+            {
+                "h": "The molecule: a macrocycle that survives the gut"
+            },
+            "HCXT-2001 is an oral macrocyclic peptide IL-23R inhibitor that PepStar differentiated by extending half-life. It is in Phase 1 in healthy volunteers. Registered studies include two assessing food effects on absorption (entered China's trial registry in August and September 2026) and a third in healthy adults in New Zealand testing two tablet formulations. The multiple-ascending-dose stage will evaluate both once-daily and once-weekly dosing.",
+            "In Gilead's framing, HCXT-2001 can be used alone or combined with its own α4β7 pathway inhibitor emvistegrast as a fully oral regimen, with inflammatory bowel disease as the target and potential in psoriasis. That combination logic is central to BMO Capital Markets' positive read: emvistegrast recently impressed in Phase 2, and pairing it with an oral IL-23R peptide could produce an all-oral option in an IBD market that has long depended on injectable biologics.",
+            "The competitive landscape explains the pricing. AbbVie's Skyrizi generated close to USD 10 billion in the first half of the year and is the cash cow of the IL-23 pathway, but requires subcutaneous injection. Johnson & Johnson's icotrokinra (Icotyde) became the first approved oral IL-23R peptide in March 2026, once daily for plaque psoriasis. Merck's oral peptide in the same class carries the same restriction: no food for at least 30 minutes after dosing.",
+            "Food effect is the shared weakness. A macrocycle must stay stable in the gastrointestinal tract and cross the epithelium, leaving narrow chemical room to manoeuvre, and absorption is highly sensitive to food. Whoever can move from once-daily to once-weekly, or build a formulation that does not require fasting, holds the differentiation lever. HCXT-2001's half-life engineering aims exactly there.",
+            {
+                "h": "The seller: zero to a billion-dollar upfront in three years"
+            },
+            "PepStar Therapeutics was founded in April 2023 in the Shanghai free trade zone by Haibing Guo. Early backers include Lilly Asia Ventures, Sequoia China's seed fund and Eight Roads, with an angel-plus round joined by Taifu Capital in 2024; LongRiver Investments participated across three rounds from seed. The company's stated core asset is its proprietary oral peptide platform.",
+            "Three years and change from founding to a ten-figure-dollar upfront for its lead asset. That speed is itself a footnote on Chinese innovation in 2026: pricing power no longer depends on clinical stage but on whether the asset solves something others could not. A Phase 1 molecule commanding USD 1.275 billion in cash shows that diligence and trust in Chinese early pipelines have moved ahead of the clinic.",
+            "But a high upfront is not certainty. Three variables will decide whether HCXT-2001 delivers: whether the therapeutic window is wide enough (a narrow window turns Phase 3 into dose-finding), whether there is head-to-head room against existing IL-23 biologics and oral competitors, and how much adherence is lost to food-effect constraints. None of these is answered by Phase 1 data.",
+            {
+                "h": "For CDMOs: a second volume curve is forming"
+            },
+            "The relevance to CXOs is larger than to the biotech crowd, and the reason is dosage form.",
+            "Injectable peptide volumes have already been validated once by GLP-1. Semaglutide and tirzepatide pushed solid-phase peptide synthesis capacity from tens of thousands of litres into the hundred-thousand-litre range: WuXi AppTec is moving SPPS from 100,000 to 130,000 litres, Asymchem's peptide capacity is full in 2027 with new build planned, and Jiuzhou Pharma expanded solid-phase peptide capacity by 300% year on year in the first half yet remains capacity-constrained. That is the first curve.",
+            "Oral peptides are the second. Oral bioavailability is typically far lower than subcutaneous injection, so achieving equivalent exposure requires materially more API per patient; combined with once-daily, long-term use in chronic disease, the pull on API tonnage and drug product capacity is multiplicative. If oral IL-23R succeeds in Phase 3, peptides expand from a weight-loss and diabetes narrative into a second front in autoimmune chronic disease.",
+            "The process requirements are also harder. A macrocycle is not a linear peptide: cyclisation after synthesis raises purification difficulty and complicates the impurity profile; improving oral absorption often requires permeability engineering such as N-methylation, making non-natural amino acids and modified monomers a supply bottleneck; and the drug product side must run bioavailability and food-effect studies across two tablet strengths, pulling formulation work forward. Orders therefore land not only on SPPS reactors but on cyclisation and purification capability, non-natural amino acid supply, and oral solid dosage development.",
+            "Few Chinese CDMOs hold all three. Many can make peptide API; far fewer can deliver an integrated macrocycle-plus-oral-product package. That is precisely the commercial logic behind Asymchem's drug product expansion (cartridges, prefilled syringes, blow-fill-seal) and WuXi AppTec's continued TIDES investment — beyond capacity, you need the engineering ability to turn a molecule into something a patient can swallow.",
+            {
+                "h": "The other half of the same week: capital changing channels"
+            },
+            "Put the deal back into 22 October and another thread appears: the same day, the US Treasury published proposed outbound investment rules adding biotechnology to controlled sectors while explicitly exempting cash-paid, non-equity technology in-licensing and fee-for-service R&D collaborations.",
+            "Gilead's USD 1.275 billion cash upfront sits exactly on that exemption line. That is not coincidence. As the equity channel narrows, the asset channel gets more crowded and upfront ratios get pushed higher. For Chinese biotechs this means two things: assets that can command a good price still will; but the old path of forming a NewCo, raising, then listing becomes more expensive, and deal structures will converge faster on direct sales to MNCs.",
+            "For CDMOs this is a mildly positive structural shift. When an asset moves to an MNC it enters global multi-centre trials and global registration, and manufacturing orders become more certain — an MNC's Phase 3 and commercial batches are more predictable than those of a biotech living round to round.",
+            {
+                "h": "Editor's view: the upfront is paying for a platform option"
+            },
+            "Strictly speaking Gilead did not buy a molecule; it bought the first ticket on a platform. PepStar's founder framed it as validation of the company's proprietary oral peptide platform — an MNC paying all cash at Phase 1 is paying for a platform that can keep producing molecules, not for one molecule's data.",
+            "That also explains why 2026's large upfronts cluster around platform assets: CSPC and AstraZeneca's long-acting peptide platform (up to USD 18.5 billion in potential value), Hengrui and Bristol Myers Squibb's multi-therapeutic early portfolio (USD 15.2 billion), Hansoh and Roche's ADC platform (over USD 15.5 billion). The object of evaluation has shifted from a molecule to a production line that can repeat.",
+            "The lesson for CDMOs: platform assets generate batch demand, not single-batch demand. A platform means multiple molecules entering the clinic in sequence, creating continuous orders for the same process — macrocycle synthesis, cyclisation, oral formulation. Whoever proves the process on a client's first molecule inherits the default-supplier position for the rest of the line. That is worth more than winning one commercial batch.",
+            {
+                "faq": [
+                    {
+                        "q": "What are the terms of the Gilead deal?",
+                        "a": "Gilead will pay USD 1.275 billion in cash upfront (about RMB 8.5 billion) to acquire PepStar Therapeutics' oral IL-23R inhibitor programme, including lead asset HCXT-2001, gaining worldwide rights. The deal is expected to close in Q4 2026 and to reduce Q4 GAAP and non-GAAP EPS by roughly USD 0.79 to 0.83."
+                    },
+                    {
+                        "q": "What kind of drug is HCXT-2001 and how far along is it?",
+                        "a": "It is an oral macrocyclic peptide IL-23 receptor inhibitor differentiated through half-life extension, currently in Phase 1 in healthy volunteers. Registered studies include two food-effect assessments (entered China's trial registry in August and September 2026) and a New Zealand study in healthy adults. The multiple-ascending-dose stage will evaluate both once-daily and once-weekly dosing."
+                    },
+                    {
+                        "q": "Why would a Phase 1 molecule command a billion-dollar upfront?",
+                        "a": "Three factors combine. An oral alternative to injectables is the biggest unmet need in the IL-23 pathway, where Skyrizi generated close to USD 10 billion in H1 while requiring subcutaneous dosing. J&J's oral IL-23R peptide icotrokinra was approved in March 2026, validating that macrocycles can cross the gut. And Gilead can combine HCXT-2001 with its own α4β7 inhibitor emvistegrast for an all-oral IBD regimen, giving the combination more value than the single agent."
+                    },
+                    {
+                        "q": "Why do oral peptides drive CDMO capacity demand?",
+                        "a": "Oral bioavailability is typically far lower than injection, so equivalent exposure requires much more API per patient; combined with once-daily long-term use, the pull on tonnage and drug product capacity is multiplicative. Macrocycle synthesis also needs cyclisation and more complex purification, absorption enhancement often requires modifications such as N-methylation that make non-natural amino acids a bottleneck, and the product side needs multi-strength bioavailability and food-effect work."
+                    },
+                    {
+                        "q": "Is the deal connected to the US outbound investment proposal published the same day?",
+                        "a": "Structurally, yes. The 22 October Treasury proposal adds biotechnology to controlled sectors but exempts cash-paid, non-equity technology in-licensing and fee-for-service R&D collaborations. Gilead's cash acquisition sits on that exemption line. As the equity channel narrows, the asset channel gets more crowded and upfront ratios are pushed higher."
+                    }
+                ]
+            }
+        ]
+    },
+    "sk-bioscience-idt-vaccine-cdmo-2026": {
+        "title": "The European Anchor of Vaccine CDMO: Two Years After Buying IDT, SK bioscience Has Turned Public Procurement into Orders",
+        "summary": "A regulatory filing disclosed by SK bioscience on 25 October shows 2025 consolidated revenue of KRW 651.4 billion (+143.5%) and an operating loss narrowed to KRW 123.5 billion. Acquired German CDMO IDT Biologika posted H1 2026 revenue of KRW 257.8 billion and operating profit of KRW 127 billion, already above all of 2025. The company targets doubling IDT's revenue by 2028, using an EU HaDEA microneedle patch framework worth up to EUR 225 million and a CEPI-funded Ebola project.",
+        "body": [
+            "On 25 October a regulatory filing to Korea's Financial Supervisory Service disclosed a set of numbers for SK bioscience: 2025 consolidated revenue of KRW 651.4 billion (about USD 450 million), up 143.5% year on year, and an operating loss narrowed from KRW 138.4 billion to KRW 123.5 billion. The revenue more than doubling is directly attributable to the October 2024 acquisition of roughly 60% of German vaccine CDMO IDT Biologika.",
+            "The more interesting line is the acquired asset's trajectory. Founded in 1921, IDT handles both drug substance and fill-finish for vaccines and biologics. It posted full-year 2025 revenue of KRW 465.7 billion and operating profit of KRW 9.9 billion; in the first half of 2026 it reported revenue of KRW 257.8 billion and operating profit of KRW 12.7 billion — six months of profit already exceeding all of 2025.",
+            "That is the plainest test of whether a cross-border CDMO acquisition works: the acquired asset turns profitable in year one and accelerates in year two. SK bioscience's stated target is to double IDT's revenue from the level at acquisition by 2028.",
+            {
+                "h": "Vaccine CDMO and antibody CDMO are two different businesses"
+            },
+            "Set SK and IDT beside Samsung Biologics and Lonza and the word CDMO conceals two entirely different capacity economics.",
+            "Antibody CDMO is about scale: 2,000 to 20,000 litre mammalian cell culture batches, with cost diluted through reactor litres, batch counts and utilisation. Competition is over who has more litres and more lines cleared by regulators. Samsung Biologics at 845,000 litres and Lonza at 793,000 litres are products of that logic.",
+            "Vaccine CDMO is about small batches, many products and heavy regulation. A vaccine programme often involves multiple antigens, adjuvants and presentations, with batch sizes far below antibodies, but requires BSL-2/BSL-3 containment, dedicated adjuvant and filling lines, and navigation of divergent regulatory paths such as batch release in China or centralised EMA review in Europe. Scarcity is not in litres but in the combined qualification to handle live virus, adjuvants and sterile fill-finish under one roof.",
+            "IDT sits precisely on that combined qualification: drug substance and fill-finish, commercial batches and public health programmes. Few such European assets exist, and new builds are slow and approval-heavy — which is why SK bioscience moved in 2024.",
+            {
+                "h": "Public procurement: an underrated demand channel"
+            },
+            "The strategic value of the deal shows up in two concrete programmes.",
+            "The first is a microneedle patch influenza vaccine. The project is led by the EU's Health and Digital Executive Agency (HaDEA), with Australia's Vaxxas supplying microarray patch technology and manufacturing, SK bioscience supplying cell culture-based seasonal and pandemic influenza drug substance, and IDT handling European contracts and project management, potentially taking on drug substance production at commercialisation. Phase one, including a Phase 1 trial, is worth up to EUR 12.9 million (about KRW 19.2 billion), and three related framework contracts could grow to a combined EUR 225 million (about KRW 334.2 billion).",
+            "The second is an Ebola vaccine. SK bioscience and IDT are participating alongside Merck and Hilleman Laboratories in a Zaire Ebola vaccine project, with CEPI providing Merck up to USD 30 million. SK bioscience handles process development and manufacturing of drug substance; IDT handles development and production of the finished product.",
+            "These two programmes reveal the biggest business-model difference from antibody CDMO: the largest customers of vaccine CDMOs are governments and public funds, not pharmaceutical companies. HaDEA and CEPI framework contracts share three features — multi-year terms, prepayment, and pricing based on reserved capacity rather than batches purchased. For the CDMO this is more stable cash flow than commercial orders; for the buyer it is the only way to guarantee capacity is available in a pandemic.",
+            "That also explains why not all pandemic-era vaccine capacity went idle afterwards: some of it converted into public health capacity reserves, kept at minimum utilisation through framework contracts from bodies such as CEPI, BARDA and HaDEA. This demand curve is unrelated to pharma R&D budgets and closely tied to geopolitics and biosecurity agendas.",
+            {
+                "h": "The tariff identity of European capacity"
+            },
+            "There is a less visible but very practical layer: origin.",
+            "US Section 232 pharmaceutical tariffs took full effect on 29 September 2026, with a 100% base rate on patented drugs, APIs and key starting materials, and an agreed 15% rate for the EU, Japan, Korea and Switzerland, and 10% for the UK. For any CDMO serving the US market, European capacity and Asian capacity are two different prices in tariff terms.",
+            "IDT's site in Dessau, Germany, has both drug substance and fill-finish capability, which lets SK bioscience offer US clients an all-European substance-plus-fill package rather than shipping intermediates across borders and paying duty twice. For vaccines, sensitive to cold chain and release timelines, an end-to-end single origin carries additional quality advantages.",
+            "Korean capacity plays a different role: the Songdo site serves the company's own vaccines and Asian supply, while the German site serves European and US commercial supply. The filing describes a product-by-product sequence of technology transfer, process validation and regulatory steps, producing a two-base structure of Korea plus Germany.",
+            {
+                "h": "Korea's CDMO division of labour has taken shape"
+            },
+            "Line up Korea's three main players and a fairly clear division appears: Samsung Biologics in antibodies and ADCs (Songdo plants 1 to 5 plus Rockville, with total capacity planned to 1.385 million litres); SK bioscience in vaccines (Korea plus Germany); ST Pharm in oligonucleotides. All three are export and large-client businesses, but their modalities do not overlap.",
+            "This division was not designed so much as forced by order structure. Samsung's clients are MNC antibody pipelines, SK's clients are governments and public funds, ST Pharm's clients are siRNA and new nucleic acid developers. The three purchasing logics are entirely different — capacity qualification, framework reservation, and process capability respectively.",
+            "The reference point for Chinese CDMOs is that vaccine CDMO remains a segment where Chinese participation is low and the barrier is qualification rather than capacity. Domestic vaccine production centres on batch release; going abroad requires WHO prequalification first, then entry into public procurement chains such as UNICEF, PAHO and CEPI. The path is slow, but once inside, order continuity and margins beat price competition on commercial batches.",
+            {
+                "h": "Editor's view: the third, overlooked demand curve"
+            },
+            "The two CDMO demand curves discussed all year are GLP-1 peptides and ADCs. The SK and IDT story points to a third: public health capacity reserves. It is smaller than the other two, but structurally different — it is not triggered by a product launch, not priced by negotiation, and inherently multi-year, reservation-based and geopolitically anchored.",
+            "In a year when Section 232 tariffs have turned origin into a quotation variable, the value of this demand is amplified: whoever holds capacity certified by public bodies and located in a preferential tariff jurisdiction holds two tickets at once — one for orders, one for tariff identity. IDT's German site is exactly such a ticket.",
+            "The caution for investors is to look past headline contract value to reserved capacity and minimum purchase commitments. The former is intent; the latter is revenue. The EUR 225 million SK bioscience disclosed is the combined ceiling of three framework contracts, and actual execution depends on public health demand and regulatory timing — a discount that belongs in any valuation.",
+            {
+                "faq": [
+                    {
+                        "q": "How has the IDT Biologika acquisition performed for SK bioscience?",
+                        "a": "SK bioscience reported 2025 consolidated revenue of KRW 651.4 billion, up 143.5%, with the operating loss narrowed from KRW 138.4 billion to KRW 123.5 billion. IDT posted 2025 revenue of KRW 465.7 billion and operating profit of KRW 9.9 billion; in H1 2026 it reported revenue of KRW 257.8 billion and operating profit of KRW 12.7 billion, already above all of 2025. The company targets doubling IDT's revenue from the acquisition level by 2028."
+                    },
+                    {
+                        "q": "What makes IDT Biologika's capabilities distinctive?",
+                        "a": "Founded in 1921 and based in Dessau, Germany, IDT handles both drug substance manufacturing and sterile fill-finish for vaccines and biologics, with the combined qualification to work with live virus, adjuvants and aseptic filling. Few such multi-modality European assets exist, and new builds are slow and heavily regulated, which is why SK bioscience moved in 2024."
+                    },
+                    {
+                        "q": "How does the vaccine CDMO model differ from antibody CDMO?",
+                        "a": "Antibody CDMO dilutes cost through scale, competing on reactor litres and the number of regulator-cleared lines. Vaccine CDMO is small-batch, multi-product and heavily regulated, with scarcity coming from combined qualification rather than litres. More importantly, vaccine CDMO customers are governments and public funds such as HaDEA and CEPI, which reserve capacity through multi-year framework contracts rather than buying batches."
+                    },
+                    {
+                        "q": "How large is the EU HaDEA microneedle patch programme?",
+                        "a": "Led by HaDEA, with Vaxxas providing microarray patch technology, SK bioscience supplying cell culture-based influenza drug substance and IDT handling European contracts and project management. Phase one, including a Phase 1 trial, is worth up to EUR 12.9 million (about KRW 19.2 billion), and three related framework contracts could grow to a combined EUR 225 million (about KRW 334.2 billion), subject to regulatory approval and public health demand."
+                    },
+                    {
+                        "q": "Why does manufacturing origin matter more in 2026?",
+                        "a": "US Section 232 pharmaceutical tariffs took full effect on 29 September 2026, with a 100% base rate on patented drugs, APIs and key starting materials and an agreed 15% rate for the EU, Japan, Korea and Switzerland. For CDMOs serving the US, European and Asian capacity carry different tariff identities; for cold-chain- and release-sensitive products such as vaccines, a single end-to-end origin adds quality advantages."
                     }
                 ]
             }
