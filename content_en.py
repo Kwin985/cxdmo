@@ -2028,7 +2028,30 @@ ARTICLES_EN = {
                 ]
             }
         ]
-    }
+    },
+    "wuxi-apptec-q3-2026": {
+        "title": "WuXi AppTec Q3 2026: 9M Revenue RMB 45.54B, Up 38.6%; Full-Year Guidance Raised to RMB 61.0–61.9B",
+        "summary": "9M total revenue RMB 45.54B and attributable net profit RMB 19.40B (+60.6%); adjusted non-IFRS net profit RMB 18.38B (+74.4%). Continuing-operations backlog crossed RMB 70B for the first time at RMB 76.74B, and the company raised full-year guidance again.",
+        "body": [
+            {"lead": "After market close on October 26, WuXi AppTec (603259.SH / 2359.HK) reported its 2026 third-quarter results: revenue, profit and cash flow all strengthened, and the company raised its full-year guidance for the third time this year."},
+            "For the first nine months of 2026, total revenue reached RMB 45.54B, up 38.6% YoY; continuing-operations revenue grew 46.3%. Adjusted non-IFRS net profit was RMB 18.38B, up 74.4%, with net margin up 8.3 ppts to 40.4%; attributable net profit under CAS was RMB 19.40B, up 60.6%. In Q3 alone, revenue was RMB 16.64B (+38.01%) and attributable net profit RMB 8.318B, up 136.67%.",
+            "Backlog and cash flow also hit records: as of end-September, continuing-operations backlog reached RMB 76.74B, up 36.4% YoY and crossing RMB 70B for the first time; adjusted operating cash flow was RMB 17.28B, up 58.9%. The company noted that 9M cumulative revenue, profit under three measures, and adjusted operating cash flow had all exceeded full-year 2025 levels.",
+            "By segment, small-molecule D&M (process R&D and manufacturing) revenue was RMB 23.58B, up 65.6%, with the D&M pipeline reaching 3,863 molecules — 103 commercial and 94 Phase III — and commercial molecules crossing 100 for the first time. The TIDES business (oligonucleotides and peptides) earned RMB 11.52B, up 46.9%, with served clients +37% and molecules +86% YoY; full-year TIDES revenue is expected at ~RMB 16.7B (+47%).",
+            {"quote": "Thanks to the greater success of multiple client products, and the unique advantages of our CRDMO model with excellent global execution, we sustained our strong momentum … continuing-operations backlog reached RMB 76.7B and we further raised our full-year guidance.", "by": "Dr. Ge Li, Chairman and CEO of WuXi AppTec"},
+            "On the strength of these results, the company further raised 2026 guidance: total revenue from RMB 58.5–60.5B to RMB 61.0–61.9B; continuing-operations revenue growth from 35–39% to 40–42%; capex from RMB 7.5–8.5B to RMB 8.0–8.5B (including an early start on the new Changzhou base); and adjusted free cash flow from RMB 13.5–14.5B to RMB 14.5–15.5B. For shareholder returns, cash dividends of RMB 6.22B were paid in the first nine months (RMB 4.71B 2025 final plus RMB 1.51B 2026 interim).",
+        ],
+    },
+    "porton-q3-2026": {
+        "title": "Porton Pharma Q3 2026: Quarterly Attributable Net Profit RMB 112M, Up 112%; Profitability Recovers",
+        "summary": "9M revenue RMB 2.765B (+9%); continuing-operations net profit RMB 192M (+201%). Q3 attributable net profit RMB 112M (+112%). Excluding a RMB 330M impairment on the terminated Slovenia project, earnings improved markedly, with CGT and new-molecule businesses growing fast.",
+        "body": [
+            {"lead": "On October 26, Porton Pharma Solutions (300363.SZ) released its 2026 third-quarter report: the company returned to quarterly profit, with Q3 attributable net profit up 112% YoY as profitability recovered quarter by quarter."},
+            "For 9M 2026, revenue was RMB 2.765B, up ~9% YoY (or ~12% at constant currency); Q3 (July–September) revenue was RMB 975M, growing both sequentially and YoY. The company expects Q4 revenue growth to accelerate to 20%–30% YoY.",
+            "Profitability improved markedly: 9M continuing-operations net profit was RMB 192M, up ~201% YoY; Q3 attributable net profit was RMB 112M, up ~112%. The 9M attributable net profit was -RMB 112M, mainly because the termination of the Slovenia investment project triggered an impairment provision of EUR 41.29M (≈RMB 330M) booked in Q2.",
+            "By region and segment, overseas revenue was RMB 2.009B (+11%) and domestic RMB 756M (+2%); small-molecule API business revenue was RMB 2.537B (+8%). Among the three new businesses, cell & gene therapy (CGT) CDMO revenue was RMB 88.73M, up 107% YoY; small-molecule formulation CDMO RMB 89.95M (-11%, amid a generics-to-innovative restructuring); new-molecule business ~RMB 41.2M (-11%, on client delivery timing).",
+            "Gross margin kept recovering: 9M overall gross margin was ~33.54%, up nearly 5 ppts YoY; Q3 gross margin 35.93%, up nearly 5 ppts YoY and ~2 ppts QoQ. Overseas gross margin was ~43% (+3 ppts); excluding new businesses, domestic overall gross margin was ~30% (+12 ppts). New businesses had a ~-RMB 177M impact on 9M attributable net profit, with CGT narrowing its loss by RMB 3.96M YoY — a clear trend of loss reduction.",
+        ],
+    },
 }
 
 COMPANIES_EN = {
