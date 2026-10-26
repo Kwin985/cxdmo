@@ -2052,6 +2052,50 @@ ARTICLES_EN = {
             "Gross margin kept recovering: 9M overall gross margin was ~33.54%, up nearly 5 ppts YoY; Q3 gross margin 35.93%, up nearly 5 ppts YoY and ~2 ppts QoQ. Overseas gross margin was ~43% (+3 ppts); excluding new businesses, domestic overall gross margin was ~30% (+12 ppts). New businesses had a ~-RMB 177M impact on 9M attributable net profit, with CGT narrowing its loss by RMB 3.96M YoY — a clear trend of loss reduction.",
         ],
     },
+    "cdmo-q3-2026-roundup": {
+        "title": "CDMO Q3 2026 Scorecard: Four A-Share Leaders Recover at Different Speeds",
+        "summary": "As the 2026 third-quarter reporting season closes, the four A-share CDMO leaders - WuXi AppTec, Porton, Asymchem and Pharmaron - show a sector back in growth but with divergence widening: top-line expansion returned to double digits, yet growth rates span +9% to +38.6%, and differences in earnings quality and business mix matter more than scale.",
+        "body": [
+            {"lead": "Put the four quarterly reports side by side and the clearest takeaway is this: the sector Beta is back, but Alpha is highly concentrated."},
+            {"h": "The nine-month picture in one table"},
+            {"table": {
+                "caption": "Four A-share CDMO leaders, 2026 first nine months (revenue in RMB billions)",
+                "head": ["Company", "9M revenue", "YoY", "9M net profit (attrib.)", "YoY", "Q3 net profit YoY", "Key highlight"],
+                "rows": [
+                    ["WuXi AppTec", "45.54", "+38.6%", "19.40", "+60.6%", "+136.7%", "Backlog RMB 76.7B; small-mol D&M +65.6%; TIDES +46.9%"],
+                    ["Asymchem", "5.40", "+16.52%", "0.85", "+6.49%", "+81.49%", "New modalities +50.2%; Q3 profit accelerates"],
+                    ["Pharmaron", "~11.24", "+16.4%", "~1.19", "+17.8%", "+42.5%", "New orders +13%; lab/CRO still the core"],
+                    ["Porton", "2.77", "+9%", "-0.11*", "-", "+112%", "Continuing-op net profit +201%; CGT +107%"]
+                ],
+                "notes": "* Porton 9M attributable net profit was -RMB 0.11B, including a ~RMB 0.33B impairment on the terminated Slovenia project; adjusted continuing-operations net profit was RMB 0.19B (+201%). Pharmaron 9M figures are three-quarter sums (Q1 3.578 + Q2 4.017 + Q3 3.645 ~ 11.24B); the company did not disclose a standalone 9M headline, while Q3 revenue RMB 3.65B (+13.4%) and net profit RMB 0.44B (+42.5%) are reported values."
+            }},
+            {"h": "WuXi AppTec: the only full-spectrum high-growth name, CRDMO flywheel still accelerating"},
+            "9M revenue reached RMB 45.54B (+38.6%) with attributable net profit RMB 19.40B (+60.6%); adjusted non-IFRS net profit was RMB 18.38B (+74.4%) at a 40.4% net margin. In Q3 alone, revenue was RMB 16.64B (+38.0%) and attributable net profit RMB 8.32B (+136.7%) - growth driven not by a low base but by two engines: small-molecule D&M revenue RMB 23.58B (+65.6%) with the pipeline at 3,863 molecules and commercial molecules crossing 100 for the first time; and TIDES (oligonucleotides and peptides) revenue RMB 11.52B (+46.9%), expected at ~RMB 16.7B for the full year. Continuing-operations backlog crossed RMB 70B for the first time to RMB 76.74B (+36.4%), and the company raised its full-year guidance for the third time to RMB 61.0-61.9B.",
+            {"h": "Asymchem: small molecules stabilise, new modalities double, Q3 accelerates sharply"},
+            "9M revenue was RMB 5.395B (+16.52%) and attributable net profit RMB 0.85B (+6.49%) - growth that looks mild but is improving in composition: Q3 revenue RMB 1.788B (+24.04%) and attributable net profit RMB 0.33B (+81.49%) released clear earnings leverage. By segment, small-molecule CDMO revenue was RMB 3.465B (+3.59%), the base stabilising; new-modality business (chemical large molecules, biologics, formulations) reached RMB 1.923B (+50.2%), becoming the second growth curve.",
+            {"h": "Pharmaron: Q3 net profit +42.5%, but the full year reads more like a gentle repair"},
+            "Pharmaron Q3 revenue was RMB 3.65B (+13.4%) with net profit RMB 0.44B (+42.5%), a clear profit-side improvement; 9M revenue ~RMB 11.24B and net profit ~RMB 1.19B place it mid-pack by scale. The more interesting signal is orders: first-nine-month new orders grew ~13%, up from ~10% in the first half. Structurally, laboratory services (CRO) remain the core (~61% of revenue), CDMO services ~25% and clinical ~14% - unlike WuXi or Asymchem, whose models centre on manufacturing, Pharmaron recovery leans more on front-end R&D-service sentiment.",
+            {"h": "Porton: still in the profitability-repair channel, with Q3 return to profit the key signal"},
+            "Porton 9M revenue was RMB 2.765B (+9%) with attributable net profit -RMB 0.11B, mainly due to a ~RMB 0.33B impairment booked in Q2 on the terminated Slovenia project; adjusted continuing-operations net profit was RMB 0.19B (+201%). The real signal is in Q3: quarterly attributable net profit RMB 0.11B (+112%), swinging from loss to profit. By business, small-molecule API was RMB 2.537B (+8%); among the three new businesses, CGT CDMO revenue RMB 88.73M (+107%) grew fastest, small-molecule formulation RMB 89.95M (-11%, amid a generics-to-innovative restructuring) and new molecules ~RMB 41.2M (-11%, on client delivery timing). Overall gross margin was 33.54% (+5 ppts), with earnings quality repairing quarter by quarter.",
+            {"h": "Three lines of divergence across the board"},
+            {"h": "One: small-molecule D&M sentiment has fully returned"},
+            "WuXi small-molecule D&M +65.6% is the heavyweight signal, Asymchem small-molecule CDMO also turned from H1 contraction to Q3 acceleration, and Apelo CDMO grew +40.96% in the quarter - evidence that the capacity idling and price wars that pressed China small-molecule manufacturing in 2024-2025 are dissolving as demand recovers. For China small-molecule-centric CDMOs, this is the most certain recovery thread.",
+            {"h": "Two: new modalities become the second curve"},
+            "TIDES (WuXi +46.9%), CGT (Porton +107%), ADC and peptides (Samsung Biologics acquisition of PolyPeptide, plus a wave of out-licensing deals) all point the same way: peptides, oligonucleotides, conjugates and cell and gene therapy are moving from concept to commercial scale-up. Whoever scales its process platform first earns the next round of pricing premium.",
+            {"h": "Three: earnings quality matters more than scale"},
+            "WuXi net margin already exceeds 40%, Porton is still repairing from single-digit gross margin, and the overseas comparator Samsung Biologics traded margin (42.9% vs 50.4% a year earlier) for share and capacity ramp. Same revenue growth, very different profit quality - in 2027 the market will weight non-IFRS net margin and free cash flow over pure revenue growth.",
+            {"h": "What to watch into 2027"},
+            "Three things decide whether the divergence narrows next year: first, order thickness and mix - WuXi RMB 76.7B and Samsung USD 21.9B (~RMB 158B) of binding contracts are the ballast for future revenue; second, capacity ramp cadence - utilisation inflections at Plant 5, the new Changzhou base and Rockville; third, new-modality share - whether TIDES/ADC/CGT move from high growth to high profit. On top of that, the US Section 232 pharma tariff turns site of manufacture into a tax-rate variable and will reshape order geography over the long run - a point we developed in our article on the Section 232 tariff landing.",
+            {"faq": [
+                {"q": "Why do the four CDMOs Q3 growth rates differ so much?",
+                 "a": "The gap is mostly business mix: WuXi AppTec rides two engines - small-molecule D&M (+65.6%) and TIDES (+46.9%) - with commercial projects entering scale-up; Asymchem leans on new modalities (+50.2%) to complement small molecules; Pharmaron is CRO/lab-led with CDMO only ~25% of revenue, so its repair is gentler; Porton is still in post-impairment margin recovery."},
+                {"q": "Which one has the best earnings quality?",
+                 "a": "WuXi AppTec stands out with an adjusted non-IFRS net margin around 40.4%, strong free cash flow and a RMB 76.7B backlog; Asymchem gross margin is ~41% with Q3-accelerated profit improvement; Porton gross margin 33.54% (+5 ppts) is still repairing; the overseas comparator Samsung Biologics traded margin for share, with operating margin down from 50.4% to 42.9%."},
+                {"q": "What does this scorecard signal for 2027?",
+                 "a": "Small-molecule D&M recovery and new-modality (TIDES/ADC/CGT) commercial scale-up are the two certain threads; meanwhile the Section 232 tariff turns site of manufacture into a tax-rate variable that will reshape order geography. In 2027 the market will weight non-IFRS net margin, free cash flow and new-modality share over pure revenue growth."}
+            ]}
+        ]
+    },
 }
 
 COMPANIES_EN = {

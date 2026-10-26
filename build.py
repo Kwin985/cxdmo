@@ -163,6 +163,8 @@ def _render_body(body):
       {"h": "小节标题"}                          —— 小节标题 <h2>（.prose h2 已有样式）
       {"lead": "导语"}                           —— 导语段 <p class="lead">
       {"quote": "引语", "by": "发言人"}          —— 引语块 <blockquote>
+      {"table": {"caption":"...", "head":[...],  —— 对比表 <div class="tbl-wrap">
+                 "rows":[[...],[...]], "notes":"..."}}
     """
     out = []
     for item in body:
@@ -204,6 +206,25 @@ def _render_body(body):
                 f'<img src="{cover}" alt="{esc(cap)}" loading="lazy" decoding="async">'
                 f'<span class="play-btn" aria-hidden="true">▶</span>'
                 f'</a>{cap_html}</figure>'
+            )
+        elif isinstance(item, dict) and item.get("table") is not None:
+            tb = item["table"]
+            cap = tb.get("caption") or ""
+            head = tb.get("head", [])
+            rows = tb.get("rows", [])
+            notes = tb.get("notes") or ""
+            thead = "".join(f"<th>{esc(h)}</th>" for h in head)
+            thead_html = f"<thead><tr>{thead}</tr></thead>" if thead else ""
+            body_rows = "".join(
+                "<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>"
+                for r in rows
+            )
+            cap_html = f'<div class="tbl-cap">{esc(cap)}</div>' if cap else ""
+            notes_html = f'<div class="tbl-note">{esc(notes)}</div>' if notes else ""
+            out.append(
+                f'<div class="tbl-wrap">{cap_html}'
+                f'<table class="cmp">{thead_html}<tbody>{body_rows}</tbody></table>'
+                f"{notes_html}</div>"
             )
         else:
             out.append(f"<p>{esc(item)}</p>")
@@ -1249,6 +1270,14 @@ img{max-width:100%}
 .prose blockquote footer{margin-top:10px;font-size:13px;color:var(--muted);font-weight:600}
 .prose ul{margin:0 0 18px 22px;color:#2a3a47}
 .prose li{margin-bottom:8px}
+.prose .tbl-wrap{margin:26px 0;overflow-x:auto}
+.prose .tbl-cap{font-size:13px;color:var(--muted);margin-bottom:8px;font-weight:600}
+.prose table.cmp{border-collapse:collapse;width:100%;font-size:14px;min-width:620px;background:#fff}
+.prose table.cmp th,.prose table.cmp td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;line-height:1.5}
+.prose table.cmp thead th{background:var(--primary);color:#fff;font-weight:700;white-space:nowrap}
+.prose table.cmp tbody tr:nth-child(even) td{background:#fafcfd}
+.prose table.cmp tbody td:first-child{background:#eef5fb;font-weight:700;color:var(--primary-dark);white-space:nowrap}
+.prose .tbl-note{font-size:12.5px;color:var(--faint);margin-top:8px;line-height:1.6}
 .art-src{max-width:820px;margin-top:28px;background:var(--bg);border-radius:10px;padding:14px 18px;font-size:13px;color:var(--muted)}
 .art-src a{color:var(--primary);font-weight:600}
 .prose figure.art-img{margin:30px 0}
