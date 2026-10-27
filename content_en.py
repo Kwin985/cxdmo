@@ -2536,3 +2536,92 @@ ARTICLES_EN.update({
         ]
     }
 })
+ARTICLES_EN.update({
+    "kanglong-q3-2026": {
+        "title": "Pharmaron Q3: Net Profit +42.5% and New Orders Accelerating from 10% to 13% — the Profit Elasticity Is Still Coming",
+        "summary": "Pharmaron's Q3 2026 report (published late October): third-quarter revenue of RMB 3.645B, up 13.4%, and net profit of RMB 440M, up 42.5% but slightly below consensus of RMB 467M. The more important signal sits in the order book: nine-month new-order growth of about 13%, accelerating from roughly 10% in the first half. UBS raised its H-share target price to HK$32.9 on the back of it, keeping Buy — a textbook recovery report in which orders lead and margins follow.",
+        "body": [
+            "In the same reporting week that WuXi AppTec grabbed headlines with 136% single-quarter profit growth, Pharmaron's Q3 offered a different but equally instructive sample: a Chinese CXO in the second revenue tier, with laboratory services as its base, moving through the standard recovery sequence — orders recover first, profits convert later.",
+            "The numbers first. Third-quarter revenue was RMB 3.645B, up 13.4%, broadly in line with market and UBS forecasts of RMB 3.6–3.7B; net profit attributable to shareholders was RMB 440M, up 42.5% — more than three times the revenue growth rate, but below the market's RMB 467M and UBS's RMB 506M. On Eastmoney's figures, nine-month revenue totalled about RMB 11.24B with net profit of roughly RMB 1.19B, and the quarterly profit repair through 2026 is clearly visible.",
+            {
+                "h": "The most important number is not on the income statement — it is in the order book"
+            },
+            "The point UBS emphasised most: Pharmaron's new orders for the first nine months grew about 13% year on year, faster than roughly 10% in the first half. The weight of that figure comes from CXO economics — new signings are the leading indicator of revenue, and the acceleration matters more than the absolute level for locating where in the cycle the industry sits.",
+            "Put the same tier of companies on one chart and the trend sharpens: WuXi AppTec's backlog of RMB 76.74B (+36.4%) with two guidance raises this year; Asymchem's new signings in double digits for the nine months and about +30% in Q3 off a high base; Pharmaron accelerating from +10% to +13%. The disclosure bases differ, but the direction is identical — the order curves of China's CXO leaders steepened together in the second half of 2026. That dovetails with the NDRC disclosure that innovative-drug out-licensing reached about USD 130B in the first three quarters, near the full-year 2025 total: BD activity is converting into outsourcing orders down the R&D chain.",
+            {
+                "h": "Why profits lag: a recovery pace dictated by structure"
+            },
+            "Pharmaron's profit elasticity trails WuXi's not because of demand but because of mix. First, laboratory services (lab chemistry-led) dominate revenue; these are lower-priced, headcount-driven lines where revenue recovers before profit, and earnings elasticity arrives only as CDMO and late-stage large projects gain share. Second, the RMB 440M profit print still undershot consensus, so gross-margin repair, currency and new-capacity ramp costs are still being digested. Third, compared with WuXi's integrated CRDMO funnel, Pharmaron's lab-services-to-CMC-to-CDMO conversion is only now approaching its volume phase — which is why UBS's modest upward revisions to 2026–27 revenue and profit rest on improving order-to-revenue conversion.",
+            "That makes this a textbook expectations-management sample: the market holds every CXO to WuXi's growth rate, but each company's recovery curve has a different shape. WuXi is converting orders and profits in step; Pharmaron is orders first, margins second — which implies that if order growth holds, 2027 profit elasticity should exceed 2026's. That is the core logic behind UBS lifting its H-share target from HK$31 to HK$32.9 and keeping Buy.",
+            {
+                "h": "Editorial note: one recovery, different coordinates"
+            },
+            "Over the past two weeks we have treated the Q3 season as an industry observation band: Asymchem (Q3 net +81.49%, full-year guidance 19–22%), Jiuzhou Pharmaceutical (first quarter of the year with revenue and profit both positive), Apeloa (still bottoming, though CDMO +41% in the quarter), Samsung Biologics (revenue +18.5% but margins down), and now WuXi AppTec and Pharmaron. Stack the six reports and the evidence for an inflection is close to complete — but the layering inside the inflection is equally clear: the larger a company's exposure to new modalities (TIDES, ADCs, oligonucleotides), the earlier and stronger the order and profit conversion; companies weighted to traditional small molecules and lab services recover a beat later.",
+            "For industry observers, the most useful inference of the season is this: to judge a CXO's next move, read the shape of its order book first, then its position on the new-modality map. Pharmaron's accelerating new orders say it is still in the improvement channel on both coordinates — profit elasticity is on the way, which is exactly the reporting posture of a company in mid-recovery.",
+            {
+                "faq": [
+                    {
+                        "q": "What were Pharmaron's Q3 2026 results?",
+                        "a": "Third-quarter revenue was RMB 3.645B, up 13.4% and in line with expectations; net profit attributable to shareholders was RMB 440M, up 42.5% but slightly below consensus of RMB 467M. Profit grew far faster than revenue, though the elasticity is still in an early repair phase."
+                    },
+                    {
+                        "q": "How are Pharmaron's new orders trending?",
+                        "a": "New orders grew about 13% year on year for the first nine months, accelerating from roughly 10% in the first half. New signings are the leading indicator of CXO revenue, and quarter-on-quarter acceleration in order growth usually precedes a release of revenue and profit elasticity."
+                    },
+                    {
+                        "q": "Why is Pharmaron's profit elasticity weaker than WuXi AppTec's?",
+                        "a": "Mainly structural mix: laboratory services dominate Pharmaron's revenue and are headcount-driven at lower price points, so revenue recovers before profit. Elasticity arrives as CDMO and late-stage large projects gain share, while gross-margin repair and new-capacity ramp are still being digested."
+                    },
+                    {
+                        "q": "How do analysts view the stock?",
+                        "a": "UBS modestly raised its 2026–27 revenue and profit forecasts, lifted the H-share target price from HK$31 to HK$32.9 and maintained Buy, with the core thesis resting on improving order-to-revenue conversion."
+                    }
+                ]
+            }
+        ]
+    },
+    "jiuzhou-novartis-dna-2026": {
+        "title": "A Novartis Veteran Takes the Helm at Jiuzhou Pharmaceutical: Chinese CXOs Begin the Second Lesson After Buying MNC Assets",
+        "summary": "Xue Yingzhou, just appointed President of Jiuzhou Pharmaceutical, spent the first half of his career at Novartis rising to production director, supply-chain director and technical-service director; after Jiuzhou acquired Suzhou Novartis for about RMB 790M in 2019, he moved with the plant and ran its core subsidiary Ruibo Suzhou for seven years. Executive VP Cai Wanyu, appointed in the same batch, brings nearly 40 years of manufacturing management. The message is industry-wide: buying MNC assets in China is lesson one; internalising the acquirer's operating DNA is lesson two — the one that decides customer concentration and commercial-order execution.",
+        "body": [
+            "A personnel announcement from Jiuzhou Pharmaceutical in late October drew more industry discussion than its headline suggested: Xue Yingzhou was appointed President of the company. His résumé has a clean dividing line — the first half at Novartis, rising to production director, supply-chain director and technical-service director; the second half after Jiuzhou acquired 100% of Suzhou Novartis in 2019 for about RMB 790M (net of divested technology and drug-development assets), when he moved with the plant to become general manager of the core subsidiary Ruibo Suzhou, a post he held for seven years before entering the listed company's top management.",
+            "Executive VP Cai Wanyu, appointed in the same batch, brings nearly 40 years of manufacturing management experience and was a core member of the National Science and Technology Progress First Prize-winning icotinib industrialisation project; fellow Executive VP LI Yuanqiang comes from a multinational R&D background. Three operations-oriented executives entering the core management team in one appointment round is not routine turnover — it is an organisational signal.",
+            {
+                "h": "Lesson one: buy the assets, lock the orders"
+            },
+            "Go back to the 2019 transaction. Alongside the acquisition, Jiuzhou signed a manufacturing and supply agreement: for five years after closing, the acquired entity would supply Novartis with the APIs or intermediates of three products (in heart failure, breast cancer and leukaemia), extendable by another five years subject to conditions. It is the classic buy-assets-plus-lock-orders structure — a Chinese specialty-API maker gaining direct entry into a global major's commercial API supply chain in one deal.",
+            "It worked: Novartis has remained Jiuzhou's largest customer, at 56.65% of annual sales in 2024 and 54.50% in 2025. More than half of revenue tied to one customer is both the ceiling and the Achilles heel of that structure. As we noted in our 10 October-24 read of Jiuzhou's Q3, the order mix is diversifying — TIDES backlog above RMB 5B, small-molecule new projects up 25% — but the commercial base remains the Novartis system.",
+            {
+                "h": "Lesson two: internalising the acquirer's operating DNA"
+            },
+            "The company's official description of Xue points at one thing: years of global pharmaceutical operations, supply-chain and technical-service practice inside the Novartis system, and a deep understanding of MNC customer needs. Behind it lies a judgement the industry has validated repeatedly: what changes hands at closing is plant, licences and equipment — but the real capacity is the operating system that stably delivers projects: change control, deviation management, supply-chain coordination, alignment with global quality systems. None of that sits on the balance sheet. It sits in people.",
+            "Putting a manager who grew up in Novartis manufacturing and then spent seven years running the acquired site into the president's chair means Jiuzhou is converting that operating DNA from a subsidiary's inheritance into a company-wide capability. The Q3 report showed overall CDMO utilisation around 70%, above 80% at Ruibo Suzhou, with new commercial lines there due in the second half of 2027 — and the question the appointment must answer is who guarantees that the next capacity cycle delivers multi-client commercial projects to non-Novartis quality expectations.",
+            "This is not an isolated case. Chinese CXOs have taken over MNC assets in China repeatedly over the past decade, and the pattern holds: lesson one (buy assets, lock orders) sets the starting point; lesson two (internalise operations, diversify the customer base) sets the ceiling. Companies that stop at lesson one become big customers' small suppliers. Companies that finish lesson two earn the right to talk about platforms.",
+            {
+                "h": "Editorial note: people are the cheapest — and the most expensive — capacity",
+                },
+            "Three layers of transmission worth recording. First, the answer to customer concentration is not to take fewer Novartis orders but to standardise the operating and quality capability built while serving Novartis and sell it to the second and third MNC — which is exactly the business logic of putting a Novartis-system executive at the centre of decision-making. Second, execution behind the TIDES narrative: Jiuzhou added 20 TIDES projects in the nine months and grew solid-phase peptide capacity more than threefold in the first half, but after the reactors are built the scarce resource is never steel — it is teams that can manage GMP deviations and global audits at commercial scale; the appointment is, in effect, installing the software for the hardware. Third, a migration of the valuation anchor: as the market starts pricing second-tier CDMOs on order-to-revenue conversion, management execution moves from qualitative impression to valuation variable, and this appointment is a positive statement on that axis.",
+            "For readers tracking the Chinese CXDMO landscape, the weight of this personnel news is that it concedes a plain industry fact: the first valuation story of Chinese CXOs (acquisitions, order lock-ins) has been told, and the ticket to the second story is operating certainty. Whoever converts acquired DNA into their own muscle first will sit at the table when the next round of commercial orders is allocated.",
+            {
+                "faq": [
+                    {
+                        "q": "Who is Xue Yingzhou and why does his appointment matter?",
+                        "a": "Xue Yingzhou served at Novartis as production director, supply-chain director and technical-service director. After Jiuzhou acquired Suzhou Novartis in 2019 he joined Jiuzhou as general manager of its core subsidiary Ruibo Suzhou, and has now been appointed President of Jiuzhou Pharmaceutical. The promotion signals that Jiuzhou is internalising acquired MNC operating DNA as a listed-company core capability."
+                    },
+                    {
+                        "q": "What is Jiuzhou's relationship with Novartis?",
+                        "a": "In 2019 Jiuzhou acquired 100% of Suzhou Novartis for about RMB 790M (after divestment of technology and drug-development assets), with a manufacturing and supply agreement covering three products' APIs or intermediates. Novartis became Jiuzhou's largest customer at 56.65% of 2024 sales and 54.50% of 2025 sales."
+                    },
+                    {
+                        "q": "What does this management change mean for Jiuzhou?",
+                        "a": "Alongside Xue, Executive VP Cai Wanyu brings nearly 40 years of manufacturing management. The arrangement points to execution capability: ahead of TIDES order ramp-up and the commissioning of Ruibo Suzhou's commercial lines in the second half of 2027, the company is building multi-client, multi-product global delivery capability to reduce single-customer dependence."
+                    },
+                    {
+                        "q": "What is the broader lesson for Chinese CXOs?",
+                        "a": "Lesson one — buying MNC assets and locking orders — sets the starting point; lesson two — internalising the acquirer's operating system and diversifying customers — sets the ceiling. Companies that stop at lesson one remain big customers' small suppliers; those that complete lesson two qualify to build platforms."
+                    }
+                ]
+            }
+        ]
+    }
+})
