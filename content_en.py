@@ -2538,47 +2538,48 @@ ARTICLES_EN.update({
 })
 ARTICLES_EN.update({
     "kanglong-q3-2026": {
-        "title": "Pharmaron Q3: Net Profit +42.5% and New Orders Accelerating from 10% to 13% — the Profit Elasticity Is Still Coming",
-        "summary": "Pharmaron's Q3 2026 report (published late October): third-quarter revenue of RMB 3.645B, up 13.4%, and net profit of RMB 440M, up 42.5% but slightly below consensus of RMB 467M. The more important signal sits in the order book: nine-month new-order growth of about 13%, accelerating from roughly 10% in the first half. UBS raised its H-share target price to HK$32.9 on the back of it, keeping Buy — a textbook recovery report in which orders lead and margins follow.",
+        "title": "Pharmaron Q3: Revenue +20.9%, Net Profit +13.1%, and New Orders Above 30% Already Running Ahead of Profit",
+        "summary": "Pharmaron's Q3 2026 report (filed the evening of 27 October): third-quarter revenue of RMB 4.408B, up 20.94%, and net profit attributable to shareholders of RMB 497M, up 13.06%. Nine-month revenue was RMB 12.003B (+19.01%) with net profit of RMB 1.247B (+9.31%). Profit is trailing revenue, and the gap says gross margin is still in repair. Orders, though, have already moved: nine-month new signings grew more than 30%, with CDMO up over 40% and laboratory services and clinical research each above 25% - a textbook mid-cycle recovery report in which orders lead and margins follow.",
         "body": [
-            "In the same reporting week that WuXi AppTec grabbed headlines with 136% single-quarter profit growth, Pharmaron's Q3 offered a different but equally instructive sample: a Chinese CXO in the second revenue tier, with laboratory services as its base, moving through the standard recovery sequence — orders recover first, profits convert later.",
-            "The numbers first. Third-quarter revenue was RMB 3.645B, up 13.4%, broadly in line with market and UBS forecasts of RMB 3.6–3.7B; net profit attributable to shareholders was RMB 440M, up 42.5% — more than three times the revenue growth rate, but below the market's RMB 467M and UBS's RMB 506M. On Eastmoney's figures, nine-month revenue totalled about RMB 11.24B with net profit of roughly RMB 1.19B, and the quarterly profit repair through 2026 is clearly visible.",
+            "In the same earnings week that WuXi AppTec grabbed headlines with 136% single-quarter net profit growth, Pharmaron offered a sample with the same direction but a different shape: a second-tier Chinese CXO with laboratory services as its base, sitting in the middle of the standard sequence where orders recover first and profit converts later.",
+            "The numbers first. Third-quarter revenue was RMB 4.408B, up 20.94%, and net profit attributable to shareholders RMB 497M, up 13.06% - profit growth running roughly 8 points behind revenue. For the nine months, revenue reached RMB 12.003B (+19.01%) and net profit RMB 1.247B (+9.31%), widening the gap between the two to nearly 10 points.",
+            "There is a dividing line in the mix that is easy to miss: revenue from domestic laboratories and plants serving global customers grew 22.15% and accounted for 89.84% of the total, while revenue from overseas laboratories and plants fell 3.00% and accounted for 10.16%. That explains why margins are not moving - growth is almost entirely domestic, while overseas sites, including Cramlington in the UK, are still ramping or under pressure, and fixed-cost absorption there is not keeping pace.",
             {
-                "h": "The most important number is not on the income statement — it is in the order book"
+                "h": "The most important number is not on the income statement"
             },
-            "The point UBS emphasised most: Pharmaron's new orders for the first nine months grew about 13% year on year, faster than roughly 10% in the first half. The weight of that figure comes from CXO economics — new signings are the leading indicator of revenue, and the acceleration matters more than the absolute level for locating where in the cycle the industry sits.",
-            "Put the same tier of companies on one chart and the trend sharpens: WuXi AppTec's backlog of RMB 76.74B (+36.4%) with two guidance raises this year; Asymchem's new signings in double digits for the nine months and about +30% in Q3 off a high base; Pharmaron accelerating from +10% to +13%. The disclosure bases differ, but the direction is identical — the order curves of China's CXO leaders steepened together in the second half of 2026. That dovetails with the NDRC disclosure that innovative-drug out-licensing reached about USD 130B in the first three quarters, near the full-year 2025 total: BD activity is converting into outsourcing orders down the R&D chain.",
+            "The company disclosed nine-month new orders up more than 30% year on year, and the mix looks better than the total: CDMO new signings up over 40%, laboratory services over 25%, clinical research services over 25%.",
+            "The weight of that figure comes from CXO economics. New signings are a leading indicator of revenue 12 to 18 months out. With orders at +30% and revenue at +19%, the difference is the pool still to be recognised. Put the tier on one chart and the direction is unambiguous: WuXi AppTec's continuing-operations backlog of RMB 76.74B (+36.4%) with two guidance raises this year; Asymchem holding double-digit nine-month signings and about +30% in Q3 off a high base; Pharmaron above +30% overall and above +40% in CDMO. Disclosure bases differ; the order curves steepened together in the second half of 2026.",
+            "The macro side corroborates it. According to the National Development and Reform Commission, China's outbound licensing of innovative drugs reached about USD 130B in the first nine months of 2026, close to the whole of 2025. That BD activity converts down the outsourcing chain in stages - laboratory services first, then CMC, then commercial manufacturing.",
             {
-                "h": "Why profits lag: a recovery pace dictated by structure"
+                "h": "Why profit lags: three reasons"
             },
-            "Pharmaron's profit elasticity trails WuXi's not because of demand but because of mix. First, laboratory services (lab chemistry-led) dominate revenue; these are lower-priced, headcount-driven lines where revenue recovers before profit, and earnings elasticity arrives only as CDMO and late-stage large projects gain share. Second, the RMB 440M profit print still undershot consensus, so gross-margin repair, currency and new-capacity ramp costs are still being digested. Third, compared with WuXi's integrated CRDMO funnel, Pharmaron's lab-services-to-CMC-to-CDMO conversion is only now approaching its volume phase — which is why UBS's modest upward revisions to 2026–27 revenue and profit rest on improving order-to-revenue conversion.",
-            "That makes this a textbook expectations-management sample: the market holds every CXO to WuXi's growth rate, but each company's recovery curve has a different shape. WuXi is converting orders and profits in step; Pharmaron is orders first, margins second — which implies that if order growth holds, 2027 profit elasticity should exceed 2026's. That is the core logic behind UBS lifting its H-share target from HK$31 to HK$32.9 and keeping Buy.",
+            "First, business mix. Pharmaron's laboratory services are centred on discovery chemistry: lower ticket, people-driven, with revenue recovering faster than profit. Real operating leverage only shows up when CDMO and late-stage programmes become a larger share. CDMO signings at +40% are good news, but they map to next year's revenue, not this quarter's profit.",
+            "Second, the overseas drag. Overseas laboratories and plants fell 3.00% and are 10.16% of revenue - a negative contributor inside 19% overall growth. Utilisation and labour costs at those sites are the least discussed and most direct swing factor for gross margin among Chinese CXOs in this cycle.",
+            "Third, costs land before revenue. Orders up 30% mean capacity, headcount and programme start-up costs are incurred first - scientist hiring, GMP validation batches, overseas compliance spend - all before the revenue is recognised. That timing gap is unavoidable in order-driven growth.",
             {
-                "h": "Editorial note: one recovery, different coordinates"
+                "h": "Editor's read: one recovery, different coordinates"
             },
-            "Over the past two weeks we have treated the Q3 season as an industry observation band: Asymchem (Q3 net +81.49%, full-year guidance 19–22%), Jiuzhou Pharmaceutical (first quarter of the year with revenue and profit both positive), Apeloa (still bottoming, though CDMO +41% in the quarter), Samsung Biologics (revenue +18.5% but margins down), and now WuXi AppTec and Pharmaron. Stack the six reports and the evidence for an inflection is close to complete — but the layering inside the inflection is equally clear: the larger a company's exposure to new modalities (TIDES, ADCs, oligonucleotides), the earlier and stronger the order and profit conversion; companies weighted to traditional small molecules and lab services recover a beat later.",
-            "For industry observers, the most useful inference of the season is this: to judge a CXO's next move, read the shape of its order book first, then its position on the new-modality map. Pharmaron's accelerating new orders say it is still in the improvement channel on both coordinates — profit elasticity is on the way, which is exactly the reporting posture of a company in mid-recovery.",
-            {
-                "faq": [
-                    {
-                        "q": "What were Pharmaron's Q3 2026 results?",
-                        "a": "Third-quarter revenue was RMB 3.645B, up 13.4% and in line with expectations; net profit attributable to shareholders was RMB 440M, up 42.5% but slightly below consensus of RMB 467M. Profit grew far faster than revenue, though the elasticity is still in an early repair phase."
-                    },
-                    {
-                        "q": "How are Pharmaron's new orders trending?",
-                        "a": "New orders grew about 13% year on year for the first nine months, accelerating from roughly 10% in the first half. New signings are the leading indicator of CXO revenue, and quarter-on-quarter acceleration in order growth usually precedes a release of revenue and profit elasticity."
-                    },
-                    {
-                        "q": "Why is Pharmaron's profit elasticity weaker than WuXi AppTec's?",
-                        "a": "Mainly structural mix: laboratory services dominate Pharmaron's revenue and are headcount-driven at lower price points, so revenue recovers before profit. Elasticity arrives as CDMO and late-stage large projects gain share, while gross-margin repair and new-capacity ramp are still being digested."
-                    },
-                    {
-                        "q": "How do analysts view the stock?",
-                        "a": "UBS modestly raised its 2026–27 revenue and profit forecasts, lifted the H-share target price from HK$31 to HK$32.9 and maintained Buy, with the core thesis resting on improving order-to-revenue conversion."
-                    }
-                ]
-            }
-        ]
+            "Over the past two weeks we have treated this earnings season as an industry observation band: WuXi AppTec (nine-month revenue RMB 45.54B, +38.6%; backlog RMB 76.74B, +36.4%; guidance raised to RMB 61.0-61.9B), Asymchem (Q3 net profit +81.49%; full-year guidance 19-22%), Jiuzhou (Q3 back to growth), Apeloa (CDMO +41% in the quarter while API keeps shrinking), Samsung Biologics (revenue +18.5%, operating margin down from 50.4% to 42.9%), and Pharmaron.",
+            "Stack the six reports and the evidence for an industry inflection is fairly complete - but so is the stratification inside it. Companies with more exposure to new modalities (TIDES, ADC, oligonucleotides) are converting orders into profit earlier and harder; those weighted to traditional small molecules and laboratory services lag by roughly one step. Pharmaron is in the latter group. Its advantage is that the order turn is confirmed - above 30% is among the fastest in China this year. Its disadvantage is that conversion has to wait.",
+            "So the question for Pharmaron in 2027 is not whether revenue can still grow 20%, but whether gross margin can return to 2023 levels. The order book answers the first; overseas utilisation and new-capacity ramp answer the second. When order growth runs at three times profit growth, what an investor is really buying is a time option - and the strike price on that option depends on whether management can pull CDMO revenue recognition forward in the first half of 2027."
+        ,
+        {
+            "faq": [
+                {
+                    "q": "康龙化成 2026 年三季报的关键数字是什么？",
+                    "a": "第三季度营收 44.08 亿元、同比增长 20.94%，归母净利润 4.97 亿元、同比增长 13.06%；前三季度营收 120.03 亿元（+19.01%）、归母净利润 12.47 亿元（+9.31%）。境内服务全球客户的实验室与工厂收入增长 22.15%、占 89.84%，境外实验室及工厂收入下降 3.00%、占 10.16%。"
+                },
+                {
+                    "q": "康龙化成新签订单增长情况如何？",
+                    "a": "前三季度新签订单同比增长超过 30%，其中 CDMO 服务板块超过 40%、实验室服务板块超过 25%、临床研究服务板块超过 25%。新签订单是 12 至 18 个月后收入的先行指标，订单增速（+30%）显著高于收入增速（+19%），差额构成待兑现的订单池。"
+                },
+                {
+                    "q": "为什么利润增速低于收入增速？",
+                    "a": "三个原因：一是实验室服务以实验室化学为主，单价低、人效驱动，收入恢复快于利润恢复；二是境外基地收入下降 3.00%，海外产能利用率与成本拖累毛利率；三是订单驱动型增长的投入前置——人员扩编、GMP 验证批与海外合规投入在收入确认之前进入成本。"
+                }
+            ]
+        }
+    ]
     },
     "jiuzhou-novartis-dna-2026": {
         "title": "A Novartis Veteran Takes the Helm at Jiuzhou Pharmaceutical: Chinese CXOs Begin the Second Lesson After Buying MNC Assets",
@@ -2623,5 +2624,158 @@ ARTICLES_EN.update({
                 ]
             }
         ]
+    }
+})
+
+ARTICLES_EN.update({
+    "foreign-cdmo-china-repricing-2026": {
+        "title": "Same Litre of Capacity, Two Prices: Foreign CDMO Moves in China Are an Asset Repricing",
+        "summary": "On 21 October, Spain's ESTEVE CDMO said it would invest more than USD 80M to relocate, expand and modernise its Shaoxing site: three workshops, 250 m3 of reaction volume, 150 m3 reserved, expandable past 400 m3. In the same month, Boehringer Ingelheim's 6,000-litre Zhangjiang biologics plant went to Shanghai RAAS for a nominal RMB 1 base price and no more than RMB 20M - a site that cost over EUR 70M in 2017, lost RMB 73.3M in 2024 and RMB 259.3M in 2025. Between the two lies one question: in China, which capacity is still worth paying for.",
+        "body": [
+            "October 2026 produced two transactions in China's CDMO market that point in exactly opposite directions.",
+            "One is entry. On 21 October, the CDMO division of Spanish family-owned ESTEVE announced an investment of more than USD 80M to relocate, expand and modernise its Shaoxing site: three manufacturing workshops, 250 m3 of total reaction volume with 150 m3 reserved for expansion, a potential footprint above 400 m3, a purpose-built centralised control centre, integrated automation and digitalisation, and a BREEAM Very Good rating.",
+            "The other is exit. On 23 September, Shanghai RAAS announced a cash acquisition of 100% of Boehringer Ingelheim Biopharmaceuticals (China). The target sits in Zhangjiang, Shanghai, with 6,000 litres of mammalian-cell commercial capacity and a drug manufacturing licence - a scarce large-molecule platform in China. Pricing followed a cash-free, debt-free principle with a nominal base price of RMB 1 and an expected final payment of no more than RMB 20M. The plant opened in 2017 after more than EUR 70M of investment; it lost RMB 73.29M in 2024 and RMB 259.31M in 2025.",
+            {
+                "h": "Do the per-litre arithmetic first"
+            },
+            "Put both deals on the same ruler - capital cost per litre of capacity - and the picture resolves.",
+            "Boehringer's Zhangjiang site cost over EUR 70M for 6,000 litres in 2017, roughly EUR 11,700 per litre. The 2026 second-hand price of no more than RMB 20M is about EUR 2.4M at 8.3, or roughly EUR 400 per litre. Nine years on, the transaction value is 3% to 4% of the original build cost.",
+            "ESTEVE sits at the other end. USD 80M for 250 m3 - 250,000 litres - is about USD 320 per litre, roughly RMB 2,300 per litre; spread over the 400 m3 potential footprint it is about USD 200 per litre. That is a new-build price, and it includes a premium for spray drying, high-potency API handling, automation and green building certification.",
+            "The units are not the same ruler: biologics capacity is measured in culture litres, small-molecule capacity in reactor cubic metres, so the two do not compare on technical difficulty. But two deals in the same country in the same month, at RMB 400 per litre second-hand versus RMB 2,300 per litre new-build with a technology package, say one thing clearly: capacity itself is no longer scarce in China. What is scarce is irreplaceability along a specific capability axis.",
+            {
+                "h": "The exit is a timeline, not a mood"
+            },
+            "Line up the foreign CDMO moves in China over five years and the direction is consistent - and almost always the same asset type: large-molecule, heavy-asset capacity aimed at domestic Chinese orders.",
+            "In 2021 Pfizer sold its Hangzhou biologics drug substance and product site to WuXi Biologics, the earliest of the exits. In 2023 Merck transferred its Zhangjiang manufacturing site to Guangzhou-based Hanteng Biologics; Merck did not formally confirm the deal but said its China CDMO business had undergone an important transformation. Thermo Fisher's Hangzhou plant, opened in 2022 with 80,000 m2 of clinical and commercial drug substance plus sterile fill-finish, ran into insufficient orders almost immediately; a plan for partner Innoforce to take the site over did not close, and its fate remains unresolved. Lonza's Guangzhou large-molecule plant, bought from GE Healthcare in 2018 for close to USD 100M and commissioned in 2021, was sold to Joinn Biologics in January 2025 - under four years from start-up to sale.",
+            "What these five deals share is not a loss of faith in China. It is that the model of selling China capacity to the China market stopped working: the customer base was overestimated, leading biotechs preferred to build in-house, smaller biotechs ordered in small volumes and were highly price-sensitive, domestic leaders compressed on cost, responsiveness and modality coverage, and service pricing built on Western drug-price levels had no room in China.",
+            {
+                "h": "Other ways in: sell compliance, buy a modality, embed lightly"
+            },
+            "Foreign players did not leave China wholesale; they changed how they enter, and each route carries different asset economics.",
+            "The first is to build capacity, which is ESTEVE's move. It is not a bet on total market size but on complex small-molecule API as a niche: ESTEVE entered China in 2000, more than a quarter of a century ago; group revenue was EUR 828M in 2025 and is guided to EUR 950M this year, with third-party manufacturing contributing 58%. CDMO president Joan Petit framed it as bringing capabilities closer to Asian customers - the keyword being closer, not cheaper.",
+            "The second is to sell compliance. Vetter has no manufacturing in China, only sales offices, and sells sterile fill-finish from Germany, Austria and the US back into Chinese companies' outbound needs: drug substance at home, drug product abroad. It carries none of the Chinese overcapacity risk and still shares in the outbound boom.",
+            "The third is to buy a modality. CordenPharma signed to acquire AmbioPharma in May 2026 and closed in August, integrating the Shanghai site as a peptide manufacturing node - a bet on GLP-1-driven scarcity, with the peptide CDMO market projected to grow from about USD 4.8B in 2025 to about USD 12.6B by 2032 at roughly 15% CAGR. In the same geography, large-molecule capacity is being sold and peptide capacity is being bought; the asset economics invert completely.",
+            "The fourth is light embedding. NorthStar entered radiopharma through a registration-agent plus local-labelling model: Ac-225 has a roughly 10-day half-life and global output under 2 curies a year, so every step of cross-border shipping and labelling burns shelf life. It has to push terminal production into China without owning a plant.",
+            {
+                "h": "Editor's read: three implications for Chinese CDMOs"
+            },
+            "First, the capacity-scarcity narrative is over; capacity is now priced by capability. A large part of ESTEVE's USD 80M buys HPAPI handling, spray drying and automation - capabilities only a handful of players worldwide can offer. Standard 6,000-litre mammalian capacity, by contrast, now clears in China at close to residual value. Book values of self-built capacity need an honest re-rating, especially at large-molecule sites running structurally below 60% utilisation.",
+            "Second, the function of the China node is shifting from manufacturing destination to supply-chain node. Vetter's substance-at-home/product-abroad, NorthStar's US isotope plus Chengdu labelling, CordenPharma's Shanghai peptide node: in all three, China is no longer where things are made because it is cheap, but the segment of the chain that has to sit here. That changes pricing directly - price the node, not the litre.",
+            "Third, the number worth watching over the next two years is not who added how many litres but whose legacy assets are being taken over, by whom, at what price. The real significance of the Shanghai RAAS deal is not CDMO at all: it buys process transfer and commercial capacity for SR604, a first-in-class haemophilia antibody against activated protein C - converting an outward-facing CDMO platform into captive capacity. When capacity is in surplus, the most rational buyer is often not a CDMO but a drug company with a pipeline and no plant.",
+            "Which is why ESTEVE's USD 80M is small on the global map - Lonza alone paid CHF 1.1B for the Vacaville site and will spend about CHF 500M more upgrading it. The amount does not matter; the direction does. While the leaders talk about regional supply-chain resilience and a high-thirties margin target, a mid-sized European CDMO that has been in China for 26 years adds to small-molecule API. It is betting on irreplaceability in one specific capability, not on a market's total volume."
+        ,
+        {
+            "faq": [
+                {
+                    "q": "勃林格殷格翰张江 6000 升基地为什么只卖了不到 2000 万元？",
+                    "a": "交易采用「无现金/无债务」原则，基准价格 1 元，预计实际支付不超过 2000 万元。标的 2024 年亏损 7329 万元、2025 年亏损 2.59 亿元，外部订单不足；收购方上海莱士看中的是 SR604 的工艺转移与自有管线的商业化产能，而非继续经营对外 CDMO 业务。该基地 2017 年建成时投资超过 7000 万欧元，二手成交价约为建设成本的 3% 到 4%。"
+                },
+                {
+                    "q": "ESTEVE 为什么选择在中国加注小分子 API 产能？",
+                    "a": "ESTEVE 2000 年进入中国，投资超过 8000 万美元把绍兴基地扩至 250 立方米反应体积（预留 150 立方米，可超 400 立方米），配置喷雾干燥与高活性原料药（HPAPI）能力。其逻辑是「让能力更贴近亚洲客户」：中国及亚洲创新药企从 fast-follow 转向差异化管线，对复杂小分子 API 的响应速度与灵活性要求提高，而不是赌中国市场总量。"
+                },
+                {
+                    "q": "外资 CDMO 在华「退」的共同特征是什么？",
+                    "a": "过去五年离场的外资产能——辉瑞杭州（2021 年转给药明生物）、龙沙广州（2025 年 1 月卖给昭衍生物）、默克上海张江（2023 年转汉腾生物）、赛默飞世尔杭州（悬而未决）、勃林格殷格翰上海张江——几乎都是面向中国本土订单的大分子重资产，共同点是客户基础被高估、成本竞争力不及本土龙头。退出的不是中国市场，而是「把中国产能卖给中国市场」这一个模式。"
+                }
+            ]
+        }
+    ]
+    },
+    "haoyuan-adc-chongqing-ramp-2026": {
+        "title": "The Second Bill for ADC Integration: Haoyuan Starts Phase Two in Chongqing, and a Back-End Business Running at 13.6% Gross Margin",
+        "summary": "In October, Haoyuan Pharma began phase two of its Chongqing antibody-drug conjugate CDMO site, and the site's first project formally entered US FDA clinical filing. The 85-mu site, commissioned in March 2025 and already through an EU QP audit, runs antibody drug substance, high-potency payload, conjugation and sterile fill-finish under one roof. First-half revenue was RMB 1.648B (+25.71%) with back-end backlog above RMB 1B (+72.6%), yet 2025 gross margin on back-end APIs and intermediates was only 13.6% against 61.9% on front-end building blocks. ADC integration is a chemistry exam and a heavy-asset exam.",
+        "body": [
+            "Two events in October pushed Haoyuan's ADC story onto the same node at once.",
+            "First, phase two construction at the Chongqing antibody-drug conjugate CDMO site formally began. Second, the site's first project was launched to support a customer's US FDA clinical filing. The first is capacity, the second is an order - and in ADC, the distance between the two is usually measured in years. This time they nearly coincided.",
+            {
+                "h": "What was actually built in Chongqing"
+            },
+            "The site was commissioned in March 2025 on 85 mu of land and is the largest ADC CDMO platform in southwest China, having passed an EU Qualified Person audit. Its design logic is a commercial manufacturing matrix under one roof: antibody drug substance, ADC drug substance and conjugation, and sterile fill-finish for ADC drug product, three commercial lines in one physical space.",
+            "Only people who have run ADC programmes fully appreciate why that matters. Conjugation often needs payload and linker adjustments; if payload is made in city A, antibody in city B and fill-finish in city C, each adjustment waits weeks for cold-chain shipping and re-testing. Co-located, the change happens on site. By the company's own account, the DNA-to-IND filing cycle is compressed to 14 months.",
+            "In August 2026 the site launched an antibody drug product expansion, adding commercial lines for antibody substance, ADC conjugation substance and antibody fill-finish on top of existing capacity. The three-site split is now clear: Shanghai headquarters runs the innovation centre and technology platform (an integrated XDC payload-linker CMC service covering molecular design, custom synthesis, process optimisation, analytical work, non-GMP/GMP manufacturing and regulatory filing), Ma'anshan in Anhui runs high-potency ADC lines, and Chongqing runs commercial manufacturing. On funding, the company redirected RMB 200M of raised proceeds trimmed from its Heze project to the Chongqing build as an intercompany loan.",
+            {
+                "h": "Orders are rising from a thin base"
+            },
+            "First-half 2026 revenue was RMB 1.648B, up 25.71%. The company has taken on more than 1,100 CRDMO programmes cumulatively, 160 of them in late-stage or commercial. Back-end backlog exceeded RMB 1B, up 72.6%. By the end of June it had handled more than 100 ADC programmes, with ADC large-molecule backlog above RMB 150M.",
+            "Read together, those numbers describe a classic building-block company moving downstream: many programmes (1,100+), a modest late-stage share (160), and a still-small absolute ADC backlog (RMB 150M). That is a different order of magnitude from WuXi XDC, which booked RMB 5.944B of 2025 revenue, up 46.69%, and holds more than 24% of the global ADC CXO market - the only clear leader in the niche.",
+            {
+                "h": "The second bill: 13.6% at the back end"
+            },
+            "The line that matters is the profit structure.",
+            "In 2025 Haoyuan's back-end API and intermediate revenue was RMB 872M, up only 15.6%, at a 13.6% gross margin; front-end tool compounds and building blocks ran at 61.9%. Depreciation and energy costs from ramping new capacity squeezed profit hard - in the fourth quarter of 2025, net profit attributable to shareholders briefly fell to RMB 3M. The high-margin front end is effectively funding the heavy back end.",
+            "That is the shared model of every reagent-born company heading downstream, and it is the most under-appreciated cost line in ADC integration. ADC outsourcing penetration is around 70%, well above traditional drugs, which looks like easy money; but capturing it requires three capabilities at once: synthesis and safe handling of highly potent toxins (OEB5-grade suites), conjugation process development and scale-up, and sterile fill-finish. All three are heavy assets, and none can reuse a front-end distribution network.",
+            "Peers are filling those three in different ways. Asymchem's Fengxian phase-two antibody workshop and ADC commercial suite are in production; in 2026 the site completed its first delivery batch covering 2,000 litres of antibody plus ADC substance and drug product, and has started validation batches. Pharmablock built a dedicated PB-XDC platform and equipped its Huishi site in Zhejiang with OEB5-grade GMP high-potency API lines capable of kilogram-scale safe production of camptothecin analogues. WuXi XDC has knitted Wuxi, Shanghai, Hefei, Jiangyin, Suzhou and Singapore into a one-stop network spanning antibody intermediates, payload-linkers, conjugation substance and conjugated drug product.",
+            "The market itself is not small. Frost & Sullivan projects the global XDC drug CXO market at USD 11B by 2030, a 25.73% CAGR from 2025 to 2030 - among the strongest sub-segments in CXO.",
+            {
+                "h": "Editor's read: three playbooks, one clock"
+            },
+            "The first playbook is front end funds back end, which is Haoyuan's route. It buys cash-flow independence and no dependence on a single customer, at the cost of an ugly P&L during ramp - and front-end margins will drift lower as building-block competition intensifies.",
+            "The second is to anchor a large customer and fill capacity with one commercial project. Most efficient, and most concentrated: one delayed tech transfer and the depreciation has nowhere to go.",
+            "The third is to sell the platform - license out conjugation technology or the payload-linker library and buy time with fees. Asset-light, but it demands genuine technical distinctiveness.",
+            "Behind all three sits the same clock: ADC capacity typically takes 18 to 36 months from commissioning to full loading, while depreciation starts on day one. Chongqing was commissioned in March 2025, phase two began in October 2026, and the first project entered FDA filing in the same month - a standard cadence. The problem is that RMB 150M of ADC backlog does not cover the fixed cost of an 85-mu commercial site. The watch items are specific: utilisation after phase two, how many quarters it takes ADC large-molecule backlog to move from RMB 150M to RMB 1B, and whether back-end gross margin can climb from 13.6% back above 20%.",
+            "Until all three hold, Haoyuan's ADC story remains what it is: spending 61.9% front-end gross margin to buy a ticket to the back end. Whether the ticket was worth it depends on filling the lines before depreciation eats the profit."
+        ,
+        {
+            "faq": [
+                {
+                    "q": "皓元重庆 ADC 基地的产能布局是怎样的？",
+                    "a": "基地 2025 年 3 月投用，占地 85 亩，是西南地区规模最大的 ADC CDMO 平台，已通过欧盟质量受权人（QP）审计，建成抗体蛋白原液、ADC 原液与偶联、ADC 原液无菌制剂灌装三条商业化产线。2026 年 8 月启动抗体制剂扩建，10 月二期工程开工，首个项目同步服务客户申报美国 FDA 临床。公司形成上海创新中心、马鞍山高活产线、重庆商业化基地的「三位一体」布局。"
+                },
+                {
+                    "q": "皓元的后端业务盈利能力如何？",
+                    "a": "2025 年后端原料药及中间体收入 8.72 亿元、同比增长 15.6%，毛利率 13.6%，明显低于前端工具化合物业务的 61.9%；新产能爬坡的折旧与能耗使 2025 年四季度归母净利润一度只剩 0.03 亿元。2026 年上半年公司营收 16.48 亿元（+25.71%），后端在手订单突破 10 亿元（+72.6%），ADC 大分子在手订单超过 1.5 亿元。"
+                },
+                {
+                    "q": "全球 XDC 外包市场的规模与竞争格局如何？",
+                    "a": "据 Frost & Sullivan 测算，全球 XDC 药物 CXO 市场规模预计 2030 年达到 110 亿美元，2025 至 2030 年复合增长率 25.73%。ADC 生产外包率约 70%，显著高于传统药物。竞争格局呈「一超多强」：药明合联 2025 年营收 59.44 亿元、全球份额超 24%；凯莱英奉贤基地 2026 年首次完成 2000 升批次端到端交付；皓元医药、药石科技等二线玩家以 payload-linker 化学 + 高活产线 + 灌装的同址能力切入。"
+                }
+            ]
+        }
+    ]
+    },
+    "piramal-cdmo-q2-fy27-2026": {
+        "title": "India's 14.7%: Piramal's Quarterly EBITDA Jumps 72% as the Lowest Rung of the Global Margin Ladder Starts to Climb",
+        "summary": "Piramal Pharma reported Q2 FY27 (July-September 2026): revenue of INR 26.17B, up 28%; CDMO revenue INR 14.24B, up 36%; EBITDA INR 3.85B, up 72%, margin 14.7% (+370bp); the quarter swung to a net profit. In the first half it added 22 new customers, hosted 110 customer audits and 12 regulatory inspections with zero FDA OAI classifications. Phase III molecules rose from 25 to 28; ADC revenue grew 51%. Full-year guidance was raised to 19-20% growth.",
+        "body": [
+            "India has long occupied the bottom rung of the global CDMO margin ladder. On 28 October 2026, Piramal Pharma provided evidence that the rung is rising.",
+            "Per the company's release, Q2 FY27 revenue was INR 26.17B, up 28% year on year; EBITDA INR 3.85B, up 72%, with margin at 14.7% against 11.0% a year earlier, a 370bp gain; profit after tax INR 0.05B versus a loss of INR 0.99B, a swing to profit. First-half revenue was INR 48.87B, up 23%, EBITDA INR 6.69B, up 72%, margin 13.7% against 9.8%, and the net loss narrowed to INR 0.64B.",
+            {
+                "h": "CDMO is the only engine"
+            },
+            "By segment: CDMO delivered INR 14.24B in the quarter, up 36%, and INR 26.11B in the half, up 28%; contract inhalation (CHG) INR 8.49B, up 32%, and INR 15.92B, up 24%; consumer healthcare INR 3.59B, up 13%. All three grew, but only CDMO showed accelerating double-digit growth, and the margin improvement came mainly from higher capacity utilisation and operating leverage.",
+            "The order-side signals are more specific: 22 new customers added in the half, 110 customer audits and 12 regulatory inspections hosted, and a continued record of zero Official Action Indicated classifications in US FDA inspections. Phase III molecules rose from 25 at end-March 2026 to 28; innovation-related revenue grew 24% and on-patent commercial manufacturing revenue grew 39%. ADC services revenue rose 51% year on year in the half.",
+            "Capabilities are being filled in. The company closed a controlling stake in Yapan Bio to strengthen biologics, and the Lexington expansion remains on track to add sterile fill-finish and complete an integrated ADC offering, with a new microbiology laboratory already commissioned on site. On the strength of the half, FY27 revenue growth guidance was raised to 19-20% with meaningfully higher profitability expected.",
+            {
+                "h": "Four companies on one margin table"
+            },
+            "Set the 2026 third-quarter numbers side by side and the global margin gradient is unmistakable. Samsung Biologics posted a 42.9% operating margin, down sharply from 50.4% a year earlier on Plant 5 ramp and the first consolidated quarter from Rockville. Lonza guides FY2026 core EBITDA margin of 33-34% with a mid-term ambition in the high thirties. WuXi AppTec reported a 40.4% adjusted non-IFRS net margin for the nine months, up 8.3 points. Asymchem's nine-month gross margin was 41.88%. Piramal's 14.7% is the floor of that curve.",
+            "But the floor has the steepest slope. Samsung's 42.9% fell from 50.4%; Lonza's 33-34% was nudged up modestly within a year; WuXi AppTec's 40.4% reflects scale plus a richer late-stage mix. Piramal went from 11.0% to 14.7% - a third higher in twelve months. In low-base recovery, elasticity looks better than the absolute level.",
+            "A caveat on definitions: Samsung's 42.9% is an operating margin, Lonza's 33-34% a core EBITDA margin, Piramal's 14.7% an EBITDA margin. They are not strictly comparable. But a gap of more than 15 points is enough to show that scale and modality set the ceiling. Piramal has no 700-tonne small-molecule reactor train and no 780,000-litre antibody footprint; its mix of small-molecule API, inhalation, ADC and biologics carries a structurally lower ceiling.",
+            {
+                "h": "Editor's read: the real beneficiary of China plus one"
+            },
+            "First, India's CDMO positioning is shifting from cost substitution to compliance substitution. The 110 customer audits, 12 regulatory inspections and zero OAI are the most sellable numbers in this release - in a world of regionalised supply chains, audit pass rates have become a leading indicator for order allocation rather than a lagging one.",
+            "Second, the growth mix shows ADC is not a leaders-only game. ADC revenue up 51% and Phase III molecules from 25 to 28 are not large numbers, but the direction is clear: a mid-sized CDMO can enter ADC on a one-stop-but-not-largest basis, bolting sterile fill-finish at Lexington onto conjugation capability rather than competing on scale.",
+            "Third, for Chinese CDMOs the location of price competition will move. Chinese firms have historically won global orders against Indian quotes; if Indian leaders lift margins from 11% to above 15%, they gain both room to keep cutting price and cash flow to invest in new capability. Competition in the second tier will happen between China and India before it happens among the leaders.",
+            "One note on reading guidance. Piramal raised full-year growth to 19-20% and noted that the second half is typically stronger than the first - the credibility of such guidance rests on backlog, not management language. This time the company disclosed customer and audit counts but not a backlog figure, which is the question to press next quarter."
+        ,
+        {
+            "faq": [
+                {
+                    "q": "Piramal Pharma 2026 财年二季度业绩的关键数字是什么？",
+                    "a": "营收 261.7 亿卢比、同比增长 28%；CDMO 板块 142.4 亿卢比、增 36%；EBITDA 38.5 亿卢比、增 72%，利润率 14.7%（同比提升 370 个基点）；税后利润 0.5 亿卢比，去年同期亏损 9.9 亿卢比，单季扭亏。上半年营收 488.7 亿卢比（+23%），EBITDA 66.9 亿卢比（+72%），利润率 13.7%（+390 个基点）。全年收入增速指引上调至 19% 至 20%。"
+                },
+                {
+                    "q": "Piramal 的订单与质量指标表现如何？",
+                    "a": "上半年新增 22 家客户，承接 110 次客户审计与 12 次监管检查，并保持美国 FDA 检查零 OAI（无需采取官方行动）纪录。临床三期分子从 2026 年 3 月末的 25 个增至 28 个，创新相关收入增长 24%，专利期内商业化生产收入增长 39%，ADC 服务收入增长 51%。公司完成对 Yapan Bio 的控股收购，Lexington 基地扩建将新增无菌灌装能力。"
+                },
+                {
+                    "q": "印度 CDMO 与中国、韩国、欧洲头部企业的利润率差距有多大？",
+                    "a": "以 2026 年三季度为参照：三星生物营业利润率 42.9%，龙沙 2026 财年核心 EBITDA 利润率指引 33% 至 34%，药明康德前三季度经调整 Non-IFRS 净利率 40.4%，凯莱英毛利率 41.88%；Piramal 的 EBITDA 利润率为 14.7%，处于谱系底端，但同比提升幅度最大。口径不完全可比，但 15 个百分点以上的差距说明规模与模态覆盖决定利润率天花板。"
+                }
+            ]
+        }
+    ]
     }
 })
