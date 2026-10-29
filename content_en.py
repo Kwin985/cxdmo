@@ -2779,3 +2779,137 @@ ARTICLES_EN.update({
     ]
     }
 })
+
+# 2026-10-29 batch
+ARTICLES_EN.update({
+    "zhaoyan-q3-2026": {
+        "title": "JOINN Laboratories Q3 2026: Bookings Double, Profit Up Tenfold — the Preclinical CRO Thermometer Heats Up Again",
+        "summary": "On the evening of 28 October 2026, JOINN Laboratories (603127.SH / 06127.HK) reported nine-month revenue of RMB 1.188B (+20.60%) and net profit of RMB 930M (+1051.94%), with Q3 revenue of RMB 484M (+53.01%). The order book matters more: cumulative new bookings of about RMB 3.42B (+109%), including RMB 1.4B in Q3 alone (+126%), and a backlog of about RMB 4.5B (+80%). As the front end of the R&D spending chain, preclinical safety evaluation is flashing a clear recovery signal — the last link in the industry's transmission chain to turn.",
+        "body": [
+            "On the evening of 28 October 2026, preclinical CRO leader JOINN Laboratories (603127.SH / 06127.HK) released its Q3 2026 report. Nine-month revenue reached RMB 1.188B, up 20.60% year on year; net profit attributable to shareholders was RMB 930M, up a striking 1051.94%; non-IFRS-basis (deducted) net profit was RMB 881M, up 2933.08%. Q3 alone delivered revenue of RMB 484M (+53.01%) and net profit of RMB 182M (+821.27%). The market reacted immediately: the stock closed at RMB 46.85 on 28 October, up 7.55% in a day.",
+            "But the real story sits in the order book, not the income statement. For a CRO, new bookings lead revenue recognition — a signed project takes months, sometimes years, to flow through scheduling, study conduct and revenue recognition. The wider the gap between booking growth and revenue growth, the higher the revenue visibility for the next couple of years.",
+            {
+                "h": "Bookings lead: +109% new signings against +20.6% revenue"
+            },
+            "Cumulative new bookings for the first three quarters reached about RMB 3.42B, up 109% year on year. Q3 alone contributed about RMB 1.4B, up 126% year on year and 26.1% quarter on quarter. The backlog at quarter-end stood at about RMB 4.5B, up 80%.",
+            "Set this against the revenue line: nine-month revenue of RMB 1.188B grew 20.6%, and Q3 revenue of RMB 484M grew 53.0%. Bookings are growing roughly five times faster than revenue. That is not an anomaly; it is how the industry works. The pricing and scheduling pent up during the 2023-2024 downturn is being released as orders in one burst, while revenue will recognise project by project over the following quarters.",
+            "Heyuan Biopharma, which reported the same evening, and Pharmaron before it each used a variation of the same phrase: industry demand recovery and a marked increase in market need. Western Securities' note singled out JOINN's Q3 bookings as having doubled year on year — the last time preclinical safety evaluation bookings grew at this magnitude was 2021.",
+            {
+                "h": "Where the profit elasticity comes from: RMB 866M fair value plus a laboratory turnaround"
+            },
+            "Of the RMB 930M net profit, about RMB 866M came from fair-value changes in biological assets — roughly 93% of the total. This is a quirk of JOINN's financial model: the company holds large populations of laboratory primates whose book values are re-marked to market. In 2023-2024, falling macaque prices made this line a drag; in 2026, as prices recovered, it became an amplifier.",
+            "Strip out the fair-value swings and the operating picture improves too: laboratory services and other businesses contributed about RMB 15M of net profit in the first three quarters, against a RMB 111M loss a year earlier — a genuine turnaround in the core business. Operating cash flow of RMB 853M, up 220.3%, confirmed the quality of the recovery alongside the bookings surge.",
+            "The fair-value line is double-edged: it makes quarterly profit swings enormous and non-extrapolatable. The right way to read JOINN's trend is the trio of laboratory-business turnaround, doubled bookings and positive cash flow — not the headline profit growth number.",
+            {
+                "h": "The primate cycle turns: from cost line back to profit line"
+            },
+            "Laboratory primates are a hard capacity constraint for safety evaluation. The scarcity of 2022 pushed leading CROs to stock up at high prices; the subsequent price retreat produced impairment and fair-value losses in sequence. The 2026 recovery mirrors the full cycle: rising prices improve revaluation gains and signal full safety-evaluation schedules — after all, animal usage is the most physical indicator of demand.",
+            "For downstream clients this is equally positive: tightening preclinical capacity and rising prices usually accompany an acceleration in IND filings. It cross-checks with WuXi AppTec's Q3 disclosure that its safety evaluation business grew 40.6% in revenue — the preclinical demand recovery is industry-wide, not a single-company beta.",
+            {
+                "h": "Editor's view: the last link in the transmission chain"
+            },
+            "Our recent roundup of the four A-share CDMO leaders showed the manufacturing backend recovering: WuXi AppTec revenue +38.6%, Asymchem emerging business +50%, Pharmaron bookings +30%. JOINN's report completes the chain at its very front end — preclinical research. When the earliest-stage bookings double, it means total R&D investment is expanding, not merely that existing programmes are migrating downstream.",
+            "The transmission order is worth noting: financing recovery → preclinical bookings (JOINN, +109%) → CDMO signings (WuXi +60%, Pharmaron +30%, Asymchem +30%) → late-stage and commercial revenue ramp (WuXi small-molecule D&M +65.6%). Preclinical is the most sensitive and earliest-turning link in this chain. Its re-warming is the final piece of the H2 2026 CXO upcycle narrative.",
+            {
+                "faq": [
+                    {
+                        "q": "How much of JOINN's tenfold profit growth is real operating improvement?",
+                        "a": "About RMB 866M of the RMB 930M nine-month net profit came from fair-value gains on biological assets (laboratory primates), roughly 93% of the total. The operating core should be judged on three facts: the laboratory-services turnaround (about RMB 15M profit versus a RMB 111M loss a year earlier), operating cash flow of RMB 853M (+220.3%), and new bookings of RMB 3.42B (+109%). The headline growth number itself should not be extrapolated."
+                    },
+                    {
+                        "q": "What does doubled bookings growth imply for 2027 revenue?",
+                        "a": "CRO projects typically take several months to over a year from signing to revenue recognition. Bookings of RMB 3.42B (+109%) plus a backlog of about RMB 4.5B (+80%) should give 2027 revenue growth well above the 2026 pace (nine-month +20.6%). In the last cycle, bookings led revenue by roughly two to four quarters."
+                    },
+                    {
+                        "q": "Could the fair-value gains reverse?",
+                        "a": "Yes — they move both ways with primate prices, which is the nature of the line. In 2023-2024 falling prices made it a drag; in 2026 recovery made it an amplifier. Treat it as a cyclical amplifier rather than sustainable operating profit; the durable variables are evaluation bookings, utilisation and the laboratory business's own margin repair."
+                    }
+                ]
+            }
+        ]
+    },
+    "heyuan-cgt-cdmo-license-2026": {
+        "title": "One Class C Manufacturing Licence: Heyuan Biopharma Closes the CGT CDMO Loop as Export Controls Push the Business Inward",
+        "summary": "On the evening of 28 October 2026, Heyuan Biopharma (688238.SH) reported Q3 revenue of RMB 84.7M (+40.04%) with losses narrowing by RMB 12.9M year on year; nine-month new CDMO bookings exceeded RMB 230M, and the company has helped clients secure 78 China-US IND approvals to date. The milestone sits in licensing: in July 2026 the company obtained a Class C Drug Manufacturing Licence from the Shanghai medical products regulator, becoming one of very few domestic providers with both scaled CGT capacity and licensed commercial contract manufacturing. With Announcement No. 48 proposing to ban the export of CGT process platforms, this has become a purely domestic-closed-loop business.",
+        "body": [
+            "On the evening of 28 October 2026, cell and gene therapy (CGT) CDMO Heyuan Biopharma (688238.SH) reported its Q3 results. Q3 revenue was RMB 84.73M, up 40.04% year on year; net loss was RMB 44.69M, narrowing by RMB 12.85M from a year earlier. Nine-month revenue was RMB 207M (+14.50%): CGT CRO services RMB 72.77M (+17.38%), CGT CDMO services RMB 104.29M (+7.85%), regenerative-medicine services RMB 3.75M (+63.36%).",
+            "But the most important disclosure is not revenue — it is the licence the company re-emphasised on 28 October: a Class C Drug Manufacturing Licence issued by the Shanghai medical products regulator in July 2026. With it, Heyuan is licensed to conduct commercial-scale contract manufacturing of CGT products, making it one of very few domestic providers with both ample scaled capacity and the commercial manufacturing licence — completing a closed loop from early research and process development through to commercial production.",
+            {
+                "h": "The Class C licence: a threshold asset for CGT CDMOs"
+            },
+            "To see why the licence matters, look at the industry's structure. Unlike small molecules or conventional biologics, CGT production systems — viral vectors, cell-therapy suites — offer almost no off-the-shelf generic capacity, and regulators scrutinise contract-manufacturing licences with exceptional rigour. Most Chinese CGT biotechs historically built their own lines precisely because no licensed commercial CDMO existed to take the work; those in-house lines, in turn, are capital-heavy and chronically underutilised.",
+            "Hence the scarcity value of the Class C licence: it converts 'can we legally hand over commercial manufacturing' from a theoretical question into a licence question. Heyuan has helped clients secure 78 multi-country IND approvals to date (17 of them from the US FDA), including 15 in the first three quarters of 2026 (3 from FDA). IND count is the water level at the front of the CGT CDMO funnel; licensed commercial capacity is the width of its outlet. Only with both does the funnel actually work.",
+            "The company's 'AI+CGT' build-out is also worth noting: data integration across research, GMP production, quality control and programme management forms a closed loop of intelligent design, model building, algorithm validation and big-data feedback, compressing vector-screening and process-development timelines. This aligns with the AI4S×CXO thread we have tracked (OpenAI's acquisition of Orchestra Bio, WuXi AppTec's first mention of AI-driven client demand in a periodic report) — and CGT, being the most process-complex modality, may be the biggest beneficiary of AI-enabled outsourcing.",
+            {
+                "h": "After Announcement No. 48: CGT outsourcing becomes a domestic closed loop"
+            },
+            "In October, China's Ministry of Commerce and Ministry of Science and Technology issued Announcement No. 48 (draft), placing five biopharmaceutical technologies under export control, with CGT process platforms proposed for the prohibited-export list. When we analysed it, the impact on large CXOs was buffered by business-structure mismatch: WuXi AppTec had sold its CGT unit to Altaris and its TIDES business is peptide-led.",
+            "For a purely domestic CGT CDMO like Heyuan, the causality runs the other way: export controls close off the 'Chinese process platform going abroad' route and block certain offshore-CDMO participation in Chinese CGT programmes, so domestic biotech outsourcing demand has nowhere to land except domestic capacity. The scarcity of the Class C licence is therefore amplified by policy — a licensed player faces a better competitive field in a forced domestic loop than it did before the announcement.",
+            "The other side of the closed loop is a capped ceiling: a domestic-only CGT CDMO grows entirely with domestic biotech financing and pipeline progress. With China's out-licensing total passing USD 130B in 2026 and primary-market sentiment clearly recovering, the tailwind is real today; but if the financing cycle turns, a business with no export option feels it first.",
+            {
+                "h": "Editor's view: the path out of losses, and the CGT commercialisation time lag"
+            },
+            "Heyuan remains loss-making (Q3 loss of RMB 44.7M, narrowing), and the route to breakeven is a race between two clocks: converting new bookings (over RMB 230M in nine months) into revenue — Q3's 40% revenue growth signals acceleration — and landing the first commercial batches. CDMO revenue grew only 7.85% year on year, which the company attributes to the mix of in-execution orders and programme timing; in essence the existing book remains clinical-stage, with commercial batches yet to scale.",
+            "At the industry level, CGT outsourcing is a classic triple-barrier business — licence, capacity, experience — with long payback but durable structure. What this quarter's report signals is that the threshold asset (the Class C licence) is in hand and the front of the funnel (78 INDs) keeps filling; what remains is waiting for the first commercial batches to lift utilisation past breakeven. That time lag is a natural timer for observing the industrialisation of China's CGT sector.",
+            {
+                "faq": [
+                    {
+                        "q": "What does a Class C Drug Manufacturing Licence mean for a CGT CDMO?",
+                        "a": "The Class C licence is the regulatory precondition for contract manufacturing of prescription medicines, including CGT products. Holding it means Heyuan can legally accept commercial-scale contract manufacturing rather than being limited to clinical supplies. Because CGT lines face exceptionally strict inspection, few domestic providers combine scaled capacity with this licence — the licence itself is a competitive barrier."
+                    },
+                    {
+                        "q": "Is Announcement No. 48 (CGT process export ban proposal) good or bad for domestic CGT CDMOs?",
+                        "a": "On balance positive for domestic-focused Chinese CGT CDMOs: with process-platform exports restricted, domestic biotech outsourcing demand can only be absorbed by domestic capacity, improving the field for licensed players. It is negative for providers with outbound ambitions or foreign backing. The flip side is a capped ceiling — growth now depends entirely on domestic financing and pipeline momentum."
+                    },
+                    {
+                        "q": "When might Heyuan turn profitable?",
+                        "a": "The Q3 loss of RMB 44.7M narrowed by RMB 12.9M year on year — improving but not yet breakeven. The key variable is commercial batches lifting utilisation: nine-month new bookings exceeded RMB 230M and Q3 revenue accelerated to +40%. As existing IND programmes advance toward commercialisation, scaled delivery should push gross margins past breakeven, though timing depends on clients' clinical progress."
+                    }
+                ]
+            }
+        ]
+    },
+    "lonza-us-bioconjugation-gap-2026": {
+        "title": "Lonza Admits a 'Bioconjugation Gap' in Its US Network: Mapping ADC Outsourcing Capacity — and a Blank Space on the Tariff Wall",
+        "summary": "Lonza leadership has confirmed that bioconjugation is a gap in its US capacity network and a potential area of investment. Its ADC footprint is Swiss-centred: multipurpose, high-potency payload-linker suites at Visp are scheduled to begin ramping in 2029, and a second commercial aseptic ADC filling line at Stein is expected to operate in 2030; management says the company is involved in more than half of the commercial ADC products on the market. With ADCs sitting on the Section 232 exemption list but 'origin' logic growing ever more important, the scarcity of US-based ADC conjugation capacity is a blank space worth marking on the global outsourcing map.",
+        "body": [
+            "According to Pharma Manufacturing, Lonza management has confirmed in recent interviews and analyst calls a fact rarely discussed publicly: bioconjugation capacity is a gap in the company's US network, and a potential area of investment. For a CDMO that holds about 484,000 litres of US large-molecule capacity — roughly 61% of its global total — openly acknowledging the absence of one modality on US soil is itself an informative map.",
+            {
+                "h": "Visp and Stein: the twin stars in a Swiss valley"
+            },
+            "Lonza's ADC build-out is European-centred. In September the company announced an expansion of payload-linker capacity at Visp, adding production and purification capabilities for highly potent linkers inside an existing GMP facility, alongside dedicated analytical and process-development laboratories. CEO Jean-Christophe May put it concretely on the July call: 'In Visp, we are building a set of multipurpose, highly potent payload linker suites, which are scheduled to commence ramp up in 2029. We continue to see strong customer demand in this area.' The site is designed for scale-out, allowing additional suites as demand grows.",
+            "Drug-product capacity advances at Stein. Three years ago Lonza extended a collaboration with a major biopharma partner and built a dedicated commercial aseptic ADC filling line; in July it announced a second commercial-scale aseptic ADC filling line at the site, expected operational in 2030. The resulting picture: payload-linkers at Visp (2029 ramp), conjugation and drug substance on existing high-potency lines, aseptic fill-finish at Stein (second line 2030) — all of it in Switzerland.",
+            {
+                "h": "'More than half of commercial ADCs': concentration at the top, and everyone else arming"
+            },
+            "Vertommen, who leads Lonza's ADC and bioconjugation business, told the publication the company is 'involved in more than half of the commercial products' on the market; May added that Lonza has brought commercial ADCs to market and is one of the few CDMOs with commercial capacity in the modality. Set that against WuXi XDC's disclosed position — a global ADC XDC outsourcing share above 24% and four consecutive World ADC Best CDMO awards — and the shape of the market is clear: two poles, Europe (Lonza's Swiss sites) and China (WuXi XDC, Asymchem and peers).",
+            "The Chinese pole is arming fast. Asymchem conceded in an October investor survey that payload-linker capacity is 'very tight' and is accelerating expansion — its Fengxian site's 2,000-litre PL line has completed first delivery, with overseas orders above 50% of its ADC book. WuXi XDC's Singapore XmAb/XBCM3 facility passed GMP release in August with XDP4 following, while Wuxi XDP5/XDP6 fill-finish lines and the Jiangyin payload-linker base are under construction. With both poles expanding, the third option — a non-Chinese, non-Swiss site a Western client might want — looks thin.",
+            {
+                "h": "The US gap on the tariff map: ADCs are exempt today, but origin never went away"
+            },
+            "The gap reads differently against the policy map. Section 232 pharmaceutical tariffs exempt ADCs and other high-complexity modalities at a 0% rate — so ADC imports enter the US duty-free today. But exemption is a policy variable, not a law of nature: the list of 19 favoured jurisdictions and the 20% onshoring mechanism both remind drugmakers that 'origin' can be repriced.",
+            "That is the subtlety of Lonza's US bioconjugation gap: if ADC's tariff exemption ever tightens, drugmakers will discover there is almost no 'US-based conjugation capacity' to switch to, because global ADC conjugation capacity is concentrated in Switzerland (Lonza) and China (WuXi XDC, Asymchem). Lonza flagging US bioconjugation as a potential investment area is, at bottom, a hedge against that policy tail risk — and in a context where Chinese capacity is repeatedly re-examined through BIOSECURE-style lenses, the distance between Western clients' de-risking wishes and the absence of US conjugation capacity will, for now, be filled by Switzerland.",
+            {
+                "h": "Editor's view: conjugation is the hardest link to copy"
+            },
+            "Along the ADC value chain, filling lines are the easiest to replicate and payload-linkers the hardest. High-potency toxin handling, linker chemistry know-how and the interface with antibody conjugation all take years to accumulate. That is why Lonza's new PL suites will not ramp until 2029, why Asymchem calls PL capacity 'very tight', and why WuXi XDC can license its WuXiTecan-2 platform itself (up to USD 885M of potential consideration from Earendil). The scarcity of conjugation capacity is not measured in reactor litres; it is measured in chemistry.",
+            "For global biotechs the map carries a blunt message: before 2030, if you need commercial-scale ADC manufacturing and do not build it yourself, the realistic options run through Switzerland and China. The desire to diversify origin is strengthening; the capacity to do so is not.",
+            {
+                "faq": [
+                    {
+                        "q": "Why is ADC conjugation capacity concentrated in Switzerland and China?",
+                        "a": "Payload-linker work involves handling highly potent cytotoxic compounds, demanding safety infrastructure, process know-how and regulatory compliance far beyond ordinary API lines, and capacity takes years to build. Lonza (Visp/Stein), WuXi XDC (Changzhou, Jiangyin, Singapore) and Asymchem (Fengxian) each accumulated the expertise over a decade or more, creating barriers newcomers cannot quickly copy — hence the extreme geographic concentration."
+                    },
+                    {
+                        "q": "What does the lack of US ADC conjugation capacity mean for sponsors?",
+                        "a": "Although ADCs are currently exempt from Section 232 pharma tariffs at 0%, sponsors seeking origin diversification and a hedge against policy tail risks would prefer a US option. Today commercial-scale ADC conjugation capacity sits almost entirely in Switzerland and China, so US-facing programmes must rely on Swiss capacity or wait for new US investments such as those Lonza is considering."
+                    },
+                    {
+                        "q": "What is Lonza's ADC capacity timeline?",
+                        "a": "The multipurpose, high-potency payload-linker suites at Visp are scheduled to begin ramping in 2029; the second commercial aseptic ADC filling line at Stein is expected to be operational in 2030. Until then, most new commercial ADC CDMO capacity comes from Chinese players — WuXi XDC's Singapore and Wuxi sites and Asymchem's Fengxian base among them."
+                    }
+                ]
+            }
+        ]
+    }
+})
