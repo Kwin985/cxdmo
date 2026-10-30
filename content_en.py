@@ -2913,3 +2913,155 @@ ARTICLES_EN.update({
         ]
     }
 })
+
+ARTICLES_EN.update({
+    "lilly-q3-2026-oral-glp1-peptide-readthrough": {
+        "title": "Lilly Q3: A Slow Start for Oral GLP-1 Makes the Peptide Capacity Bet Look Harder",
+        "summary": "Lilly reported Q3 2026 revenue of $24.397bn (+39% YoY) and $67.170bn for the first nine months (+46%). Tirzepatide (Mounjaro plus Zepbound) contributed $43.768bn, or 65% of total revenue; full-year guidance was raised from $85–87bn to $91–92bn, and the stock jumped 7.51% intraday, making Lilly the first pharmaceutical company to cross a $1.3trn market cap. Yet orforglipron (Foundayo), the oral small-molecule GLP-1 approved in April, booked only $184m in Q3 against expectations near $229m. A slower oral substitution curve extends the injectable franchise — and with it the payback window on peptide API and solid-phase synthesis capacity.",
+        "body": [
+            "Lilly's Q3 2026 report, released before the open on 29 October, beat on both lines: revenue of $24.397bn (+39% YoY), net income of $6.451bn (+16%), and adjusted EPS of $7.48 against a consensus of $6.26. Nine-month revenue reached $67.170bn (+46%) with net income of $20.942bn (+50%). The company lifted full-year revenue guidance from $85–87bn to $91–92bn. The stock touched $1,404.37 intraday, up 7.51%, making Lilly the first pharmaceutical company to pass a $1.3trn valuation.",
+            {
+                "h": "Three numbers that re-price GLP-1 tonnage"
+            },
+            "Mounjaro, the diabetes formulation, booked $10.723bn in the quarter (+65%), including roughly $5bn in the US, while sales outside the US grew 93%. Zepbound, the obesity formulation, added $5.352bn (+49%). Combined, tirzepatide reached $43.768bn for the nine months — 65% of Lilly's total revenue. A single molecule family at one company now exceeds the entire revenue of most multinational peers.",
+            "The geographic split is worth recording too: US $41.668bn (+36%), Europe $12.219bn (+44%), China $2.582bn (+75%), and other markets $8.854bn (+129%). China alone delivered $947m in Q3 (+69%). For CDMOs, that +129% in \"other markets\" means demand is spilling out of two mature geographies into many more jurisdictions — and each new jurisdiction implies its own registration, secondary packaging and eventually local fill-finish arrangement.",
+            {
+                "h": "Oral did not take over; injectables are still accelerating"
+            },
+            "The most counterintuitive datapoint of the quarter is orforglipron (Foundayo), the first oral non-peptide GLP-1 agonist, approved in the US in April. It generated $184m in Q3 and $281m cumulatively since launching in Q2 — below the roughly $229m quarterly consensus tracked by StreetAccount.",
+            "That does not reverse the direction of oralisation, but it changes the slope. One popular narrative held that oral small molecules would absorb a meaningful share of the injectable market within three to five years, eroding long-term peptide API demand. Q3 suggests the substitution curve is flatter than assumed: adherence, efficacy ceilings and payer tiering all point to injectables and orals coexisting rather than swapping. Lilly is itself advancing retatrutide, a once-weekly triple agonist, whose readouts will keep demand anchored to the peptide modality.",
+            {
+                "h": "The price-volume scissors are the real outsourcing driver"
+            },
+            "Another set of numbers deserves CDMO attention: US volume (prescriptions) grew 41%, but realised price fell 7%, so US revenue grew 34% to $15.1bn. Volume up, price down is the new normal after the 2025 pricing agreement with the White House.",
+            "For manufacturers this means gross profit per unit is compressing. As net price declines year after year, the return on capital of captive capacity falls and the relative appeal of outsourcing rises — but the driver shifts from \"do you have capacity\" to \"are you cheaper than building it myself\". That is a different logic from the 2025–26 capacity arms race, which was about certainty of supply. This phase rewards continuous flow, biocatalysis and industrial-scale solid-phase synthesis; it penalises players whose only argument is more reactor volume.",
+            {
+                "h": "Four capacity linkages on the China side"
+            },
+            "Read against Chinese CDMO results, the mapping is unusually clean. WuXi AppTec's TIDES segment (peptides and oligonucleotides) posted RMB 11.52bn for the nine months (+46.9%), with full-year growth guidance raised to about 47% and solid-phase capacity moving from 100,000 to 130,000 litres. Asymchem expanded peptide capacity from 45,000 to 69,000 litres with further build planned beyond 2027. Jiuzhou Pharma added 20 TIDES projects in the first nine months, holds more than RMB 5bn in TIDES backlog, and lifted solid-phase peptide capacity 300% in H1. Samsung Biologics bought its way in, securing 87.92% of PolyPeptide to add peptide capability outside its 845,000-litre mammalian cell network.",
+            "A second supply-side signal comes from the customer side: at its 2026 capital markets day Novo Nordisk said it would source peptide API from contract manufacturers, breaking with vertical integration. When one of the two dominant GLP-1 sellers starts buying API externally, the addressable market for peptide manufacturing is redefined within a year.",
+            {
+                "h": "Editor's note: a slower oral curve makes the capacity bet safer"
+            },
+            "Put three facts together — orals below expectations, injectables up 93% outside the US, and a $6bn guidance raise — and the option structure on peptide capacity changes. Had oral substitution arrived within three years, long-cycle, capital-heavy solid-phase synthesis and purification assets would face utilisation risk. A slower curve extends the injectable franchise, turning the payback from a bet on a date into a defensible range.",
+            "But the beneficiaries are not the same assets. Orforglipron is a small molecule outside the peptide route: it needs high-potency small-molecule API and complex oral solid dosage capability, not peptide synthesis. Tirzepatide is where the tonnage sits. If orals stay slow, peptides win; if orals break through, high-potency API and oral dosage forms win. Capital expenditure points in different directions, and betting on the wrong side shows up in utilisation after 2028.",
+            "The third variable is China. Up 75% for the nine months and 69% in Q3, China is Lilly's second-fastest growing region, and GLP-1 penetration there has barely started. What follows is local secondary packaging, local fill-finish and eventually local API supply — arguably a more accessible opportunity for domestic CDMOs than cross-border contracting, since approval pathways and customer relationships are shorter.",
+            {
+                "faq": [
+                    {
+                        "q": "What were the key numbers in Lilly's Q3 2026 results?",
+                        "a": "Revenue of $24.397bn (+39% YoY), net income of $6.451bn (+16%) and adjusted EPS of $7.48. Nine-month revenue was $67.170bn (+46%) with net income of $20.942bn (+50%). Full-year guidance was raised to $91–92bn in revenue and $35–36 in adjusted EPS."
+                    },
+                    {
+                        "q": "Is soft orforglipron uptake good or bad for CDMOs?",
+                        "a": "Near term it is relatively positive for peptide capacity. Orforglipron is a non-peptide small molecule and does not require peptide API, so slower uptake extends the dominance of injectable tirzepatide and makes payback on solid-phase synthesis and purification capacity more predictable. Longer term, if orals do break through, the beneficiaries shift to high-potency small-molecule API and oral solid dosage capacity — a different capex direction."
+                    },
+                    {
+                        "q": "Why did Lilly's revenue grow 34% in the US when volume grew 41%?",
+                        "a": "Because realised price fell about 7%. After the 2025 pricing agreement with the US government, net prices for Mounjaro and Zepbound have continued to decline, so volume growth is partly offset by price. For manufacturers, falling net price compresses gross profit per unit and increases the relative appeal of outsourced production versus captive capacity."
+                    }
+                ]
+            }
+        ]
+    },
+    "tigermed-q3-2026-portfolio-swing": {
+        "title": "Tigermed Q3: A RMB 272m Net Loss and a 38% Rise in Adjusted Profit — Two Businesses on One P&L",
+        "summary": "Tigermed reported nine-month 2026 revenue of RMB 5.792bn (+15.23%) but a net loss attributable to shareholders of RMB 272m, versus a RMB 1.02bn profit a year earlier. Adjusted net profit, however, rose 38.08% to RMB 450m — already above the RMB 355m booked for the whole of 2025. The gap is investment: fair-value changes of -RMB 597m (versus +RMB 323m) and investment income of RMB 29m (versus RMB 440m) together swung profit by more than RMB 1.3bn. Tigermed holds RMB 9.698bn of other non-current financial assets and RMB 4.625bn of long-term equity investments — RMB 14.323bn, or 51.2% of total assets. The real operating signal sits in contract liabilities: RMB 1.436bn at period end, up 33.10% from the start of the year.",
+        "body": [
+            "Tigermed's Q3 2026 report, filed on the evening of 29 October, looks ugly at first sight: nine-month revenue of RMB 5.792bn (+15.23%), but a net loss of RMB 272m against a RMB 1.02bn profit a year earlier. In Q3 alone revenue was RMB 2.084bn (+17.38%) while net profit fell 77.85% to RMB 141m.",
+            "The lower half of the same P&L tells a different story. Adjusted net profit reached RMB 450m, up 38.08%, with Q3 alone at RMB 172m (+49.62%) — an acceleration over the first half. That nine-month figure already exceeds the RMB 355m earned in all of 2025. Operating cash flow was RMB 771m (+4.29%), still positive despite the headline loss.",
+            {
+                "h": "Where the RMB 1.3bn swing came from"
+            },
+            "Entirely from investment lines. Fair-value changes on financial assets were -RMB 597m versus +RMB 323m a year earlier, and investment income was RMB 29m versus RMB 440m, the latter reflecting lower equity-method income from associates. Together they produced a negative swing of more than RMB 1.3bn.",
+            "Put plainly: Tigermed's clinical CRO business is profitable and accelerating. What dragged the group into loss was the mark-to-market decline of the assets it holds as an LP and strategic investor.",
+            {
+                "h": "A RMB 14.3bn portfolio, half the company"
+            },
+            "At 30 September the company held RMB 9.698bn in other non-current financial assets and RMB 4.625bn in long-term equity investments — RMB 14.323bn, or 51.2% of RMB 27.986bn in total assets. The interim report's securities list includes Eccogene (06998.HK), Pegbio (02565.HK) and Northstar Life (688712.SH); TianGuangShi cleared the Beijing Stock Exchange listing committee in August.",
+            "This is not idle treasury management but a structural business model for Chinese clinical CROs: services for equity, equity for orders. Accepting partial equity as consideration lowers a biotech client's cash burden, locks in a long-term service relationship and shares in upside if the programme succeeds. During the 2021–23 funding winter this mechanism kept many CROs alive; in the valuation dispersion of 2026 it has become the single largest source of earnings volatility.",
+            {
+                "h": "The real industry signal sits in two line items"
+            },
+            "First, contract liabilities: RMB 1.436bn at period end, up 33.10% from the start of the year, which the company attributes to prepayments on new orders. For a CRO this is the signed-but-not-yet-executed backlog, and it is harder to dress up than a headline order-intake number because clients have to actually wire the cash.",
+            "Second, the quarterly slope of adjusted profit: +49.62% in Q3, above the cumulative first-half rate. Low-priced orders signed in 2025 are being worked through, while better-priced 2026 bookings begin to reach revenue recognition. Clinical CRO orders convert to revenue with a two-to-four-quarter lag, so the Q3 acceleration corresponds to bookings made in late 2025 and early 2026.",
+            {
+                "h": "Preclinical first, clinical later: a transmission chain being validated"
+            },
+            "Seen across the chain, the sequence is clear. Preclinical safety assessment has been hot for a while: Innostar reported nine-month new orders of RMB 2.218bn (+183.27%), backlog of RMB 2.625bn (+110.34% from end-2025), Q3 revenue of RMB 321m (+64.43%), gross margin of 34.07%, and contract liabilities of RMB 952m (+108.5%). JOINN booked RMB 3.42bn of new orders (+109%) with RMB 4.5bn backlog (+80%).",
+            "Clinical activity arrives later but points the same way: Tigermed's contract liabilities up 33.10% and Q3 adjusted profit up 49.62%. Toxicology is the front of the funnel — a molecule must clear safety assessment before it can enter trials — while clinical CRO revenue waits for enrolment, follow-up and database lock. The gap between doubling preclinical orders and a one-third rise in clinical contract liabilities is roughly one to two quarters, which is exactly where this chain currently sits.",
+            {
+                "h": "Editor's note: CXOs now have two financial statements"
+            },
+            "The first is the service statement — revenue, adjusted profit, contract liabilities, cash flow — which measures competitiveness in the business of selling services. That is alpha. The second is the investment statement — fair-value changes, investment income, carrying value of equity holdings — which measures luck in the business of holding stakes. That is beta.",
+            "In an upcycle the two amplify each other: services reprice, holdings appreciate, and reported net profit outruns adjusted profit. In a downcycle they amplify in reverse. Q3 2026 is a textbook upcycle cross-section: adjusted profit up 38% while reported profit is negative because the equity book marked down first. For investors this means valuing CXOs on reported net profit gives precisely the wrong signal at inflection points. For industry observers it means the only clean read on the cycle is contract liabilities and the adjusted-profit slope, because neither line can be contaminated by asset prices.",
+            "One corollary is easy to miss: when primary biotech valuations recover and IPO windows reopen — TianGuangShi's clearance is one signal — investment-heavy CROs will post non-linear profit recoveries in subsequent quarters. Not because the core business improved, but because beta came back. That recovery is the one most likely to be misread as an operational turnaround.",
+            {
+                "faq": [
+                    {
+                        "q": "Why did Tigermed swing to a loss in the first nine months of 2026?",
+                        "a": "The loss did not come from operations. Reported net profit was -RMB 272m, driven by fair-value changes of -RMB 597m (versus +RMB 323m a year earlier) and investment income of RMB 29m (versus RMB 440m), a combined swing of more than RMB 1.3bn. Adjusted net profit was RMB 450m, up 38.08%, meaning the clinical CRO business was actually accelerating."
+                    },
+                    {
+                        "q": "How large is Tigermed's investment portfolio?",
+                        "a": "At 30 September 2026 it held RMB 9.698bn of other non-current financial assets and RMB 4.625bn of long-term equity investments — RMB 14.323bn in total, or 51.2% of RMB 27.986bn in total assets. Disclosed holdings include Eccogene (06998.HK), Pegbio (02565.HK) and Northstar Life (688712.SH)."
+                    },
+                    {
+                        "q": "Which metrics best gauge the health of a clinical CRO?",
+                        "a": "Contract liabilities and the quarterly slope of adjusted net profit. Contract liabilities represent signed-but-unexecuted backlog and require actual client cash; Tigermed's stood at RMB 1.436bn, up 33.10% from the start of the year. Adjusted profit strips out investment gains and losses, and Q3's +49.62% exceeded the first-half rate, indicating that low-priced 2025 orders are being worked through and new bookings are converting."
+                    }
+                ]
+            }
+        ]
+    },
+    "jointown-joinn-alliance-2026": {
+        "title": "Jointown and JOINN Join Hands: When a Distributor Walks Upstream, 'Channels for Assets' Becomes CXO Integration's Second Path",
+        "summary": "On the evening of 29 October, Jointown Pharmaceutical (600998) announced a four-party strategic cooperation agreement with JOINN Laboratories (603127.SH / 06127.HK), JOINN Biologics and Sheng Tong Intelligence, covering commissioned R&D, market access and sales, early-stage incubation, AI for healthcare, and industrial park development. Jointown frames it as a new 'CRO + CDMO + CSO' integrated model, with the explicit aim of securing sales and distribution rights for quality innovative and high-end generic drugs by entering early-stage development. It mirrors the WuXi and Pharmaron route: one walks from the lab toward commercialisation, the other reverses in from the channel.",
+        "body": [
+            "On the evening of 29 October, Jointown Pharmaceutical Group (600998) announced a strategic cooperation agreement with JOINN Laboratories (603127.SH / 06127.HK), Beijing JOINN Biologics and Sheng Tong Intelligence (Beijing). The language is deliberately modest — a framework document, no material impact on 2026 results, specific projects to be contracted separately — but the direction is worth recording: a company whose core business is pharmaceutical distribution is pushing into drug discovery, preclinical evaluation, CDMO and AI-enabled R&D.",
+            "Jointown describes the combination as a new integrated \"CRO + CDMO + CSO\" drug value-service model, and states its motive plainly: by entering early-stage development, it aims to secure sales and distribution rights for quality innovative drugs and high-end generics.",
+            {
+                "h": "What the agreement actually contains"
+            },
+            "Five blocks. First, commissioned R&D: Jointown identifies projects in innovative drugs, generics and improved new drugs based on market demand, and commissions partners to develop them — note the direction of the relationship, with project origination sitting with Jointown and R&D capability with JOINN. Second, sales: Jointown provides reimbursement negotiation, market access, distribution and terminal sales support to partners' clients. Third, early-stage investment and incubation, through a jointly built channel. Fourth, AI for healthcare: jointly constructing datasets spanning R&D and sales. Fifth, an industrial park intended to align discovery, pilot production, manufacturing and distribution along one chain.",
+            "The fifth block carries the largest subtext. Co-locating discovery, pilot, manufacturing and distribution effectively compresses the physical distance between a molecule's inception and a hospital shelf to a few kilometres. That has been the standard pitch of Chinese biopharma parks for a decade, but a distributor leading it and wiring its delivery network directly into the park is a newer configuration.",
+            {
+                "h": "Three partners, three roles"
+            },
+            "JOINN Laboratories is the listed entity, focused on non-clinical toxicology, clinical trials, pharmacovigilance and laboratory animals, and is a leading player in Chinese safety assessment, dual-listed in Shanghai and Hong Kong. JOINN Biologics is a separate legal person: founded in 2019 with RMB 560m in registered capital, it operates CDMO pilot and manufacturing bases in Beijing, Guangzhou and overseas covering large-molecule biologics and high-potency small-molecule dosage forms, and shares the same legal representative, Feng Yuxia. In other words, the actual CDMO capacity in this agreement belongs to JOINN Biologics, not the listed JOINN Laboratories — they are related parties, not the same reporting entity, and the distinction matters when reading the announcement.",
+            "Sheng Tong Intelligence, founded in 2018 with about RMB 11.58m in registered capital, focuses on AI for Science and claims more than 2,000 algorithms available as services. Its role here is to supply model capability to both the R&D and sales ends and to help build the datasets.",
+            {
+                "h": "Integration, in the opposite direction"
+            },
+            "For a decade the CXO industry's integration story ran the WuXi and Pharmaron way: enter at discovery (R), extend into development (D) and manufacturing (M), use the enormous compound flow at the front to feed the back end, and monetise at commercial projects with high margins. WuXi AppTec's 2026 nine-month numbers make the case: more than 450,000 compounds delivered in the past twelve months, 314 molecules converted from R to D, and small-molecule D&M revenue of RMB 23.58bn (+65.6%). That is the lab-to-factory-to-patient route.",
+            "Jointown's route is reversed: patient, hospital, factory, lab. It already holds terminal coverage and distribution — the CSO chassis — but lacks products; JOINN Biologics holds capacity and R&D capability but lacks an order funnel and a commercial channel. The joint where they meet is product rights: not capacity leasing, not service outsourcing, but a claim on the sales end once a drug is approved.",
+            "That explains why investment incubation and sales rights sit at equal weight in the agreement. R&D spending is a cost, sales rights are the return, and incubation is the mechanism that aligns the two time horizons.",
+            {
+                "h": "Why now"
+            },
+            "Three conditions hold simultaneously. First, the policy environment favours domestic closure: after the October 2026 joint notice from MOFCOM and MOST placing certain biopharma technologies under export-control consultation, services and capacity are pivoting toward domestic demand — and the binding constraint in domestic demand is not capacity but products and payer access. Second, mid-tier CDMOs are hungry for orders: utilisation at non-listed platforms such as JOINN Biologics depends heavily on deal flow, and partnering with a distributor is the cheapest form of customer acquisition. Third, out-licensing has turned product rights into a priceable, tradeable asset — China's out-licensing total has crossed the hundred-billion-dollar order of magnitude, repeatedly re-anchoring valuations for early-stage molecules and making \"invest early, take sales rights\" arithmetically viable.",
+            {
+                "h": "Editor's note: the weight of a framework, measured by three follow-up actions"
+            },
+            "It must be said plainly: this is a non-binding framework. The announcement itself states that specific projects will be negotiated separately and that there is no material impact on 2026 results. The industry signs hundreds of such agreements each year, most of which end as a press release.",
+            "The real signal therefore lies not in the signing but in three follow-up actions. One: does a specific molecule emerge, originated by Jointown and developed by JOINN, with disclosed milestone terms. Two: does joint investment appear, meaning Jointown actually commits capital to an early programme rather than merely offering a channel. Three: does JOINN Biologics book disclosable new orders or report better utilisation as a result. Any one of the three would validate the route.",
+            "If validated, the implication for the CXDMO industry is structural: the competitive axis of integration may shift from \"whose capacity is larger and whose technology broader\" to \"who holds both R&D capability and terminal access\". That is bad news for pure-capacity CDMOs, which will increasingly resemble toll manufacturers squeezed from both the channel and the product side. It is an opportunity for companies with commercial access, because for the first time they can use the ability to sell as negotiating leverage upstream.",
+            {
+                "faq": [
+                    {
+                        "q": "What does the Jointown–JOINN cooperation actually cover?",
+                        "a": "Four parties (Jointown, JOINN Laboratories, JOINN Biologics and Sheng Tong Intelligence) cooperate across five areas: commissioned R&D, with Jointown originating projects and partners executing; sales support covering reimbursement negotiation, market access, distribution and terminal sales; early-stage innovative drug investment and incubation; joint construction of AI datasets spanning R&D and sales; and development of a biopharma industrial park."
+                    },
+                    {
+                        "q": "Does the CDMO capacity in the agreement belong to JOINN Laboratories or JOINN Biologics?",
+                        "a": "JOINN Biologics (Beijing JOINN Biologics), founded in 2019 with RMB 560m in registered capital, operating CDMO pilot and manufacturing bases for large-molecule biologics and high-potency small-molecule dosage forms in Beijing, Guangzhou and overseas. It is a related party of the listed JOINN Laboratories (603127.SH), not the same entity; both share the legal representative Feng Yuxia, so reporting boundaries must be kept distinct."
+                    },
+                    {
+                        "q": "How does this differ from WuXi AppTec's integrated model?",
+                        "a": "The direction is reversed. WuXi extends backward from discovery: it accumulates compound flow at the front end, channels it into development and commercial manufacturing, and monetises late-stage projects at high margin. Jointown extends forward from the channel: it uses terminal coverage and distribution as its base, locks in products through early investment and commissioned R&D, and converts that into post-approval sales and distribution rights. One sells service capability; the other buys product rights."
+                    }
+                ]
+            }
+        ]
+    }
+})
