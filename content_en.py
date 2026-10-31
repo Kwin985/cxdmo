@@ -3065,3 +3065,339 @@ ARTICLES_EN.update({
         ]
     }
 })
+
+
+ARTICLES_EN.update({
+    "biosecure-bcc-list-countdown-2026": {
+        "title": "48 Days to the BCC List: The BIOSECURE Act's Real Choke Point Is Federal Procurement, Not Commercial Deals",
+        "summary": "The US BIOSECURE Act requires the Office of Management and Budget to publish its first list of Biotechnology Companies of Concern (BCC) by 18 December 2026. As of 31 October the list has not appeared, leaving 48 days on the clock. Enacted on 18 December 2025 as part of the FY2026 NDAA, the law replaced naming five Chinese companies outright with a recurring list mechanism and a two-and-a-half to three-year phased implementation. WuXi AppTec was added to the Section 1260H list in June, sued, and won a preliminary injunction; on its 27 October call management said it had received no OMB notice but acknowledged it could still be designated through an independent review. This piece maps the statute, the two designation routes, the actual scope of the restriction, and three indicators worth tracking.",
+        "body": [
+            "As of 31 October, one statutory deadline is 48 days away: the White House Office of Management and Budget (OMB) must publish its first list of Biotechnology Companies of Concern (BCC) by 18 December 2026. No list has been released, and no draft has surfaced publicly. For global CXOs, this is the last unpriced factor of 2026.",
+            "But framing it as a countdown to decoupling misreads the statute. The law lands in a much narrower place, and on a much slower schedule, than the headlines suggest. It restricts federal procurement and federal funding, not commercial collaboration. Its effective dates sit in 2028, not next month. What matters is who the narrow gate eventually closes on.",
+            {
+                "h": "The statute: from naming five companies to a standing list"
+            },
+            "The BIOSECURE Act was signed into law on 18 December 2025 as part of the FY2026 National Defense Authorization Act. The critical change from earlier drafts: the bill once named BGI, MGI, Complete Genomics, WuXi AppTec and WuXi Biologics directly. The final text stripped the names and instead directed OMB to publish a BCC list within one year of enactment, drawing on Department of Defense recommendations.",
+            "The significance of that switch is often underrated. Naming is static, litigable and bounded. A standing list is dynamic, renewable, and bounded only by administrative discretion. For a company, the first is a one-time verdict; the second is an annual physical.",
+            "There are two routes onto the list. The first is piggybacking: an entity is placed on the Defense Department's Section 1260H list of Chinese military companies, OMB confirms it operates in biotechnology equipment or services, and it is added to the BCC list. The second is an independent review: OMB leads an interagency process and designates a company as a biotechnology company of concern on its own findings. That route does not depend on Section 1260H, and is not constrained by the outcome of 1260H litigation.",
+            "WuXi AppTec sits precisely at that fork. On 8 June 2026 the Defense Department added the company to the formal 1260H list. On 11 June it sued in the US District Court for the District of Columbia, arguing the designation was erroneous and unsupported. On 7 August the chief judge granted a preliminary injunction barring enforcement of the designation while the case proceeds. On the 27 October earnings call, general counsel Howard Wu was careful: under the company's reading of the legal process, OMB cannot use a 1260H designation already enjoined to place the company directly on the BCC list; but as of that day the company had received no proposed designation or notice from OMB, had seen no published list, and acknowledged it could still be named.",
+            "In other words, the injunction removed the automatic transmission from one route. It did not remove the manual one.",
+            {
+                "table": {
+                    "caption": "BIOSECURE Act timeline (as of 31 October 2026)",
+                    "head": [
+                        "Date",
+                        "Milestone",
+                        "Status"
+                    ],
+                    "rows": [
+                        [
+                            "18 Dec 2025",
+                            "Signed into law as part of the FY2026 NDAA; company names removed in favour of a list mechanism",
+                            "Done"
+                        ],
+                        [
+                            "8 Jun 2026",
+                            "Defense Department adds WuXi AppTec to the Section 1260H list",
+                            "Done"
+                        ],
+                        [
+                            "11 Jun 2026",
+                            "WuXi AppTec sues the Defense Department in D.D.C.",
+                            "Done"
+                        ],
+                        [
+                            "7 Aug 2026",
+                            "Chief judge grants preliminary injunction barring enforcement of the 1260H designation",
+                            "Done"
+                        ],
+                        [
+                            "18 Dec 2026",
+                            "Statutory deadline for OMB's first BCC list",
+                            "48 days out"
+                        ],
+                        [
+                            "16 Jun 2027",
+                            "OMB publishes implementation guidance",
+                            "Pending"
+                        ],
+                        [
+                            "16 Jun 2028",
+                            "Federal Acquisition Regulation (FAR) revision",
+                            "Pending"
+                        ],
+                        [
+                            "Sep / Oct 2028",
+                            "Restrictions take effect for 1260H-named entities / OMB-listed entities",
+                            "Pending"
+                        ]
+                    ],
+                    "notes": "Timeline per public analysis by Hogan Lovells. Procurement restrictions phase in over time; the firm estimates roughly two and a half to three years from enactment to full effect. Publication of the list does not itself trigger the restrictions."
+                }
+            },
+            {
+                "h": "Scope: federal procurement, not a commercial ban"
+            },
+            "The statute bars federal agencies from entering into, extending or renewing contracts for biotechnology equipment or services with BCC entities, from providing them grants, and restricts certain federal loan funding. It does not prohibit commercial companies from working with a BCC entity.",
+            "In practice that gap becomes a grey zone. Whether a US biotech keeps using a given Chinese CDMO remains a commercial decision in law. But once that biotech holds BARDA, ARPA-H or state funding, or its investors carry federal money, compliance preference drifts conservative on its own. The list's real function is not to sever transactions; it is to hand procurement teams a citable reason, synchronising thousands of dispersed commercial decisions at once.",
+            "That is also why the share-price reaction on publication day usually exceeds the real revenue impact. What it reprices is the discount rate on expectation, not the current order book.",
+            {
+                "h": "The commercial counter-evidence: orders accelerating, not retreating"
+            },
+            "Set against the policy limbo, WuXi AppTec's third-quarter results are a useful counterweight. First-nine-month revenue reached RMB 45.54bn (+38.6%), with continuing operations growing more than 46%; net profit attributable to shareholders was RMB 19.40bn (+60.6%). Backlog in continuing operations stood at RMB 76.74bn (+36.4%), new orders grew more than 60% year on year, and third-quarter new orders alone exceeded RMB 27bn. The company raised full-year revenue guidance from RMB 58.5–60.5bn to RMB 61.0–61.9bn, and lifted the capex floor from RMB 7.5bn to RMB 8.0bn within an RMB 8.0–8.5bn range.",
+            "The geography of that capex is the more telling detail. The Middletown, Delaware site (budgeted at RMB 4.753bn) is due to start operations in Q4 2026 with oral solid dosage, extending into sterile injectables in Q4 2027. The Singapore site (RMB 7.8bn) starts phase one in 2027, supporting commercial API for small molecules and TIDES. The new 800-tonne Changzhou base, at RMB 10.109bn across roughly 630 mu, has been pulled forward.",
+            "Being added to 1260H while opening your largest US site is itself the answer: what customers want is not to leave China, but to hold a second production line under any policy scenario.",
+            {
+                "h": "Editor's note: three indicators to watch"
+            },
+            "First, whether the 18 December list names the WuXi entities. If it does, the citation matters: a 1260H basis can be challenged with the same injunction, whereas an independent review implies OMB has built its own factual record, making a challenge materially harder.",
+            "Second, how the June 2027 implementation guidance defines a federal funding beneficiary. If the definition reaches subawards, cooperative agreements and federally funded foundation grants, exposure widens from direct contractors to the entire funding chain, and the BCC list's practical force will far exceed its letter.",
+            "Third, whether the June 2028 FAR revision imposes flow-down obligations on prime contractors. If it does, every prime holding a federal contract must push BCC screening into its supply chain, which would genuinely rewrite large pharma's supplier qualification process.",
+            "Read together, the remaining 48 days of 2026 look less like an ending than a recalibration of risk pricing. What CXOs actually need to prepare is a compliance file that can be audited at any point in 2027–2028: the federal funding share of the customer base, cross-border paths for data and samples, and substitute capacity. The list will arrive. Delivery capability still decides the outcome.",
+            {
+                "faq": [
+                    {
+                        "q": "Do the restrictions take effect as soon as the BCC list is published?",
+                        "a": "No. The list is only the first step. The statute requires OMB to issue implementation guidance (16 June 2027) and a FAR revision (16 June 2028), with restrictions phased in from September 2028 for 1260H-named entities and October 2028 for OMB-listed entities. Hogan Lovells estimates roughly two and a half to three years from enactment to full effect."
+                    },
+                    {
+                        "q": "Does being on the BCC list mean a company is barred from doing business with US companies?",
+                        "a": "No. The statute restricts federal agencies from entering into, extending or renewing contracts for biotechnology equipment or services with BCC entities, from providing grants, and limits certain federal loan funding. Commercial collaboration is not prohibited. In practice, customers that hold federal money will pull back on compliance preference, so the real-world impact often exceeds the letter of the law."
+                    },
+                    {
+                        "q": "Can WuXi AppTec's preliminary injunction block a BCC designation?",
+                        "a": "Only one of the two routes. The 7 August 2026 injunction bars the Defense Department from enforcing the 1260H designation during litigation, so OMB cannot rely on that designation alone to list the company. OMB can still run an independent interagency review and designate separately. Management confirmed on the 27 October call that no OMB notice had been received as of that date."
+                    },
+                    {
+                        "q": "If the policy risk is that serious, why are orders still rising?",
+                        "a": "Because the restriction targets federal procurement, not commercial purchasing, and the optimal customer response is multi-site qualification rather than immediate switching. WuXi AppTec's new orders grew more than 60% in the first nine months of 2026, with backlog of RMB 76.74bn (+36.4%), while the company expanded simultaneously in Delaware, Singapore and Changzhou. Using multi-site capacity from an existing supplier is far cheaper than qualifying a new one."
+                    }
+                ]
+            }
+        ]
+    },
+    "cambrex-iowa-peptide-lpps-2026": {
+        "title": "Cambrex's $120m Iowa Build-Out: Moving Liquid-Phase Peptides Into a Century-Old Plant",
+        "summary": "On 29 October Cambrex broke ground on a $120m expansion at its Charles City, Iowa site, adding 160,000 litres of capacity, lifting the site's total volume by roughly 25% to nearly one million litres, with completion slated for Q4 2028 for small-molecule APIs and synthetic peptides. Against the March feasibility-study language of 140,000 litres and a 20% gain in large-scale capacity, the project grew about 14% in eight months. The more interesting detail is the route: the announcement specifies commercial-scale liquid-phase peptide manufacturing, a deliberate mismatch with a global peptide build-out dominated by solid-phase. US-sited capacity also carries a country-of-origin credential under Section 232 tariffs.",
+        "body": [
+            "On 29 October Cambrex held a groundbreaking ceremony at its Charles City, Iowa site, announcing on 30 October a $120m investment adding 160,000 litres of manufacturing capacity, raising the site's total volume by approximately 25% to nearly one million litres, with completion expected in Q4 2028. The capacity will serve development and commercial manufacturing of small-molecule APIs, synthetic peptides and pharmaceutical intermediates.",
+            "The guest list was notable: Iowa Lieutenant Governor Chris Cournoyer and US Senator Chuck Grassley, alongside state and local economic development officials. For a privately held CDMO, that turnout signals two things: substantive local support for the project, and a desire to be seen on US manufacturing.",
+            "There was a second layer to the date: the Charles City site turns 100. A chemical plant that started up in 1926 added a peptide line at the opening of its second century.",
+            {
+                "h": "Eight months, 14% bigger"
+            },
+            "Read the two announcements side by side and a detail surfaces. On 23 March 2026 Cambrex said it had completed engineering studies for the new plant: 140,000 litres, a 20% increase in large-scale capacity, groundbreaking in late 2026. October's announcement says 160,000 litres and a 25% lift in total site volume.",
+            "Between feasibility study and groundbreaking, the unit grew roughly 14%. For a heavy-asset project that is not a number you change casually: building shell, utilities, reactor specifications and waste treatment all have to be re-engineered. There is really only one explanation. Demand strengthened after the study, peptides above all.",
+            {
+                "h": "The word that matters is liquid"
+            },
+            "The March release was specific about the plant's capability envelope: complex chemistry including controlled substances, highly potent APIs, and commercial-scale liquid-phase peptide manufacturing.",
+            "Of those three, liquid-phase peptides deserve a pause. This global peptide capacity wave has been overwhelmingly solid-phase (SPPS): WuXi AppTec's solid-phase peptide reactors passed 100,000 litres at end-2025 and, per sell-side research, are expanding toward 130,000 litres; Asymchem went from 45,000 to 69,000 litres. SPPS is versatile, fast to switch and well suited to conventional 10–30 residue molecules. Its weakness is resin and solvent consumption, which makes the cost curve steep at tonne scale.",
+            "Liquid-phase synthesis (LPPS) takes the other road: fragment condensation in solution, suited to long chains and large volumes, with better unit cost and solvent intensity, but far more demanding in process development, racemisation control and purification. Once a GLP-1 asset reaches hundreds of kilograms to tonnes, liquid-phase becomes the unavoidable cost lever. Commercial-scale LPPS capacity is considerably scarcer than SPPS.",
+            "Placing that line in Iowa, alongside HPAPI and controlled-substance handling, points at a very specific customer: long-acting peptides and complex small molecules in late-stage programmes that need a US origin.",
+            {
+                "table": {
+                    "caption": "Selected peptide and conjugation capacity moves disclosed in 2026",
+                    "head": [
+                        "Company",
+                        "Location",
+                        "Move",
+                        "Online / completion"
+                    ],
+                    "rows": [
+                        [
+                            "Cambrex",
+                            "Charles City, Iowa, US",
+                            "$120m, +160,000 L, including commercial liquid-phase peptide",
+                            "Q4 2028"
+                        ],
+                        [
+                            "Cambrex",
+                            "Milan, Italy",
+                            "$30m for analytical development, process R&D and plant upgrades",
+                            "H2 2027"
+                        ],
+                        [
+                            "WuXi AppTec",
+                            "Taixing / Changzhou, China",
+                            "Two oligonucleotide, peptide and PMO plants at Taixing; new 800-tonne Changzhou base",
+                            "2027 / pulled forward"
+                        ],
+                        [
+                            "Asymchem",
+                            "China",
+                            "Peptide capacity from 45,000 L to 69,000 L; accelerated payload-linker expansion",
+                            "In progress"
+                        ],
+                        [
+                            "Samsung Biologics",
+                            "Korea / Switzerland",
+                            "87.92% of PolyPeptide; rights offering of about KRW 2.665tn",
+                            "End-2026 to Q1 2027"
+                        ],
+                        [
+                            "Lonza",
+                            "Visp, Switzerland",
+                            "Bioconjugation: 500 L mid-scale upgrade plus three 1,200 L multiproduct suites",
+                            "2027 / 2028"
+                        ]
+                    ],
+                    "notes": "Volumes as publicly stated by each company. Small-molecule reactor volume and antibody bioreactor volume are different metrics and are not directly comparable."
+                }
+            },
+            {
+                "h": "Country of origin is the second card"
+            },
+            "The Section 232 pharmaceutical tariffs that landed in late September 2026 wrote origin into the cost structure: a 100% baseline on patented drugs, APIs and key starting materials; 15% for the EU, Japan, Korea and Switzerland; 10% for the UK. Avoiding it requires either a specified share of US-based production or falling into an exempt category such as generics, biosimilars, ADCs or cell and gene therapies.",
+            "Under that framework, Charles City is not simply 160,000 extra litres. It is a US-origin credential. For customers holding federal funding, selling to government, or merely unwilling to add a tariff line to a quote, the credential may carry a premium above the price of the capacity itself.",
+            {
+                "h": "The mid-cap grid: modality times geography"
+            },
+            "Cambrex's coordinates are clear: 2,000 people, 45 years of history, sites in North America and Europe, a drug-substance specialist that does not compete on antibody litres. It is simultaneously running a $30m Milan expansion (the site's 80th anniversary, completion in H2 2027, focused on tides, HPAPIs and controlled substances).",
+            "Leadership is moving in step: Claudio Russolo attended the groundbreaking as chief operating officer and incoming chief executive. A CEO transition that does not change strategy usually means the board has endorsed the specialisation-plus-dual-geography strategy.",
+            "By comparison, Samsung Biologics is buying scale (60,000 litres at Rockville, 87.92% of PolyPeptide, a rights offering of about KRW 2.665tn), Lonza is filling network gaps in bioconjugation (three 1,200-litre multiproduct suites at Visp, online 2028), and WuXi AppTec is running a China-Singapore-Delaware triangle. Cambrex has picked a fourth path: stop competing on litres, occupy the modality-times-geography grid.",
+            {
+                "h": "Editor's note: three things to track"
+            },
+            "First, what stage of programme the liquid-phase line picks up when it starts in Q4 2028. Liquid-phase economics only show at tonne scale; if early-phase work dominates, the depreciation line will look ugly.",
+            "Second, whether dosage-form capability follows. Cambrex has long been a drug-substance house, yet peptide pain points often sit downstream in formulation (long-acting release, prefilled devices, lyophilisation). Substance-only positioning gets stuck on end-to-end awards.",
+            "Third, whether Milan plus Iowa becomes a quoting template. If customers start asking for one asset qualified in both Europe and the US, dual geography shifts from a differentiator to a licence to bid.",
+            "For investors, the weight of this news is not the $120m. It is the direction it reveals: the peptide capacity race is moving from who has more reactors to who can bend the cost curve at tonne scale with a selectable origin. The first is a capital contest; the second is a contest of process know-how and geography.",
+            {
+                "faq": [
+                    {
+                        "q": "How large is 160,000 litres?",
+                        "a": "Charles City's existing volume is not disclosed separately. On the company's own framing, the addition lifts total site volume by about 25% to nearly one million litres. This is small-molecule reactor volume, a different metric from the bioreactor litres used by antibody CDMOs, and cannot be compared directly with Samsung Biologics' 845,000 litres or Lonza's 793,000 litres."
+                    },
+                    {
+                        "q": "How does liquid-phase peptide synthesis differ from solid-phase?",
+                        "a": "Solid-phase (SPPS) couples residues stepwise on resin: highly versatile, fast to switch, well suited to 10–30 residues, but resin- and solvent-intensive, with costs steepening at tonne scale. Liquid-phase (LPPS) performs fragment condensation in solution, suited to long chains and large volumes with better unit cost and solvent intensity, but far harder in process development, racemisation control and purification. Once GLP-1 assets reach tonne scale, liquid-phase is a primary cost lever."
+                    },
+                    {
+                        "q": "Why does the release stress commercial scale?",
+                        "a": "The wording is commercial-scale liquid-phase peptide manufacturing, as distinct from pilot scale. That means it targets marketed or near-market assets rather than clinical samples. For a peptide CDMO, a pilot line proves technical capability; a commercial line generates revenue and depreciation."
+                    },
+                    {
+                        "q": "How does this connect to Section 232 tariffs?",
+                        "a": "Capacity completed inside the US carries a US country-of-origin identity and can qualify for the onshoring provisions of the tariff framework. Capacity outside the US is taxed at 15%–100% depending on jurisdiction of origin. US capacity is therefore worth more than its volume, because it buys certainty at the quoting stage."
+                    }
+                ]
+            }
+        ]
+    },
+    "pharmablock-q3-2026": {
+        "title": "PharmaBlock Q3: Overseas Up 8%, Domestic Up 31% — the Building-Block Model Found a New Growth Source",
+        "summary": "PharmaBlock (300725) reported first-nine-month 2026 revenue of RMB 1.634bn (+15.16%), net profit of RMB 151m (+33.36%) and adjusted net profit of RMB 128m (+44.87%), with gross margin at 32.93% (+1.98pp) and CDMO backlog up more than 20% year on year. The split is the story: domestic customer revenue reached RMB 549m (+31.41%) while overseas revenue grew 8.07% to RMB 1.077bn. For a company built on selling building blocks to overseas pharma discovery teams, 2026's incremental growth came from China. New-modality revenue was RMB 152m; the Zhejiang Huishi peptide GMP pilot plant started up in June and is ramping, and liquid-phase peptide capability is under construction.",
+        "body": [
+            "On the evening of 29 October PharmaBlock (300725.SZ) filed its third-quarter 2026 report. First-nine-month revenue came in at RMB 1.634bn (+15.16%), net profit attributable to shareholders at RMB 151m (+33.36%), and adjusted net profit at RMB 128m (+44.87%). Profit grew at close to three times the rate of revenue, and consolidated gross margin reached 32.93%, up about 1.98 percentage points.",
+            "For the quarter alone: revenue of RMB 575m (+15.10%), net profit of RMB 51.77m (+26.60%), adjusted net profit of RMB 43.82m (+53.57%), gross margin 33.74%. Adjusted profit outgrew reported profit by a wide margin, which means the improvement came from operations rather than non-recurring items.",
+            {
+                "h": "A report defined by a split"
+            },
+            "The numbers that matter are geographic. Domestic customer revenue reached RMB 549m, up 31.41%. Overseas customer revenue reached RMB 1.077bn, up 8.07%. Against the interim disclosure (overseas RMB 737m or 69.54%, domestic RMB 323m or 30.46%), overseas remains the majority, but the increment has changed hands.",
+            "This is not one company's accident. Over the same period Asymchem's domestic revenue reached RMB 1.772bn (+42.83%) against 11.64% growth overseas at constant currency; Apeloa's CDMO segment posted RMB 2.05bn for the nine months (+21.38%) and grew 40.96% in Q3 alone, again driven by domestic customers and clinical-stage deliveries. Chinese CXOs traced a clear domestic-recovery-before-export-recovery curve in 2026.",
+            "For PharmaBlock the turn carries a sharper meaning. Its traditional model sells building blocks into overseas pharma discovery programmes: low unit price, high frequency, fragmented customers, monetised through SKU count and catalogue coverage. The ceiling is structural, because discovery-stage purchasing is highly sensitive to the funding environment. When biotech budgets contract, building-block orders fall first.",
+            {
+                "table": {
+                    "caption": "PharmaBlock: key metrics, first nine months of 2026",
+                    "head": [
+                        "Metric",
+                        "9M 2026",
+                        "YoY"
+                    ],
+                    "rows": [
+                        [
+                            "Revenue",
+                            "RMB 1.634bn",
+                            "+15.16%"
+                        ],
+                        [
+                            "Net profit attributable",
+                            "RMB 151m",
+                            "+33.36%"
+                        ],
+                        [
+                            "Adjusted net profit",
+                            "RMB 128m",
+                            "+44.87%"
+                        ],
+                        [
+                            "Gross margin",
+                            "32.93%",
+                            "+1.98pp"
+                        ],
+                        [
+                            "Discovery-stage revenue",
+                            "RMB 251m",
+                            "+6.75%"
+                        ],
+                        [
+                            "Development and commercial revenue",
+                            "RMB 1.375bn",
+                            "+16.60%"
+                        ],
+                        [
+                            "Domestic customer revenue",
+                            "RMB 549m",
+                            "+31.41%"
+                        ],
+                        [
+                            "Overseas customer revenue",
+                            "RMB 1.077bn",
+                            "+8.07%"
+                        ],
+                        [
+                            "New-modality revenue",
+                            "RMB 152m",
+                            "Above group average"
+                        ],
+                        [
+                            "Operating cash flow",
+                            "RMB 251m",
+                            "-53.75%"
+                        ]
+                    ],
+                    "notes": "Third quarter alone: revenue RMB 575m (+15.10%), net profit RMB 51.77m (+26.60%), adjusted net profit RMB 43.82m (+53.57%), gross margin 33.74%. Cash at period end was RMB 693m."
+                }
+            },
+            {
+                "h": "Is the funnel actually funnelling?"
+            },
+            "PharmaBlock has told a funnel story for years: building blocks to CMC to CDMO, capturing early molecules with blocks and discovery services, then catching late-stage programmes with CMC and GMP capacity. The nine-month data offers a test.",
+            "Discovery-stage revenue was RMB 251m (+6.75%); development and commercial revenue was RMB 1.375bn (+16.60%). Late-stage growth ran at roughly 2.5 times the early-stage rate, so the mix is shifting downstream. That is a necessary condition for the funnel thesis, not a sufficient one. The real test is whether those late-stage programmes were funnelled in from building blocks or signed from outside.",
+            "In an investor call on 30 October the company added three points: PPQ projects are progressing to plan; overall capacity utilisation has risen steadily since the start of the year, with core capacity prioritised for PPQ, late-stage and commercial work; and late-stage revenue fluctuates quarter to quarter with milestones, scheduling and customer shipment timing. The third point is honest, and it is exactly what makes this kind of P&L hard to read.",
+            {
+                "h": "Peptides: solid-phase pilot running, liquid-phase under construction"
+            },
+            "New-modality revenue reached RMB 152m in the nine months, about 9.3% of the top line, growing faster than the group. The capacity detail is more concrete: the peptide GMP pilot plant at Zhejiang Huishi started up in June 2026 and is in project onboarding and ramp-up, having completed GMP production for several programmes; liquid-phase peptide synthesis capability is under construction, with further capacity to be planned against demand; and the Nanjing OPC R&D centre is now in use.",
+            "That combination is worth flagging. A solid-phase pilot answers whether the company can take peptide projects at all. Liquid-phase answers whether it can make money on them at tonne scale. Most Chinese CDMOs are still at step one; step two requires process development and engineering, not reactors. It is the same technical arc as Cambrex's commercial liquid-phase peptide line in Iowa, at a different point on the curve.",
+            {
+                "h": "Three things to watch"
+            },
+            "First, cash flow. Operating cash flow was RMB 251m for the nine months, down 53.75%, yet still above net profit of RMB 151m, implying a cash conversion of roughly 166%. The decline tracks inventory build for late-stage programmes and longer receivables, which is common while the mix migrates downstream, but it needs two more quarters to confirm it is converging.",
+            "Second, the balance-sheet movement. Total assets were RMB 5.435bn at period end (-25.95% from year-end 2025) and net assets attributable to shareholders RMB 4.586bn (-27.2%), with cash of RMB 693m. Positive quarterly profit, positive operating cash flow, and a roughly one-quarter decline in both total assets and equity is a combination that requires the annual report's notes to explain, and should not be concluded on at the quarterly level.",
+            "Third, Nanjing. The operating entity for the Nanjing CDMO innovation base, Nanjing Yaoshi Qingnuo Technology, has been registered, and the project will proceed under the investment cooperation agreement. This is the step from a single commercial site at Huishi to a two-core structure of Nanjing R&D plus Huishi manufacturing. Meanwhile the West Chester, Pennsylvania site is adding process development labs and a pilot platform as front-loaded investment in localised North American service.",
+            "Put the three together: domestic demand is pulling revenue, late-stage programmes are pulling margin, and peptides plus Nanjing will determine capacity elasticity from 2027 onward. PharmaBlock's position today is that the story has begun to be validated by numbers, but the validation is not finished. For anyone tracking Chinese CXOs, it is a clean small sample of a specific question: when overseas discovery purchasing stops being the growth engine, what does a building-block company plug the growth into?",
+            {
+                "faq": [
+                    {
+                        "q": "What counts as new-modality business?",
+                        "a": "Mainly peptides, oligonucleotides and ADC payload-linkers, that is, non-traditional small molecules. Revenue was RMB 152m in the first nine months of 2026, about 9.3% of the top line, growing faster than the group, with peptides one of the main drivers."
+                    },
+                    {
+                        "q": "Why did overseas growth slow to 8%?",
+                        "a": "It reflects the customer mix. Overseas revenue comes largely from discovery-stage purchasing and early programmes at global pharma and biotech, which is sensitive to the funding environment. Growth in 2026 came instead from recovering domestic innovation demand and late-stage deliveries. This is a structural migration rather than share loss, but 2027 will show whether overseas growth returns to double digits."
+                    },
+                    {
+                        "q": "Is a 53.75% drop in operating cash flow a warning sign?",
+                        "a": "It needs unpacking. Cash flow of RMB 251m still exceeded net profit of RMB 151m, implying cash conversion of about 166%, so earnings are cash-backed. The decline stems mainly from inventory build for late-stage programmes and receivables timing. A genuine warning would require two more consecutive quarters of decline below net profit."
+                    },
+                    {
+                        "q": "Why single out liquid-phase peptide capability?",
+                        "a": "Solid-phase (SPPS) suits short-to-medium chains and fast switching; liquid-phase (LPPS) suits long chains and large volumes with better unit economics. Once GLP-1 assets reach tonne scale, liquid-phase is a primary cost lever. Commercial-scale liquid-phase capacity is scarce globally, so whether it gets built will determine whether the company can take on large-volume assets."
+                    }
+                ]
+            }
+        ]
+    }
+})
