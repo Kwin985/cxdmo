@@ -62,7 +62,7 @@ CO_EN = {
 GROUP_EN = {"药明系": "WuXi Group", "国内 CXDMO": "Domestic", "海外前沿": "Global", "行业观察": "Insight", "新药动态": "New Drugs"}
 CAT_EN = {
     "财报": "Results", "公告": "Announcement", "产能": "Capacity", "并购": "M&A",
-    "里程碑": "Milestone", "行业观察": "Insight",
+    "里程碑": "Milestone", "行业观察": "Insight", "深度专题": "In-depth",
 }
 
 articles = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)
@@ -226,6 +226,8 @@ def _render_body(body):
                 f'<table class="cmp">{thead_html}<tbody>{body_rows}</tbody></table>'
                 f"{notes_html}</div>"
             )
+        elif isinstance(item, dict) and item.get("p") is not None:
+            out.append(f"<p>{esc(item['p'])}</p>")
         else:
             out.append(f"<p>{esc(item)}</p>")
     return out

@@ -2096,6 +2096,37 @@ ARTICLES_EN = {
             ]}
         ]
     },
+    "cxdmo-q3-2026-overview": {
+        "title": "CXDMO Q3 Earnings Panorama: Small-Molecule D&M Recovery Confirmed, Profit Quality Defines the Split",
+        "summary": "A cross-company read of the four domestic CXDMO players (WuXi AppTec, Asymchem, Pharmaron, Porton) and two global leaders (Samsung Biologics, Lonza) across 2026 Q3/9M - growth is back, but profit quality and order books separate the field.",
+        "body": [
+            {"lead": "The 2026 Q3 reporting season is over and every core CXDMO value-chain name has reported. This article reads across the four domestic players (WuXi AppTec, Asymchem, Pharmaron, Porton) and two global leaders (Samsung Biologics, Lonza) on their Q3/9M prints. One thing is clear: the recovery is confirmed, but profit quality and order backlog depth are pulling the field into distinct tiers."},
+            {"h": "1. The four domestic players: growth rebounds, quality splits in two tiers"},
+            {"p": "Lined up side by side, the 9M numbers tell a simple story - growth is broadly back, but the quality of earnings differs sharply. WuXi AppTec stands alone at RMB 45.54 bn revenue (+38.6%) and RMB 19.40 bn net profit to parent (+60.6%). Pharmaron sits in the middle at RMB 12.003 bn (+19.01%) and RMB 1.247 bn net profit (+9.31%). Asymchem posted RMB 5.395 bn (+16.52%) and RMB 0.852 bn net profit (+6.49%), a gentle repair. Porton's RMB 2.765 bn (+8.66%) revenue turned positive, but a one-off impairment left 9M net profit at -RMB 0.112 bn - underneath, Q3 alone earned RMB 0.112 bn and continuing net profit reached RMB 0.192 bn (+201%)."},
+            {"table": {"caption": "Table 1　Core 9M 2026 metrics of the four domestic CXDMO players", "head": ["Company", "9M Rev (RMB bn)", "YoY", "NP to parent (RMB bn)", "NP YoY", "Key signal"], "rows": [
+                ["WuXi AppTec", "45.54", "+38.6%", "19.40", "+60.6%", "Backlog RMB 76.74 bn; raised full-year guide to RMB 61.0-61.9 bn"],
+                ["Pharmaron", "12.003", "+19.01%", "1.247", "+9.31%", "CDMO service +31.72%; new orders +30%"],
+                ["Asymchem", "5.395", "+16.52%", "0.852", "+6.49%", "Emerging business +50.2%; Q3 NP +81.5%"],
+                ["Porton", "2.765", "+8.66%", "-0.112*", "turnaround underway", "Q3 NP +112%; continuing NP RMB 0.192 bn (+201%)"]
+            ], "notes": "*Porton's 9M net loss is driven by a one-off ~RMB 0.33 bn impairment on the terminated Slovenia project in Q2; on a continuing basis net profit was RMB 0.192 bn (+201%) and Q3 swung to a RMB 0.112 bn profit, signalling genuine margin repair."}},
+            {"h": "2. Profit quality: WuXi's 40% net margin is both ceiling and yardstick"},
+            {"p": "Beyond revenue growth, profit quality separates the contenders. WuXi AppTec's non-IFRS net margin of ~40% reflects pricing power; Asymchem's adjusted net profit of RMB 1.074 bn (+21.81%) rose as Q3 strengthened; Pharmaron's adjusted non-IFRS net profit reached RMB 1.496 bn (+21.97%) as operating leverage released; Porton is on a gross-margin repair path driven by revenue scale and high-margin deliveries, with 9M gross margin around 34%, up nearly 5 points YoY. In short: as the industry shifts from winning orders to earning profit, the firms with deeper process moats and better client mix show it first."},
+            {"h": "3. Orders and guidance: a harder signal than profit"},
+            {"p": "For a CDMO, profit lags and orders lead. WuXi AppTec's RMB 76.74 bn backlog and its raised full-year guide to RMB 61.0-61.9 bn are the strongest demand confirmation. Asymchem expects H2 deliveries to concentrate and full-year revenue growth of 19%-22%, with new orders up double digits. Pharmaron's new orders rose +30% with CDMO service revenue +31.72%. Porton guides Q4 revenue growth to 20%-30% on its backlog. Together the four say the same thing: 2027 revenue visibility is more reassuring than 2026 profit."},
+            {"h": "4. Global benchmark: Samsung +18.5%, Lonza steady, China grows faster but at a discount"},
+            {"p": "Globally, Samsung Biologics posted Q3 revenue of KRW 1,490.3 bn (+18.5%) and operating profit KRW 640.1 bn (+6.6%), raised its full-year growth guide to +20%, and holds cumulative contracts above USD 21.9 bn; it is entering peptides via the PolyPeptide acquisition and serving localised US demand from its Rockville site. Lonza, now a pure-play CDMO, met Q3 expectations with a full-year guide of 11%-12% CER growth and a 33%-34% CORE EBITDA margin. Against that, the four Chinese names grow faster (WuXi +38.6% leads) yet carry a geopolitical-risk discount - the root of the valuation gap versus global peers."},
+            {"h": "5. Conclusion: recovery confirmed, divergence just beginning"},
+            {"p": "Across the four domestic and two global leaders, the 2026 Q3 picture is clear: the CXDMO upcycle is confirmed and the small-molecule D&M demand inflection is the sharpest; but divergence is only beginning. WuXi leads on scale and margin, Asymchem accelerates on emerging modalities (peptides/oligos/ADC), Pharmaron grows steadily on an integrated platform, and Porton is at the start of a post-impairment margin repair. Samsung and Lonza hold global clients with steady double-digit growth and onshore capacity. The next phase is not just about winning orders, but about delivering them at high margin and at scale."},
+            {"quote": "For a CDMO, orders are the ticket; process know-how and capacity utilisation are what keep you at the table.", "by": "CXDMO Editorial"},
+            {"h": "What is next"},
+            {"p": "This is the opener of the CXDMO 2026 Q3 in-depth series. Follow-ups will break down: domestic substitution progress of upstream equipment and consumables (T2), the earnings realisation of new modalities TIDES/ADC/CGT (T3), order shifts and the Section 232 tariff repricing of global vs China CDMO (T4), and the capex and capacity-expansion cycle (T5)."},
+            {"faq": [
+                {"q": "Which company most beat expectations in Q3?", "a": "WuXi AppTec. 9M revenue RMB 45.54 bn (+38.6%), net profit to parent RMB 19.40 bn (+60.6%), non-IFRS net margin ~40%, and it raised the full-year guide to RMB 61.0-61.9 bn - leading on both scale and margin."},
+                {"q": "Porton posted a 9M net loss - does that mean fundamentals deteriorated?", "a": "No. The loss is mainly a one-off ~RMB 0.33 bn impairment on the terminated Slovenia project in Q2. On a continuing basis net profit was RMB 0.192 bn (+201%) and Q3 alone turned profitable at RMB 0.112 bn (+112%), with gross margin up nearly 5 pts YoY - a genuine margin-repair trajectory."},
+                {"q": "What is the core gap between global leaders and Chinese players?", "a": "Higher growth alongside a valuation discount. The four domestic names grow faster (WuXi +38.6% leads) yet carry a geopolitical-risk discount; Samsung Biologics (+18.5%) and Lonza (11%-12% CER) hold global clients with steady double-digit growth and US onshore capacity (Rockville, Vacaville)."}
+            ]}
+        ]
+    }
 }
 
 COMPANIES_EN = {
