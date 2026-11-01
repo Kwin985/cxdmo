@@ -3608,3 +3608,134 @@ ARTICLES_EN.update({
         ]
     }
 })
+
+
+ARTICLES_EN.update({
+    "anthropic-mithril-one-person-pipeline-2026": {
+        "title": "Pipeline-in-a-Person Arrives: Anthropic Buys a One-Employee Drug Company, and the CRO Becomes the Centre of the Process",
+        "summary": "In its IPO prospectus, Anthropic framed the USD 2 trillion drug market as AI's next frontier, and on 27 October disclosed the acquisition of Mithril Medicine — an AI drug company with exactly one full-time employee. Its 'Pipeline-in-a-Person' model used Claude to coordinate 11 external labs and advanced a rare muscular-dystrophy candidate to mouse studies in under 18 months. The tell is buried in its 38-page technical report: CRO appears 58 times, AI/Claude only 47. The stronger AI gets, the tighter wet-lab capacity becomes. In China's Q3 reports, WuXi AppTec mentioned AIDD/AI4S for the first time, Pharmaron flagged AI-native clients, and GenScript's AIDD revenue grew 105% in H1.",
+        "body": [
+            "According to STAR Market Daily (31 October), Anthropic — now approaching its IPO — lists biology and medicine in its prospectus as the fields where AI is most likely to create major value, sketching out a USD 2 trillion drug market. Barely a month after announcing a life-sciences research team and its own wet lab, Anthropic disclosed on 27 October another acquisition: Mithril Medicine, an AI drug company with exactly one full-time employee.",
+            {
+                "h": "One person, one frontier model, 11 external labs"
+            },
+            "Founder Cody Tranbarger, a former Goldman Sachs healthcare analyst, is the company's only full-time employee. The model — dubbed 'Pipeline-in-a-Person' after the 'one-person company' — leans on Claude plus external labs to advance, in principle, an unlimited number of pipeline experiments. With Claude's help, Mithril took a candidate for LAMA2-related congenital muscular dystrophy from concept to mouse studies with initial positive results in under 18 months; Anthropic expects one of the two acquired programmes could enter human trials by late 2028. Post-acquisition, both drug programmes became Anthropic's first internally developed drug projects.",
+            "The key detail sits in Mithril's 38-page technical report: the term CRO appears 58 times, while AI/Claude appears only 47. The one-person company builds no labs of its own; in a single week, five CROs with different functions were engaged on 113 molecular constructs awaiting screening, spanning antibody cell-level functional assays, developability assessment and mouse pharmacokinetics. Anthropic itself concedes that handling biological and chemical materials, and meeting biosafety and environmental requirements, go beyond its experience as a software and AI research lab.",
+            {
+                "h": "The stronger AI gets, the tighter wet-lab capacity becomes"
+            },
+            "These numbers upend a popular narrative — that AI will disrupt the CRO. The reality runs the other way: the more surplus compute for molecular design, the more candidates need wet-lab validation, and experimental capacity becomes the bottleneck. Zheshang Securities frames the loop as 'accelerated design, wet-lab validation, feedback into the model', with demand spilling over into physical experimentation where the 'shovel sellers' benefit first; Caitong Securities sees protein synthesis and preclinical CROs as the earliest winners.",
+            "China's Q3 reports provide the first layer of validation. WuXi AppTec mentioned AIDD/AI4S for the first time in a quarterly report, positioning itself as the destination for global AIDD clients' dry-wet closed-loop R&D needs. Pharmaron said on 28 October that its biosciences segment is growing faster than medicinal chemistry, accelerating in Q3, partly on demand from 'AI-enabled new-type companies'. GenScript's investor open day on 30 October was more direct: AIDD-related revenue exceeded USD 40 million in H1 2026, up 105% year on year; about 60% of this year's capacity can be delivered by AI around the clock, and roughly 70% of a HKD 2.327 billion placement will fund AIDD platform capacity.",
+            {
+                "h": "Editor's view: from labour outsourcing to 'AI's physical interface'"
+            },
+            "Read together, this is an upgrade to the CXDMO narrative. CRO valuations were long capped by a 'per-head productivity ceiling'; if the dry-wet loop becomes a mandatory passage for AI-driven drug development, the CRO upgrades from vendor to 'AI's physical interface', and both pricing power and utilisation logic get re-rated. CICC's build-out of AI biotech into three business models — pure software SaaS, AI-augmented service CROs, and AI drug developers running their own pipelines — puts the second category squarely in CXO territory. The practical test is to separate real orders from pure concept: watch new bookings, backlog growth and revenue already contributed by AI-native clients rather than 'partnership' press releases. With 13 of China's CXOs posting simultaneous revenue and profit growth in Q3, and bookings broadly outpacing revenue, this cycle at least has order fulfilment under it rather than theme alone.",
+            {
+                "faq": [
+                    {
+                        "q": "What is 'Pipeline-in-a-Person'?",
+                        "a": "A development model where the founder is the company's only full-time employee and advances drug programmes using an AI frontier model plus external labs. Mithril Medicine used Claude to coordinate 11 external labs, moving a LAMA2-related congenital muscular dystrophy candidate into mouse studies in under 18 months."
+                    },
+                    {
+                        "q": "Why is the CRO the winner in AI drug development?",
+                        "a": "CRO is mentioned 58 times in Mithril's 38-page technical report versus 47 for AI/Claude; in one week, five CROs ran full-chain work on 113 constructs. AI-designed molecules must be validated in wet labs, so experimental capacity becomes the bottleneck and the CRO moves from vendor to the centre of the R&D process."
+                    },
+                    {
+                        "q": "What does this mean for Chinese CXOs?",
+                        "a": "WuXi AppTec mentioned AIDD/AI4S and dry-wet closed-loop capability in its Q3 report for the first time; Pharmaron explicitly named AI-enabled companies as a growth driver; GenScript's AIDD revenue grew 105% in H1 2026. AI-native clients are becoming a new order source, initially in discovery and preclinical segments."
+                    },
+                    {
+                        "q": "When will commercial results show up?",
+                        "a": "Anthropic expects Mithril's programmes could enter human trials by late 2028 at the earliest. Most AI-pharma pipelines remain early-stage, so the near-term monetisable items are orders and experiment volumes, not drug sales. Note that high profit growth at safety-evaluation CROs partly reflects fair-value swings in research monkeys and should be adjusted before judging."
+                    }
+                ]
+            }
+        ]
+    },
+    "ciie-2026-pharma-china-innovation-source-2026": {
+        "title": "CIIE Countdown: 4,142 Overseas Exhibitors and a New Story in the Pharma Halls — China Innovating 'In Reverse'",
+        "summary": "From 5 to 10 November, the 9th China International Import Expo opens in Shanghai: 4,142 overseas exhibitors, exhibition space above 440,000 sqm for the first time, and a record 480-plus launches in the medical devices and pharmaceutical halls. Two bellwether shifts define this edition: multinationals are putting unapproved pipelines on stage (Novartis's Ianalumab makes its global public debut), and Chinese R&D is being exported by MNCs (Sanofi partnering with Sino-Pacific's rovadicitinib programme for rare blood disorders). As China moves from end market to innovation source, Chinese CXDMOs shift from 'taking on capacity' to 'the starting point of global pipelines'.",
+        "body": [
+            "From 5 to 10 November, the 9th China International Import Expo (CIIE) opens at the National Exhibition and Convention Center in Shanghai: 162 countries, regions and international organisations, 4,142 overseas exhibitors and, for the first time, more than 440,000 square metres of exhibition space. The medical devices and pharmaceuticals halls remain the densest concentration of innovation: over 480 global launches, Asian debuts and China first-showings, a record for the expo; the drug zone gathers 12 Fortune Global 500 pharma companies, with 16 of the world's top 20 drugmakers attending.",
+            {
+                "h": "Shift one: pipelines, not just products, on the stand"
+            },
+            "Past CIIE debuts were mostly approved products waiting to enter China. This year marks a bellwether turn: several companies are exhibiting candidates not yet approved in any market. Novartis places its immunology candidate Ianalumab at the centre of its stand — a Sjögren's disease drug still without a Chinese name, making its first public showing in China and globally. First-time exhibitor CSL Behring brings four China-debut products: ANDEMBRY (garadacimab), the first monoclonal antibody inhibitor targeting activated factor XII, a 2026 US Galien Prize 'Best Biotechnology Product' nominee whose marketing application has been accepted by CDE; plus HEMGENIX, the first one-time gene therapy for adults with severe and moderately severe haemophilia B, among others.",
+            {
+                "h": "Shift two: China as an innovation source, not just an end market"
+            },
+            "Sanofi will exhibit for the first time a globally first-in-class Category 1 new drug developed with Sino Biopharmaceutical subsidiary Chia Tai Tianqing — rovadicitinib tablets for a rare haematological disease: developed by a Chinese company, then carried to the global market by an MNC. According to the company, Chinese sites now participate in more than 90% of Sanofi's global simultaneous development projects. It is not an isolated case: from Sanofi and Novartis to Boston Scientific, multinationals are upgrading China from a pure end market to an innovation source, and Sino-foreign collaboration is moving from single asset licensing toward ecosystem building across co-development, high-end manufacturing and open innovation.",
+            {
+                "h": "Shift three: landing channels thicken — and where CXDMO sits"
+            },
+            "The receiving end is evolving too. Hainan's Boao Lecheng pilot zone attends its eighth CIIE, having introduced over 620 international innovative drugs and devices under its special-licence regime, and is building a full-chain model of 'licensed use, real-world research, registration and launch, insurance access, local manufacturing'; the Greater Bay Area's 'Hong Kong-Macau Medicine and Equipment Connect' links ever more tightly with CIIE debuts. For the CXDMO industry there is a seat at every link: Chinese out-licensing reached roughly USD 130 billion in the first three quarters of 2026, and as 'developed in China, globalised by MNCs' becomes the default deal structure, capacity ownership, cross-border supply access and country-of-origin compliance — acute under Section 232 tariffs — are becoming standard clauses. These are exactly the issues that have recurred in the large ADC licensing deals of the past two years.",
+            {
+                "h": "Editor's view: the expo is a thermometer for industry relations"
+            },
+            "The evolving narrative across nine CIIE editions mirrors a shift in the industry's power structure: 'bringing the world's medicines into China' and 'taking Chinese molecules to the world' are happening at once. As Chinese R&D becomes part of the global pipeline, Chinese CXDMOs move from 'absorbing capacity' to 'one of the starting points of the global pipeline'. Every additional investigational asset on a stand is a leading indicator of outsourcing demand over the next three to five years — especially when the global trials and commercial supply of those assets may land on Chinese capacity.",
+            {
+                "faq": [
+                    {
+                        "q": "When and where is the 9th CIIE, and how big is it?",
+                        "a": "5-10 November 2026 at the National Exhibition and Convention Center in Shanghai: 162 countries, regions and international organisations, 4,142 overseas exhibitors and more than 440,000 sqm of exhibition space for the first time; the pharma halls feature a record 480-plus debuts."
+                    },
+                    {
+                        "q": "What is the biggest change in the pharma halls this year?",
+                        "a": "Two things: debut logic has shifted from approved products to unapproved pipelines (Novartis's Ianalumab making its global public debut), and Chinese innovation is being exported by MNCs — Sanofi and Chia Tai Tianqing's rovadicitinib was developed in China for the global market."
+                    },
+                    {
+                        "q": "What does this have to do with the CXDMO industry?",
+                        "a": "China's rise as an innovation source scales up out-licensing (about USD 130 billion in the first three quarters of 2026), which in turn makes capacity ownership, cross-border supply chains and origin compliance standard deal terms that directly steer CDMO order flow. Pipelines on expo stands are leading indicators of future outsourcing demand."
+                    },
+                    {
+                        "q": "What is the 'Lecheng model'?",
+                        "a": "The Boao Lecheng International Medical Tourism Pilot Zone in Hainan uses its 'four special licences' to allow early use of international drugs and devices not yet approved in China (over 620 so far), and supports registration with real-world data, forming a full chain from licensed use through real-world research, registration, insurance access and local manufacturing."
+                    }
+                ]
+            }
+        ]
+    },
+    "samsung-precision-medicine-ecosystem-2026": {
+        "title": "Samsung Biologics' Next Move Is Not Capacity: From CDMO to a 'Precision Medicine Ecosystem'",
+        "summary": "According to Korean biotech media on 31 October, Samsung's biotech business is shifting from CDMO toward a 'precision medicine ecosystem' combining IT, genomic data and diagnostic AI: Samsung Electronics put an additional USD 175 million into Element Biosciences in June to become its largest shareholder, backing a platform that cuts whole-genome analysis to about USD 100 per person; with Sonio (AI prenatal diagnostics) and Xealth (a digital-health gateway into 500-plus US hospitals), the endpoint is 'connected care' linking wearable biometrics with hospital genomics. After topping global capacity, Samsung is building a data moat.",
+        "body": [
+            "According to Korean biotech outlet Biobook Media (31 October), Samsung's biotech business is shifting its focus beyond contract development and manufacturing toward a precision medicine ecosystem that brings together IT, genomic data and diagnostic AI. Having built the world's largest biologics capacity with semiconductor-style mass production, Samsung's next goal is to become a platform company that directly decodes and manages patients' biological blueprints.",
+            {
+                "h": "Three puzzle pieces: sequencing, diagnostic AI, hospital access"
+            },
+            "On 10 June, Samsung Electronics added USD 175 million (about KRW 240 billion) to Element Biosciences' Series E round to become its largest shareholder — notably, the investor is the affiliate that makes phones and appliances, not the manufacturing arm, which signals the strategic intent. Element unveiled its VITARI sequencer and CYTOS single-cell multiomics solution at a Seoul roadshow on 20 October, cutting whole-genome analysis to roughly USD 100 per person at 99.99% analytical accuracy — a direct challenge to incumbent sequencing leaders on price. The other two pieces: Sonio, a French AI prenatal-diagnostics company acquired via Samsung Medison, and Xealth, the US digital-health platform acquired last year, which connects more than 500 major US hospitals with over 70 digital health solutions — a gateway into hospital EMR ecosystems.",
+            {
+                "h": "The endpoint is 'connected care'"
+            },
+            "Samsung's vision is to connect real-time biometric data from Galaxy smartphones and Galaxy Watch and Galaxy Ring wearables — sleep, blood pressure, heart rate, body composition — with hospitals' precision genomic data: predicting disease risk and recommending personalised interventions before illness, rather than prescribing after it. Lee Jae-yong reaffirmed biotech as a key growth pillar at the 29 June national report on Korea's three mega projects; per the report, the long-term investment plan under that framework totals 2,655 trillion won.",
+            {
+                "h": "Against the core business: where to go after topping capacity"
+            },
+            "The CDMO engine is still running hot: Samsung Biologics posted record Q3 revenue of KRW 1.4903 trillion and operating profit of KRW 640.1 billion; its 845,000-litre capacity is the world's largest, rising to 1.385 million litres once Bio Campus II completes in 2032. The new strategy's hurdles are equally clear: regulatory barriers on medical and genetic data across jurisdictions, the security architecture needed to link sensitive personal health data to commercial platforms, and share competition with incumbent global leaders in sequencing and multiomics instruments.",
+            {
+                "h": "Editor's view: a third route in the CDMO boundary race"
+            },
+            "The world's CDMOs are diverging as they push their boundaries: Lonza is expanding toward bioconjugation and an ADC toolbox; Samsung is moving toward sequencing hardware and data platforms; China's leaders toward CRDMO integration. The common point: none is content to sell capacity by the litre. Once a data moat forms, its stickiness rivals any bioreactor: a group holding the sequencing cost curve, the hospital data gateway and the wearable install base exerts structural pull on drug-development workflows — cell-line development, QC, companion diagnostics and, ultimately, CDMO order flow. What is worth watching is not Samsung Biologics' capacity number but when Element's sequencing cost curve crosses the biologics development workflow — that is when the CDMO boundary truly gets rewritten.",
+            {
+                "faq": [
+                    {
+                        "q": "Why is Samsung moving beyond CDMO?",
+                        "a": "CDMO is a manufacturing business competing on capacity, cost and compliance. Having topped global capacity, Samsung wants to integrate genomic analysis, diagnostic AI and wearable data into a precision medicine platform — a stickier, higher-value second curve 'from selling capacity to selling the data loop'."
+                    },
+                    {
+                        "q": "What role does Element Biosciences play?",
+                        "a": "Samsung Electronics added USD 175 million to its Series E round on 10 June to become the largest shareholder. Element's VITARI sequencer and CYTOS single-cell multiomics solution cut whole-genome analysis to about USD 100 per person at 99.99% accuracy — the hardware foundation of the data strategy."
+                    },
+                    {
+                        "q": "How does this relate to Samsung Biologics' CDMO business?",
+                        "a": "They operate independently in the short run: Samsung Biologics posted record Q3 revenue of KRW 1.4903 trillion with the world's largest 845,000-litre capacity. Longer term they converge: cheaper sequencing will penetrate cell-line development, QC and companion diagnostics, creating cross-selling and data services around the CDMO core."
+                    },
+                    {
+                        "q": "What are the main challenges?",
+                        "a": "Regulatory differences on medical and genetic data across countries; the security and trust system for linking sensitive personal health data to commercial platforms; and market-share competition with incumbent sequencing leaders. The ecosystem story still has to clear all three to become business results."
+                    }
+                ]
+            }
+        ]
+    }
+})
