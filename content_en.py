@@ -3739,3 +3739,136 @@ ARTICLES_EN.update({
         ]
     }
 })
+
+
+ARTICLES_EN.update({
+    "genscript-tunelab-s2d-2026": {
+        "title": "GenScript x Lilly TuneLab: AIDD Is Rewriting Life-Science Services from Projects to Data Streams",
+        "summary": "GenScript partnered with Lilly's AI drug-discovery collaboration platform Lilly TuneLab in September, providing wet-lab services — protein expression, purification and characterisation — to platform members. Its 30 October investor day revealed the numbers that matter: revenue from a single research site of a global top-20 pharma grew 5x year on year in H1, AIDD S2D (sequence-to-data) services rose from 23% to 64% of that client's revenue mix, and candidate molecules awaiting validation per round jumped from hundreds to 1,000-5,000. AI-native clients are not just adding orders — they are changing the pricing structure.",
+        "body": [
+            "According to CLS (Cailianshe) on 1 November, the partnership between GenScript Biotech and Lilly's AI/machine-learning drug-discovery platform Lilly TuneLab has become the clearest case study of how AIDD is rewriting the CXO business model: GenScript provides protein expression, purification and characterisation services to TuneLab members, converting AI predictions into biological validation data. CFO Jing Zhou put it bluntly — AIDD changes not just where demand comes from but how often and how deeply customers engage; life-science services are shifting from 'project-oriented delivery' to 'high-frequency, data-driven workflows'.",
+            {
+                "h": "The investor-day numbers: S2D from 23% to 64%"
+            },
+            "The figures GenScript disclosed at its 30 October investor day are more persuasive than concept-level debate. For a single research site of a global top-20 pharma, GenScript's related service revenue expanded to 5x the prior-year level in H1 2026; AIDD S2D (sequence-to-data) services climbed from 23% to 64% of that client's revenue mix — within about a year, the client's purchasing moved from 'buying projects' to 'buying data'. The scale is changing too: candidates requiring validation per round rose from several hundred to 1,000-5,000, with testing depth up 5x. A TechBio client's related revenue grew more than 30x year on year in H1, with Q3 order frequency and average batch size up more than 5x and 3x respectively.",
+            {
+                "h": "A partnership network: Tamarind, NVIDIA, Thermo Fisher"
+            },
+            "TuneLab is not an isolated case. In August, GenScript formed a strategic partnership with AI molecular-design platform Tamarind Bio, linking AI-driven design with its wet-lab validation capabilities. In October it launched a life-science startup competition with NVIDIA, combining NVIDIA's AI compute with GenScript's experimental validation and data generation for AI-driven drug-discovery startups. Per Beijing News, GenScript has also signed a strategic memorandum with Thermo Fisher to further expand its AIDD early-research ecosystem. To carry the demand, GenScript completed a Hong Kong placement in September raising about HKD 2.327 billion net, with roughly 70% earmarked to expand AIDD platform capacity — centred on automated high-throughput wet-lab facilities and equipment upgrades.",
+            {
+                "h": "The leader's view: WuXi sorts AI clients into two types"
+            },
+            "The same shift shows up in leading CXOs' filings. WuXi AppTec named AIDD/AI4S client demand in its Q3 report for the first time; on the earnings call management split AI-pharma clients into two groups: those developing around specific targets toward a preclinical candidate, with workflows similar to traditional pharma, and those relying on high-throughput, high-quality experimental platforms that generate large datasets to train algorithms and close the dry-wet loop. The latter, management said, 'have very different requirements for our labs and for project delivery', and with automated labs and customised workflows the company 'can quickly raise our data-delivery volume by multiple orders of magnitude'.",
+            {
+                "h": "Editor's note: S2D productises validation capacity"
+            },
+            "The S2D construct deserves attention on its own: the client provides a sequence, the provider returns data, and everything in between — expression, purification, characterisation, assays — is packaged into a standardised, high-frequency repurchasable product. That differs fundamentally from traditional CRO project pricing and milestone billing: unit prices may be lower, but repurchase frequency, batch size and stickiness are entirely different. The signal for industry watchers: AIDD's value to CXOs is not 'more AI clients' but a restructured delivery model in which wet-lab capacity is priced for the first time as 'data capacity' rather than 'project capacity'. Two things to watch: whether S2D extends from protein targets to more complex modalities, and whether automated wet-lab unit economics hold — 70% of a HKD 2.327 billion placement is betting on exactly that.",
+            {
+                "faq": [
+                    {
+                        "q": "What is Lilly TuneLab?",
+                        "a": "Lilly's AI/machine-learning drug-discovery collaboration platform that aggregates multiple pharma and AI companies. GenScript partnered with it in September to provide wet-lab services — protein expression, purification and characterisation — turning AI predictions into validated experimental data."
+                    },
+                    {
+                        "q": "What is the S2D service?",
+                        "a": "S2D (sequence-to-data) means the client submits molecular or protein sequences and the provider delivers standardised experimental data via expression, purification, characterisation and assays. GenScript disclosed that S2D rose from 23% to 64% of revenue at a single site of a global top-20 pharma client."
+                    },
+                    {
+                        "q": "Why does AIDD change the CXO business model?",
+                        "a": "AI-designed candidate volumes far exceed traditional pipelines (1,000-5,000 molecules awaiting validation per round), turning validation into high-frequency, batch-based data production. GenScript's CFO calls it a shift from 'project-oriented delivery' to 'high-frequency, data-driven workflows' — lower unit prices but far higher repurchase rates and TAM."
+                    },
+                    {
+                        "q": "What is GenScript investing to carry AIDD demand?",
+                        "a": "A September Hong Kong placement raised about HKD 2.327 billion net, with roughly 70% for expanding AIDD platform capacity (automated high-throughput wet labs and equipment) and 20% for related R&D, digital workflows and global expansion, alongside partnerships with Tamarind Bio, NVIDIA and Thermo Fisher."
+                    }
+                ]
+            }
+        ]
+    },
+    "cxo-q3-gradient-recovery-2026": {
+        "title": "Q3 Season Close: CXO Recovery Is Not Broad-Based — It's a Gradient Down the R&D Chain",
+        "summary": "With Q3 filings now in, China's CXO sector has delivered an uneven scorecard: WuXi AppTec's chemistry revenue grew 51.52%, Medicilon turned profitable and JOINN Laboratories posted a profit jump of more than 10x, while Asymchem's non-IFRS net profit grew just 0.04% and Jiuzhou Pharma declined on both lines. The unifying explanation: demand recovers in a gradient from preclinical to downstream, fuelled by the US biotech IPO reopening, BD upfront payments flowing back, and AI-native wet-lab orders. The recovery is real — but each segment's pay-off point differs.",
+        "body": [
+            "With 2026 Q3 filings closed, the CXO sector's direction and rhythm can finally be read on one page. CLS (Cailianshe)'s 1 November survey identifies three drivers rarely seen together before: improved US biotech funding and a reopened IPO window, upfront payments flowing back from China's license-out deals, and AI drug-discovery companies bringing genuine wet-lab orders. But demand does not arrive at every link simultaneously — it travels down the R&D chain from discovery to manufacturing, and companies' order recovery and earnings realisation have diverged accordingly.",
+            {
+                "h": "Cold and hot on the same chain"
+            },
+            "Preclinical felt the warmth first. Medicilon's nine-month revenue rose 44.13% to RMB 1.215 billion, swinging to a net profit of RMB 92 million, with gross margin up 10.38 points to 30.72%; the company's IR contact noted that beyond demand recovery, safety-evaluation capacity had been tight for about a year 'with clearly rising prices', reversing the discounting of the downturn. JOINN Laboratories posted nine-month net profit of RMB 930 million, up 1,051.94%, with RMB 866 million from fair-value gains on research monkeys — the monkey cycle's reversal is itself a mirror of preclinical demand. Downstream CDMO shows 'revenue first, profit later': Asymchem grew nine-month revenue 16.52% to RMB 5.395 billion but non-GAAP net profit just 0.04%, with operating cash flow down 47.10%; delivery of late-stage and commercial orders is concentrated in H2 with a significantly larger Q4. Jiuzhou Pharma declined on both lines. At the top, WuXi AppTec's chemistry revenue rose 51.52% to RMB 39.362 billion — D&M up 65.6% to RMB 23.58 billion — with backlog of RMB 76.74 billion, up 36.4%.",
+            {
+                "h": "Where demand comes from: IPO reopening and upfronts"
+            },
+            "Two data sets explain the quality of this recovery. Overseas: 22 US biotech IPOs raised about USD 6.9 billion in the first three quarters of 2026, versus 7 deals and USD 1.4 billion in all of 2025 — the funding ammunition for early-stage outsourcing is refilling fast. Domestic: China's H1 license-out volume reached 100 deals worth USD 99.7 billion, with upfronts flowing back and MNC partnerships extending. Client structures confirm it: Pharmaron's nine-month revenue from North American clients grew 10.10%, Europe 30.07% and mainland China 39.09%; Asymchem's domestic revenue grew 42.83% with overseas up 11.64% at constant currency. The industry consensus, as analyst Liu Yuqi put it, is a 'structurally recovering' phase — overseas demand stronger than domestic, new modalities stronger than legacy — with GLP-1 peptides, ADCs and oligonucleotides capacity-tight while conventional antibodies and standard small molecules still compete on price.",
+            {
+                "h": "The sector lens: three curves all turning positive"
+            },
+            "Sinolink Securities' 1 November Q3 review provides sector-level validation: CDMO revenue growth accelerated from 17% in 2025 to 28% in Q3 filings, up from 26% at the interim; CRO turned positive at 16% growth (from -8% in 2024 and -3% in 2025, 13% at the interim); and life-science research upstream accelerated to 25% revenue growth with non-GAAP net profit up 55% as operating leverage released. The report attributes the driver to concentrated demand from new modalities — GLP-1, ADC, peptides, oligonucleotides — plus recovering domestic funding, describing an upcycle of 'domestic-overseas resonance with orders converting quarter by quarter'.",
+            {
+                "h": "Editor's note: decompose 'recovery' into a three-stage test"
+            },
+            "The gradient framework's value for practitioners is the time lag it exposes: preclinical heats first (Medicilon and JOINN Laboratories have validated new signings and pricing), clinical CRO sits in between (Tigermed's non-GAAP profit up 38.08%), and CDMO profit realisation comes last (Asymchem's flat non-GAAP profit and pressured cash flow, Q4 concentrated delivery). Rather than watching for a broad rally, track a three-link evidence chain: orders (new signings and backlog), revenue (delivery rhythm), profit (margin and cash-flow repair). From Q4 into next H1, the watch point shifts from 'did orders arrive' to 'did profit follow' — that is the signal that this structural recovery is becoming a full one.",
+            {
+                "faq": [
+                    {
+                        "q": "What does 'gradient transmission' of CXO demand mean?",
+                        "a": "Demand recovery reaches links of the R&D chain in sequence: preclinical (safety evaluation, screening, lab animals) first, clinical CRO with a lag as early projects advance, and CDMO manufacturing last given the longest project cycles. This quarter: Medicilon and JOINN heated first while Asymchem's non-GAAP profit stayed flat."
+                    },
+                    {
+                        "q": "How is this recovery different from previous ones?",
+                        "a": "Three new drivers: the US biotech IPO reopening (22 deals, about USD 6.9 billion in 9M 2026 vs 7 deals, USD 1.4 billion in all of 2025); upfront payments flowing back from China's license-out boom (100 deals, USD 99.7 billion in H1); and AI drug-discovery companies bringing high-throughput wet-lab orders."
+                    },
+                    {
+                        "q": "Which segments remain under pressure?",
+                        "a": "Conventional antibodies and standard small molecules face intense competition and price-for-volume dynamics; providers tied to unlisted domestic startups recover more slowly with local funding; and some CDMOs are still recognising revenue from previously signed low-margin projects, suppressing headline profit."
+                    },
+                    {
+                        "q": "What indicators should be watched next?",
+                        "a": "A three-link evidence chain: orders (new signings and backlog growth), revenue (quarterly delivery rhythm), profit (gross margin and operating cash-flow repair). Q4 delivery concentration at companies like Asymchem is the first window to see whether profit catches up."
+                    }
+                ]
+            }
+        ]
+    },
+    "curia-sterile-api-spain-2026": {
+        "title": "Curia Puts USD 28 Million into Spanish Sterile API: 'Sterile + High-Potency' Is the Quiet Capex Mainline of Western CDMOs",
+        "summary": "US CDMO giant Curia announced on 27 October a USD 28 million expansion of sterile API manufacturing at its Valladolid, Spain site, completing in Q4 2028 with new steroid and non-steroid capabilities and integrated aseptic crystallisation, milling and micronisation. The investment follows a USD 4 million aseptic-suite upgrade in May and a USD 200 million sterile drug-product expansion in New Mexico. While the industry's attention is fixed on biologics litres and peptide tonnes, Western CDMOs' capex is quietly converging on 'sterile + high-potency + complex formulations'.",
+        "body": [
+            "Curia Global, headquartered in Albany, New York, announced on 27 October a USD 28 million investment to expand sterile active pharmaceutical ingredient (API) manufacturing at its Valladolid, Spain site, with completion expected in the fourth quarter of 2028. The expansion adds steroid and non-steroid API capabilities, combining sterile manufacturing with aseptic crystallisation, milling and micronisation to support injectable suspensions and other complex sterile formulations. Closed systems with barrier isolators provide primary containment during sterile API handling, capacity spans gram-scale to metric tons, and customisable aseptic packaging reduces contamination risk during transfers and storage.",
+            {
+                "h": "A string of moves: sterile is the through-line"
+            },
+            "This is no isolated bet. The Valladolid site completed a USD 4 million API aseptic-suite upgrade in May; before that, Curia finished a USD 200 million sterile drug-product expansion in Albuquerque, New Mexico, adding 70,000 square feet and two isolated filling lines for syringes, cartridges and vials, plus lyophilisation and packaging. In September, synthetic-biology company eXoZymes selected Curia to transfer and scale its enzymatic production of N-trans-caffeoyltyramine at sites in Leon, Spain and Rozzano, Italy, with scale-up validation starting in Q4 2026 and commercial production targeted for Q3-Q4 2027. From sterile API to sterile drug product to biomanufacturing, 'sterile' is the recurring qualifier on Curia's capex list.",
+            {
+                "h": "Why sterile API deserves its own look"
+            },
+            "Sterile API is the most overlooked bottleneck in injectable supply chains: the API synthesis tail must enter a sterile environment while crystallisation, milling and micronisation remain compatible with aseptic barriers, and few sites worldwide cover the full gram-to-ton range. Steroid high-potency APIs raise the bar further — long synthesis routes, tight impurity control and strict occupational-exposure limits keep global supply concentrated in a handful of bases. With high-value injectables scaling and Section 232 tariffs reshaping site selection, Western sterile API and complex-formulation capacity is becoming a scarce asset — which also explains why a European site (eligible for the EU's preferential 15% tariff rate) carries origin value for customers selling into the US market.",
+            {
+                "h": "The China contrast: same bottleneck, different solutions"
+            },
+            "The comparison is instructive. China's leading CXOs solve 'high-potency + complex formulations' through vertical integration: WuXi XDC links payload-linker, drug substance and drug product end-to-end for ADCs; Asymchem's payload-linker capacity is 'very tight' and expanding fast; Haoyuan Pharma just broke ground on Phase II of its Chongqing ADC campus. Curia represents the other path — Western mid-to-large CDMOs making horizontal capex along a 'sterile + high-potency' axis, combining multiple sites to carry the same order types. Both routes point to the same conclusion: in the injectable era, sterile capability is shifting from 'nice to have' to 'entry ticket'.",
+            {
+                "h": "Editor's note: the capex list is more honest than the press release"
+            },
+            "If you want to read a CDMO's strategy, its capacity announcements are more honest than its vision statements. Curia's last twelve months — USD 28 million sterile API, USD 4 million aseptic suites, USD 200 million sterile drug product with lyophilisation, eXoZymes biomanufacturing scale-up — contain not a single project for conventional oral solid dosage or legacy fermentation. While the peptide and biologics litre race absorbs nearly all the attention, sterile API and complex sterile formulations may be the quiet mainline that decides pricing power in injectable supply chains. For procurement teams, add it to the diligence list: sterile capacity in the next decade may be harder to find than bioreactor litres.",
+            {
+                "faq": [
+                    {
+                        "q": "What exactly is Curia expanding?",
+                        "a": "A USD 28 million expansion of sterile API manufacturing at its Valladolid, Spain site, adding steroid and non-steroid capabilities, integrating aseptic crystallisation, milling and micronisation, using closed systems with barrier isolators, spanning gram-to-metric-ton scale, completing in Q4 2028."
+                    },
+                    {
+                        "q": "Why is sterile API capacity scarce?",
+                        "a": "Sterile API requires the synthesis tail to run in a sterile environment with crystallisation, milling and micronisation compatible with aseptic barriers — demanding facilities, personnel and validation. Steroid high-potency APIs add long synthesis routes and strict exposure control, keeping global capability concentrated in very few bases."
+                    },
+                    {
+                        "q": "How does this relate to Section 232 tariffs?",
+                        "a": "Under the Section 232 pharmaceutical tariff framework, EU-origin goods carry a preferential 15% rate versus the 100% baseline. European sterile API and formulation sites therefore hold origin value for customers selling into the US — an implicit logic behind Western CDMO expansion."
+                    },
+                    {
+                        "q": "What else has Curia expanded recently?",
+                        "a": "A USD 4 million aseptic-suite upgrade in Valladolid completed in May; a USD 200 million sterile drug-product expansion in Albuquerque (70,000 sq ft, two isolated filling lines, lyophilisation and packaging); and selection by eXoZymes in September to scale an enzymatic process at Leon, Spain and Rozzano, Italy."
+                    }
+                ]
+            }
+        ]
+    }
+})
