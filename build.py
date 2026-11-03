@@ -343,7 +343,7 @@ T = {
     "zh": {
         "nav": [("index.html", "首页", "Home"), ("news.html", "资讯", "News"),
                 ("companies.html", "企业", "Companies"), ("capacity.html", "数据库", "Data"),
-                ("about.html", "关于", "About")],
+                ("topics.html", "专题", "Reports"), ("about.html", "关于", "About")],
         "hero_kicker": "CXDMO INDUSTRY NEWS · 行业资讯门户",
         "hero_h1": "追踪全球 CXDMO 产业脉动",
         "hero_sub": '聚焦药明康德、药明生物、药明合联、康龙化成、凯莱英、博腾等中国 CXDMO 龙头，<br class="br">以及三星生物、Lonza 等全球前沿 CDMO 的财报、产能、并购与合作动态。',
@@ -391,7 +391,7 @@ T = {
     "en": {
         "nav": [("index.html", "Home", ""), ("news.html", "News", ""),
                 ("companies.html", "Companies", ""), ("capacity.html", "Data", ""),
-                ("about.html", "About", "")],
+                ("topics.html", "Reports", ""), ("about.html", "About", "")],
         "hero_kicker": "CXDMO INDUSTRY NEWS",
         "hero_h1": "Tracking the Global CXDMO Pulse",
         "hero_sub": 'Covering WuXi AppTec, WuXi Biologics, WuXi XDC, Pharmaron, Asymchem and Porton — China\u2019s CXDMO leaders —<br class="br">plus Samsung Biologics, Lonza and the global CDMO frontier: results, capacity, M&A and partnerships.',
@@ -1085,6 +1085,118 @@ def build_capacity(lang):
     return page(lang, title, desc, "capacity.html", content, "capacity.html", extra_head=capacity_jsonld(lang))
 
 
+# ---------------- 深度专题合集页 ----------------
+def build_topics(lang):
+    t = T[lang]
+    insight_label = "核心结论" if lang == "zh" else "Key takeaway"
+    # 叙事链：六步串起系列逻辑（中英各自表述）
+    if lang == "zh":
+        chain = [
+            ("01 全景定调", "Q3 财报收官，先看谁在增长、谁在修复、谁在掉队。"),
+            ("02 上游卖铲人", "把镜头对准设备与耗材，丈量国产替代的进度条。"),
+            ("03 下游兑现", "TIDES / ADC / CGT，谁真正把新分子变成了收入。"),
+            ("04 全球坐标", "增速差、订单转移，以及 232 关税如何再定价中国资产。"),
+            ("05 扩产周期", "这轮资本开支是订单背书，还是产能过剩的前奏。"),
+            ("06 模态淘金", "多肽、基因编辑、核酸、双多抗，下一轮订单埋在哪里。"),
+        ]
+    else:
+        chain = [
+            ("01 The panorama", "Q3 earnings close — who grew, who recovered, who lagged."),
+            ("02 The pick-and-shovel layer", "Equipment and reagents, and the progress bar of import substitution."),
+            ("03 Downstream realization", "TIDES / ADC / CGT — who actually turned new modalities into revenue."),
+            ("04 The global coordinate", "Growth gap, order shift, and how Section 232 re-prices China."),
+            ("05 The capex cycle", "Is this expansion order-backed, or a prelude to overcapacity."),
+            ("06 Modality gold rush", "Peptides, gene editing, nucleic acids, bispecifics — where the next orders hide."),
+        ]
+    chain_html = "".join(
+        f'<li><b>{esc(title)}</b>{esc(desc)}</li>' for title, desc in chain)
+
+    # 合集成员：id + 一句话洞见（策展视角，与文章页标题解耦）
+    members = [
+        ("cxdmo-q3-2026-overview", "增长与修复并存：药明系修复、凯莱英新兴业务高增、部分上游仍承压。"),
+        ("cxdmo-upstream-equipment-2026", "卖铲人分层：设备追赶、耗材破局、试剂稳高毛利，替代进度条拉满。"),
+        ("cxdmo-newmol-q3-2026", "兑现度差一个数量级：TIDES 最强、ADC 最猛、CGT 仍欠火候。"),
+        ("cxdmo-global-vs-china-2026", "中国基本盘恰在 232 关税豁免区，订单转移利好中国制造。"),
+        ("cxdmo-capex-cycle-2026", "本轮扩产是订单背书型 capex，拐点偏正面而非过剩。"),
+        ("cxdmo-modality-landscape-2026", "下一轮订单在复杂分子平台：多肽 / 核酸 / 双抗 / 基因编辑。"),
+    ]
+    if lang == "en":
+        insights = {
+            "cxdmo-q3-2026-overview": "Growth and recovery coexist: WuXi mends, Asymchem's emerging business surges, some upstream still lags.",
+            "cxdmo-upstream-equipment-2026": "Pick-and-shovel layer: equipment catching up, consumables breaking through, reagents steady high-margin.",
+            "cxdmo-newmol-q3-2026": "Realization differs by an order of magnitude: TIDES strongest, ADC fastest, CGT still premature.",
+            "cxdmo-global-vs-china-2026": "China's core base sits squarely in the Section 232 exemption zone — order shift favors China.",
+            "cxdmo-capex-cycle-2026": "This round of expansion is order-backed capex; the inflection leans positive, not excess.",
+            "cxdmo-modality-landscape-2026": "Next orders lie in complex-molecule platforms: peptides / nucleic acids / bispecifics / gene editing.",
+        }
+    else:
+        insights = {tid: ins for tid, ins in members}
+
+    cards = []
+    for tid, _ in members:
+        a = next((x for x in articles if x["id"] == tid), None)
+        if not a:
+            continue
+        ins = insights.get(tid, "")
+        cards.append(f'''<article class="card topic-card">
+          <div class="card-top">{tag(lang, a["company"])}<span class="cat">{esc(a_cat(a, lang))}</span></div>
+          <h3 class="card-title"><a href="{lang_path(lang, 'articles/' + a['id'] + '.html')}">{esc(a_title(a, lang))}</a></h3>
+          <p class="card-sum">{esc(a_summary(a, lang))}</p>
+          <p class="topic-insight"><b>{esc(insight_label)}</b>{esc(ins)}</p>
+          <div class="card-meta"><time>{date_of(a["date"], lang)}</time><span class="more">{t["read"]}</span></div>
+        </article>''')
+
+    content = f'''
+<section class="page-head">
+  <div class="wrap">
+    <h1>{'深度专题合集' if lang == 'zh' else 'In-Depth Reports'} <span>{'In-Depth Reports' if lang == 'zh' else 'Deep-Dive Series'}</span></h1>
+    <p>{'基于 2026 年 Q3 财报季的系列深度调研，串起从财报全景到新模态淘金的逻辑链。' if lang == 'zh' else 'A deep-dive series built on the 2026 Q3 earnings season, threading from the earnings panorama to the next-modality gold rush.'}</p>
+  </div>
+</section>
+<main class="wrap">
+  <section class="section">
+    <div class="section-head"><h2>{'一条叙事链' if lang == 'zh' else 'The Narrative'}<span>{'The Narrative' if lang == 'zh' else 'How they connect'}</span></h2></div>
+    <ol class="topic-chain">{chain_html}</ol>
+  </section>
+  <section class="section">
+    <div class="section-head"><h2>{'六篇深度专题' if lang == 'zh' else 'Six Reports'}<span>{'6 Reports' if lang == 'zh' else 'The series'}</span></h2><a class="see-all" href="{lang_path(lang, 'news.html')}?cat={esc('深度专题' if lang == 'zh' else 'In-depth')}">{t["all_news"]}</a></div>
+    <div class="card-grid two">{''.join(cards)}</div>
+  </section>
+</main>'''
+    title = ("深度专题合集 — CXDMO" if lang == "zh" else "In-Depth Reports — CXDMO")
+    desc = t["site_desc"]
+    return page(lang, title, desc, "topics.html", content, "topics.html",
+                extra_head=topics_jsonld(lang))
+
+
+def topics_jsonld(lang):
+    """合集页 ItemList JSON-LD：列出六篇深度专题，强化 GEO/检索可见度。"""
+    ids = ["cxdmo-q3-2026-overview", "cxdmo-upstream-equipment-2026",
+           "cxdmo-newmol-q3-2026", "cxdmo-global-vs-china-2026",
+           "cxdmo-capex-cycle-2026", "cxdmo-modality-landscape-2026"]
+    items = []
+    for i, tid in enumerate(ids, 1):
+        a = next((x for x in articles if x["id"] == tid), None)
+        if not a:
+            continue
+        items.append({
+            "@type": "ListItem",
+            "position": i,
+            "name": a_title(a, lang),
+            "url": f"{DOMAIN}{lang_path(lang, 'articles/' + tid + '.html')}",
+        })
+    if not items:
+        return ""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "CXDMO 深度专题合集" if lang == "zh" else "CXDMO In-Depth Reports",
+        "numberOfItems": len(items),
+        "itemListElement": items,
+    }
+    return _jsonld(data)
+
+
 # ---------------- 文章页 ----------------
 def build_article(lang, a):
     t = T[lang]
@@ -1364,6 +1476,14 @@ img{max-width:100%}
 .cap-xref{margin:0 0 14px}
 .cap-xref a{display:inline-block;background:#eef5fb;color:#0a5c8c;border:1px solid #d6e6f2;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:600}
 .cap-xref a:hover{background:#0a5c8c;color:#fff}
+/* 深度专题合集页 */
+.topic-chain{list-style:none;counter-reset:step;display:flex;flex-direction:column;gap:14px;margin:6px 0 8px}
+.topic-chain li{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px 16px 64px;font-size:15px;color:#2a3a47;line-height:1.6}
+.topic-chain li::before{counter-increment:step;content:counter(step,decimal-leading-zero);position:absolute;left:18px;top:14px;font-size:18px;font-weight:800;color:var(--primary)}
+.topic-chain li b{color:var(--primary-dark);margin-right:6px}
+.topic-card{border-top:3px solid var(--primary)}
+.topic-insight{font-size:13.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px;margin-top:2px}
+.topic-insight b{color:var(--accent);margin-right:4px}
 '''
 
 
@@ -1417,6 +1537,7 @@ def build():
         files[f"{pfx}news.html"] = build_news(lang)
         files[f"{pfx}companies.html"] = build_companies(lang)
         files[f"{pfx}capacity.html"] = build_capacity(lang)
+        files[f"{pfx}topics.html"] = build_topics(lang)
         files[f"{pfx}about.html"] = build_about(lang)
         for a in articles:
             files[f"{pfx}articles/{a['id']}.html"] = build_article(lang, a)
@@ -1450,7 +1571,7 @@ def build():
         return s
 
     # 静态页：双语各列一次（带全量 hreflang 交替）
-    for pname in ("", "news.html", "companies.html", "capacity.html", "about.html"):
+    for pname in ("", "news.html", "companies.html", "capacity.html", "topics.html", "about.html"):
         en_loc, zh_loc = _alt_pair(pname)
         sm += _url(en_loc, None, en_loc, zh_loc)
         sm += _url(zh_loc, None, en_loc, zh_loc)
@@ -1478,6 +1599,7 @@ def build():
         f"- [Home]({DOMAIN}/): hero, top story and latest news ({len(articles)} total stories).",
         f"- [News]({DOMAIN}/news.html): filterable by segment, category and keyword.",
         f"- [Companies]({DOMAIN}/companies.html): profiles for {len(COMPANIES)} tracked CXDMO organizations.",
+        f"- [In-Depth Reports]({DOMAIN}/topics.html): the 2026 Q3 deep-dive series (6 reports) on CXDMO trends.",
         f"- [About]({DOMAIN}/about.html): what is a CXDMO, sources and disclaimer.",
         "",
         "## Companies tracked",

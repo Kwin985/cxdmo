@@ -10,6 +10,9 @@ https://cxdmo.com/news.html
 https://cxdmo.com/zh/news.html
 https://cxdmo.com/companies.html
 https://cxdmo.com/zh/companies.html
+# 11/03 深度专题合集页（中英双语，串起 T1-T6 六篇深度调研，含 ItemList 结构化数据）
+https://cxdmo.com/topics.html
+https://cxdmo.com/zh/topics.html
 
 ## 二、最新 8 篇（新鲜度信号强，中英双语各一条）
 # 10/26 Q3 财报 2 篇（药明康德 / 博腾，中英双语，优先提交）
