@@ -42,7 +42,7 @@ https://cxdmo.com/articles/newdrug-roundup-roche-ipf-lilly-2026-10.html
 https://cxdmo.com/zh/articles/wuxi-apptec-induced-proximity-q3-2026.html
 https://cxdmo.com/articles/wuxi-apptec-induced-proximity-q3-2026.html
 
-# 深度专题系列【本批增强：FAQPage 结构化数据 + 对比表 / 进度条叙事；T1-T5 已发布，系列收官】
+# 深度专题系列【本批增强：FAQPage 结构化数据 + 对比表 / 进度条叙事；T1-T6 已发布】
 # T1 CXDMO Q3 财报全景（中英双语）
 https://cxdmo.com/zh/articles/cxdmo-q3-2026-overview.html
 https://cxdmo.com/articles/cxdmo-q3-2026-overview.html
@@ -55,9 +55,12 @@ https://cxdmo.com/articles/cxdmo-newmol-q3-2026.html
 # T4 全球 vs 中国 CDMO：增速差/订单转移/232 关税再定价（中英双语）
 https://cxdmo.com/zh/articles/cxdmo-global-vs-china-2026.html
 https://cxdmo.com/articles/cxdmo-global-vs-china-2026.html
-# T5 资本开支周期：Q3 Capex 解码与产能扩张拐点（中英双语，收官篇）
+# T5 资本开支周期：Q3 Capex 解码与产能扩张拐点（中英双语）
 https://cxdmo.com/zh/articles/cxdmo-capex-cycle-2026.html
 https://cxdmo.com/articles/cxdmo-capex-cycle-2026.html
+# T6 后Q3淘金图：多肽/基因编辑/核酸/多抗产能与关键数据盘点（中英双语）
+https://cxdmo.com/zh/articles/cxdmo-modality-landscape-2026.html
+https://cxdmo.com/articles/cxdmo-modality-landscape-2026.html
 
 # 10 月公司动态 4 篇
 https://cxdmo.com/zh/articles/asymchem-apac-award-2026.html
@@ -78,4 +81,4 @@ https://cxdmo.com/articles/cdmo-monthly-2026-10.html
 
 # 四、sitemap 重新提交
 # GSC → 「站点地图」→ 确认 https://cxdmo.com/sitemap.xml 已提交且无错误 → 点「重新提交」
-# （当前共 136 条：63 篇×2 语言 + 5 静态页×2）
+# （当前共 266 条：128 篇×2 语言 + 5 静态页×2）
