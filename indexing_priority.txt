@@ -15,6 +15,13 @@ https://cxdmo.com/topics.html
 https://cxdmo.com/zh/topics.html
 
 ## 二、最新 8 篇（新鲜度信号强，中英双语各一条）
+# 11/07 常规更新 3 篇（药明康德开放日 / 康龙化成Q3订单 / Lonza收购Merck美国CDMO资产，中英双语，优先提交）
+https://cxdmo.com/zh/articles/wuxi-apptec-investor-day-2026.html
+https://cxdmo.com/articles/wuxi-apptec-investor-day-2026.html
+https://cxdmo.com/zh/articles/pharmaron-q3-2026.html
+https://cxdmo.com/articles/pharmaron-q3-2026.html
+https://cxdmo.com/zh/articles/lonza-merck-us-cdmo-2026.html
+https://cxdmo.com/articles/lonza-merck-us-cdmo-2026.html
 # 10/26 Q3 财报 2 篇（药明康德 / 博腾，中英双语，优先提交）
 https://cxdmo.com/zh/articles/wuxi-apptec-q3-2026.html
 https://cxdmo.com/articles/wuxi-apptec-q3-2026.html
@@ -84,4 +91,4 @@ https://cxdmo.com/articles/cdmo-monthly-2026-10.html
 
 # 四、sitemap 重新提交
 # GSC → 「站点地图」→ 确认 https://cxdmo.com/sitemap.xml 已提交且无错误 → 点「重新提交」
-# （当前共 266 条：128 篇×2 语言 + 5 静态页×2）
+# （当前共 272 条：131 篇×2 语言 + 5 静态页×2）
